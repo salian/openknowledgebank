@@ -1,0 +1,447 @@
+{
+  "version": "0.1.0",
+  "updated": "2026-06-23",
+  "bundles": [
+    {
+      "id": "ga4-analytics-specialist",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "GA4 Analytics Specialist",
+      "category": "roles",
+      "description": "Role knowledge for using GA4 and BigQuery export data to answer analytics questions, diagnose conversion changes, and produce decision-ready analysis.",
+      "path": "bundles/roles/ga4-analytics-specialist",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-06-21",
+      "tags": [
+        "analytics",
+        "ga4",
+        "bigquery",
+        "ecommerce",
+        "measurement"
+      ],
+      "aliases": [
+        "GA4 analyst",
+        "Google Analytics specialist",
+        "digital analytics specialist",
+        "web analytics specialist"
+      ],
+      "problems_solved": [
+        "diagnose conversion drops",
+        "plan GA4 BigQuery analysis",
+        "reconcile GA4 UI and BigQuery differences",
+        "review ecommerce funnel performance",
+        "produce GA4 analysis briefs"
+      ],
+      "industries": [
+        "ecommerce",
+        "b2b-saas",
+        "digital-products"
+      ],
+      "tools": [
+        "GA4",
+        "BigQuery",
+        "Google Tag Manager",
+        "Looker Studio",
+        "Google Ads"
+      ],
+      "frameworks": [
+        "measurement plan",
+        "funnel analysis",
+        "hypothesis-driven diagnosis"
+      ],
+      "deliverables": [
+        "GA4 analysis brief",
+        "conversion drop diagnosis",
+        "GA4 BigQuery query plan"
+      ],
+      "commands": [
+        "/diagnose-conversion-drop",
+        "/plan-ga4-analysis",
+        "/reconcile-ga4-ui-bigquery",
+        "/capture-failure",
+        "/suggest-bundle-improvement",
+        "/prepare-improvement-pr"
+      ],
+      "skills": [],
+      "evaluations": [
+        "ga4-analysis-quality-check"
+      ],
+      "related_bundles": [
+        "performance-marketer"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [],
+      "maintainers": [],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Initial benchmark draft; not a complete GA4 schema or SQL cookbook.",
+        "Does not replace professional privacy, legal, or analytics implementation review."
+      ],
+      "safety_notes": [
+        "Confirm before modifying live GA4, GTM, dashboard, audience, conversion, or BigQuery resources.",
+        "Avoid user-level analysis unless privacy, permissions, and business need are clear."
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-06-23",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 48,
+        "baseline_score": 17,
+        "okb_score": 42,
+        "absolute_lift": 25,
+        "task_scores": [
+          {
+            "task": "conversion-drop-diagnosis",
+            "baseline_score": 5,
+            "okb_score": 14,
+            "max_score": 16
+          },
+          {
+            "task": "reconcile-ga4-ui-bigquery",
+            "baseline_score": 6,
+            "okb_score": 15,
+            "max_score": 16
+          },
+          {
+            "task": "ga4-bigquery-query-plan",
+            "baseline_score": 6,
+            "okb_score": 13,
+            "max_score": 16
+          }
+        ],
+        "comparison_scores": [
+          {
+            "label": "Google GA4 OKF Sample",
+            "score": 22,
+            "max_score": 48
+          }
+        ],
+        "model_matrix": [
+          {
+            "model": "openai/gpt-4o-mini",
+            "class_label": "Lower-cost LLM",
+            "baseline_score": 17,
+            "okb_score": 42,
+            "max_score": 48
+          },
+          {
+            "model": "openai/gpt-4.1",
+            "class_label": "General-purpose LLM",
+            "baseline_score": 25,
+            "okb_score": 46,
+            "max_score": 48
+          },
+          {
+            "model": "openai/o3",
+            "class_label": "Reasoning LLM",
+            "baseline_score": 31,
+            "okb_score": 47,
+            "max_score": 48
+          }
+        ],
+        "display_summary": "Improved measured rubric scores across 3 GA4 benchmark tasks for all tested models; OKB-assisted scores ranged from 42/48 to 47/48.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts. Detailed private artifacts are kept under the v8 evaluation-results folder."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "GA4 Analytics Specialist measured evaluation",
+        "last_evaluated": "2026-06-23",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 48,
+        "baseline_score": 17,
+        "okb_score": 42,
+        "google_sample_score": 22,
+        "tasks_passed": 3,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/ga4-analytics-specialist",
+        "scoring_summary": "Each task was scored on eight criteria, 0-2 points per criterion. Baseline used the same model with no bundle context. Bundle-assisted used the same task with the GA4 Analytics Specialist bundle loaded as context.",
+        "replication_steps": [
+          "Use model openai/gpt-4o-mini with temperature 0.2.",
+          "Run each task prompt once with the baseline system prompt and no bundle context.",
+          "Run the same task again with the bundle-assisted system prompt and the GA4 Analytics Specialist bundle files loaded before the user task.",
+          "Score each output against the listed rubric criteria, assigning 0, 1, or 2 points per criterion.",
+          "Compare baseline score, OKB-assisted score, and percentage lift for each task."
+        ],
+        "baseline_system_prompt": "You are an analytics assistant. Answer the user's question directly and carefully. Do not invent access to tools or data you do not have.",
+        "bundle_system_prompt": "You are an analytics assistant using the OpenKnowledgeBank GA4 Analytics Specialist bundle. Follow the bundle instructions, safety boundaries, workflows, deliverable formats, and evaluation criteria. Do not invent access to tools or data you do not have.",
+        "bundle_prompt_construction": "Bundle-assisted runs use the same user task after a Bundle context block containing the GA4 Analytics Specialist bundle files from bundles/roles/ga4-analytics-specialist.",
+        "model_matrix": [
+          {
+            "model": "openai/gpt-4o-mini",
+            "class_label": "Lower-cost LLM",
+            "baseline_score": 17,
+            "okb_score": 42,
+            "max_score": 48
+          },
+          {
+            "model": "openai/gpt-4.1",
+            "class_label": "General-purpose LLM",
+            "baseline_score": 25,
+            "okb_score": 46,
+            "max_score": 48
+          },
+          {
+            "model": "openai/o3",
+            "class_label": "Reasoning LLM",
+            "baseline_score": 31,
+            "okb_score": 47,
+            "max_score": 48
+          }
+        ],
+        "tasks": [
+          {
+            "id": "conversion-drop-diagnosis",
+            "title": "Conversion drop diagnosis",
+            "user_prompt": "An ecommerce store reports that GA4 purchases dropped 28% last week compared with the previous week. The user asks: \"Why did purchases drop, and what should we do?\"\n\nCreate a short diagnosis memo. Assume the agent has no direct tool access unless the user provides data.",
+            "baseline_score": 5,
+            "okb_score": 14,
+            "google_sample_score": 5,
+            "max_score": 16,
+            "baseline_result": "Produced a generic diagnosis memo with plausible causes and actions, but did not say the cause cannot be known from the drop percentage alone. It omitted source discipline, missing-evidence framing, and measurement-health structure.",
+            "okb_result": "Stated that the cause cannot be determined from the percentage alone, then separated available evidence, missing evidence, decomposition, measurement checks, hypotheses, next actions, and source note.",
+            "criteria": [
+              {
+                "name": "Direct answer",
+                "baseline": 1,
+                "okb": 2
+              },
+              {
+                "name": "Metric definitions",
+                "baseline": 0,
+                "okb": 1
+              },
+              {
+                "name": "Evidence discipline",
+                "baseline": 0,
+                "okb": 2
+              },
+              {
+                "name": "Tool honesty",
+                "baseline": 2,
+                "okb": 2
+              },
+              {
+                "name": "Source discipline",
+                "baseline": 0,
+                "okb": 2
+              },
+              {
+                "name": "Actionability",
+                "baseline": 1,
+                "okb": 2
+              },
+              {
+                "name": "Safety",
+                "baseline": 0,
+                "okb": 1
+              },
+              {
+                "name": "Output fit",
+                "baseline": 1,
+                "okb": 2
+              }
+            ]
+          },
+          {
+            "id": "reconcile-ga4-ui-bigquery",
+            "title": "GA4 UI vs BigQuery reconciliation",
+            "user_prompt": "A user says: \"GA4 says we had 12,430 active users last week, but my BigQuery query returns 13,180 distinct user_pseudo_id values for the same date range. Which number is right, and how should I reconcile this?\"\n\nCreate a concise reconciliation note. Assume you cannot run tools unless the user provides data. Do not invent the user's exact GA4 settings or BigQuery SQL.",
+            "baseline_score": 6,
+            "okb_score": 15,
+            "google_sample_score": 7,
+            "max_score": 16,
+            "baseline_result": "Gave a high-level reconciliation answer but did not clearly start with neither number being automatically right. It missed important alignment checks such as table suffixes, event_date versus event_timestamp, timezone conversion, reporting identity, and source note.",
+            "okb_result": "Began with neither number being automatically right, separated active users from distinct user_pseudo_id, requested exact GA4 settings and SQL, and included table/date/timezone/identity checks with a source note.",
+            "criteria": [
+              {
+                "name": "Direct answer",
+                "baseline": 0,
+                "okb": 2
+              },
+              {
+                "name": "Defines both numbers",
+                "baseline": 1,
+                "okb": 2
+              },
+              {
+                "name": "Requests exact settings and query logic",
+                "baseline": 1,
+                "okb": 2
+              },
+              {
+                "name": "Alignment checks",
+                "baseline": 1,
+                "okb": 2
+              },
+              {
+                "name": "Expected vs unresolved differences",
+                "baseline": 0,
+                "okb": 1
+              },
+              {
+                "name": "Source discipline",
+                "baseline": 0,
+                "okb": 2
+              },
+              {
+                "name": "Tool honesty",
+                "baseline": 2,
+                "okb": 2
+              },
+              {
+                "name": "Actionable next step",
+                "baseline": 1,
+                "okb": 2
+              }
+            ]
+          },
+          {
+            "id": "ga4-bigquery-query-plan",
+            "title": "GA4 BigQuery query plan",
+            "user_prompt": "A user asks: \"I need a BigQuery query plan to analyze whether paid search revenue fell last week because conversion efficiency dropped or because traffic volume changed. We use GA4 ecommerce export. What should I query and what caveats should I watch for?\"\n\nCreate a query plan, not SQL. Assume you cannot inspect the user's dataset directly.",
+            "baseline_score": 6,
+            "okb_score": 13,
+            "google_sample_score": 10,
+            "max_score": 16,
+            "baseline_result": "Produced a plausible high-level plan and avoided unsupported SQL, but missed GA4 export specifics, detailed date/table handling, session/user logic, ecommerce caveats, and visible source discipline.",
+            "okb_result": "Separated revenue, traffic volume, and conversion efficiency; included GA4 export table/date behavior, validation against GA4 UI and backend orders, and a source note. Remaining misses included gclid/ad-platform joins and deeper session/deduplication detail.",
+            "criteria": [
+              {
+                "name": "Plan not unsupported SQL",
+                "baseline": 2,
+                "okb": 2
+              },
+              {
+                "name": "Metric decomposition",
+                "baseline": 1,
+                "okb": 2
+              },
+              {
+                "name": "GA4 export specifics",
+                "baseline": 0,
+                "okb": 2
+              },
+              {
+                "name": "User/session logic",
+                "baseline": 0,
+                "okb": 1
+              },
+              {
+                "name": "Paid search attribution caveats",
+                "baseline": 1,
+                "okb": 1
+              },
+              {
+                "name": "Revenue/ecommerce caveats",
+                "baseline": 0,
+                "okb": 1
+              },
+              {
+                "name": "Validation/source discipline",
+                "baseline": 1,
+                "okb": 2
+              },
+              {
+                "name": "Actionability",
+                "baseline": 1,
+                "okb": 2
+              }
+            ]
+          }
+        ]
+      },
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/ga4-analytics-specialist",
+      "download_url": "https://github.com/salian/openknowledgebank/archive/refs/heads/main.zip"
+    },
+    {
+      "id": "performance-marketer",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "Performance Marketer",
+      "category": "roles",
+      "description": "Role knowledge for paid acquisition, campaign diagnosis, performance reporting, and experimentation.",
+      "path": "bundles/roles/performance-marketer",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-06-21",
+      "tags": [
+        "marketing",
+        "paid-acquisition",
+        "growth"
+      ],
+      "aliases": [
+        "paid acquisition specialist",
+        "growth marketer",
+        "media buyer"
+      ],
+      "problems_solved": [
+        "plan paid campaigns",
+        "diagnose CPA increases",
+        "improve ROAS",
+        "run creative tests"
+      ],
+      "industries": [
+        "b2b-saas",
+        "ecommerce"
+      ],
+      "tools": [
+        "Google Ads",
+        "Meta Ads",
+        "GA4"
+      ],
+      "frameworks": [],
+      "deliverables": [
+        "campaign brief",
+        "weekly performance report",
+        "experiment plan",
+        "performance diagnosis memo"
+      ],
+      "commands": [
+        "/capture-failure",
+        "/suggest-bundle-improvement",
+        "/prepare-improvement-pr"
+      ],
+      "skills": [],
+      "evaluations": [],
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [],
+      "maintainers": [],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Seed skeleton only; not yet a full production bundle."
+      ],
+      "safety_notes": [
+        "Tool and campaign changes require explicit user confirmation."
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "display_summary": "Baseline-vs-OKB measured evaluation has not been run yet."
+      },
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/performance-marketer",
+      "download_url": "https://github.com/salian/openknowledgebank/archive/refs/heads/main.zip"
+    }
+  ]
+}

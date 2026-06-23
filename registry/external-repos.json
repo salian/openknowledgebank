@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0",
+  "updated": "2026-06-19",
+  "repositories": [],
+  "trust_tiers": {
+    "community": "External repository or contribution that has passed basic review.",
+    "unverified": "Submitted or discovered resource that has not been reviewed.",
+    "rejected": "Unsafe, spam, malicious, noncompliant, or unsuitable."
+  }
+}

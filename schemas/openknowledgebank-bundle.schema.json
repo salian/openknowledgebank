@@ -1,0 +1,256 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openknowledgebank.com/schemas/openknowledgebank-bundle.schema.json",
+  "title": "OpenKnowledgeBank Bundle Registry Entry",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "description",
+    "category",
+    "path",
+    "repo",
+    "license",
+    "trust_tier",
+    "status",
+    "version",
+    "source_url",
+    "download_url"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "bundle_format": {
+      "type": "string",
+      "enum": ["okf-compatible"]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "roles",
+        "industries",
+        "capabilities",
+        "tools",
+        "frameworks",
+        "compliance",
+        "jurisdictions",
+        "deliverables",
+        "datasets"
+      ]
+    },
+    "path": {
+      "type": "string"
+    },
+    "repo": {
+      "type": "string",
+      "format": "uri"
+    },
+    "license": {
+      "type": "string"
+    },
+    "trust_tier": {
+      "type": "string",
+      "enum": ["trusted", "community", "unverified", "rejected"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "review", "stable", "deprecated"]
+    },
+    "version": {
+      "type": "string"
+    },
+    "updated": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "problems_solved": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "industries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "frameworks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "deliverables": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "commands": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evaluations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_bundles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "adjacent_bundles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "download_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "contributors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "role"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "maintainers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "standard_mappings": {
+      "type": "object",
+      "properties": {
+        "onet_soc": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "soc": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "isco_08": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "esco": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "safety_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "jurisdictions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authorities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "effective_date": {
+      "type": "string"
+    },
+    "last_reviewed": {
+      "type": "string"
+    },
+    "source_urls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "regulated": {
+      "type": "boolean"
+    },
+    "requires_professional_review": {
+      "type": "boolean"
+    },
+    "not_professional_advice": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true
+}
