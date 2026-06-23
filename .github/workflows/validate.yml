@@ -1,0 +1,32 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    name: Validate public bundle repo
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate bundle registry and public content
+        run: python tools/validate-bundle/validate.py --root .
+
+      - name: Parse registry JSON
+        run: python -m json.tool registry/bundles.json >/dev/null
+
+      - name: Parse external repository JSON
+        run: python -m json.tool registry/external-repos.json >/dev/null
+
+      - name: Parse suggestions JSON
+        run: python -m json.tool registry/suggestions.json >/dev/null

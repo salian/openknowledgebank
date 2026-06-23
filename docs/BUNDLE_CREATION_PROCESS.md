@@ -100,3 +100,15 @@ Open a pull request with:
 - notes about safety or licensing concerns
 
 Maintainers will review structure, usefulness, source quality, metadata, and safety.
+
+## 9. Validate
+
+Run the validator before submitting:
+
+```bash
+python tools/validate-bundle/validate.py --root .
+```
+
+The validator checks registry metadata, required bundle files, markdown frontmatter, internal links, and obvious public-safety issues such as secrets or private workspace paths.
+
+Validation passing does not mean the bundle is expert-approved or suitable for every use case. It means the contribution passes the baseline repository quality gate.

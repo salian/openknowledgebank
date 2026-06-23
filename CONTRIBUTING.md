@@ -29,6 +29,14 @@ Do not include private contact details or personal information that a contributo
 - Keep content practical, role-specific, and agent-usable.
 - Do not include secrets, credentials, private notes, personal data, or source material that cannot be publicly redistributed.
 
+Before opening a pull request, run:
+
+```bash
+python tools/validate-bundle/validate.py --root .
+```
+
+Pull requests also run this validation in GitHub Actions.
+
 ## Agent Affordances
 
 Bundles may include optional directories for agent actions and outputs:
@@ -80,6 +88,20 @@ Good improvement PRs explain:
 - what files changed
 - what sources or rationale support the change
 - any safety or licensing considerations
+
+## Bundle Suggestions
+
+If you do not have a complete bundle yet, open a bundle suggestion issue instead of adding low-confidence content.
+
+A useful suggestion includes:
+
+- proposed bundle title and category
+- the agentic task or user need
+- example user requests
+- relevant tools, industries, frameworks, jurisdictions, authorities, or deliverables
+- why existing bundles are insufficient
+- public sources that should be used
+- safety or licensing concerns
 
 ## Attribution
 
