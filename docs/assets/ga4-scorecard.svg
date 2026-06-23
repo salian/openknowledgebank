@@ -1,0 +1,28 @@
+<svg width="960" height="420" viewBox="0 0 960 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GA4 Analytics Specialist evaluation scorecard</title>
+  <desc id="desc">OpenKnowledgeBank improved a GA4 benchmark score from 17 out of 48 to 42 out of 48 on the lower-cost model.</desc>
+  <rect width="960" height="420" rx="24" fill="#F8FAFC"/>
+  <rect x="24" y="24" width="912" height="372" rx="20" fill="#FFFFFF" stroke="#CBD5E1"/>
+
+  <text x="64" y="76" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="800">GA4 Analytics Specialist</text>
+  <text x="64" y="112" fill="#475569" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17">Measured benchmark across conversion diagnosis, UI/export reconciliation, and query planning.</text>
+
+  <rect x="64" y="150" width="832" height="118" rx="16" fill="#F1F5F9"/>
+  <text x="96" y="188" fill="#334155" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16" font-weight="700">Lower-cost LLM</text>
+  <text x="96" y="230" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="52" font-weight="900">17/48</text>
+  <text x="258" y="225" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="32" font-weight="800">-&gt;</text>
+  <text x="318" y="230" fill="#047857" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="52" font-weight="900">42/48</text>
+  <text x="522" y="199" fill="#475569" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16">Same task set, same model class,</text>
+  <text x="522" y="226" fill="#475569" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16">with the bundle loaded as operating context.</text>
+
+  <rect x="96" y="292" width="768" height="18" rx="9" fill="#E2E8F0"/>
+  <rect x="96" y="292" width="272" height="18" rx="9" fill="#64748B"/>
+  <rect x="96" y="324" width="768" height="18" rx="9" fill="#E2E8F0"/>
+  <rect x="96" y="324" width="672" height="18" rx="9" fill="#10B981"/>
+
+  <circle cx="104" cy="369" r="6" fill="#64748B"/>
+  <text x="122" y="374" fill="#334155" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">Baseline: 17/48</text>
+  <circle cx="274" cy="369" r="6" fill="#10B981"/>
+  <text x="292" y="374" fill="#334155" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">With OpenKnowledgeBank: 42/48</text>
+  <text x="704" y="374" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">Max score: 48</text>
+</svg>
