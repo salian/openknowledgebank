@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "updated": "2026-06-23",
+  "updated": "2026-06-24",
   "bundles": [
     {
       "id": "ga4-analytics-specialist",
@@ -441,6 +441,145 @@
         "display_summary": "Baseline-vs-OKB measured evaluation has not been run yet."
       },
       "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/performance-marketer",
+      "download_url": "https://github.com/salian/openknowledgebank/archive/refs/heads/main.zip"
+    },
+    {
+      "id": "stackoverflow-data-analyst",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "Stack Overflow Data Analyst",
+      "category": "roles",
+      "description": "Role knowledge for source-grounded Stack Overflow public data analysis, including tag trends, answer coverage, query planning, and source reconciliation.",
+      "path": "bundles/roles/stackoverflow-data-analyst",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.3.0",
+      "updated": "2026-06-24",
+      "tags": [
+        "stackoverflow",
+        "stack-exchange",
+        "bigquery",
+        "data-analysis",
+        "public-data"
+      ],
+      "aliases": [
+        "Stack Overflow analyst",
+        "Stack Exchange data analyst",
+        "SEDE analyst"
+      ],
+      "problems_solved": [
+        "plan Stack Overflow public data analysis",
+        "analyze tag trends",
+        "measure answer coverage",
+        "reconcile source discrepancies",
+        "avoid schema and query-shape mistakes"
+      ],
+      "industries": [
+        "developer-relations",
+        "software",
+        "public-data-research"
+      ],
+      "tools": [
+        "BigQuery",
+        "Stack Exchange Data Explorer",
+        "Stack Exchange API",
+        "SQL"
+      ],
+      "frameworks": [
+        "source selection matrix",
+        "schema grounding protocol",
+        "grain and join discipline",
+        "query-shape self-check"
+      ],
+      "deliverables": [
+        "query plan",
+        "tag trend memo",
+        "source reconciliation note",
+        "analysis brief"
+      ],
+      "commands": [
+        "/analyze-tag-trend",
+        "/plan-stackoverflow-query",
+        "/reconcile-stackoverflow-sources"
+      ],
+      "skills": [],
+      "evaluations": [
+        "stackoverflow-analysis-quality-check"
+      ],
+      "related_bundles": [],
+      "adjacent_bundles": [
+        "ga4-analytics-specialist"
+      ],
+      "contributors": [],
+      "maintainers": [],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Public draft bundle with measured benchmark evidence; not yet a stable release.",
+        "Role bundle with compact schema guidance, not a full Stack Overflow catalog.",
+        "Exact SQL must be checked against the active source schema before execution."
+      ],
+      "safety_notes": [
+        "Confirm before running billed queries, exports, or live requests.",
+        "Treat source freshness as part of every answer.",
+        "Avoid deanonymization and unnecessary user-level analysis.",
+        "Include license caveats before reusing user-generated content."
+      ],
+      "source_urls": [
+        "https://cloud.google.com/bigquery/docs/best-practices-costs",
+        "https://cloud.google.com/bigquery/docs/running-queries",
+        "https://api.stackexchange.com/docs/questions",
+        "https://meta.stackexchange.com/questions/2677/database-schema-documentation-for-the-public-data-dump-and-sede",
+        "https://stackoverflow.com/help/licensing"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-06-24",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 48,
+        "baseline_score": 21,
+        "okb_score": 46,
+        "absolute_lift": 25,
+        "task_scores": [
+          {
+            "task": "tag-trend-query-plan",
+            "baseline_score": 7,
+            "okb_score": 16,
+            "max_score": 16
+          },
+          {
+            "task": "source-reconciliation",
+            "baseline_score": 8,
+            "okb_score": 14,
+            "max_score": 16
+          },
+          {
+            "task": "answer-coverage-join-plan",
+            "baseline_score": 6,
+            "okb_score": 16,
+            "max_score": 16
+          }
+        ],
+        "comparison_scores": [
+          {
+            "label": "Google Stack Overflow OKF Sample",
+            "score": 36,
+            "max_score": 48
+          }
+        ],
+        "display_summary": "Improved measured rubric score from 21/48 to 46/48 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/stackoverflow-data-analyst",
       "download_url": "https://github.com/salian/openknowledgebank/archive/refs/heads/main.zip"
     }
   ]
