@@ -365,7 +365,7 @@
         ]
       },
       "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/ga4-analytics-specialist",
-      "download_url": "https://github.com/salian/openknowledgebank/archive/refs/heads/main.zip"
+      "download_url": "https://openknowledgebank.com/downloads/ga4-analytics-specialist.zip"
     },
     {
       "id": "performance-marketer",
@@ -441,7 +441,7 @@
         "display_summary": "Baseline-vs-OKB measured evaluation has not been run yet."
       },
       "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/performance-marketer",
-      "download_url": "https://github.com/salian/openknowledgebank/archive/refs/heads/main.zip"
+      "download_url": "https://openknowledgebank.com/downloads/performance-marketer.zip"
     },
     {
       "id": "stackoverflow-data-analyst",
@@ -580,7 +580,7 @@
         "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/stackoverflow-data-analyst",
-      "download_url": "https://github.com/salian/openknowledgebank/archive/refs/heads/main.zip"
+      "download_url": "https://openknowledgebank.com/downloads/stackoverflow-data-analyst.zip"
     }
   ]
 }
