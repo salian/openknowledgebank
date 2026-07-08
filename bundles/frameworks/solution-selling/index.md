@@ -1,0 +1,36 @@
+---
+type: Bundle Index
+title: "Solution Selling"
+description: "named-originator, proprietary methodology with nuanced-in-practice depth (pain chain, vision creation, mutual close plan) — base model likely knows the name but not deep how-to"
+okb_bundle_id: solution-selling
+okb_bundle_version: "0.1.0"
+status: draft
+trust_tier: unverified
+license: CC-BY-4.0
+timestamp: 2026-07-08T00:00:00Z
+---
+# Solution Selling
+
+This is a generated draft OpenKnowledgeBank bundle created from the private candidate store.
+
+## Core
+
+- [framework.md](framework.md)
+- [Log](log.md)
+
+## Scope
+
+- Category: `frameworks`
+- Axis: `frameworks`
+- Priority: `P1`
+- Candidate status: `candidate`
+
+## Source Note
+
+- https://www.amazon.com/Solution-Selling-Creating-Difficult-Markets/dp/0786303158
+
+## Related Bundles
+
+- sales-engineer-solutions-engineer-pre-sales
+- sales-representative-of-services
+- technical-sales-representative-technical-and-scientific-products
