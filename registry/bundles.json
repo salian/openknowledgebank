@@ -5,6 +5,94 @@
     {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
+      "id": "ada",
+      "title": "ADA",
+      "description": "Source-aware compliance hub for Americans with Disabilities Act Title III public accommodation and digital accessibility questions.",
+      "category": "compliance",
+      "path": "bundles/compliance/ada",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/ada",
+      "download_url": "https://openknowledgebank.com/downloads/ada.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "ada",
+        "accessibility",
+        "digital-accessibility",
+        "title-iii",
+        "public-accommodations",
+        "compliance"
+      ],
+      "aliases": [
+        "Americans with Disabilities Act",
+        "ADA Title III",
+        "ADA web accessibility"
+      ],
+      "problems_solved": [
+        "Triage ADA Title III and digital accessibility questions without inventing legal conclusions.",
+        "Separate DOJ source facts, W3C/WAI technical-standard facts, user-provided accessibility evidence, assumptions, and missing verification.",
+        "Produce source-aware ADA accessibility compliance briefs for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "Title III public accommodation triage",
+        "WCAG technical-reference framing"
+      ],
+      "deliverables": [
+        "source-aware ADA compliance brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "ADA source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric planned",
+        "tasks_count": 3,
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned; this draft includes a source-awareness rubric and evaluation plan.",
+        "evidence_note": "No measured score is claimed for this draft publication. Exact ADA conclusions require current official sources, product evidence, accessibility testing, and professional review."
+      },
+      "evaluation_detail": {},
+      "related_bundles": [
+        "wcag"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is a compliance hub, not legal advice, accessibility certification, litigation strategy, or a complete ADA treatise.",
+        "Scenario-specific answers require current DOJ, ADA, W3C/WAI, case-law, state-law, and user-provided product evidence as relevant.",
+        "Private-sector Title III web accessibility questions require careful distinction from the DOJ Title II web/mobile rule for state and local governments.",
+        "WCAG conformance, accessibility statements, VPAT/ACR claims, remediation sufficiency, and legal-risk conclusions require qualified review."
+      ],
+      "safety_notes": [
+        "Require qualified accessibility, legal, compliance, procurement, or professional review before relying on outputs for regulatory, contractual, litigation, public conformance, or remediation decisions.",
+        "Do not claim ADA compliance or WCAG conformance from incomplete scanner output, overlays, unsupported assumptions, or unreviewed product evidence.",
+        "Require explicit confirmation before publishing accessibility statements, sending legal or regulator communications, committing remediation timelines, changing live products, or exporting user data."
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
       "id": "can-spam",
       "title": "CAN-SPAM",
       "description": "Source-aware compliance hub for U.S. commercial email marketing rules under the CAN-SPAM Act and FTC CAN-SPAM Rule.",
