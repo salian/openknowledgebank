@@ -1,0 +1,72 @@
+---
+type: Bundle Index
+title: SEO Specialist / Consultant
+description: Entry point for the SEO Specialist / Consultant OpenKnowledge bundle.
+schema_version: "0.1.0"
+bundle_format: okf-compatible
+category: roles
+tags: [seo, search, marketing, content, technical-seo]
+aliases: [SEO consultant, SEO specialist, search engine optimization consultant, SEO strategist]
+problems_solved:
+  - Draft SEO audits without inventing tool access, rankings, or crawl findings.
+  - Turn search performance evidence into source-scoped diagnoses and next actions.
+  - Create content optimization briefs grounded in query intent and page evidence.
+  - Avoid spam, manipulative tactics, and unsupported ranking guarantees.
+industries: [marketing, ecommerce, b2b-saas, local-services, media]
+tools: [Google Search Console, Google Analytics, crawler exports, keyword tools, rank tracking exports]
+frameworks: [crawl-index-rank triage, intent-to-page fit, source-scoped SEO diagnosis]
+deliverables: [SEO audit brief, content optimization brief, search performance diagnosis]
+commands: [/draft-seo-audit]
+skills: []
+evaluations: [SEO quality check]
+okb_bundle_id: seo-specialist-consultant
+okb_bundle_version: "0.1.0"
+trust_tier: trusted
+status: draft
+license: CC-BY-4.0
+related_bundles: [performance-marketer]
+adjacent_bundles: []
+contributors: [OpenKnowledgeBank]
+maintainers: [OpenKnowledgeBank]
+standard_mappings:
+  onet_soc: ["13-1161.01"]
+  soc: []
+  isco_08: []
+  esco: ["2431.4"]
+limitations:
+  - Not a complete Google Search Console, crawler, analytics, CMS, or structured data implementation guide.
+  - Requires user-provided site, report, crawl, keyword, SERP, and analytics evidence for final conclusions.
+  - Does not guarantee rankings, traffic, indexing, rich results, or revenue outcomes.
+safety_notes:
+  - Require confirmation before modifying live CMS content, robots.txt, sitemaps, redirects, canonicals, structured data, internal links at scale, analytics/search settings, or exports.
+  - Do not recommend spam, link buying, cloaking, doorway pages, deceptive automation, or attempts to manipulate generative AI search responses.
+evaluation_summary:
+  status: blocked
+  last_evaluated:
+  method: baseline-vs-okb-rubric
+  display_summary: Measured baseline-vs-OKB evaluation is blocked until OpenRouter credentials are available.
+  evidence_note: No raw prompts or outputs were generated for this run.
+timestamp: 2026-07-09T00:00:00Z
+---
+
+# SEO Specialist / Consultant
+
+This bundle gives an agent practical role knowledge for source-scoped SEO work: audits, content optimization, search performance diagnosis, and technical triage.
+
+## Core Concepts
+
+- [Role](role.md)
+- [Operating Principles](operating-principles.md)
+- [SEO Audit Workflow](workflows/seo-audit.md)
+- [Content Optimization Workflow](workflows/content-optimization.md)
+- [Search Performance Diagnosis](workflows/search-performance-diagnosis.md)
+- [SEO Audit Brief](deliverables/seo-audit-brief.md)
+- [SEO Quality Check](evaluations/seo-quality-check.md)
+
+## Source Discipline
+
+SEO conclusions depend on source scope. The agent should name the official source category, the user-provided evidence reviewed, and missing evidence before turning a hypothesis into a conclusion.
+
+## Improvement Loop
+
+When users find missing or weak guidance, record private feedback first, then propose reviewed improvements. Public changes should avoid private user context and require approval before contribution.
