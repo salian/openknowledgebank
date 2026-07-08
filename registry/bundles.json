@@ -1618,6 +1618,114 @@
       },
       "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/stackoverflow-data-analyst",
       "download_url": "https://openknowledgebank.com/downloads/stackoverflow-data-analyst.zip"
+    },
+    {
+      "id": "tableau",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "Tableau",
+      "category": "tools",
+      "description": "Tool bundle for source-aware Tableau dashboard, workbook, data source, publishing, and permissions planning.",
+      "path": "bundles/tools/tableau",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/tableau",
+      "download_url": "https://openknowledgebank.com/downloads/tableau.zip",
+      "tags": [
+        "tableau",
+        "business-intelligence",
+        "dashboards",
+        "analytics",
+        "data-visualization"
+      ],
+      "aliases": [
+        "Salesforce Tableau",
+        "Tableau Desktop",
+        "Tableau Cloud",
+        "Tableau Server"
+      ],
+      "problems_solved": [
+        "Plan Tableau dashboards and workbooks without inventing fields, calculations, filters, or access.",
+        "Separate official Tableau product behavior from user-provided workbook, site, and data-source evidence.",
+        "Review publishing, permissions, embedded credentials, extracts, refreshes, and sharing with explicit confirmation boundaries.",
+        "Produce dashboard readiness plans that include source notes, validation, accessibility, and governance checks."
+      ],
+      "industries": [
+        "analytics",
+        "data",
+        "business-intelligence",
+        "marketing",
+        "finance"
+      ],
+      "tools": [
+        "Tableau",
+        "Tableau Desktop",
+        "Tableau Cloud",
+        "Tableau Server",
+        "Tableau Prep Builder"
+      ],
+      "frameworks": [
+        "verify-first BI planning",
+        "source-of-record reconciliation",
+        "dashboard readiness review",
+        "publishing and permissions confirmation boundary"
+      ],
+      "deliverables": [
+        "Tableau dashboard readiness plan"
+      ],
+      "commands": [
+        "/plan-tableau-dashboard"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Tableau dashboard plan quality check"
+      ],
+      "evaluation_summary": {
+        "status": "blocked",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 0,
+        "display_summary": "Measured evaluation is blocked until a Tableau task set and model/provider configuration are selected.",
+        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+      },
+      "evaluation_detail": {
+        "status": "blocked",
+        "title": "Tableau planned evaluation",
+        "method": "baseline-vs-okb-rubric",
+        "next_step": "Create public-safe Tableau benchmark tasks and run the generic evaluation harness."
+      },
+      "related_bundles": [
+        "google-bigquery"
+      ],
+      "adjacent_bundles": [
+        "funnel-analysis",
+        "ga4-analysis-brief"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete Tableau Desktop, Tableau Cloud, Tableau Server, Tableau Prep, REST API, pricing, license, connector, or release reference.",
+        "Requires user-provided workbook, data source, field, calculation, extract, refresh, permission, site, and governance evidence before final conclusions.",
+        "Does not replace Tableau administrator, BI governance, security, privacy, accessibility, legal, or compliance review."
+      ],
+      "safety_notes": [
+        "Require explicit confirmation before publishing, overwriting, deleting, changing permissions, embedding credentials, exporting/downloading data, running refreshes, changing schedules, or broadening sharing.",
+        "Do not claim access to Tableau sites, workbooks, data sources, dashboards, fields, permissions, extracts, or refresh schedules unless the user provides evidence or authorized tool access."
+      ]
     }
   ]
 }
