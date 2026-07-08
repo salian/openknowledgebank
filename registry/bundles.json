@@ -1346,6 +1346,108 @@
       ]
     },
     {
+      "id": "jira",
+      "title": "Jira",
+      "description": "Tool bundle for source-aware Jira work tracking, board, backlog, workflow, JQL, report, automation, and REST API planning.",
+      "category": "tools",
+      "path": "bundles/tools/jira",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/jira",
+      "download_url": "https://openknowledgebank.com/downloads/jira.zip",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "updated": "2026-07-09",
+      "tags": [
+        "jira",
+        "jira-software",
+        "work-tracking",
+        "agile",
+        "jql",
+        "project-management"
+      ],
+      "aliases": [
+        "Jira Software",
+        "Jira Cloud",
+        "Atlassian Jira"
+      ],
+      "problems_solved": [
+        "Plan Jira board, backlog, workflow, and report work without inventing local fields, statuses, filters, permissions, or issue data.",
+        "Separate official Atlassian product behavior from user-provided Jira site evidence.",
+        "Create source-scoped JQL, reporting, automation, and REST API plans with verification and confirmation boundaries.",
+        "Reconcile board, report, JQL, and API differences by aligning scope, filters, permissions, time windows, and status logic."
+      ],
+      "industries": [
+        "software",
+        "digital-products",
+        "technology",
+        "support",
+        "professional-services"
+      ],
+      "tools": [
+        "Jira",
+        "Jira Software",
+        "Jira Cloud",
+        "JQL",
+        "Jira Automation",
+        "Jira Cloud REST API"
+      ],
+      "frameworks": [
+        "verify-first Jira evidence review",
+        "board-report-query reconciliation",
+        "workflow change confirmation boundary"
+      ],
+      "deliverables": [
+        "Jira board cleanup plan"
+      ],
+      "commands": [
+        "/plan-jira-board-cleanup"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Jira planning quality check"
+      ],
+      "evaluation_summary": {
+        "status": "blocked",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 0,
+        "display_summary": "Measured evaluation is blocked until a Jira task set and model/provider configuration are selected.",
+        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+      },
+      "evaluation_detail": {},
+      "related_bundles": [
+        "product-manager"
+      ],
+      "adjacent_bundles": [
+        "agile"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete Jira administration, Data Center, pricing, plan, Marketplace app, Rovo, REST API, automation, or release-feature reference.",
+        "Requires user-provided Jira site, space/project, board, workflow, field, permission, report, automation, and API evidence before final conclusions.",
+        "Does not replace security, privacy, procurement, legal, compliance, administrator, scrum master, project manager, product owner, or engineering-lead review."
+      ],
+      "safety_notes": [
+        "Require explicit confirmation before creating, editing, transitioning, deleting, commenting on, exporting, bulk changing, or moving Jira work items; changing workflows, statuses, boards, filters, dashboards, permissions, automations, notifications, or API-connected actions.",
+        "Do not claim access to Jira sites, projects/spaces, boards, workflows, work items/issues, reports, automations, users, groups, permissions, or API results unless the user provides evidence or authorized tool access."
+      ]
+    },
+    {
       "id": "performance-marketer",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
