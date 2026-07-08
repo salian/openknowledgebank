@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "updated": "2026-06-24",
+  "updated": "2026-07-08",
   "bundles": [
     {
       "id": "ga4-analytics-specialist",
@@ -581,6 +581,104 @@
       },
       "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/stackoverflow-data-analyst",
       "download_url": "https://openknowledgebank.com/downloads/stackoverflow-data-analyst.zip"
+    },
+    {
+      "id": "google-bigquery",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "Google BigQuery",
+      "category": "tools",
+      "description": "Tool knowledge for source-aware BigQuery query planning, cost checks, performance review, and analytics warehouse work.",
+      "path": "bundles/tools/google-bigquery",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-08",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/google-bigquery",
+      "download_url": "https://openknowledgebank.com/downloads/google-bigquery.zip",
+      "tags": [
+        "bigquery",
+        "google-cloud",
+        "data-warehouse",
+        "analytics",
+        "sql"
+      ],
+      "aliases": [
+        "BigQuery",
+        "Google Cloud BigQuery"
+      ],
+      "problems_solved": [
+        "plan BigQuery analysis without inventing schemas or access",
+        "draft query plans with source scope, grain, filters, joins, and validation checks",
+        "add dry-run and cost preflight discipline before live queries",
+        "review partitioning, clustering, and projection choices at a source-aware level"
+      ],
+      "industries": [
+        "analytics",
+        "data",
+        "marketing",
+        "product"
+      ],
+      "tools": [
+        "BigQuery",
+        "GoogleSQL",
+        "Google Cloud"
+      ],
+      "frameworks": [
+        "verify-first query planning",
+        "cost and performance preflight",
+        "source-of-record reconciliation"
+      ],
+      "deliverables": [
+        "BigQuery query plan"
+      ],
+      "commands": [
+        "/plan-bigquery-query"
+      ],
+      "skills": [],
+      "evaluations": [
+        "BigQuery query plan quality check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "method": "baseline-vs-okb-rubric",
+        "display_summary": "Measured evaluation is planned; v1 publication includes an evaluation blocker rather than measured scores.",
+        "evidence_note": "No raw prompts or private evaluation outputs exist for v1."
+      },
+      "evaluation_detail": {
+        "status": "planned",
+        "title": "Google BigQuery evaluation plan",
+        "summary": "Create a BigQuery task set focused on schema discipline, query planning, cost preflight, and validation before measuring."
+      },
+      "related_bundles": [
+        "ga4-analytics-specialist"
+      ],
+      "adjacent_bundles": [
+        "performance-marketer"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete BigQuery schema, API, IAM, pricing, quota, or SQL syntax reference.",
+        "Requires user-provided project, dataset, table, schema, SQL, job, billing, and permission evidence for final conclusions.",
+        "Does not replace privacy, security, compliance, or data governance review."
+      ],
+      "safety_notes": [
+        "Require confirmation before running live queries, exporting data, writing tables, changing permissions, or making billing/capacity changes.",
+        "Do not claim access to BigQuery projects, datasets, tables, schemas, or jobs unless the user provides evidence or authorized tool access."
+      ]
     }
   ]
 }
