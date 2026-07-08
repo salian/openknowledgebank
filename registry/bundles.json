@@ -3,6 +3,109 @@
   "updated": "2026-07-09",
   "bundles": [
     {
+      "id": "funnel-analysis",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "Funnel Analysis",
+      "category": "frameworks",
+      "description": "Framework bundle for defining funnels, measuring stage-by-stage conversion and drop-off, comparing segments, and turning friction into verified hypotheses.",
+      "path": "bundles/frameworks/funnel-analysis",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/funnel-analysis",
+      "download_url": "https://openknowledgebank.com/downloads/funnel-analysis.zip",
+      "tags": [
+        "funnel-analysis",
+        "conversion",
+        "analytics",
+        "ecommerce",
+        "product-analytics"
+      ],
+      "aliases": [
+        "conversion funnel analysis",
+        "funnel exploration",
+        "stage-by-stage drop-off analysis",
+        "conversion path analysis"
+      ],
+      "problems_solved": [
+        "Define funnel steps without inventing analytics events or schemas.",
+        "Interpret stage conversion and drop-off with explicit denominator logic.",
+        "Compare funnel performance across segments and breakdowns.",
+        "Separate measurement findings, hypotheses, and actions."
+      ],
+      "industries": [
+        "ecommerce",
+        "b2b-saas",
+        "digital-products",
+        "marketing"
+      ],
+      "tools": [
+        "Google Analytics",
+        "Adobe Customer Journey Analytics",
+        "BigQuery"
+      ],
+      "frameworks": [
+        "funnel step definition",
+        "denominator reconciliation",
+        "stage drop-off diagnosis"
+      ],
+      "deliverables": [
+        "funnel analysis brief"
+      ],
+      "commands": [
+        "/diagnose-funnel-drop"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Funnel analysis quality check"
+      ],
+      "related_bundles": [
+        "ga4-analytics-specialist",
+        "google-bigquery"
+      ],
+      "adjacent_bundles": [
+        "performance-marketer"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete GA4, Adobe Analytics, BigQuery, experimentation, or SQL implementation guide.",
+        "Requires user-provided event, schema, report, date-range, segment, and denominator evidence for final conclusions.",
+        "Does not prove causality from funnel drop-off alone."
+      ],
+      "safety_notes": [
+        "Require confirmation before modifying live analytics configuration, tags, dashboards, campaigns, experiments, exports, or warehouse tables.",
+        "Do not claim access to analytics tools, event schemas, user-level records, or reports unless the user provides evidence or authorized tool access."
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned for this framework bundle.",
+        "evidence_note": "No approved funnel-analysis task set or model/provider configuration has been selected yet."
+      },
+      "evaluation_detail": {
+        "status": "planned",
+        "title": "Funnel Analysis planned evaluation",
+        "method": "baseline-vs-okb-rubric",
+        "next_step": "Create public-safe funnel-analysis benchmark tasks and run the generic evaluation harness."
+      }
+    },
+    {
       "id": "ga4-analysis-brief",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
@@ -104,109 +207,6 @@
         "title": "GA4 Analysis Brief planned evaluation",
         "method": "baseline-vs-okb-rubric",
         "next_step": "Create public-safe GA4 analysis brief benchmark tasks and run the generic evaluation harness."
-      }
-    },
-    {
-      "id": "funnel-analysis",
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
-      "title": "Funnel Analysis",
-      "category": "frameworks",
-      "description": "Framework bundle for defining funnels, measuring stage-by-stage conversion and drop-off, comparing segments, and turning friction into verified hypotheses.",
-      "path": "bundles/frameworks/funnel-analysis",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "draft",
-      "version": "0.1.0",
-      "updated": "2026-07-09",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/funnel-analysis",
-      "download_url": "https://openknowledgebank.com/downloads/funnel-analysis.zip",
-      "tags": [
-        "funnel-analysis",
-        "conversion",
-        "analytics",
-        "ecommerce",
-        "product-analytics"
-      ],
-      "aliases": [
-        "conversion funnel analysis",
-        "funnel exploration",
-        "stage-by-stage drop-off analysis",
-        "conversion path analysis"
-      ],
-      "problems_solved": [
-        "Define funnel steps without inventing analytics events or schemas.",
-        "Interpret stage conversion and drop-off with explicit denominator logic.",
-        "Compare funnel performance across segments and breakdowns.",
-        "Separate measurement findings, hypotheses, and actions."
-      ],
-      "industries": [
-        "ecommerce",
-        "b2b-saas",
-        "digital-products",
-        "marketing"
-      ],
-      "tools": [
-        "Google Analytics",
-        "Adobe Customer Journey Analytics",
-        "BigQuery"
-      ],
-      "frameworks": [
-        "funnel step definition",
-        "denominator reconciliation",
-        "stage drop-off diagnosis"
-      ],
-      "deliverables": [
-        "funnel analysis brief"
-      ],
-      "commands": [
-        "/diagnose-funnel-drop"
-      ],
-      "skills": [],
-      "evaluations": [
-        "Funnel analysis quality check"
-      ],
-      "related_bundles": [
-        "ga4-analytics-specialist",
-        "google-bigquery"
-      ],
-      "adjacent_bundles": [
-        "performance-marketer"
-      ],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "Not a complete GA4, Adobe Analytics, BigQuery, experimentation, or SQL implementation guide.",
-        "Requires user-provided event, schema, report, date-range, segment, and denominator evidence for final conclusions.",
-        "Does not prove causality from funnel drop-off alone."
-      ],
-      "safety_notes": [
-        "Require confirmation before modifying live analytics configuration, tags, dashboards, campaigns, experiments, exports, or warehouse tables.",
-        "Do not claim access to analytics tools, event schemas, user-level records, or reports unless the user provides evidence or authorized tool access."
-      ],
-      "evaluation_summary": {
-        "status": "planned",
-        "last_evaluated": null,
-        "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned for this framework bundle.",
-        "evidence_note": "No approved funnel-analysis task set or model/provider configuration has been selected yet."
-      },
-      "evaluation_detail": {
-        "status": "planned",
-        "title": "Funnel Analysis planned evaluation",
-        "method": "baseline-vs-okb-rubric",
-        "next_step": "Create public-safe funnel-analysis benchmark tasks and run the generic evaluation harness."
       }
     },
     {
@@ -573,6 +573,190 @@
       },
       "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/ga4-analytics-specialist",
       "download_url": "https://openknowledgebank.com/downloads/ga4-analytics-specialist.zip"
+    },
+    {
+      "id": "gdpr",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "GDPR",
+      "category": "compliance",
+      "description": "Source-aware compliance hub for GDPR obligation triage, official source selection, and public-safe compliance brief drafting.",
+      "path": "bundles/compliance/gdpr",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "tags": [
+        "gdpr",
+        "privacy",
+        "data-protection",
+        "compliance",
+        "eu"
+      ],
+      "aliases": [
+        "General Data Protection Regulation",
+        "Regulation EU 2016 679"
+      ],
+      "problems_solved": [
+        "triage GDPR applicability and obligation questions without inventing legal conclusions",
+        "separate official law, regulator guidance, user-provided facts, assumptions, and missing evidence",
+        "produce source-aware GDPR compliance briefs for professional review"
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "controller-processor role triage"
+      ],
+      "deliverables": [
+        "source-aware GDPR compliance brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "GDPR source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 0,
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the GDPR hub bundle.",
+        "evidence_note": "No measured score is claimed for this draft publication."
+      },
+      "evaluation_detail": {
+        "status": "planned",
+        "title": "GDPR source-awareness measured evaluation",
+        "planned_method": "Run baseline and bundle-assisted GDPR triage tasks against the source-awareness rubric before publishing measured lift."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is a compliance hub, not legal advice or a full article-by-article GDPR treatise.",
+        "Scenario-specific answers require current legal text, regulator guidance, jurisdiction facts, and user-provided processing evidence.",
+        "Measured evaluation is planned but not complete."
+      ],
+      "safety_notes": [
+        "Require qualified legal or privacy professional review before relying on outputs for regulatory, enforcement, contractual, or incident-response decisions.",
+        "Do not request, expose, or publish personal data beyond what is necessary for the user-approved analysis.",
+        "Require explicit confirmation before submitting notices, contacting regulators, changing policies, or sending legal communications."
+      ],
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/gdpr",
+      "download_url": "https://openknowledgebank.com/downloads/gdpr.zip"
+    },
+    {
+      "id": "google-bigquery",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "Google BigQuery",
+      "category": "tools",
+      "description": "Tool knowledge for source-aware BigQuery query planning, cost checks, performance review, and analytics warehouse work.",
+      "path": "bundles/tools/google-bigquery",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-08",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/google-bigquery",
+      "download_url": "https://openknowledgebank.com/downloads/google-bigquery.zip",
+      "tags": [
+        "bigquery",
+        "google-cloud",
+        "data-warehouse",
+        "analytics",
+        "sql"
+      ],
+      "aliases": [
+        "BigQuery",
+        "Google Cloud BigQuery"
+      ],
+      "problems_solved": [
+        "plan BigQuery analysis without inventing schemas or access",
+        "draft query plans with source scope, grain, filters, joins, and validation checks",
+        "add dry-run and cost preflight discipline before live queries",
+        "review partitioning, clustering, and projection choices at a source-aware level"
+      ],
+      "industries": [
+        "analytics",
+        "data",
+        "marketing",
+        "product"
+      ],
+      "tools": [
+        "BigQuery",
+        "GoogleSQL",
+        "Google Cloud"
+      ],
+      "frameworks": [
+        "verify-first query planning",
+        "cost and performance preflight",
+        "source-of-record reconciliation"
+      ],
+      "deliverables": [
+        "BigQuery query plan"
+      ],
+      "commands": [
+        "/plan-bigquery-query"
+      ],
+      "skills": [],
+      "evaluations": [
+        "BigQuery query plan quality check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "method": "baseline-vs-okb-rubric",
+        "display_summary": "Measured evaluation is planned; v1 publication includes an evaluation blocker rather than measured scores.",
+        "evidence_note": "No raw prompts or private evaluation outputs exist for v1."
+      },
+      "evaluation_detail": {
+        "status": "planned",
+        "title": "Google BigQuery evaluation plan",
+        "summary": "Create a BigQuery task set focused on schema discipline, query planning, cost preflight, and validation before measuring."
+      },
+      "related_bundles": [
+        "ga4-analytics-specialist"
+      ],
+      "adjacent_bundles": [
+        "performance-marketer"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete BigQuery schema, API, IAM, pricing, quota, or SQL syntax reference.",
+        "Requires user-provided project, dataset, table, schema, SQL, job, billing, and permission evidence for final conclusions.",
+        "Does not replace privacy, security, compliance, or data governance review."
+      ],
+      "safety_notes": [
+        "Require confirmation before running live queries, exporting data, writing tables, changing permissions, or making billing/capacity changes.",
+        "Do not claim access to BigQuery projects, datasets, tables, schemas, or jobs unless the user provides evidence or authorized tool access."
+      ]
     },
     {
       "id": "performance-marketer",
@@ -1030,104 +1214,6 @@
       },
       "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/stackoverflow-data-analyst",
       "download_url": "https://openknowledgebank.com/downloads/stackoverflow-data-analyst.zip"
-    },
-    {
-      "id": "google-bigquery",
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
-      "title": "Google BigQuery",
-      "category": "tools",
-      "description": "Tool knowledge for source-aware BigQuery query planning, cost checks, performance review, and analytics warehouse work.",
-      "path": "bundles/tools/google-bigquery",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "draft",
-      "version": "0.1.0",
-      "updated": "2026-07-08",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/google-bigquery",
-      "download_url": "https://openknowledgebank.com/downloads/google-bigquery.zip",
-      "tags": [
-        "bigquery",
-        "google-cloud",
-        "data-warehouse",
-        "analytics",
-        "sql"
-      ],
-      "aliases": [
-        "BigQuery",
-        "Google Cloud BigQuery"
-      ],
-      "problems_solved": [
-        "plan BigQuery analysis without inventing schemas or access",
-        "draft query plans with source scope, grain, filters, joins, and validation checks",
-        "add dry-run and cost preflight discipline before live queries",
-        "review partitioning, clustering, and projection choices at a source-aware level"
-      ],
-      "industries": [
-        "analytics",
-        "data",
-        "marketing",
-        "product"
-      ],
-      "tools": [
-        "BigQuery",
-        "GoogleSQL",
-        "Google Cloud"
-      ],
-      "frameworks": [
-        "verify-first query planning",
-        "cost and performance preflight",
-        "source-of-record reconciliation"
-      ],
-      "deliverables": [
-        "BigQuery query plan"
-      ],
-      "commands": [
-        "/plan-bigquery-query"
-      ],
-      "skills": [],
-      "evaluations": [
-        "BigQuery query plan quality check"
-      ],
-      "evaluation_summary": {
-        "status": "planned",
-        "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured evaluation is planned; v1 publication includes an evaluation blocker rather than measured scores.",
-        "evidence_note": "No raw prompts or private evaluation outputs exist for v1."
-      },
-      "evaluation_detail": {
-        "status": "planned",
-        "title": "Google BigQuery evaluation plan",
-        "summary": "Create a BigQuery task set focused on schema discipline, query planning, cost preflight, and validation before measuring."
-      },
-      "related_bundles": [
-        "ga4-analytics-specialist"
-      ],
-      "adjacent_bundles": [
-        "performance-marketer"
-      ],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "Not a complete BigQuery schema, API, IAM, pricing, quota, or SQL syntax reference.",
-        "Requires user-provided project, dataset, table, schema, SQL, job, billing, and permission evidence for final conclusions.",
-        "Does not replace privacy, security, compliance, or data governance review."
-      ],
-      "safety_notes": [
-        "Require confirmation before running live queries, exporting data, writing tables, changing permissions, or making billing/capacity changes.",
-        "Do not claim access to BigQuery projects, datasets, tables, schemas, or jobs unless the user provides evidence or authorized tool access."
-      ]
     }
   ]
 }
