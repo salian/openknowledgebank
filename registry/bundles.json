@@ -90,6 +90,91 @@
       ]
     },
     {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "can-spam",
+      "title": "CAN-SPAM",
+      "description": "Source-aware compliance hub for U.S. commercial email marketing rules under the CAN-SPAM Act and FTC CAN-SPAM Rule.",
+      "category": "compliance",
+      "path": "bundles/compliance/can-spam",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/can-spam",
+      "download_url": "https://openknowledgebank.com/downloads/can-spam.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "can-spam",
+        "email-marketing",
+        "commercial-email",
+        "ftc",
+        "united-states",
+        "compliance"
+      ],
+      "aliases": [
+        "CAN-SPAM Act",
+        "FTC CAN-SPAM Rule",
+        "Commercial Email Marketing Rules"
+      ],
+      "problems_solved": [
+        "Triage U.S. commercial email compliance questions without inventing legal conclusions.",
+        "Separate official FTC, statutory, and regulatory sources from user-provided campaign evidence, assumptions, and missing facts.",
+        "Produce source-aware CAN-SPAM compliance briefs for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "commercial email purpose triage",
+        "opt-out evidence review"
+      ],
+      "deliverables": [
+        "source-aware CAN-SPAM compliance brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "CAN-SPAM source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 3,
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the CAN-SPAM compliance hub.",
+        "evidence_note": "No measured score is claimed for this draft publication. Exact CAN-SPAM conclusions require current official sources, campaign evidence, and professional review."
+      },
+      "evaluation_detail": {},
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is a compliance hub, not legal advice or a full section-by-section CAN-SPAM treatise.",
+        "Scenario-specific answers require current official source inspection and user-provided campaign, list, sender, and suppression-process evidence.",
+        "State privacy, TCPA, platform, deliverability, sector-specific, and international email requirements must be inspected separately when relevant."
+      ],
+      "safety_notes": [
+        "Require qualified legal or compliance professional review before relying on outputs for campaign, enforcement, contractual, or regulatory decisions.",
+        "Do not use this bundle for spam, phishing, deceptive sender identity, deceptive subject lines, list harvesting, evasion, or abuse workflows.",
+        "Require explicit confirmation before sending email, changing campaigns, uploading lists, exporting contacts, changing suppression logic, or sending legal communications."
+      ]
+    },
+    {
       "id": "gdpr",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
