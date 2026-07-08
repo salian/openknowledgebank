@@ -3,6 +3,101 @@
   "updated": "2026-07-09",
   "bundles": [
     {
+      "id": "agile",
+      "title": "Agile",
+      "description": "Framework hub for applying Agile values and principles to software delivery without confusing the umbrella with Scrum, Kanban, XP, SAFe, or another specific method.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/agile",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/agile",
+      "download_url": "https://openknowledgebank.com/downloads/agile.zip",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "updated": "2026-07-09",
+      "tags": [
+        "agile",
+        "software-delivery",
+        "product-development",
+        "engineering-process",
+        "delivery-management"
+      ],
+      "aliases": [
+        "Agile software delivery",
+        "Agile Manifesto",
+        "Agile methods",
+        "agile development"
+      ],
+      "problems_solved": [
+        "Anchor Agile guidance in the Manifesto values and principle themes.",
+        "Choose between Agile method families based on context instead of labels.",
+        "Diagnose process theater that lacks feedback, working software, or adaptation.",
+        "Separate umbrella Agile guidance from Scrum, Kanban, XP, SAFe, and other method mechanics."
+      ],
+      "industries": [
+        "software",
+        "digital-products",
+        "technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "Agile Manifesto",
+        "Scrum",
+        "Kanban Method",
+        "Extreme Programming",
+        "SAFe",
+        "Lean Software Development"
+      ],
+      "deliverables": [
+        "agile operating brief"
+      ],
+      "commands": [
+        "/choose-agile-method"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Agile guidance quality check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "method": "baseline-vs-okb-rubric",
+        "display_summary": "Measured evaluation is planned for a framework-hub task set.",
+        "evidence_note": "No measured baseline-vs-OKB score has been run for this initial umbrella release."
+      },
+      "evaluation_detail": {},
+      "related_bundles": [
+        "product-manager"
+      ],
+      "adjacent_bundles": [
+        "ga4-analytics-specialist",
+        "performance-marketer"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete implementation guide for Scrum, Kanban, XP, SAFe, DSDM, LeSS, Crystal, FDD, Scrumban, Disciplined Agile, or Nexus.",
+        "Requires user-provided team, workflow, delivery, quality, and tool evidence before judging an organization's actual agility.",
+        "Does not replace professional advice for contractual, HR, compliance, or regulated delivery decisions."
+      ],
+      "safety_notes": [
+        "Require confirmation before changing live boards, workflows, reports, staffing plans, contract commitments, release policies, or customer communications.",
+        "Do not claim access to private delivery metrics, tickets, source repositories, or planning artifacts unless the user provides evidence or authorized tool access."
+      ]
+    },
+    {
       "id": "funnel-analysis",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
