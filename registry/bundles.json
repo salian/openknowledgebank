@@ -972,204 +972,6 @@
       }
     },
     {
-      "id": "agile",
-      "title": "Agile",
-      "description": "Framework hub for applying Agile values and principles to software delivery without confusing the umbrella with Scrum, Kanban, XP, SAFe, or another specific method.",
-      "category": "frameworks",
-      "path": "bundles/frameworks/agile",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "draft",
-      "version": "0.1.0",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/agile",
-      "download_url": "https://openknowledgebank.com/downloads/agile.zip",
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
-      "updated": "2026-07-09",
-      "tags": [
-        "agile",
-        "software-delivery",
-        "product-development",
-        "engineering-process",
-        "delivery-management"
-      ],
-      "aliases": [
-        "Agile software delivery",
-        "Agile Manifesto",
-        "Agile methods",
-        "agile development"
-      ],
-      "problems_solved": [
-        "Anchor Agile guidance in the Manifesto values and principle themes.",
-        "Choose between Agile method families based on context instead of labels.",
-        "Diagnose process theater that lacks feedback, working software, or adaptation.",
-        "Separate umbrella Agile guidance from Scrum, Kanban, XP, SAFe, and other method mechanics."
-      ],
-      "industries": [
-        "software",
-        "digital-products",
-        "technology"
-      ],
-      "tools": [],
-      "frameworks": [
-        "Agile Manifesto",
-        "Scrum",
-        "Kanban Method",
-        "Extreme Programming",
-        "SAFe",
-        "Lean Software Development"
-      ],
-      "deliverables": [
-        "agile operating brief"
-      ],
-      "commands": [
-        "/choose-agile-method"
-      ],
-      "skills": [],
-      "evaluations": [
-        "Agile guidance quality check"
-      ],
-      "evaluation_summary": {
-        "status": "planned",
-        "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured evaluation is planned for a framework-hub task set.",
-        "evidence_note": "No measured baseline-vs-OKB score has been run for this initial umbrella release."
-      },
-      "evaluation_detail": {},
-      "related_bundles": [
-        "product-manager"
-      ],
-      "adjacent_bundles": [
-        "ga4-analytics-specialist",
-        "performance-marketer"
-      ],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "Not a complete implementation guide for Scrum, Kanban, XP, SAFe, DSDM, LeSS, Crystal, FDD, Scrumban, Disciplined Agile, or Nexus.",
-        "Requires user-provided team, workflow, delivery, quality, and tool evidence before judging an organization's actual agility.",
-        "Does not replace professional advice for contractual, HR, compliance, or regulated delivery decisions."
-      ],
-      "safety_notes": [
-        "Require confirmation before changing live boards, workflows, reports, staffing plans, contract commitments, release policies, or customer communications.",
-        "Do not claim access to private delivery metrics, tickets, source repositories, or planning artifacts unless the user provides evidence or authorized tool access."
-      ]
-    },
-    {
-      "id": "funnel-analysis",
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
-      "title": "Funnel Analysis",
-      "category": "frameworks",
-      "description": "Framework bundle for defining funnels, measuring stage-by-stage conversion and drop-off, comparing segments, and turning friction into verified hypotheses.",
-      "path": "bundles/frameworks/funnel-analysis",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "draft",
-      "version": "0.1.0",
-      "updated": "2026-07-09",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/funnel-analysis",
-      "download_url": "https://openknowledgebank.com/downloads/funnel-analysis.zip",
-      "tags": [
-        "funnel-analysis",
-        "conversion",
-        "analytics",
-        "ecommerce",
-        "product-analytics"
-      ],
-      "aliases": [
-        "conversion funnel analysis",
-        "funnel exploration",
-        "stage-by-stage drop-off analysis",
-        "conversion path analysis"
-      ],
-      "problems_solved": [
-        "Define funnel steps without inventing analytics events or schemas.",
-        "Interpret stage conversion and drop-off with explicit denominator logic.",
-        "Compare funnel performance across segments and breakdowns.",
-        "Separate measurement findings, hypotheses, and actions."
-      ],
-      "industries": [
-        "ecommerce",
-        "b2b-saas",
-        "digital-products",
-        "marketing"
-      ],
-      "tools": [
-        "Google Analytics",
-        "Adobe Customer Journey Analytics",
-        "BigQuery"
-      ],
-      "frameworks": [
-        "funnel step definition",
-        "denominator reconciliation",
-        "stage drop-off diagnosis"
-      ],
-      "deliverables": [
-        "funnel analysis brief"
-      ],
-      "commands": [
-        "/diagnose-funnel-drop"
-      ],
-      "skills": [],
-      "evaluations": [
-        "Funnel analysis quality check"
-      ],
-      "related_bundles": [
-        "ga4-analytics-specialist",
-        "google-bigquery"
-      ],
-      "adjacent_bundles": [
-        "performance-marketer"
-      ],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "Not a complete GA4, Adobe Analytics, BigQuery, experimentation, or SQL implementation guide.",
-        "Requires user-provided event, schema, report, date-range, segment, and denominator evidence for final conclusions.",
-        "Does not prove causality from funnel drop-off alone."
-      ],
-      "safety_notes": [
-        "Require confirmation before modifying live analytics configuration, tags, dashboards, campaigns, experiments, exports, or warehouse tables.",
-        "Do not claim access to analytics tools, event schemas, user-level records, or reports unless the user provides evidence or authorized tool access."
-      ],
-      "evaluation_summary": {
-        "status": "planned",
-        "last_evaluated": null,
-        "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned for this framework bundle.",
-        "evidence_note": "No approved funnel-analysis task set or model/provider configuration has been selected yet."
-      },
-      "evaluation_detail": {
-        "status": "planned",
-        "title": "Funnel Analysis planned evaluation",
-        "method": "baseline-vs-okb-rubric",
-        "next_step": "Create public-safe funnel-analysis benchmark tasks and run the generic evaluation harness."
-      }
-    },
-    {
       "id": "ga4-analytics-specialist",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
@@ -1992,6 +1794,388 @@
       "download_url": "https://openknowledgebank.com/downloads/stackoverflow-data-analyst.zip"
     },
     {
+      "id": "agile",
+      "title": "Agile",
+      "description": "Framework hub for applying Agile values and principles to software delivery without confusing the umbrella with Scrum, Kanban, XP, SAFe, or another specific method.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/agile",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/agile",
+      "download_url": "https://openknowledgebank.com/downloads/agile.zip",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "updated": "2026-07-09",
+      "tags": [
+        "agile",
+        "software-delivery",
+        "product-development",
+        "engineering-process",
+        "delivery-management"
+      ],
+      "aliases": [
+        "Agile software delivery",
+        "Agile Manifesto",
+        "Agile methods",
+        "agile development"
+      ],
+      "problems_solved": [
+        "Anchor Agile guidance in the Manifesto values and principle themes.",
+        "Choose between Agile method families based on context instead of labels.",
+        "Diagnose process theater that lacks feedback, working software, or adaptation.",
+        "Separate umbrella Agile guidance from Scrum, Kanban, XP, SAFe, and other method mechanics."
+      ],
+      "industries": [
+        "software",
+        "digital-products",
+        "technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "Agile Manifesto",
+        "Scrum",
+        "Kanban Method",
+        "Extreme Programming",
+        "SAFe",
+        "Lean Software Development"
+      ],
+      "deliverables": [
+        "agile operating brief"
+      ],
+      "commands": [
+        "/choose-agile-method"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Agile guidance quality check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "method": "baseline-vs-okb-rubric",
+        "display_summary": "Measured evaluation is planned for a framework-hub task set.",
+        "evidence_note": "No measured baseline-vs-OKB score has been run for this initial umbrella release."
+      },
+      "evaluation_detail": {},
+      "related_bundles": [
+        "product-manager"
+      ],
+      "adjacent_bundles": [
+        "ga4-analytics-specialist",
+        "performance-marketer"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete implementation guide for Scrum, Kanban, XP, SAFe, DSDM, LeSS, Crystal, FDD, Scrumban, Disciplined Agile, or Nexus.",
+        "Requires user-provided team, workflow, delivery, quality, and tool evidence before judging an organization's actual agility.",
+        "Does not replace professional advice for contractual, HR, compliance, or regulated delivery decisions."
+      ],
+      "safety_notes": [
+        "Require confirmation before changing live boards, workflows, reports, staffing plans, contract commitments, release policies, or customer communications.",
+        "Do not claim access to private delivery metrics, tickets, source repositories, or planning artifacts unless the user provides evidence or authorized tool access."
+      ]
+    },
+    {
+      "id": "funnel-analysis",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "Funnel Analysis",
+      "category": "frameworks",
+      "description": "Framework bundle for defining funnels, measuring stage-by-stage conversion and drop-off, comparing segments, and turning friction into verified hypotheses.",
+      "path": "bundles/frameworks/funnel-analysis",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/funnel-analysis",
+      "download_url": "https://openknowledgebank.com/downloads/funnel-analysis.zip",
+      "tags": [
+        "funnel-analysis",
+        "conversion",
+        "analytics",
+        "ecommerce",
+        "product-analytics"
+      ],
+      "aliases": [
+        "conversion funnel analysis",
+        "funnel exploration",
+        "stage-by-stage drop-off analysis",
+        "conversion path analysis"
+      ],
+      "problems_solved": [
+        "Define funnel steps without inventing analytics events or schemas.",
+        "Interpret stage conversion and drop-off with explicit denominator logic.",
+        "Compare funnel performance across segments and breakdowns.",
+        "Separate measurement findings, hypotheses, and actions."
+      ],
+      "industries": [
+        "ecommerce",
+        "b2b-saas",
+        "digital-products",
+        "marketing"
+      ],
+      "tools": [
+        "Google Analytics",
+        "Adobe Customer Journey Analytics",
+        "BigQuery"
+      ],
+      "frameworks": [
+        "funnel step definition",
+        "denominator reconciliation",
+        "stage drop-off diagnosis"
+      ],
+      "deliverables": [
+        "funnel analysis brief"
+      ],
+      "commands": [
+        "/diagnose-funnel-drop"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Funnel analysis quality check"
+      ],
+      "related_bundles": [
+        "ga4-analytics-specialist",
+        "google-bigquery"
+      ],
+      "adjacent_bundles": [
+        "performance-marketer"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete GA4, Adobe Analytics, BigQuery, experimentation, or SQL implementation guide.",
+        "Requires user-provided event, schema, report, date-range, segment, and denominator evidence for final conclusions.",
+        "Does not prove causality from funnel drop-off alone."
+      ],
+      "safety_notes": [
+        "Require confirmation before modifying live analytics configuration, tags, dashboards, campaigns, experiments, exports, or warehouse tables.",
+        "Do not claim access to analytics tools, event schemas, user-level records, or reports unless the user provides evidence or authorized tool access."
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned for this framework bundle.",
+        "evidence_note": "No approved funnel-analysis task set or model/provider configuration has been selected yet."
+      },
+      "evaluation_detail": {
+        "status": "planned",
+        "title": "Funnel Analysis planned evaluation",
+        "method": "baseline-vs-okb-rubric",
+        "next_step": "Create public-safe funnel-analysis benchmark tasks and run the generic evaluation harness."
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "okrs",
+      "title": "Objectives and Key Results (OKRs)",
+      "description": "Framework hub for drafting, reviewing, and operating OKRs without inventing local strategy, metrics, cadence, tool fields, or HR policy.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/okrs",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/okrs",
+      "download_url": "https://openknowledgebank.com/downloads/okrs.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "okrs",
+        "objectives-and-key-results",
+        "goal-setting",
+        "strategic-alignment",
+        "operating-cadence"
+      ],
+      "aliases": [
+        "OKRs",
+        "Objectives and Key Results",
+        "objective and key results"
+      ],
+      "problems_solved": [
+        "Draft outcome-oriented OKRs from user-provided strategy and metric evidence.",
+        "Review OKRs for clarity, measurability, ownership, local policy fit, and evidence gaps.",
+        "Distinguish objectives, key results, initiatives, committed goals, and aspirational goals.",
+        "Run OKR check-ins and retrospectives without treating local cadence or scoring as universal."
+      ],
+      "industries": [
+        "cross-industry",
+        "technology",
+        "digital-products",
+        "b2b-saas",
+        "operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "Objectives and Key Results",
+        "committed and aspirational OKRs"
+      ],
+      "deliverables": [
+        "OKR operating brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "OKR quality check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 3,
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned for an OKR drafting and review task set.",
+        "evidence_note": "No measured score is claimed for this draft publication. Outputs should identify source category, user-provided evidence, assumptions, and missing verification."
+      },
+      "related_bundles": [
+        "product-manager"
+      ],
+      "adjacent_bundles": [
+        "agile",
+        "funnel-analysis"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a substitute for an organization's strategy, metric definitions, OKR policy, HR policy, compensation policy, or performance-management process.",
+        "Requires user-provided local evidence before finalizing cadence, owners, targets, scoring, tooling, or review process.",
+        "Does not provide tool-specific OKR field names or platform workflow instructions."
+      ],
+      "safety_notes": [
+        "Require confirmation before changing live OKR tools, employee communications, compensation policy, performance-review material, staffing decisions, or executive commitments.",
+        "Do not claim access to private goals, metrics, dashboards, HR policies, or planning systems unless the user provides evidence or authorized tool access."
+      ]
+    },
+    {
+      "id": "us-gaap",
+      "title": "US GAAP",
+      "description": "Framework hub bundle for source-aware U.S. GAAP research, accounting-policy memos, and GAAP-versus-non-GAAP reconciliation without inventing accounting citations or entity-specific conclusions.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/us-gaap",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/us-gaap",
+      "download_url": "https://openknowledgebank.com/downloads/us-gaap.zip",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "updated": "2026-07-09",
+      "tags": [
+        "us-gaap",
+        "accounting",
+        "financial-reporting",
+        "fasb",
+        "sec-reporting"
+      ],
+      "aliases": [
+        "U.S. GAAP",
+        "Generally Accepted Accounting Principles",
+        "Generally Accepted Accounting Principles (US)",
+        "FASB GAAP"
+      ],
+      "problems_solved": [
+        "Structure source-aware U.S. GAAP research questions.",
+        "Draft accounting research memos that separate verified source facts, user-provided facts, assumptions, and open verification items.",
+        "Review GAAP versus non-GAAP reconciliation questions without treating either number as automatically correct.",
+        "Prevent invented ASC citations, effective dates, disclosure requirements, and entity-specific accounting conclusions."
+      ],
+      "industries": [
+        "cross-industry",
+        "finance",
+        "accounting",
+        "public-company-reporting"
+      ],
+      "tools": [
+        "FASB Accounting Standards Codification",
+        "FASB Accounting Standards Updates",
+        "SEC EDGAR"
+      ],
+      "frameworks": [
+        "US GAAP",
+        "FASB Accounting Standards Codification"
+      ],
+      "deliverables": [
+        "Accounting research memo"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "GAAP source awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 3,
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned for source-aware U.S. GAAP research and reconciliation tasks.",
+        "evidence_note": "No measured score is claimed for this draft publication. Outputs should identify source categories, user-provided evidence, assumptions, and missing verification."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [
+        "sox"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not professional accounting, audit, tax, legal, securities, valuation, or investment advice.",
+        "Does not reproduce FASB Codification text or replace inspection of current authoritative sources.",
+        "Requires user-provided transaction facts, reporting period, entity status, policy elections, and source excerpts before final conclusions.",
+        "Governmental accounting standards issued by GASB are out of scope."
+      ],
+      "safety_notes": [
+        "Require qualified professional review before filing, audit support, board approval, lender delivery, investor communication, regulator response, or accounting-policy adoption.",
+        "Do not claim access to Codification, EDGAR filings, contracts, workpapers, accounting systems, or auditor files unless the user provides evidence or authorized tool access."
+      ]
+    },
+    {
       "id": "figma",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
@@ -2399,97 +2583,6 @@
       "safety_notes": [
         "Require explicit confirmation before creating, editing, transitioning, deleting, commenting on, exporting, bulk changing, or moving Jira work items; changing workflows, statuses, boards, filters, dashboards, permissions, automations, notifications, or API-connected actions.",
         "Do not claim access to Jira sites, projects/spaces, boards, workflows, work items/issues, reports, automations, users, groups, permissions, or API results unless the user provides evidence or authorized tool access."
-      ]
-    },
-    {
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
-      "id": "okrs",
-      "title": "Objectives and Key Results (OKRs)",
-      "description": "Framework hub for drafting, reviewing, and operating OKRs without inventing local strategy, metrics, cadence, tool fields, or HR policy.",
-      "category": "frameworks",
-      "path": "bundles/frameworks/okrs",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "draft",
-      "version": "0.1.0",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/okrs",
-      "download_url": "https://openknowledgebank.com/downloads/okrs.zip",
-      "updated": "2026-07-09",
-      "tags": [
-        "okrs",
-        "objectives-and-key-results",
-        "goal-setting",
-        "strategic-alignment",
-        "operating-cadence"
-      ],
-      "aliases": [
-        "OKRs",
-        "Objectives and Key Results",
-        "objective and key results"
-      ],
-      "problems_solved": [
-        "Draft outcome-oriented OKRs from user-provided strategy and metric evidence.",
-        "Review OKRs for clarity, measurability, ownership, local policy fit, and evidence gaps.",
-        "Distinguish objectives, key results, initiatives, committed goals, and aspirational goals.",
-        "Run OKR check-ins and retrospectives without treating local cadence or scoring as universal."
-      ],
-      "industries": [
-        "cross-industry",
-        "technology",
-        "digital-products",
-        "b2b-saas",
-        "operations"
-      ],
-      "tools": [],
-      "frameworks": [
-        "Objectives and Key Results",
-        "committed and aspirational OKRs"
-      ],
-      "deliverables": [
-        "OKR operating brief"
-      ],
-      "commands": [],
-      "skills": [],
-      "evaluations": [
-        "OKR quality check"
-      ],
-      "evaluation_summary": {
-        "status": "planned",
-        "last_evaluated": null,
-        "method": "baseline-vs-okb-rubric",
-        "tasks_count": 3,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned for an OKR drafting and review task set.",
-        "evidence_note": "No measured score is claimed for this draft publication. Outputs should identify source category, user-provided evidence, assumptions, and missing verification."
-      },
-      "related_bundles": [
-        "product-manager"
-      ],
-      "adjacent_bundles": [
-        "agile",
-        "funnel-analysis"
-      ],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "Not a substitute for an organization's strategy, metric definitions, OKR policy, HR policy, compensation policy, or performance-management process.",
-        "Requires user-provided local evidence before finalizing cadence, owners, targets, scoring, tooling, or review process.",
-        "Does not provide tool-specific OKR field names or platform workflow instructions."
-      ],
-      "safety_notes": [
-        "Require confirmation before changing live OKR tools, employee communications, compensation policy, performance-review material, staffing decisions, or executive commitments.",
-        "Do not claim access to private goals, metrics, dashboards, HR policies, or planning systems unless the user provides evidence or authorized tool access."
       ]
     },
     {
