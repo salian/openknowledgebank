@@ -2402,6 +2402,97 @@
       ]
     },
     {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "okrs",
+      "title": "Objectives and Key Results (OKRs)",
+      "description": "Framework hub for drafting, reviewing, and operating OKRs without inventing local strategy, metrics, cadence, tool fields, or HR policy.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/okrs",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/okrs",
+      "download_url": "https://openknowledgebank.com/downloads/okrs.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "okrs",
+        "objectives-and-key-results",
+        "goal-setting",
+        "strategic-alignment",
+        "operating-cadence"
+      ],
+      "aliases": [
+        "OKRs",
+        "Objectives and Key Results",
+        "objective and key results"
+      ],
+      "problems_solved": [
+        "Draft outcome-oriented OKRs from user-provided strategy and metric evidence.",
+        "Review OKRs for clarity, measurability, ownership, local policy fit, and evidence gaps.",
+        "Distinguish objectives, key results, initiatives, committed goals, and aspirational goals.",
+        "Run OKR check-ins and retrospectives without treating local cadence or scoring as universal."
+      ],
+      "industries": [
+        "cross-industry",
+        "technology",
+        "digital-products",
+        "b2b-saas",
+        "operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "Objectives and Key Results",
+        "committed and aspirational OKRs"
+      ],
+      "deliverables": [
+        "OKR operating brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "OKR quality check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 3,
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned for an OKR drafting and review task set.",
+        "evidence_note": "No measured score is claimed for this draft publication. Outputs should identify source category, user-provided evidence, assumptions, and missing verification."
+      },
+      "related_bundles": [
+        "product-manager"
+      ],
+      "adjacent_bundles": [
+        "agile",
+        "funnel-analysis"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a substitute for an organization's strategy, metric definitions, OKR policy, HR policy, compensation policy, or performance-management process.",
+        "Requires user-provided local evidence before finalizing cadence, owners, targets, scoring, tooling, or review process.",
+        "Does not provide tool-specific OKR field names or platform workflow instructions."
+      ],
+      "safety_notes": [
+        "Require confirmation before changing live OKR tools, employee communications, compensation policy, performance-review material, staffing decisions, or executive commitments.",
+        "Do not claim access to private goals, metrics, dashboards, HR policies, or planning systems unless the user provides evidence or authorized tool access."
+      ]
+    },
+    {
       "id": "salesforce-service-cloud",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
