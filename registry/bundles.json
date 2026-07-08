@@ -3,101 +3,6 @@
   "updated": "2026-07-09",
   "bundles": [
     {
-      "id": "agile",
-      "title": "Agile",
-      "description": "Framework hub for applying Agile values and principles to software delivery without confusing the umbrella with Scrum, Kanban, XP, SAFe, or another specific method.",
-      "category": "frameworks",
-      "path": "bundles/frameworks/agile",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "draft",
-      "version": "0.1.0",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/agile",
-      "download_url": "https://openknowledgebank.com/downloads/agile.zip",
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
-      "updated": "2026-07-09",
-      "tags": [
-        "agile",
-        "software-delivery",
-        "product-development",
-        "engineering-process",
-        "delivery-management"
-      ],
-      "aliases": [
-        "Agile software delivery",
-        "Agile Manifesto",
-        "Agile methods",
-        "agile development"
-      ],
-      "problems_solved": [
-        "Anchor Agile guidance in the Manifesto values and principle themes.",
-        "Choose between Agile method families based on context instead of labels.",
-        "Diagnose process theater that lacks feedback, working software, or adaptation.",
-        "Separate umbrella Agile guidance from Scrum, Kanban, XP, SAFe, and other method mechanics."
-      ],
-      "industries": [
-        "software",
-        "digital-products",
-        "technology"
-      ],
-      "tools": [],
-      "frameworks": [
-        "Agile Manifesto",
-        "Scrum",
-        "Kanban Method",
-        "Extreme Programming",
-        "SAFe",
-        "Lean Software Development"
-      ],
-      "deliverables": [
-        "agile operating brief"
-      ],
-      "commands": [
-        "/choose-agile-method"
-      ],
-      "skills": [],
-      "evaluations": [
-        "Agile guidance quality check"
-      ],
-      "evaluation_summary": {
-        "status": "planned",
-        "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured evaluation is planned for a framework-hub task set.",
-        "evidence_note": "No measured baseline-vs-OKB score has been run for this initial umbrella release."
-      },
-      "evaluation_detail": {},
-      "related_bundles": [
-        "product-manager"
-      ],
-      "adjacent_bundles": [
-        "ga4-analytics-specialist",
-        "performance-marketer"
-      ],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "Not a complete implementation guide for Scrum, Kanban, XP, SAFe, DSDM, LeSS, Crystal, FDD, Scrumban, Disciplined Agile, or Nexus.",
-        "Requires user-provided team, workflow, delivery, quality, and tool evidence before judging an organization's actual agility.",
-        "Does not replace professional advice for contractual, HR, compliance, or regulated delivery decisions."
-      ],
-      "safety_notes": [
-        "Require confirmation before changing live boards, workflows, reports, staffing plans, contract commitments, release policies, or customer communications.",
-        "Do not claim access to private delivery metrics, tickets, source repositories, or planning artifacts unless the user provides evidence or authorized tool access."
-      ]
-    },
-    {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
       "id": "ccpa",
@@ -185,214 +90,401 @@
       ]
     },
     {
-      "id": "figma",
+      "id": "gdpr",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
-      "title": "Figma",
-      "category": "tools",
-      "description": "Tool bundle for source-aware Figma design, prototype, design-system, Dev Mode, handoff, and sharing-permission planning.",
-      "path": "bundles/tools/figma",
+      "title": "GDPR",
+      "category": "compliance",
+      "description": "Source-aware compliance hub for GDPR obligation triage, official source selection, and public-safe compliance brief drafting.",
+      "path": "bundles/compliance/gdpr",
       "repo": "https://github.com/salian/openknowledgebank",
       "license": "CC-BY-4.0",
       "trust_tier": "trusted",
       "status": "draft",
       "version": "0.1.0",
       "updated": "2026-07-09",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/figma",
-      "download_url": "https://openknowledgebank.com/downloads/figma.zip",
       "tags": [
-        "figma",
-        "design",
-        "prototyping",
-        "design-systems",
-        "developer-handoff"
+        "gdpr",
+        "privacy",
+        "data-protection",
+        "compliance",
+        "eu"
       ],
       "aliases": [
-        "Figma Design",
-        "FigJam",
-        "Figma Dev Mode"
+        "General Data Protection Regulation",
+        "Regulation EU 2016 679"
       ],
       "problems_solved": [
-        "Plan Figma design handoff without inventing file, frame, component, variable, or permission details.",
-        "Separate official Figma product behavior from user-provided file, library, Dev Mode, prototype, and team evidence.",
-        "Review design-system, prototype, export, sharing, and permissions risk before action.",
-        "Produce handoff readiness plans with source notes, validation checks, and confirmation boundaries."
+        "triage GDPR applicability and obligation questions without inventing legal conclusions",
+        "separate official law, regulator guidance, user-provided facts, assumptions, and missing evidence",
+        "produce source-aware GDPR compliance briefs for professional review"
       ],
       "industries": [
-        "software",
-        "digital-products",
-        "design",
-        "marketing",
-        "ecommerce"
+        "cross-industry"
       ],
-      "tools": [
-        "Figma",
-        "Figma Design",
-        "FigJam",
-        "Dev Mode",
-        "Figma libraries",
-        "Figma variables"
-      ],
+      "tools": [],
       "frameworks": [
-        "verify-first design handoff",
-        "design-system source-of-truth review",
-        "prototype readiness review",
-        "sharing and permission confirmation boundary"
+        "source-evidence matrix",
+        "controller-processor role triage"
       ],
       "deliverables": [
-        "Figma handoff readiness plan"
+        "source-aware GDPR compliance brief"
       ],
-      "commands": [
-        "/plan-figma-handoff"
-      ],
+      "commands": [],
       "skills": [],
       "evaluations": [
-        "Figma handoff plan quality check"
-      ],
-      "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": "2026-07-09",
-        "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured evaluation is blocked until a Figma task set and model/provider configuration are selected.",
-        "evidence_note": "No raw prompts or outputs are included in the public bundle."
-      },
-      "evaluation_detail": {
-        "status": "blocked",
-        "title": "Figma planned evaluation",
-        "method": "baseline-vs-okb-rubric",
-        "next_step": "Create public-safe Figma handoff tasks and run the generic evaluation harness."
-      },
-      "related_bundles": [
-        "product-manager"
-      ],
-      "adjacent_bundles": [
-        "agile"
-      ],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "Not a complete Figma Design, FigJam, Dev Mode, API, plugin, pricing, plan, connector, beta-feature, or release reference.",
-        "Requires user-provided Figma file, page, frame, component, variable, style, prototype, comment, Dev Mode, library, permission, and policy evidence before final conclusions.",
-        "Does not replace product design, design-system, accessibility, security, privacy, legal, procurement, or administrator review."
-      ],
-      "safety_notes": [
-        "Require explicit confirmation before editing, deleting, publishing, exporting, moving, commenting, changing permissions, updating libraries/components/variables/styles, running plugins/integrations, or sharing Figma links.",
-        "Do not claim access to Figma files, teams, projects, organizations, libraries, components, variables, comments, prototypes, permissions, or Dev Mode output unless the user provides evidence or authorized tool access."
-      ]
-    },
-    {
-      "id": "funnel-analysis",
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
-      "title": "Funnel Analysis",
-      "category": "frameworks",
-      "description": "Framework bundle for defining funnels, measuring stage-by-stage conversion and drop-off, comparing segments, and turning friction into verified hypotheses.",
-      "path": "bundles/frameworks/funnel-analysis",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "draft",
-      "version": "0.1.0",
-      "updated": "2026-07-09",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/funnel-analysis",
-      "download_url": "https://openknowledgebank.com/downloads/funnel-analysis.zip",
-      "tags": [
-        "funnel-analysis",
-        "conversion",
-        "analytics",
-        "ecommerce",
-        "product-analytics"
-      ],
-      "aliases": [
-        "conversion funnel analysis",
-        "funnel exploration",
-        "stage-by-stage drop-off analysis",
-        "conversion path analysis"
-      ],
-      "problems_solved": [
-        "Define funnel steps without inventing analytics events or schemas.",
-        "Interpret stage conversion and drop-off with explicit denominator logic.",
-        "Compare funnel performance across segments and breakdowns.",
-        "Separate measurement findings, hypotheses, and actions."
-      ],
-      "industries": [
-        "ecommerce",
-        "b2b-saas",
-        "digital-products",
-        "marketing"
-      ],
-      "tools": [
-        "Google Analytics",
-        "Adobe Customer Journey Analytics",
-        "BigQuery"
-      ],
-      "frameworks": [
-        "funnel step definition",
-        "denominator reconciliation",
-        "stage drop-off diagnosis"
-      ],
-      "deliverables": [
-        "funnel analysis brief"
-      ],
-      "commands": [
-        "/diagnose-funnel-drop"
-      ],
-      "skills": [],
-      "evaluations": [
-        "Funnel analysis quality check"
-      ],
-      "related_bundles": [
-        "ga4-analytics-specialist",
-        "google-bigquery"
-      ],
-      "adjacent_bundles": [
-        "performance-marketer"
-      ],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "Not a complete GA4, Adobe Analytics, BigQuery, experimentation, or SQL implementation guide.",
-        "Requires user-provided event, schema, report, date-range, segment, and denominator evidence for final conclusions.",
-        "Does not prove causality from funnel drop-off alone."
-      ],
-      "safety_notes": [
-        "Require confirmation before modifying live analytics configuration, tags, dashboards, campaigns, experiments, exports, or warehouse tables.",
-        "Do not claim access to analytics tools, event schemas, user-level records, or reports unless the user provides evidence or authorized tool access."
+        "GDPR source-awareness check"
       ],
       "evaluation_summary": {
         "status": "planned",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned for this framework bundle.",
-        "evidence_note": "No approved funnel-analysis task set or model/provider configuration has been selected yet."
+        "tasks_count": 0,
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the GDPR hub bundle.",
+        "evidence_note": "No measured score is claimed for this draft publication."
       },
       "evaluation_detail": {
         "status": "planned",
-        "title": "Funnel Analysis planned evaluation",
+        "title": "GDPR source-awareness measured evaluation",
+        "planned_method": "Run baseline and bundle-assisted GDPR triage tasks against the source-awareness rubric before publishing measured lift."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is a compliance hub, not legal advice or a full article-by-article GDPR treatise.",
+        "Scenario-specific answers require current legal text, regulator guidance, jurisdiction facts, and user-provided processing evidence.",
+        "Measured evaluation is planned but not complete."
+      ],
+      "safety_notes": [
+        "Require qualified legal or privacy professional review before relying on outputs for regulatory, enforcement, contractual, or incident-response decisions.",
+        "Do not request, expose, or publish personal data beyond what is necessary for the user-approved analysis.",
+        "Require explicit confirmation before submitting notices, contacting regulators, changing policies, or sending legal communications."
+      ],
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/gdpr",
+      "download_url": "https://openknowledgebank.com/downloads/gdpr.zip"
+    },
+    {
+      "id": "hipaa",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "HIPAA",
+      "category": "compliance",
+      "description": "Source-aware compliance hub for U.S. HIPAA privacy, security, breach notification, enforcement, and Administrative Simplification triage.",
+      "path": "bundles/compliance/hipaa",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/hipaa",
+      "download_url": "https://openknowledgebank.com/downloads/hipaa.zip",
+      "tags": [
+        "hipaa",
+        "healthcare",
+        "privacy",
+        "security",
+        "compliance",
+        "united-states"
+      ],
+      "aliases": [
+        "Health Insurance Portability and Accountability Act",
+        "HIPAA Administrative Simplification"
+      ],
+      "problems_solved": [
+        "Triage HIPAA questions without inventing legal conclusions.",
+        "Separate official HIPAA sources, user-provided facts, assumptions, and missing evidence.",
+        "Route questions to Privacy Rule, Security Rule, Breach Notification Rule, Enforcement, transactions, identifiers, or code-set source categories.",
+        "Produce source-aware HIPAA compliance briefs for professional review."
+      ],
+      "industries": [
+        "healthcare",
+        "health-insurance",
+        "health-technology",
+        "revenue-cycle"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "HIPAA rule-family triage",
+        "regulated-entity scope check"
+      ],
+      "deliverables": [
+        "source-aware HIPAA compliance brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "HIPAA source-awareness check"
+      ],
+      "related_bundles": [
+        "hipaa-breach-notification-rule",
+        "hipaa-claims-attachments-standards",
+        "hipaa-eft-era-operating-rules",
+        "hipaa-eligibility-claim-status-operating-rules",
+        "hipaa-employer-identifier-ein",
+        "hipaa-enforcement-cooperation",
+        "hipaa-medical-code-sets",
+        "hipaa-national-provider-identifier",
+        "hipaa-privacy-rule",
+        "hipaa-security-rule",
+        "hipaa-security-rule-cybersecurity-nprm",
+        "hipaa-transactions-standards"
+      ],
+      "adjacent_bundles": [
+        "compliance-officer",
+        "healthcare-hipaa-business-associate-agreement-baa-attorney",
+        "data-protection-officer-privacy-officer",
+        "chief-information-security-officer-ciso"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is a compliance hub, not legal advice or a complete rule-by-rule HIPAA treatise.",
+        "Scenario-specific answers require current official sources, entity and relationship facts, user-provided evidence, and professional review.",
+        "Proposed rules, state law, 42 CFR Part 2, contract terms, and organization policies must be inspected before reliance when relevant."
+      ],
+      "safety_notes": [
+        "Require qualified legal, privacy, security, compliance, or revenue-cycle professional review before relying on outputs for regulatory, enforcement, contractual, breach, or incident-response decisions.",
+        "Do not request, expose, or publish PHI or ePHI beyond what is necessary for the user-approved analysis.",
+        "Require explicit confirmation before submitting reports, contacting regulators, changing policies, changing contracts, sending notices, exporting PHI/ePHI, or modifying live systems."
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
-        "next_step": "Create public-safe funnel-analysis benchmark tasks and run the generic evaluation harness."
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned for this HIPAA compliance hub.",
+        "evidence_note": "No approved public-safe HIPAA task set, model/provider configuration, or API execution decision has been selected yet."
+      },
+      "evaluation_detail": {
+        "status": "planned",
+        "title": "HIPAA planned evaluation",
+        "method": "baseline-vs-okb-rubric",
+        "next_step": "Approve public-safe HIPAA benchmark tasks and run the generic evaluation harness."
       }
+    },
+    {
+      "id": "soc-2",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "SOC 2",
+      "category": "compliance",
+      "description": "Source-aware compliance hub for SOC 2 readiness triage, evidence framing, and professional-review handoff.",
+      "path": "bundles/compliance/soc-2",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/soc-2",
+      "download_url": "https://openknowledgebank.com/downloads/soc-2.zip",
+      "tags": [
+        "soc-2",
+        "compliance",
+        "security",
+        "vendor-trust",
+        "audit-readiness"
+      ],
+      "aliases": [
+        "System and Organization Controls 2",
+        "SOC 2 report",
+        "SOC 2 Type I",
+        "SOC 2 Type II"
+      ],
+      "problems_solved": [
+        "Triage SOC 2 questions without inventing audit conclusions or AICPA criteria.",
+        "Separate official AICPA source categories, user-provided evidence, assumptions, and missing evidence.",
+        "Produce source-aware SOC 2 readiness briefs for qualified professional review."
+      ],
+      "industries": [
+        "saas",
+        "technology",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "trust services category scoping",
+        "Type I versus Type II readiness framing"
+      ],
+      "deliverables": [
+        "source-aware SOC 2 readiness brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "SOC 2 source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 0,
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the SOC 2 hub bundle.",
+        "evidence_note": "No measured score is claimed for this draft publication. The run includes an illustrative before/after example only."
+      },
+      "evaluation_detail": {
+        "status": "planned",
+        "title": "SOC 2 source-awareness measured evaluation",
+        "planned_method": "Run baseline and bundle-assisted SOC 2 triage tasks against the source-awareness rubric before publishing measured lift."
+      },
+      "related_bundles": [
+        "auditor-external",
+        "internal-auditor",
+        "chief-information-security-officer-ciso",
+        "security-software-application-security-engineer",
+        "devops-engineer",
+        "cloud-engineer",
+        "saas-contract-lawyer-msa-sla-dpa-drafting"
+      ],
+      "adjacent_bundles": [
+        "gdpr",
+        "hipaa"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is a compliance hub, not legal, accounting, audit, attestation, or CPA advice.",
+        "Scenario-specific conclusions require current AICPA materials, the actual SOC 2 report or audit request, user-provided system evidence, and qualified professional review.",
+        "The bundle does not reproduce AICPA criteria, points of focus, report templates, or opinion language.",
+        "Measured evaluation is planned but not complete."
+      ],
+      "safety_notes": [
+        "Require qualified CPA, auditor, legal, security, or compliance professional review before relying on outputs for audit, customer, contractual, or control-change decisions.",
+        "Do not request, expose, or publish sensitive security evidence, customer data, report contents, or credentials beyond what is necessary for user-approved analysis.",
+        "Require explicit confirmation before contacting auditors, sending customer responses, exporting evidence, changing controls, or modifying production systems."
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "sox",
+      "title": "SOX",
+      "description": "Source-aware compliance hub for Sarbanes-Oxley Act executive certification, disclosure controls, ICFR assessment, and auditor-attestation triage.",
+      "category": "compliance",
+      "path": "bundles/compliance/sox",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/sox",
+      "download_url": "https://openknowledgebank.com/downloads/sox.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "sox",
+        "sarbanes-oxley",
+        "compliance",
+        "financial-reporting",
+        "icfr",
+        "sec",
+        "pcaob",
+        "united-states"
+      ],
+      "aliases": [
+        "Sarbanes-Oxley Act",
+        "Sarbanes-Oxley Act of 2002",
+        "SOX compliance",
+        "SOX 302",
+        "SOX 404"
+      ],
+      "problems_solved": [
+        "Triage SOX certification and ICFR questions without inventing legal, accounting, audit, or filing conclusions.",
+        "Separate official statutory, SEC, PCAOB, user-provided, assumed, and missing evidence.",
+        "Produce source-aware SOX compliance briefs for qualified professional review."
+      ],
+      "industries": [
+        "public-companies",
+        "financial-reporting",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "disclosure-controls versus ICFR triage",
+        "management-assessment and auditor-attestation handoff"
+      ],
+      "deliverables": [
+        "source-aware SOX compliance brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "SOX source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 0,
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the SOX compliance hub.",
+        "evidence_note": "No measured score is claimed for this draft publication. Exact SOX conclusions require current official sources, issuer evidence, and qualified professional review."
+      },
+      "evaluation_detail": {
+        "status": "planned",
+        "title": "SOX source-awareness measured evaluation",
+        "planned_method": "Run baseline and bundle-assisted SOX triage tasks against the source-awareness rubric before publishing measured lift."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [
+        "soc-2"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is a compliance hub, not legal, accounting, securities, audit, attestation, or CPA advice.",
+        "Scenario-specific conclusions require current statutory text, SEC rules and guidance, PCAOB standards where relevant, issuer facts, user-provided evidence, and qualified professional review.",
+        "Issuer applicability, filer status, exemptions, certification readiness, ICFR effectiveness, deficiency severity, auditor-attestation applicability, filing deadlines, and exact certification text must be verified before reliance.",
+        "Measured evaluation is planned but not complete."
+      ],
+      "safety_notes": [
+        "Require qualified legal, accounting, audit, disclosure-control, securities, or CPA professional review before relying on outputs for filings, certifications, control conclusions, auditor communications, regulator communications, or remediation decisions.",
+        "Do not request, expose, or publish confidential issuer evidence, nonpublic financial data, audit workpapers, legal advice, board materials, credentials, or control documentation beyond what is necessary for user-approved analysis.",
+        "Require explicit confirmation before contacting auditors, regulators, executives, the board, or external parties; changing controls; exporting evidence; approving certifications; submitting filings; or modifying live financial-reporting systems."
+      ]
     },
     {
       "id": "ga4-analysis-brief",
@@ -496,6 +588,204 @@
         "title": "GA4 Analysis Brief planned evaluation",
         "method": "baseline-vs-okb-rubric",
         "next_step": "Create public-safe GA4 analysis brief benchmark tasks and run the generic evaluation harness."
+      }
+    },
+    {
+      "id": "agile",
+      "title": "Agile",
+      "description": "Framework hub for applying Agile values and principles to software delivery without confusing the umbrella with Scrum, Kanban, XP, SAFe, or another specific method.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/agile",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/agile",
+      "download_url": "https://openknowledgebank.com/downloads/agile.zip",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "updated": "2026-07-09",
+      "tags": [
+        "agile",
+        "software-delivery",
+        "product-development",
+        "engineering-process",
+        "delivery-management"
+      ],
+      "aliases": [
+        "Agile software delivery",
+        "Agile Manifesto",
+        "Agile methods",
+        "agile development"
+      ],
+      "problems_solved": [
+        "Anchor Agile guidance in the Manifesto values and principle themes.",
+        "Choose between Agile method families based on context instead of labels.",
+        "Diagnose process theater that lacks feedback, working software, or adaptation.",
+        "Separate umbrella Agile guidance from Scrum, Kanban, XP, SAFe, and other method mechanics."
+      ],
+      "industries": [
+        "software",
+        "digital-products",
+        "technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "Agile Manifesto",
+        "Scrum",
+        "Kanban Method",
+        "Extreme Programming",
+        "SAFe",
+        "Lean Software Development"
+      ],
+      "deliverables": [
+        "agile operating brief"
+      ],
+      "commands": [
+        "/choose-agile-method"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Agile guidance quality check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "method": "baseline-vs-okb-rubric",
+        "display_summary": "Measured evaluation is planned for a framework-hub task set.",
+        "evidence_note": "No measured baseline-vs-OKB score has been run for this initial umbrella release."
+      },
+      "evaluation_detail": {},
+      "related_bundles": [
+        "product-manager"
+      ],
+      "adjacent_bundles": [
+        "ga4-analytics-specialist",
+        "performance-marketer"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete implementation guide for Scrum, Kanban, XP, SAFe, DSDM, LeSS, Crystal, FDD, Scrumban, Disciplined Agile, or Nexus.",
+        "Requires user-provided team, workflow, delivery, quality, and tool evidence before judging an organization's actual agility.",
+        "Does not replace professional advice for contractual, HR, compliance, or regulated delivery decisions."
+      ],
+      "safety_notes": [
+        "Require confirmation before changing live boards, workflows, reports, staffing plans, contract commitments, release policies, or customer communications.",
+        "Do not claim access to private delivery metrics, tickets, source repositories, or planning artifacts unless the user provides evidence or authorized tool access."
+      ]
+    },
+    {
+      "id": "funnel-analysis",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "Funnel Analysis",
+      "category": "frameworks",
+      "description": "Framework bundle for defining funnels, measuring stage-by-stage conversion and drop-off, comparing segments, and turning friction into verified hypotheses.",
+      "path": "bundles/frameworks/funnel-analysis",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/funnel-analysis",
+      "download_url": "https://openknowledgebank.com/downloads/funnel-analysis.zip",
+      "tags": [
+        "funnel-analysis",
+        "conversion",
+        "analytics",
+        "ecommerce",
+        "product-analytics"
+      ],
+      "aliases": [
+        "conversion funnel analysis",
+        "funnel exploration",
+        "stage-by-stage drop-off analysis",
+        "conversion path analysis"
+      ],
+      "problems_solved": [
+        "Define funnel steps without inventing analytics events or schemas.",
+        "Interpret stage conversion and drop-off with explicit denominator logic.",
+        "Compare funnel performance across segments and breakdowns.",
+        "Separate measurement findings, hypotheses, and actions."
+      ],
+      "industries": [
+        "ecommerce",
+        "b2b-saas",
+        "digital-products",
+        "marketing"
+      ],
+      "tools": [
+        "Google Analytics",
+        "Adobe Customer Journey Analytics",
+        "BigQuery"
+      ],
+      "frameworks": [
+        "funnel step definition",
+        "denominator reconciliation",
+        "stage drop-off diagnosis"
+      ],
+      "deliverables": [
+        "funnel analysis brief"
+      ],
+      "commands": [
+        "/diagnose-funnel-drop"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Funnel analysis quality check"
+      ],
+      "related_bundles": [
+        "ga4-analytics-specialist",
+        "google-bigquery"
+      ],
+      "adjacent_bundles": [
+        "performance-marketer"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete GA4, Adobe Analytics, BigQuery, experimentation, or SQL implementation guide.",
+        "Requires user-provided event, schema, report, date-range, segment, and denominator evidence for final conclusions.",
+        "Does not prove causality from funnel drop-off alone."
+      ],
+      "safety_notes": [
+        "Require confirmation before modifying live analytics configuration, tags, dashboards, campaigns, experiments, exports, or warehouse tables.",
+        "Do not claim access to analytics tools, event schemas, user-level records, or reports unless the user provides evidence or authorized tool access."
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned for this framework bundle.",
+        "evidence_note": "No approved funnel-analysis task set or model/provider configuration has been selected yet."
+      },
+      "evaluation_detail": {
+        "status": "planned",
+        "title": "Funnel Analysis planned evaluation",
+        "method": "baseline-vs-okb-rubric",
+        "next_step": "Create public-safe funnel-analysis benchmark tasks and run the generic evaluation harness."
       }
     },
     {
@@ -864,300 +1154,6 @@
       "download_url": "https://openknowledgebank.com/downloads/ga4-analytics-specialist.zip"
     },
     {
-      "id": "gdpr",
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
-      "title": "GDPR",
-      "category": "compliance",
-      "description": "Source-aware compliance hub for GDPR obligation triage, official source selection, and public-safe compliance brief drafting.",
-      "path": "bundles/compliance/gdpr",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "draft",
-      "version": "0.1.0",
-      "updated": "2026-07-09",
-      "tags": [
-        "gdpr",
-        "privacy",
-        "data-protection",
-        "compliance",
-        "eu"
-      ],
-      "aliases": [
-        "General Data Protection Regulation",
-        "Regulation EU 2016 679"
-      ],
-      "problems_solved": [
-        "triage GDPR applicability and obligation questions without inventing legal conclusions",
-        "separate official law, regulator guidance, user-provided facts, assumptions, and missing evidence",
-        "produce source-aware GDPR compliance briefs for professional review"
-      ],
-      "industries": [
-        "cross-industry"
-      ],
-      "tools": [],
-      "frameworks": [
-        "source-evidence matrix",
-        "controller-processor role triage"
-      ],
-      "deliverables": [
-        "source-aware GDPR compliance brief"
-      ],
-      "commands": [],
-      "skills": [],
-      "evaluations": [
-        "GDPR source-awareness check"
-      ],
-      "evaluation_summary": {
-        "status": "planned",
-        "last_evaluated": null,
-        "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the GDPR hub bundle.",
-        "evidence_note": "No measured score is claimed for this draft publication."
-      },
-      "evaluation_detail": {
-        "status": "planned",
-        "title": "GDPR source-awareness measured evaluation",
-        "planned_method": "Run baseline and bundle-assisted GDPR triage tasks against the source-awareness rubric before publishing measured lift."
-      },
-      "related_bundles": [],
-      "adjacent_bundles": [],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "This bundle is a compliance hub, not legal advice or a full article-by-article GDPR treatise.",
-        "Scenario-specific answers require current legal text, regulator guidance, jurisdiction facts, and user-provided processing evidence.",
-        "Measured evaluation is planned but not complete."
-      ],
-      "safety_notes": [
-        "Require qualified legal or privacy professional review before relying on outputs for regulatory, enforcement, contractual, or incident-response decisions.",
-        "Do not request, expose, or publish personal data beyond what is necessary for the user-approved analysis.",
-        "Require explicit confirmation before submitting notices, contacting regulators, changing policies, or sending legal communications."
-      ],
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/gdpr",
-      "download_url": "https://openknowledgebank.com/downloads/gdpr.zip"
-    },
-    {
-      "id": "google-bigquery",
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
-      "title": "Google BigQuery",
-      "category": "tools",
-      "description": "Tool knowledge for source-aware BigQuery query planning, cost checks, performance review, and analytics warehouse work.",
-      "path": "bundles/tools/google-bigquery",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "draft",
-      "version": "0.1.0",
-      "updated": "2026-07-08",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/google-bigquery",
-      "download_url": "https://openknowledgebank.com/downloads/google-bigquery.zip",
-      "tags": [
-        "bigquery",
-        "google-cloud",
-        "data-warehouse",
-        "analytics",
-        "sql"
-      ],
-      "aliases": [
-        "BigQuery",
-        "Google Cloud BigQuery"
-      ],
-      "problems_solved": [
-        "plan BigQuery analysis without inventing schemas or access",
-        "draft query plans with source scope, grain, filters, joins, and validation checks",
-        "add dry-run and cost preflight discipline before live queries",
-        "review partitioning, clustering, and projection choices at a source-aware level"
-      ],
-      "industries": [
-        "analytics",
-        "data",
-        "marketing",
-        "product"
-      ],
-      "tools": [
-        "BigQuery",
-        "GoogleSQL",
-        "Google Cloud"
-      ],
-      "frameworks": [
-        "verify-first query planning",
-        "cost and performance preflight",
-        "source-of-record reconciliation"
-      ],
-      "deliverables": [
-        "BigQuery query plan"
-      ],
-      "commands": [
-        "/plan-bigquery-query"
-      ],
-      "skills": [],
-      "evaluations": [
-        "BigQuery query plan quality check"
-      ],
-      "evaluation_summary": {
-        "status": "planned",
-        "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured evaluation is planned; v1 publication includes an evaluation blocker rather than measured scores.",
-        "evidence_note": "No raw prompts or private evaluation outputs exist for v1."
-      },
-      "evaluation_detail": {
-        "status": "planned",
-        "title": "Google BigQuery evaluation plan",
-        "summary": "Create a BigQuery task set focused on schema discipline, query planning, cost preflight, and validation before measuring."
-      },
-      "related_bundles": [
-        "ga4-analytics-specialist"
-      ],
-      "adjacent_bundles": [
-        "performance-marketer"
-      ],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "Not a complete BigQuery schema, API, IAM, pricing, quota, or SQL syntax reference.",
-        "Requires user-provided project, dataset, table, schema, SQL, job, billing, and permission evidence for final conclusions.",
-        "Does not replace privacy, security, compliance, or data governance review."
-      ],
-      "safety_notes": [
-        "Require confirmation before running live queries, exporting data, writing tables, changing permissions, or making billing/capacity changes.",
-        "Do not claim access to BigQuery projects, datasets, tables, schemas, or jobs unless the user provides evidence or authorized tool access."
-      ]
-    },
-    {
-      "id": "hipaa",
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
-      "title": "HIPAA",
-      "category": "compliance",
-      "description": "Source-aware compliance hub for U.S. HIPAA privacy, security, breach notification, enforcement, and Administrative Simplification triage.",
-      "path": "bundles/compliance/hipaa",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "draft",
-      "version": "0.1.0",
-      "updated": "2026-07-09",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/hipaa",
-      "download_url": "https://openknowledgebank.com/downloads/hipaa.zip",
-      "tags": [
-        "hipaa",
-        "healthcare",
-        "privacy",
-        "security",
-        "compliance",
-        "united-states"
-      ],
-      "aliases": [
-        "Health Insurance Portability and Accountability Act",
-        "HIPAA Administrative Simplification"
-      ],
-      "problems_solved": [
-        "Triage HIPAA questions without inventing legal conclusions.",
-        "Separate official HIPAA sources, user-provided facts, assumptions, and missing evidence.",
-        "Route questions to Privacy Rule, Security Rule, Breach Notification Rule, Enforcement, transactions, identifiers, or code-set source categories.",
-        "Produce source-aware HIPAA compliance briefs for professional review."
-      ],
-      "industries": [
-        "healthcare",
-        "health-insurance",
-        "health-technology",
-        "revenue-cycle"
-      ],
-      "tools": [],
-      "frameworks": [
-        "source-evidence matrix",
-        "HIPAA rule-family triage",
-        "regulated-entity scope check"
-      ],
-      "deliverables": [
-        "source-aware HIPAA compliance brief"
-      ],
-      "commands": [],
-      "skills": [],
-      "evaluations": [
-        "HIPAA source-awareness check"
-      ],
-      "related_bundles": [
-        "hipaa-breach-notification-rule",
-        "hipaa-claims-attachments-standards",
-        "hipaa-eft-era-operating-rules",
-        "hipaa-eligibility-claim-status-operating-rules",
-        "hipaa-employer-identifier-ein",
-        "hipaa-enforcement-cooperation",
-        "hipaa-medical-code-sets",
-        "hipaa-national-provider-identifier",
-        "hipaa-privacy-rule",
-        "hipaa-security-rule",
-        "hipaa-security-rule-cybersecurity-nprm",
-        "hipaa-transactions-standards"
-      ],
-      "adjacent_bundles": [
-        "compliance-officer",
-        "healthcare-hipaa-business-associate-agreement-baa-attorney",
-        "data-protection-officer-privacy-officer",
-        "chief-information-security-officer-ciso"
-      ],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "This bundle is a compliance hub, not legal advice or a complete rule-by-rule HIPAA treatise.",
-        "Scenario-specific answers require current official sources, entity and relationship facts, user-provided evidence, and professional review.",
-        "Proposed rules, state law, 42 CFR Part 2, contract terms, and organization policies must be inspected before reliance when relevant."
-      ],
-      "safety_notes": [
-        "Require qualified legal, privacy, security, compliance, or revenue-cycle professional review before relying on outputs for regulatory, enforcement, contractual, breach, or incident-response decisions.",
-        "Do not request, expose, or publish PHI or ePHI beyond what is necessary for the user-approved analysis.",
-        "Require explicit confirmation before submitting reports, contacting regulators, changing policies, changing contracts, sending notices, exporting PHI/ePHI, or modifying live systems."
-      ],
-      "evaluation_summary": {
-        "status": "planned",
-        "last_evaluated": null,
-        "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned for this HIPAA compliance hub.",
-        "evidence_note": "No approved public-safe HIPAA task set, model/provider configuration, or API execution decision has been selected yet."
-      },
-      "evaluation_detail": {
-        "status": "planned",
-        "title": "HIPAA planned evaluation",
-        "method": "baseline-vs-okb-rubric",
-        "next_step": "Approve public-safe HIPAA benchmark tasks and run the generic evaluation harness."
-      }
-    },
-    {
       "id": "performance-marketer",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
@@ -1367,102 +1363,6 @@
       "download_url": "https://openknowledgebank.com/downloads/product-manager.zip"
     },
     {
-      "id": "salesforce-service-cloud",
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
-      "title": "Salesforce Service Cloud",
-      "category": "tools",
-      "description": "Tool bundle for source-aware Salesforce Service Cloud and Agentforce Service planning, case routing review, automation checks, and support operations work.",
-      "path": "bundles/tools/salesforce-service-cloud",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "draft",
-      "version": "0.1.0",
-      "updated": "2026-07-09",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/salesforce-service-cloud",
-      "download_url": "https://openknowledgebank.com/downloads/salesforce-service-cloud.zip",
-      "tags": [
-        "salesforce",
-        "service-cloud",
-        "agentforce-service",
-        "customer-support",
-        "contact-center",
-        "crm"
-      ],
-      "aliases": [
-        "Service Cloud",
-        "Salesforce Agentforce Service",
-        "Agentforce Service"
-      ],
-      "problems_solved": [
-        "Plan Service Cloud case, routing, and automation work without inventing org configuration.",
-        "Separate official Salesforce source facts from user-provided org evidence and assumptions.",
-        "Review case lifecycle, Omni-Channel, queues, knowledge, reports, and automation with explicit confirmation boundaries.",
-        "Produce change plans that include validation, rollback, and source notes before production changes."
-      ],
-      "industries": [
-        "customer-service",
-        "customer-support",
-        "contact-center",
-        "customer-success"
-      ],
-      "tools": [
-        "Salesforce Service Cloud",
-        "Agentforce Service",
-        "Salesforce Help",
-        "Salesforce Developers",
-        "Omni-Channel",
-        "Salesforce Knowledge"
-      ],
-      "frameworks": [
-        "verify-first Salesforce planning",
-        "source-of-record reconciliation",
-        "production-change confirmation boundary"
-      ],
-      "deliverables": [
-        "Service Cloud change plan"
-      ],
-      "commands": [
-        "/plan-service-cloud-case-work"
-      ],
-      "skills": [],
-      "evaluations": [
-        "Service Cloud plan quality check"
-      ],
-      "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": "2026-07-09",
-        "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured evaluation is blocked until a Salesforce Service Cloud task set and model/provider configuration are selected.",
-        "evidence_note": "No raw prompts or outputs are included in the public bundle."
-      },
-      "related_bundles": [],
-      "adjacent_bundles": [],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "Not a complete Salesforce implementation, object model, API, pricing, edition, license, release, or limits reference.",
-        "Requires user-provided Salesforce org evidence before final conclusions about objects, fields, queues, routing, flows, entitlements, reports, permissions, or AI behavior.",
-        "Does not replace Salesforce administrator, architect, security, privacy, compliance, legal, or change-management review."
-      ],
-      "safety_notes": [
-        "Require explicit confirmation before changing Salesforce records, metadata, routing, queues, permissions, automations, integrations, exports, AI/customer-facing behavior, or customer communications.",
-        "Do not request credentials or claim Salesforce org access unless the user provides authorized tool access or evidence."
-      ]
-    },
-    {
       "id": "seo-specialist-consultant",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
@@ -1570,109 +1470,6 @@
         "method": "baseline-vs-okb-rubric",
         "next_step": "Set OpenRouter credentials and run the generic evaluation harness for the v1 task set."
       }
-    },
-    {
-      "id": "soc-2",
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
-      "title": "SOC 2",
-      "category": "compliance",
-      "description": "Source-aware compliance hub for SOC 2 readiness triage, evidence framing, and professional-review handoff.",
-      "path": "bundles/compliance/soc-2",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "draft",
-      "version": "0.1.0",
-      "updated": "2026-07-09",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/soc-2",
-      "download_url": "https://openknowledgebank.com/downloads/soc-2.zip",
-      "tags": [
-        "soc-2",
-        "compliance",
-        "security",
-        "vendor-trust",
-        "audit-readiness"
-      ],
-      "aliases": [
-        "System and Organization Controls 2",
-        "SOC 2 report",
-        "SOC 2 Type I",
-        "SOC 2 Type II"
-      ],
-      "problems_solved": [
-        "Triage SOC 2 questions without inventing audit conclusions or AICPA criteria.",
-        "Separate official AICPA source categories, user-provided evidence, assumptions, and missing evidence.",
-        "Produce source-aware SOC 2 readiness briefs for qualified professional review."
-      ],
-      "industries": [
-        "saas",
-        "technology",
-        "cross-industry"
-      ],
-      "tools": [],
-      "frameworks": [
-        "source-evidence matrix",
-        "trust services category scoping",
-        "Type I versus Type II readiness framing"
-      ],
-      "deliverables": [
-        "source-aware SOC 2 readiness brief"
-      ],
-      "commands": [],
-      "skills": [],
-      "evaluations": [
-        "SOC 2 source-awareness check"
-      ],
-      "evaluation_summary": {
-        "status": "planned",
-        "last_evaluated": null,
-        "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the SOC 2 hub bundle.",
-        "evidence_note": "No measured score is claimed for this draft publication. The run includes an illustrative before/after example only."
-      },
-      "evaluation_detail": {
-        "status": "planned",
-        "title": "SOC 2 source-awareness measured evaluation",
-        "planned_method": "Run baseline and bundle-assisted SOC 2 triage tasks against the source-awareness rubric before publishing measured lift."
-      },
-      "related_bundles": [
-        "auditor-external",
-        "internal-auditor",
-        "chief-information-security-officer-ciso",
-        "security-software-application-security-engineer",
-        "devops-engineer",
-        "cloud-engineer",
-        "saas-contract-lawyer-msa-sla-dpa-drafting"
-      ],
-      "adjacent_bundles": [
-        "gdpr",
-        "hipaa"
-      ],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "This bundle is a compliance hub, not legal, accounting, audit, attestation, or CPA advice.",
-        "Scenario-specific conclusions require current AICPA materials, the actual SOC 2 report or audit request, user-provided system evidence, and qualified professional review.",
-        "The bundle does not reproduce AICPA criteria, points of focus, report templates, or opinion language.",
-        "Measured evaluation is planned but not complete."
-      ],
-      "safety_notes": [
-        "Require qualified CPA, auditor, legal, security, or compliance professional review before relying on outputs for audit, customer, contractual, or control-change decisions.",
-        "Do not request, expose, or publish sensitive security evidence, customer data, report contents, or credentials beyond what is necessary for user-approved analysis.",
-        "Require explicit confirmation before contacting auditors, sending customer responses, exporting evidence, changing controls, or modifying production systems."
-      ]
     },
     {
       "id": "stackoverflow-data-analyst",
@@ -1812,6 +1609,307 @@
       },
       "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/stackoverflow-data-analyst",
       "download_url": "https://openknowledgebank.com/downloads/stackoverflow-data-analyst.zip"
+    },
+    {
+      "id": "figma",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "Figma",
+      "category": "tools",
+      "description": "Tool bundle for source-aware Figma design, prototype, design-system, Dev Mode, handoff, and sharing-permission planning.",
+      "path": "bundles/tools/figma",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/figma",
+      "download_url": "https://openknowledgebank.com/downloads/figma.zip",
+      "tags": [
+        "figma",
+        "design",
+        "prototyping",
+        "design-systems",
+        "developer-handoff"
+      ],
+      "aliases": [
+        "Figma Design",
+        "FigJam",
+        "Figma Dev Mode"
+      ],
+      "problems_solved": [
+        "Plan Figma design handoff without inventing file, frame, component, variable, or permission details.",
+        "Separate official Figma product behavior from user-provided file, library, Dev Mode, prototype, and team evidence.",
+        "Review design-system, prototype, export, sharing, and permissions risk before action.",
+        "Produce handoff readiness plans with source notes, validation checks, and confirmation boundaries."
+      ],
+      "industries": [
+        "software",
+        "digital-products",
+        "design",
+        "marketing",
+        "ecommerce"
+      ],
+      "tools": [
+        "Figma",
+        "Figma Design",
+        "FigJam",
+        "Dev Mode",
+        "Figma libraries",
+        "Figma variables"
+      ],
+      "frameworks": [
+        "verify-first design handoff",
+        "design-system source-of-truth review",
+        "prototype readiness review",
+        "sharing and permission confirmation boundary"
+      ],
+      "deliverables": [
+        "Figma handoff readiness plan"
+      ],
+      "commands": [
+        "/plan-figma-handoff"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Figma handoff plan quality check"
+      ],
+      "evaluation_summary": {
+        "status": "blocked",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 0,
+        "display_summary": "Measured evaluation is blocked until a Figma task set and model/provider configuration are selected.",
+        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+      },
+      "evaluation_detail": {
+        "status": "blocked",
+        "title": "Figma planned evaluation",
+        "method": "baseline-vs-okb-rubric",
+        "next_step": "Create public-safe Figma handoff tasks and run the generic evaluation harness."
+      },
+      "related_bundles": [
+        "product-manager"
+      ],
+      "adjacent_bundles": [
+        "agile"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete Figma Design, FigJam, Dev Mode, API, plugin, pricing, plan, connector, beta-feature, or release reference.",
+        "Requires user-provided Figma file, page, frame, component, variable, style, prototype, comment, Dev Mode, library, permission, and policy evidence before final conclusions.",
+        "Does not replace product design, design-system, accessibility, security, privacy, legal, procurement, or administrator review."
+      ],
+      "safety_notes": [
+        "Require explicit confirmation before editing, deleting, publishing, exporting, moving, commenting, changing permissions, updating libraries/components/variables/styles, running plugins/integrations, or sharing Figma links.",
+        "Do not claim access to Figma files, teams, projects, organizations, libraries, components, variables, comments, prototypes, permissions, or Dev Mode output unless the user provides evidence or authorized tool access."
+      ]
+    },
+    {
+      "id": "google-bigquery",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "Google BigQuery",
+      "category": "tools",
+      "description": "Tool knowledge for source-aware BigQuery query planning, cost checks, performance review, and analytics warehouse work.",
+      "path": "bundles/tools/google-bigquery",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-08",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/google-bigquery",
+      "download_url": "https://openknowledgebank.com/downloads/google-bigquery.zip",
+      "tags": [
+        "bigquery",
+        "google-cloud",
+        "data-warehouse",
+        "analytics",
+        "sql"
+      ],
+      "aliases": [
+        "BigQuery",
+        "Google Cloud BigQuery"
+      ],
+      "problems_solved": [
+        "plan BigQuery analysis without inventing schemas or access",
+        "draft query plans with source scope, grain, filters, joins, and validation checks",
+        "add dry-run and cost preflight discipline before live queries",
+        "review partitioning, clustering, and projection choices at a source-aware level"
+      ],
+      "industries": [
+        "analytics",
+        "data",
+        "marketing",
+        "product"
+      ],
+      "tools": [
+        "BigQuery",
+        "GoogleSQL",
+        "Google Cloud"
+      ],
+      "frameworks": [
+        "verify-first query planning",
+        "cost and performance preflight",
+        "source-of-record reconciliation"
+      ],
+      "deliverables": [
+        "BigQuery query plan"
+      ],
+      "commands": [
+        "/plan-bigquery-query"
+      ],
+      "skills": [],
+      "evaluations": [
+        "BigQuery query plan quality check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "method": "baseline-vs-okb-rubric",
+        "display_summary": "Measured evaluation is planned; v1 publication includes an evaluation blocker rather than measured scores.",
+        "evidence_note": "No raw prompts or private evaluation outputs exist for v1."
+      },
+      "evaluation_detail": {
+        "status": "planned",
+        "title": "Google BigQuery evaluation plan",
+        "summary": "Create a BigQuery task set focused on schema discipline, query planning, cost preflight, and validation before measuring."
+      },
+      "related_bundles": [
+        "ga4-analytics-specialist"
+      ],
+      "adjacent_bundles": [
+        "performance-marketer"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete BigQuery schema, API, IAM, pricing, quota, or SQL syntax reference.",
+        "Requires user-provided project, dataset, table, schema, SQL, job, billing, and permission evidence for final conclusions.",
+        "Does not replace privacy, security, compliance, or data governance review."
+      ],
+      "safety_notes": [
+        "Require confirmation before running live queries, exporting data, writing tables, changing permissions, or making billing/capacity changes.",
+        "Do not claim access to BigQuery projects, datasets, tables, schemas, or jobs unless the user provides evidence or authorized tool access."
+      ]
+    },
+    {
+      "id": "salesforce-service-cloud",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "Salesforce Service Cloud",
+      "category": "tools",
+      "description": "Tool bundle for source-aware Salesforce Service Cloud and Agentforce Service planning, case routing review, automation checks, and support operations work.",
+      "path": "bundles/tools/salesforce-service-cloud",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/salesforce-service-cloud",
+      "download_url": "https://openknowledgebank.com/downloads/salesforce-service-cloud.zip",
+      "tags": [
+        "salesforce",
+        "service-cloud",
+        "agentforce-service",
+        "customer-support",
+        "contact-center",
+        "crm"
+      ],
+      "aliases": [
+        "Service Cloud",
+        "Salesforce Agentforce Service",
+        "Agentforce Service"
+      ],
+      "problems_solved": [
+        "Plan Service Cloud case, routing, and automation work without inventing org configuration.",
+        "Separate official Salesforce source facts from user-provided org evidence and assumptions.",
+        "Review case lifecycle, Omni-Channel, queues, knowledge, reports, and automation with explicit confirmation boundaries.",
+        "Produce change plans that include validation, rollback, and source notes before production changes."
+      ],
+      "industries": [
+        "customer-service",
+        "customer-support",
+        "contact-center",
+        "customer-success"
+      ],
+      "tools": [
+        "Salesforce Service Cloud",
+        "Agentforce Service",
+        "Salesforce Help",
+        "Salesforce Developers",
+        "Omni-Channel",
+        "Salesforce Knowledge"
+      ],
+      "frameworks": [
+        "verify-first Salesforce planning",
+        "source-of-record reconciliation",
+        "production-change confirmation boundary"
+      ],
+      "deliverables": [
+        "Service Cloud change plan"
+      ],
+      "commands": [
+        "/plan-service-cloud-case-work"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Service Cloud plan quality check"
+      ],
+      "evaluation_summary": {
+        "status": "blocked",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 0,
+        "display_summary": "Measured evaluation is blocked until a Salesforce Service Cloud task set and model/provider configuration are selected.",
+        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete Salesforce implementation, object model, API, pricing, edition, license, release, or limits reference.",
+        "Requires user-provided Salesforce org evidence before final conclusions about objects, fields, queues, routing, flows, entitlements, reports, permissions, or AI behavior.",
+        "Does not replace Salesforce administrator, architect, security, privacy, compliance, legal, or change-management review."
+      ],
+      "safety_notes": [
+        "Require explicit confirmation before changing Salesforce records, metadata, routing, queues, permissions, automations, integrations, exports, AI/customer-facing behavior, or customer communications.",
+        "Do not request credentials or claim Salesforce org access unless the user provides authorized tool access or evidence."
+      ]
     },
     {
       "id": "tableau",
