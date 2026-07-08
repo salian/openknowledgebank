@@ -782,6 +782,110 @@
         "method": "baseline-vs-okb-rubric",
         "next_step": "Create public-safe funnel-analysis benchmark tasks and run the generic evaluation harness."
       }
+    },
+    {
+      "id": "ga4-analysis-brief",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "GA4 Analysis Brief",
+      "category": "deliverables",
+      "description": "Deliverable bundle for producing source-scoped, decision-ready GA4 analysis briefs.",
+      "path": "bundles/deliverables/ga4-analysis-brief",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/ga4-analysis-brief",
+      "download_url": "https://openknowledgebank.com/downloads/ga4-analysis-brief.zip",
+      "tags": [
+        "ga4",
+        "google-analytics",
+        "analytics",
+        "reporting",
+        "analysis-brief"
+      ],
+      "aliases": [
+        "GA4 analysis memo",
+        "GA4 diagnostic brief",
+        "GA4 conversion analysis brief",
+        "Google Analytics analysis brief"
+      ],
+      "problems_solved": [
+        "Turn GA4 reports, explorations, and exports into decision-ready analysis.",
+        "Define source scope, metrics, dimensions, filters, and caveats before conclusions.",
+        "Separate verified observations from hypotheses and next actions.",
+        "Avoid inventing GA4 access, schemas, metrics, or causes."
+      ],
+      "industries": [
+        "ecommerce",
+        "b2b-saas",
+        "digital-products",
+        "marketing"
+      ],
+      "tools": [
+        "Google Analytics",
+        "GA4",
+        "BigQuery"
+      ],
+      "frameworks": [
+        "source-scoped analytics brief",
+        "funnel analysis",
+        "measurement-health review"
+      ],
+      "deliverables": [
+        "GA4 analysis brief"
+      ],
+      "commands": [
+        "/draft-ga4-analysis-brief"
+      ],
+      "skills": [],
+      "evaluations": [
+        "GA4 analysis brief quality check"
+      ],
+      "related_bundles": [
+        "ga4-analytics-specialist",
+        "google-bigquery",
+        "funnel-analysis"
+      ],
+      "adjacent_bundles": [
+        "performance-marketer"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a full GA4 implementation, admin, tagging, reporting, or SQL guide.",
+        "Requires user-provided report, exploration, export, schema, date-range, metric, dimension, filter, and segment evidence for final conclusions.",
+        "Does not prove causality from GA4 metric changes alone."
+      ],
+      "safety_notes": [
+        "Require confirmation before modifying live GA4, GTM, dashboards, campaigns, experiments, exports, or warehouse tables.",
+        "Do not claim access to GA4 properties, reports, events, or exports unless the user provides evidence or authorized tool access."
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned for this deliverable bundle.",
+        "evidence_note": "No approved GA4 analysis brief task set or model/provider configuration has been selected yet."
+      },
+      "evaluation_detail": {
+        "status": "planned",
+        "title": "GA4 Analysis Brief planned evaluation",
+        "method": "baseline-vs-okb-rubric",
+        "next_step": "Create public-safe GA4 analysis brief benchmark tasks and run the generic evaluation harness."
+      }
     }
   ]
 }
