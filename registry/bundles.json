@@ -5,6 +5,91 @@
     {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
+      "id": "can-spam",
+      "title": "CAN-SPAM",
+      "description": "Source-aware compliance hub for U.S. commercial email marketing rules under the CAN-SPAM Act and FTC CAN-SPAM Rule.",
+      "category": "compliance",
+      "path": "bundles/compliance/can-spam",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/can-spam",
+      "download_url": "https://openknowledgebank.com/downloads/can-spam.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "can-spam",
+        "email-marketing",
+        "commercial-email",
+        "ftc",
+        "united-states",
+        "compliance"
+      ],
+      "aliases": [
+        "CAN-SPAM Act",
+        "FTC CAN-SPAM Rule",
+        "Commercial Email Marketing Rules"
+      ],
+      "problems_solved": [
+        "Triage U.S. commercial email compliance questions without inventing legal conclusions.",
+        "Separate official FTC, statutory, and regulatory sources from user-provided campaign evidence, assumptions, and missing facts.",
+        "Produce source-aware CAN-SPAM compliance briefs for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "commercial email purpose triage",
+        "opt-out evidence review"
+      ],
+      "deliverables": [
+        "source-aware CAN-SPAM compliance brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "CAN-SPAM source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 3,
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the CAN-SPAM compliance hub.",
+        "evidence_note": "No measured score is claimed for this draft publication. Exact CAN-SPAM conclusions require current official sources, campaign evidence, and professional review."
+      },
+      "evaluation_detail": {},
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is a compliance hub, not legal advice or a full section-by-section CAN-SPAM treatise.",
+        "Scenario-specific answers require current official source inspection and user-provided campaign, list, sender, and suppression-process evidence.",
+        "State privacy, TCPA, platform, deliverability, sector-specific, and international email requirements must be inspected separately when relevant."
+      ],
+      "safety_notes": [
+        "Require qualified legal or compliance professional review before relying on outputs for campaign, enforcement, contractual, or regulatory decisions.",
+        "Do not use this bundle for spam, phishing, deceptive sender identity, deceptive subject lines, list harvesting, evasion, or abuse workflows.",
+        "Require explicit confirmation before sending email, changing campaigns, uploading lists, exporting contacts, changing suppression logic, or sending legal communications."
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
       "id": "ccpa",
       "title": "CCPA",
       "description": "Source-aware compliance hub for the California Consumer Privacy Act and CPRA-amended California privacy obligations.",
@@ -87,91 +172,6 @@
         "Require qualified legal or privacy professional review before relying on outputs for regulatory, enforcement, contractual, consumer-rights, or incident-response decisions.",
         "Do not request, expose, or publish personal information beyond what is necessary for the user-approved analysis.",
         "Require explicit confirmation before submitting notices, contacting regulators, changing privacy notices, changing contracts, sending legal communications, exporting personal information, or modifying live privacy controls."
-      ]
-    },
-    {
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
-      "id": "can-spam",
-      "title": "CAN-SPAM",
-      "description": "Source-aware compliance hub for U.S. commercial email marketing rules under the CAN-SPAM Act and FTC CAN-SPAM Rule.",
-      "category": "compliance",
-      "path": "bundles/compliance/can-spam",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "draft",
-      "version": "0.1.0",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/can-spam",
-      "download_url": "https://openknowledgebank.com/downloads/can-spam.zip",
-      "updated": "2026-07-09",
-      "tags": [
-        "can-spam",
-        "email-marketing",
-        "commercial-email",
-        "ftc",
-        "united-states",
-        "compliance"
-      ],
-      "aliases": [
-        "CAN-SPAM Act",
-        "FTC CAN-SPAM Rule",
-        "Commercial Email Marketing Rules"
-      ],
-      "problems_solved": [
-        "Triage U.S. commercial email compliance questions without inventing legal conclusions.",
-        "Separate official FTC, statutory, and regulatory sources from user-provided campaign evidence, assumptions, and missing facts.",
-        "Produce source-aware CAN-SPAM compliance briefs for professional review."
-      ],
-      "industries": [
-        "cross-industry"
-      ],
-      "tools": [],
-      "frameworks": [
-        "source-evidence matrix",
-        "commercial email purpose triage",
-        "opt-out evidence review"
-      ],
-      "deliverables": [
-        "source-aware CAN-SPAM compliance brief"
-      ],
-      "commands": [],
-      "skills": [],
-      "evaluations": [
-        "CAN-SPAM source-awareness check"
-      ],
-      "evaluation_summary": {
-        "status": "planned",
-        "last_evaluated": null,
-        "method": "baseline-vs-okb-rubric",
-        "tasks_count": 3,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the CAN-SPAM compliance hub.",
-        "evidence_note": "No measured score is claimed for this draft publication. Exact CAN-SPAM conclusions require current official sources, campaign evidence, and professional review."
-      },
-      "evaluation_detail": {},
-      "related_bundles": [],
-      "adjacent_bundles": [],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "This bundle is a compliance hub, not legal advice or a full section-by-section CAN-SPAM treatise.",
-        "Scenario-specific answers require current official source inspection and user-provided campaign, list, sender, and suppression-process evidence.",
-        "State privacy, TCPA, platform, deliverability, sector-specific, and international email requirements must be inspected separately when relevant."
-      ],
-      "safety_notes": [
-        "Require qualified legal or compliance professional review before relying on outputs for campaign, enforcement, contractual, or regulatory decisions.",
-        "Do not use this bundle for spam, phishing, deceptive sender identity, deceptive subject lines, list harvesting, evasion, or abuse workflows.",
-        "Require explicit confirmation before sending email, changing campaigns, uploading lists, exporting contacts, changing suppression logic, or sending legal communications."
       ]
     },
     {
@@ -2097,6 +2097,100 @@
       "safety_notes": [
         "Require explicit confirmation before changing Salesforce records, metadata, routing, queues, permissions, automations, integrations, exports, AI/customer-facing behavior, or customer communications.",
         "Do not request credentials or claim Salesforce org access unless the user provides authorized tool access or evidence."
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "sap-s4hana",
+      "title": "SAP S/4HANA",
+      "description": "Tool bundle for source-aware SAP S/4HANA fit-gap, process, integration, reporting, and migration support.",
+      "category": "tools",
+      "path": "bundles/tools/sap-s4hana",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/sap-s4hana",
+      "download_url": "https://openknowledgebank.com/downloads/sap-s4hana.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "sap-s4hana",
+        "sap",
+        "erp",
+        "finance",
+        "supply-chain",
+        "procurement",
+        "manufacturing"
+      ],
+      "aliases": [
+        "SAP S/4HANA",
+        "S/4HANA",
+        "SAP S/4HANA Cloud"
+      ],
+      "problems_solved": [
+        "Plan SAP S/4HANA analysis without inventing tenant configuration, master data, roles, APIs, or process scope.",
+        "Separate official SAP product documentation from customer-specific implementation evidence.",
+        "Draft fit-gap, process, integration, and reporting plans with inspect-first evidence requirements."
+      ],
+      "industries": [
+        "cross-industry",
+        "enterprise"
+      ],
+      "tools": [
+        "SAP S/4HANA",
+        "SAP Help Portal",
+        "SAP Business Accelerator Hub"
+      ],
+      "frameworks": [
+        "source-aware ERP fit-gap",
+        "process-scope evidence review",
+        "integration evidence matrix"
+      ],
+      "deliverables": [
+        "SAP S/4HANA fit-gap brief"
+      ],
+      "commands": [
+        "/plan-s4hana-fit-gap"
+      ],
+      "skills": [],
+      "evaluations": [
+        "SAP S/4HANA source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 3,
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the SAP S/4HANA tool hub.",
+        "evidence_note": "No measured score is claimed for this draft publication. Tenant-specific SAP S/4HANA conclusions require official SAP sources and customer-provided implementation evidence."
+      },
+      "evaluation_detail": {},
+      "related_bundles": [],
+      "adjacent_bundles": [
+        "google-bigquery"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete SAP implementation, configuration, authorization, extensibility, migration, API, or module reference.",
+        "Requires user-provided tenant, edition, release, scope item, process, master data, authorization, integration, and reporting evidence for final recommendations.",
+        "Does not replace SAP partner, implementation, architecture, security, data migration, audit, legal, or compliance review."
+      ],
+      "safety_notes": [
+        "Require confirmation before changing configuration, transporting changes, posting transactions, exporting data, modifying roles, calling APIs, or changing integrations.",
+        "Do not claim access to SAP tenants, Fiori apps, configuration, CDS views, APIs, tables, roles, logs, or data unless the user provides evidence or authorized tool access."
       ]
     },
     {
