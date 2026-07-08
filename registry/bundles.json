@@ -1078,6 +1078,102 @@
       "download_url": "https://openknowledgebank.com/downloads/product-manager.zip"
     },
     {
+      "id": "salesforce-service-cloud",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "Salesforce Service Cloud",
+      "category": "tools",
+      "description": "Tool bundle for source-aware Salesforce Service Cloud and Agentforce Service planning, case routing review, automation checks, and support operations work.",
+      "path": "bundles/tools/salesforce-service-cloud",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/salesforce-service-cloud",
+      "download_url": "https://openknowledgebank.com/downloads/salesforce-service-cloud.zip",
+      "tags": [
+        "salesforce",
+        "service-cloud",
+        "agentforce-service",
+        "customer-support",
+        "contact-center",
+        "crm"
+      ],
+      "aliases": [
+        "Service Cloud",
+        "Salesforce Agentforce Service",
+        "Agentforce Service"
+      ],
+      "problems_solved": [
+        "Plan Service Cloud case, routing, and automation work without inventing org configuration.",
+        "Separate official Salesforce source facts from user-provided org evidence and assumptions.",
+        "Review case lifecycle, Omni-Channel, queues, knowledge, reports, and automation with explicit confirmation boundaries.",
+        "Produce change plans that include validation, rollback, and source notes before production changes."
+      ],
+      "industries": [
+        "customer-service",
+        "customer-support",
+        "contact-center",
+        "customer-success"
+      ],
+      "tools": [
+        "Salesforce Service Cloud",
+        "Agentforce Service",
+        "Salesforce Help",
+        "Salesforce Developers",
+        "Omni-Channel",
+        "Salesforce Knowledge"
+      ],
+      "frameworks": [
+        "verify-first Salesforce planning",
+        "source-of-record reconciliation",
+        "production-change confirmation boundary"
+      ],
+      "deliverables": [
+        "Service Cloud change plan"
+      ],
+      "commands": [
+        "/plan-service-cloud-case-work"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Service Cloud plan quality check"
+      ],
+      "evaluation_summary": {
+        "status": "blocked",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 0,
+        "display_summary": "Measured evaluation is blocked until a Salesforce Service Cloud task set and model/provider configuration are selected.",
+        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete Salesforce implementation, object model, API, pricing, edition, license, release, or limits reference.",
+        "Requires user-provided Salesforce org evidence before final conclusions about objects, fields, queues, routing, flows, entitlements, reports, permissions, or AI behavior.",
+        "Does not replace Salesforce administrator, architect, security, privacy, compliance, legal, or change-management review."
+      ],
+      "safety_notes": [
+        "Require explicit confirmation before changing Salesforce records, metadata, routing, queues, permissions, automations, integrations, exports, AI/customer-facing behavior, or customer communications.",
+        "Do not request credentials or claim Salesforce org access unless the user provides authorized tool access or evidence."
+      ]
+    },
+    {
       "id": "seo-specialist-consultant",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
