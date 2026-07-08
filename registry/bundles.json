@@ -1816,6 +1816,109 @@
       ]
     },
     {
+      "id": "hubspot-sales-hub",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "HubSpot Sales Hub",
+      "category": "tools",
+      "description": "Tool bundle for source-aware HubSpot Sales Hub CRM, pipeline, prospecting, automation, reporting, and integration planning.",
+      "path": "bundles/tools/hubspot-sales-hub",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/hubspot-sales-hub",
+      "download_url": "https://openknowledgebank.com/downloads/hubspot-sales-hub.zip",
+      "tags": [
+        "hubspot",
+        "sales-hub",
+        "crm",
+        "sales-engagement",
+        "revops"
+      ],
+      "aliases": [
+        "HubSpot Sales",
+        "Sales Hub",
+        "HubSpot Smart CRM"
+      ],
+      "problems_solved": [
+        "Plan HubSpot Sales Hub work without inventing portal configuration, properties, pipelines, sequences, workflows, reports, or permissions.",
+        "Separate official HubSpot product/API behavior from user-provided account evidence and assumptions.",
+        "Review sales process, pipeline, sequence, workflow, reporting, permission, and integration changes with explicit confirmation boundaries.",
+        "Produce HubSpot Sales Hub plans that include source notes, validation checks, and rollback before live CRM or outreach changes."
+      ],
+      "industries": [
+        "sales",
+        "revenue-operations",
+        "b2b-saas",
+        "professional-services",
+        "ecommerce"
+      ],
+      "tools": [
+        "HubSpot Sales Hub",
+        "HubSpot Smart CRM",
+        "HubSpot Knowledge Base",
+        "HubSpot Developers"
+      ],
+      "frameworks": [
+        "verify-first CRM planning",
+        "source-of-record reconciliation",
+        "sales communication confirmation boundary"
+      ],
+      "deliverables": [
+        "HubSpot Sales Hub change plan"
+      ],
+      "commands": [
+        "/plan-hubspot-sales-work"
+      ],
+      "skills": [],
+      "evaluations": [
+        "HubSpot Sales Hub plan quality check"
+      ],
+      "evaluation_summary": {
+        "status": "blocked",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 0,
+        "display_summary": "Measured evaluation is blocked until a HubSpot Sales Hub task set and model/provider configuration are selected.",
+        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+      },
+      "evaluation_detail": {
+        "status": "blocked",
+        "title": "HubSpot Sales Hub planned evaluation",
+        "method": "baseline-vs-okb-rubric",
+        "next_step": "Create public-safe HubSpot Sales Hub planning tasks and run the generic evaluation harness."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [
+        "salesforce-service-cloud",
+        "google-bigquery"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete HubSpot implementation, CRM schema, API, pricing, edition, seat, limit, workflow, deliverability, or release reference.",
+        "Requires user-provided HubSpot portal evidence before final conclusions about objects, properties, pipelines, stages, records, sequences, workflows, reports, permissions, seats, quotes, products, integrations, or API behavior.",
+        "Does not replace HubSpot administrator, RevOps, sales leadership, security, privacy, legal, procurement, deliverability, or change-management review."
+      ],
+      "safety_notes": [
+        "Require explicit confirmation before sending outreach, enrolling contacts in sequences, modifying records, activating workflows, changing pipeline or permission settings, exporting CRM data, changing quote/payment behavior, or running integrations/API actions.",
+        "Do not request credentials or claim HubSpot portal access unless the user provides authorized tool access or evidence."
+      ]
+    },
+    {
       "id": "salesforce-service-cloud",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
