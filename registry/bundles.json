@@ -661,6 +661,104 @@
       "download_url": "https://openknowledgebank.com/downloads/gdpr.zip"
     },
     {
+      "id": "google-bigquery",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "Google BigQuery",
+      "category": "tools",
+      "description": "Tool knowledge for source-aware BigQuery query planning, cost checks, performance review, and analytics warehouse work.",
+      "path": "bundles/tools/google-bigquery",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-08",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/google-bigquery",
+      "download_url": "https://openknowledgebank.com/downloads/google-bigquery.zip",
+      "tags": [
+        "bigquery",
+        "google-cloud",
+        "data-warehouse",
+        "analytics",
+        "sql"
+      ],
+      "aliases": [
+        "BigQuery",
+        "Google Cloud BigQuery"
+      ],
+      "problems_solved": [
+        "plan BigQuery analysis without inventing schemas or access",
+        "draft query plans with source scope, grain, filters, joins, and validation checks",
+        "add dry-run and cost preflight discipline before live queries",
+        "review partitioning, clustering, and projection choices at a source-aware level"
+      ],
+      "industries": [
+        "analytics",
+        "data",
+        "marketing",
+        "product"
+      ],
+      "tools": [
+        "BigQuery",
+        "GoogleSQL",
+        "Google Cloud"
+      ],
+      "frameworks": [
+        "verify-first query planning",
+        "cost and performance preflight",
+        "source-of-record reconciliation"
+      ],
+      "deliverables": [
+        "BigQuery query plan"
+      ],
+      "commands": [
+        "/plan-bigquery-query"
+      ],
+      "skills": [],
+      "evaluations": [
+        "BigQuery query plan quality check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "method": "baseline-vs-okb-rubric",
+        "display_summary": "Measured evaluation is planned; v1 publication includes an evaluation blocker rather than measured scores.",
+        "evidence_note": "No raw prompts or private evaluation outputs exist for v1."
+      },
+      "evaluation_detail": {
+        "status": "planned",
+        "title": "Google BigQuery evaluation plan",
+        "summary": "Create a BigQuery task set focused on schema discipline, query planning, cost preflight, and validation before measuring."
+      },
+      "related_bundles": [
+        "ga4-analytics-specialist"
+      ],
+      "adjacent_bundles": [
+        "performance-marketer"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete BigQuery schema, API, IAM, pricing, quota, or SQL syntax reference.",
+        "Requires user-provided project, dataset, table, schema, SQL, job, billing, and permission evidence for final conclusions.",
+        "Does not replace privacy, security, compliance, or data governance review."
+      ],
+      "safety_notes": [
+        "Require confirmation before running live queries, exporting data, writing tables, changing permissions, or making billing/capacity changes.",
+        "Do not claim access to BigQuery projects, datasets, tables, schemas, or jobs unless the user provides evidence or authorized tool access."
+      ]
+    },
+    {
       "id": "hipaa",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
@@ -769,104 +867,6 @@
         "method": "baseline-vs-okb-rubric",
         "next_step": "Approve public-safe HIPAA benchmark tasks and run the generic evaluation harness."
       }
-    },
-    {
-      "id": "google-bigquery",
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
-      "title": "Google BigQuery",
-      "category": "tools",
-      "description": "Tool knowledge for source-aware BigQuery query planning, cost checks, performance review, and analytics warehouse work.",
-      "path": "bundles/tools/google-bigquery",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "draft",
-      "version": "0.1.0",
-      "updated": "2026-07-08",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/google-bigquery",
-      "download_url": "https://openknowledgebank.com/downloads/google-bigquery.zip",
-      "tags": [
-        "bigquery",
-        "google-cloud",
-        "data-warehouse",
-        "analytics",
-        "sql"
-      ],
-      "aliases": [
-        "BigQuery",
-        "Google Cloud BigQuery"
-      ],
-      "problems_solved": [
-        "plan BigQuery analysis without inventing schemas or access",
-        "draft query plans with source scope, grain, filters, joins, and validation checks",
-        "add dry-run and cost preflight discipline before live queries",
-        "review partitioning, clustering, and projection choices at a source-aware level"
-      ],
-      "industries": [
-        "analytics",
-        "data",
-        "marketing",
-        "product"
-      ],
-      "tools": [
-        "BigQuery",
-        "GoogleSQL",
-        "Google Cloud"
-      ],
-      "frameworks": [
-        "verify-first query planning",
-        "cost and performance preflight",
-        "source-of-record reconciliation"
-      ],
-      "deliverables": [
-        "BigQuery query plan"
-      ],
-      "commands": [
-        "/plan-bigquery-query"
-      ],
-      "skills": [],
-      "evaluations": [
-        "BigQuery query plan quality check"
-      ],
-      "evaluation_summary": {
-        "status": "planned",
-        "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured evaluation is planned; v1 publication includes an evaluation blocker rather than measured scores.",
-        "evidence_note": "No raw prompts or private evaluation outputs exist for v1."
-      },
-      "evaluation_detail": {
-        "status": "planned",
-        "title": "Google BigQuery evaluation plan",
-        "summary": "Create a BigQuery task set focused on schema discipline, query planning, cost preflight, and validation before measuring."
-      },
-      "related_bundles": [
-        "ga4-analytics-specialist"
-      ],
-      "adjacent_bundles": [
-        "performance-marketer"
-      ],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "Not a complete BigQuery schema, API, IAM, pricing, quota, or SQL syntax reference.",
-        "Requires user-provided project, dataset, table, schema, SQL, job, billing, and permission evidence for final conclusions.",
-        "Does not replace privacy, security, compliance, or data governance review."
-      ],
-      "safety_notes": [
-        "Require confirmation before running live queries, exporting data, writing tables, changing permissions, or making billing/capacity changes.",
-        "Do not claim access to BigQuery projects, datasets, tables, schemas, or jobs unless the user provides evidence or authorized tool access."
-      ]
     },
     {
       "id": "performance-marketer",
@@ -1185,6 +1185,109 @@
         "method": "baseline-vs-okb-rubric",
         "next_step": "Set OpenRouter credentials and run the generic evaluation harness for the v1 task set."
       }
+    },
+    {
+      "id": "soc-2",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "SOC 2",
+      "category": "compliance",
+      "description": "Source-aware compliance hub for SOC 2 readiness triage, evidence framing, and professional-review handoff.",
+      "path": "bundles/compliance/soc-2",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/soc-2",
+      "download_url": "https://openknowledgebank.com/downloads/soc-2.zip",
+      "tags": [
+        "soc-2",
+        "compliance",
+        "security",
+        "vendor-trust",
+        "audit-readiness"
+      ],
+      "aliases": [
+        "System and Organization Controls 2",
+        "SOC 2 report",
+        "SOC 2 Type I",
+        "SOC 2 Type II"
+      ],
+      "problems_solved": [
+        "Triage SOC 2 questions without inventing audit conclusions or AICPA criteria.",
+        "Separate official AICPA source categories, user-provided evidence, assumptions, and missing evidence.",
+        "Produce source-aware SOC 2 readiness briefs for qualified professional review."
+      ],
+      "industries": [
+        "saas",
+        "technology",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "trust services category scoping",
+        "Type I versus Type II readiness framing"
+      ],
+      "deliverables": [
+        "source-aware SOC 2 readiness brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "SOC 2 source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 0,
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the SOC 2 hub bundle.",
+        "evidence_note": "No measured score is claimed for this draft publication. The run includes an illustrative before/after example only."
+      },
+      "evaluation_detail": {
+        "status": "planned",
+        "title": "SOC 2 source-awareness measured evaluation",
+        "planned_method": "Run baseline and bundle-assisted SOC 2 triage tasks against the source-awareness rubric before publishing measured lift."
+      },
+      "related_bundles": [
+        "auditor-external",
+        "internal-auditor",
+        "chief-information-security-officer-ciso",
+        "security-software-application-security-engineer",
+        "devops-engineer",
+        "cloud-engineer",
+        "saas-contract-lawyer-msa-sla-dpa-drafting"
+      ],
+      "adjacent_bundles": [
+        "gdpr",
+        "hipaa"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is a compliance hub, not legal, accounting, audit, attestation, or CPA advice.",
+        "Scenario-specific conclusions require current AICPA materials, the actual SOC 2 report or audit request, user-provided system evidence, and qualified professional review.",
+        "The bundle does not reproduce AICPA criteria, points of focus, report templates, or opinion language.",
+        "Measured evaluation is planned but not complete."
+      ],
+      "safety_notes": [
+        "Require qualified CPA, auditor, legal, security, or compliance professional review before relying on outputs for audit, customer, contractual, or control-change decisions.",
+        "Do not request, expose, or publish sensitive security evidence, customer data, report contents, or credentials beyond what is necessary for user-approved analysis.",
+        "Require explicit confirmation before contacting auditors, sending customer responses, exporting evidence, changing controls, or modifying production systems."
+      ]
     },
     {
       "id": "stackoverflow-data-analyst",
