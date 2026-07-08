@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "updated": "2026-07-08",
+  "updated": "2026-07-09",
   "bundles": [
     {
       "id": "ga4-analytics-specialist",
@@ -679,6 +679,109 @@
         "Require confirmation before running live queries, exporting data, writing tables, changing permissions, or making billing/capacity changes.",
         "Do not claim access to BigQuery projects, datasets, tables, schemas, or jobs unless the user provides evidence or authorized tool access."
       ]
+    },
+    {
+      "id": "funnel-analysis",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "title": "Funnel Analysis",
+      "category": "frameworks",
+      "description": "Framework bundle for defining funnels, measuring stage-by-stage conversion and drop-off, comparing segments, and turning friction into verified hypotheses.",
+      "path": "bundles/frameworks/funnel-analysis",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/funnel-analysis",
+      "download_url": "https://openknowledgebank.com/downloads/funnel-analysis.zip",
+      "tags": [
+        "funnel-analysis",
+        "conversion",
+        "analytics",
+        "ecommerce",
+        "product-analytics"
+      ],
+      "aliases": [
+        "conversion funnel analysis",
+        "funnel exploration",
+        "stage-by-stage drop-off analysis",
+        "conversion path analysis"
+      ],
+      "problems_solved": [
+        "Define funnel steps without inventing analytics events or schemas.",
+        "Interpret stage conversion and drop-off with explicit denominator logic.",
+        "Compare funnel performance across segments and breakdowns.",
+        "Separate measurement findings, hypotheses, and actions."
+      ],
+      "industries": [
+        "ecommerce",
+        "b2b-saas",
+        "digital-products",
+        "marketing"
+      ],
+      "tools": [
+        "Google Analytics",
+        "Adobe Customer Journey Analytics",
+        "BigQuery"
+      ],
+      "frameworks": [
+        "funnel step definition",
+        "denominator reconciliation",
+        "stage drop-off diagnosis"
+      ],
+      "deliverables": [
+        "funnel analysis brief"
+      ],
+      "commands": [
+        "/diagnose-funnel-drop"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Funnel analysis quality check"
+      ],
+      "related_bundles": [
+        "ga4-analytics-specialist",
+        "google-bigquery"
+      ],
+      "adjacent_bundles": [
+        "performance-marketer"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete GA4, Adobe Analytics, BigQuery, experimentation, or SQL implementation guide.",
+        "Requires user-provided event, schema, report, date-range, segment, and denominator evidence for final conclusions.",
+        "Does not prove causality from funnel drop-off alone."
+      ],
+      "safety_notes": [
+        "Require confirmation before modifying live analytics configuration, tags, dashboards, campaigns, experiments, exports, or warehouse tables.",
+        "Do not claim access to analytics tools, event schemas, user-level records, or reports unless the user provides evidence or authorized tool access."
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric",
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned for this framework bundle.",
+        "evidence_note": "No approved funnel-analysis task set or model/provider configuration has been selected yet."
+      },
+      "evaluation_detail": {
+        "status": "planned",
+        "title": "Funnel Analysis planned evaluation",
+        "method": "baseline-vs-okb-rubric",
+        "next_step": "Create public-safe funnel-analysis benchmark tasks and run the generic evaluation harness."
+      }
     }
   ]
 }
