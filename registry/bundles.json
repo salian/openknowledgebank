@@ -98,6 +98,93 @@
       ]
     },
     {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "ccpa",
+      "title": "CCPA",
+      "description": "Source-aware compliance hub for the California Consumer Privacy Act and CPRA-amended California privacy obligations.",
+      "category": "compliance",
+      "path": "bundles/compliance/ccpa",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/ccpa",
+      "download_url": "https://openknowledgebank.com/downloads/ccpa.zip",
+      "updated": "2026-07-08",
+      "tags": [
+        "ccpa",
+        "cpra",
+        "privacy",
+        "data-protection",
+        "california",
+        "compliance"
+      ],
+      "aliases": [
+        "California Consumer Privacy Act",
+        "California Privacy Rights Act",
+        "CCPA/CPRA"
+      ],
+      "problems_solved": [
+        "Triage CCPA and CPRA obligation questions without inventing legal conclusions.",
+        "Separate official statute, agency materials, user-provided facts, assumptions, and missing evidence.",
+        "Produce source-aware California privacy compliance briefs for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "consumer-rights triage",
+        "applicability evidence review"
+      ],
+      "deliverables": [
+        "source-aware CCPA compliance brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "CCPA source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "planned",
+        "last_evaluated": null,
+        "method": "baseline-vs-okb-rubric planned",
+        "tasks_count": 3,
+        "display_summary": "Measured baseline-vs-OKB evaluation is planned; this draft includes a source-awareness rubric and evaluation config.",
+        "evidence_note": "No raw prompts or outputs are published. Exact CCPA conclusions require current official sources and user evidence."
+      },
+      "evaluation_detail": {},
+      "related_bundles": [
+        "gdpr"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is a compliance hub, not legal advice or a full section-by-section CCPA/CPRA treatise.",
+        "Scenario-specific answers require current California statute, CPPA regulations, Attorney General materials, rulemaking status, and user-provided business evidence.",
+        "Applicability thresholds, exemptions, deadlines, penalties, ADMT, cybersecurity audit, risk assessment, GPC, sale, and sharing questions must be inspected in current official sources before reliance."
+      ],
+      "safety_notes": [
+        "Require qualified legal or privacy professional review before relying on outputs for regulatory, enforcement, contractual, consumer-rights, or incident-response decisions.",
+        "Do not request, expose, or publish personal information beyond what is necessary for the user-approved analysis.",
+        "Require explicit confirmation before submitting notices, contacting regulators, changing privacy notices, changing contracts, sending legal communications, exporting personal information, or modifying live privacy controls."
+      ]
+    },
+    {
       "id": "figma",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
