@@ -146,10 +146,13 @@
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
         "tasks_count": 3,
-        "display_summary": "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned.",
-        "evidence_note": "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
+        "display_summary": "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed.",
+        "evidence_note": "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
       },
-      "evaluation_detail": {},
+      "evaluation_detail": {
+        "status": "blocked",
+        "next_step": "Review and score the generated baseline and OKB-assisted outputs, write aggregate-scores.json and reviewer-notes.md, then build listing-scorecard.json."
+      },
       "related_bundles": [],
       "adjacent_bundles": [],
       "contributors": [
@@ -231,10 +234,13 @@
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric planned",
         "tasks_count": 3,
-        "display_summary": "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned.",
-        "evidence_note": "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
+        "display_summary": "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed.",
+        "evidence_note": "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
       },
-      "evaluation_detail": {},
+      "evaluation_detail": {
+        "status": "blocked",
+        "next_step": "Review and score the generated baseline and OKB-assisted outputs, write aggregate-scores.json and reviewer-notes.md, then build listing-scorecard.json."
+      },
       "related_bundles": [
         "gdpr"
       ],
@@ -738,14 +744,14 @@
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
         "tasks_count": 0,
-        "display_summary": "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned.",
-        "evidence_note": "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
+        "display_summary": "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed.",
+        "evidence_note": "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
       },
       "evaluation_detail": {
         "status": "blocked",
         "title": "SOX source-awareness measured evaluation",
         "planned_method": "Run baseline and bundle-assisted SOX triage tasks against the source-awareness rubric before publishing measured lift.",
-        "next_step": "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned."
+        "next_step": "Review and score the generated baseline and OKB-assisted outputs, write aggregate-scores.json and reviewer-notes.md, then build listing-scorecard.json."
       },
       "related_bundles": [],
       "adjacent_bundles": [
@@ -844,8 +850,8 @@
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
         "tasks_count": 3,
-        "display_summary": "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned.",
-        "evidence_note": "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
+        "display_summary": "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed.",
+        "evidence_note": "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
       },
       "related_bundles": [
         "can-spam"
@@ -1414,8 +1420,8 @@
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
         "tasks_count": 3,
-        "display_summary": "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned.",
-        "evidence_note": "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
+        "display_summary": "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed.",
+        "evidence_note": "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
       },
       "related_bundles": [],
       "adjacent_bundles": [
@@ -3573,10 +3579,13 @@
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
         "tasks_count": 3,
-        "display_summary": "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned.",
-        "evidence_note": "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
+        "display_summary": "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed.",
+        "evidence_note": "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
       },
-      "evaluation_detail": {},
+      "evaluation_detail": {
+        "status": "blocked",
+        "next_step": "Review and score the generated baseline and OKB-assisted outputs, write aggregate-scores.json and reviewer-notes.md, then build listing-scorecard.json."
+      },
       "related_bundles": [],
       "adjacent_bundles": [
         "google-bigquery"

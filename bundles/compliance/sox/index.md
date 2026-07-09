@@ -42,7 +42,7 @@ evaluations:
 okb_bundle_id: sox
 okb_bundle_version: "0.1.0"
 trust_tier: trusted
-status: draft
+status: blocked
 license: CC-BY-4.0
 related_bundles: []
 adjacent_bundles:
@@ -70,8 +70,8 @@ evaluation_summary:
   last_evaluated:
   method: baseline-vs-okb-rubric
   tasks_count: 0
-  display_summary: "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned."
-  evidence_note: "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
+  display_summary: "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed."
+  evidence_note: "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
 timestamp: "2026-07-09T00:00:00Z"
 ---
 
