@@ -2027,6 +2027,132 @@
       "download_url": "https://openknowledgebank.com/downloads/performance-marketer.zip"
     },
     {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "product-designer",
+      "title": "Product Designer",
+      "description": "Role knowledge for product design work: design briefs, user-flow review, UI critique, accessibility-aware checks, prototype planning, and engineering handoff.",
+      "category": "roles",
+      "path": "bundles/roles/product-designer",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/product-designer",
+      "download_url": "https://openknowledgebank.com/downloads/product-designer.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "product-design",
+        "ux-design",
+        "ui-design",
+        "interaction-design",
+        "prototyping",
+        "accessibility",
+        "design-systems"
+      ],
+      "aliases": [
+        "UX designer",
+        "UI designer",
+        "UI/UX designer",
+        "digital product designer",
+        "experience designer"
+      ],
+      "problems_solved": [
+        "Turn product context into design briefs and concept directions.",
+        "Review user flows, wireframes, prototypes, and UI states without inventing missing product evidence.",
+        "Prepare accessibility-aware design review notes and engineering handoff questions."
+      ],
+      "industries": [
+        "software",
+        "saas",
+        "digital-products",
+        "internal-tools",
+        "consumer-apps"
+      ],
+      "tools": [
+        "Figma",
+        "FigJam",
+        "Miro",
+        "Maze",
+        "UserTesting",
+        "Dovetail",
+        "Jira",
+        "Linear",
+        "Notion",
+        "Confluence",
+        "Storybook"
+      ],
+      "frameworks": [
+        "Double Diamond",
+        "design thinking",
+        "Jobs-to-be-Done",
+        "heuristic evaluation",
+        "journey mapping",
+        "accessibility POUR"
+      ],
+      "deliverables": [
+        "design brief",
+        "design review note",
+        "prototype test plan",
+        "handoff checklist"
+      ],
+      "commands": [
+        "/draft-design-brief",
+        "/review-ui-flow"
+      ],
+      "skills": [],
+      "evaluations": [
+        "product-design-quality-check"
+      ],
+      "evaluation_summary": {
+        "status": "blocked",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric planned",
+        "display_summary": "Measured evaluation is planned but blocked until model execution and reviewer scoring are completed.",
+        "evidence_note": "Public listing excludes raw private prompts and outputs; no measured score is claimed for this draft."
+      },
+      "evaluation_detail": {},
+      "related_bundles": [
+        "ada",
+        "figma",
+        "product-manager",
+        "wcag"
+      ],
+      "adjacent_bundles": [
+        "product-manager"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "15-1255.00"
+        ],
+        "soc": [
+          "15-1255"
+        ],
+        "isco_08": [
+          "2166"
+        ],
+        "esco": [
+          "2166"
+        ]
+      },
+      "limitations": [
+        "Product design scope varies by organization; verify local role ownership, design process, and decision rights.",
+        "Does not replace user research, legal accessibility review, brand approval, product leadership, or engineering feasibility review.",
+        "Does not include tool-specific API automation or workspace-specific design-system details."
+      ],
+      "safety_notes": [
+        "Confirm before modifying live design files, tickets, research repositories, product specs, roadmap artifacts, or customer-facing communications.",
+        "Treat customer research, unreleased product strategy, design files, analytics, and roadmap plans as confidential unless the user confirms they are safe to use."
+      ]
+    },
+    {
       "id": "product-manager",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
