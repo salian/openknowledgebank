@@ -54,12 +54,12 @@
         "ADA source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric planned",
         "tasks_count": 3,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned; this draft includes a source-awareness rubric and evaluation plan.",
-        "evidence_note": "No measured score is claimed for this draft publication. Exact ADA conclusions require current official sources, product evidence, accessibility testing, and professional review."
+        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
+        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
       },
       "evaluation_detail": {},
       "related_bundles": [
@@ -142,12 +142,12 @@
         "CAN-SPAM source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
         "tasks_count": 3,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the CAN-SPAM compliance hub.",
-        "evidence_note": "No measured score is claimed for this draft publication. Exact CAN-SPAM conclusions require current official sources, campaign evidence, and professional review."
+        "display_summary": "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned.",
+        "evidence_note": "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
       },
       "evaluation_detail": {},
       "related_bundles": [],
@@ -227,12 +227,12 @@
         "CCPA source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric planned",
         "tasks_count": 3,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned; this draft includes a source-awareness rubric and evaluation config.",
-        "evidence_note": "No raw prompts or outputs are published. Exact CCPA conclusions require current official sources and user evidence."
+        "display_summary": "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned.",
+        "evidence_note": "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
       },
       "evaluation_detail": {},
       "related_bundles": [
@@ -309,17 +309,18 @@
         "GDPR source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
         "tasks_count": 0,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the GDPR hub bundle.",
-        "evidence_note": "No measured score is claimed for this draft publication."
+        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
+        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
       },
       "evaluation_detail": {
-        "status": "planned",
+        "status": "blocked",
         "title": "GDPR source-awareness measured evaluation",
-        "planned_method": "Run baseline and bundle-assisted GDPR triage tasks against the source-awareness rubric before publishing measured lift."
+        "planned_method": "Run baseline and bundle-assisted GDPR triage tasks against the source-awareness rubric before publishing measured lift.",
+        "next_step": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
       },
       "related_bundles": [],
       "adjacent_bundles": [],
@@ -445,17 +446,17 @@
         "Require explicit confirmation before submitting reports, contacting regulators, changing policies, changing contracts, sending notices, exporting PHI/ePHI, or modifying live systems."
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned for this HIPAA compliance hub.",
-        "evidence_note": "No approved public-safe HIPAA task set, model/provider configuration, or API execution decision has been selected yet."
+        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
+        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
       },
       "evaluation_detail": {
-        "status": "planned",
+        "status": "blocked",
         "title": "HIPAA planned evaluation",
         "method": "baseline-vs-okb-rubric",
-        "next_step": "Approve public-safe HIPAA benchmark tasks and run the generic evaluation harness."
+        "next_step": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
       }
     },
     {
@@ -557,18 +558,18 @@
         "Require explicit confirmation before submitting reports, contacting OSHA or a state-plan authority, changing workplace controls, changing policies, exporting records, or modifying live systems."
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
         "tasks_count": 3,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned for this OSHA compliance hub.",
-        "evidence_note": "No measured score is claimed for this draft publication. Exact OSHA conclusions require current official sources, workplace evidence, jurisdiction/state-plan checks, and qualified professional review."
+        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
+        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
       },
       "evaluation_detail": {
-        "status": "planned",
+        "status": "blocked",
         "title": "OSHA planned evaluation",
         "method": "baseline-vs-okb-rubric",
-        "next_step": "Approve public-safe OSHA benchmark tasks and run the generic evaluation harness."
+        "next_step": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
       }
     },
     {
@@ -625,17 +626,18 @@
         "SOC 2 source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
         "tasks_count": 0,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the SOC 2 hub bundle.",
-        "evidence_note": "No measured score is claimed for this draft publication. The run includes an illustrative before/after example only."
+        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
+        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
       },
       "evaluation_detail": {
-        "status": "planned",
+        "status": "blocked",
         "title": "SOC 2 source-awareness measured evaluation",
-        "planned_method": "Run baseline and bundle-assisted SOC 2 triage tasks against the source-awareness rubric before publishing measured lift."
+        "planned_method": "Run baseline and bundle-assisted SOC 2 triage tasks against the source-awareness rubric before publishing measured lift.",
+        "next_step": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
       },
       "related_bundles": [
         "auditor-external",
@@ -732,17 +734,18 @@
         "SOX source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
         "tasks_count": 0,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the SOX compliance hub.",
-        "evidence_note": "No measured score is claimed for this draft publication. Exact SOX conclusions require current official sources, issuer evidence, and qualified professional review."
+        "display_summary": "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned.",
+        "evidence_note": "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
       },
       "evaluation_detail": {
-        "status": "planned",
+        "status": "blocked",
         "title": "SOX source-awareness measured evaluation",
-        "planned_method": "Run baseline and bundle-assisted SOX triage tasks against the source-awareness rubric before publishing measured lift."
+        "planned_method": "Run baseline and bundle-assisted SOX triage tasks against the source-awareness rubric before publishing measured lift.",
+        "next_step": "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned."
       },
       "related_bundles": [],
       "adjacent_bundles": [
@@ -837,12 +840,12 @@
         "TCPA source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
         "tasks_count": 3,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the TCPA compliance hub.",
-        "evidence_note": "No measured score is claimed for this draft publication. Exact TCPA conclusions require current official sources, outreach evidence, and professional review."
+        "display_summary": "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned.",
+        "evidence_note": "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
       },
       "related_bundles": [
         "can-spam"
@@ -922,12 +925,12 @@
         "WCAG source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric planned",
         "tasks_count": 1,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned; this draft includes a source-awareness rubric and evaluation plan.",
-        "evidence_note": "No measured score is claimed for this draft publication. Exact WCAG conclusions require current W3C/WAI sources, product evidence, accessibility testing, and professional review."
+        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
+        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
       },
       "evaluation_detail": {},
       "related_bundles": [],
@@ -1046,17 +1049,17 @@
         "Do not claim access to GA4 properties, reports, events, or exports unless the user provides evidence or authorized tool access."
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned for this deliverable bundle.",
-        "evidence_note": "No approved GA4 analysis brief task set or model/provider configuration has been selected yet."
+        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
+        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
       },
       "evaluation_detail": {
-        "status": "planned",
+        "status": "blocked",
         "title": "GA4 Analysis Brief planned evaluation",
         "method": "baseline-vs-okb-rubric",
-        "next_step": "Create public-safe GA4 analysis brief benchmark tasks and run the generic evaluation harness."
+        "next_step": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
       }
     },
     {
@@ -1119,10 +1122,10 @@
         "Agile guidance quality check"
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured evaluation is planned for a framework-hub task set.",
-        "evidence_note": "No measured baseline-vs-OKB score has been run for this initial umbrella release."
+        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
+        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
       },
       "evaluation_detail": {},
       "related_bundles": [
@@ -1244,17 +1247,17 @@
         "Do not claim access to analytics tools, event schemas, user-level records, or reports unless the user provides evidence or authorized tool access."
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned for this framework bundle.",
-        "evidence_note": "No approved funnel-analysis task set or model/provider configuration has been selected yet."
+        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
+        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
       },
       "evaluation_detail": {
-        "status": "planned",
+        "status": "blocked",
         "title": "Funnel Analysis planned evaluation",
         "method": "baseline-vs-okb-rubric",
-        "next_step": "Create public-safe funnel-analysis benchmark tasks and run the generic evaluation harness."
+        "next_step": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
       }
     },
     {
@@ -1312,12 +1315,12 @@
         "OKR quality check"
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
         "tasks_count": 3,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned for an OKR drafting and review task set.",
-        "evidence_note": "No measured score is claimed for this draft publication. Outputs should identify source category, user-provided evidence, assumptions, and missing verification."
+        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
+        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
       },
       "related_bundles": [
         "product-manager"
@@ -1407,12 +1410,12 @@
         "GAAP source awareness check"
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
         "tasks_count": 3,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned for source-aware U.S. GAAP research and reconciliation tasks.",
-        "evidence_note": "No measured score is claimed for this draft publication. Outputs should identify source categories, user-provided evidence, assumptions, and missing verification."
+        "display_summary": "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned.",
+        "evidence_note": "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
       },
       "related_bundles": [],
       "adjacent_bundles": [
@@ -2024,8 +2027,9 @@
         "Tool and campaign changes require explicit user confirmation."
       ],
       "evaluation_summary": {
-        "status": "planned",
-        "display_summary": "Baseline-vs-OKB measured evaluation has not been run yet."
+        "status": "blocked",
+        "display_summary": "Measured evaluation is blocked until a private run record and evaluation package are reconstructed for this legacy bundle.",
+        "evidence_note": "No measured score is claimed. This bundle predates the continuous run folder structure used by the current evaluation workflow."
       },
       "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/performance-marketer",
       "download_url": "https://openknowledgebank.com/downloads/performance-marketer.zip"
@@ -2955,15 +2959,16 @@
         "BigQuery query plan quality check"
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured evaluation is planned; v1 publication includes an evaluation blocker rather than measured scores.",
-        "evidence_note": "No raw prompts or private evaluation outputs exist for v1."
+        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
+        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
       },
       "evaluation_detail": {
-        "status": "planned",
+        "status": "blocked",
         "title": "Google BigQuery evaluation plan",
-        "summary": "Create a BigQuery task set focused on schema discipline, query planning, cost preflight, and validation before measuring."
+        "summary": "Create a BigQuery task set focused on schema discipline, query planning, cost preflight, and validation before measuring.",
+        "next_step": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
       },
       "related_bundles": [
         "ga4-analytics-specialist"
@@ -3564,12 +3569,12 @@
         "SAP S/4HANA source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "planned",
+        "status": "blocked",
         "last_evaluated": null,
         "method": "baseline-vs-okb-rubric",
         "tasks_count": 3,
-        "display_summary": "Measured baseline-vs-OKB evaluation is planned but not complete for the SAP S/4HANA tool hub.",
-        "evidence_note": "No measured score is claimed for this draft publication. Tenant-specific SAP S/4HANA conclusions require official SAP sources and customer-provided implementation evidence."
+        "display_summary": "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned.",
+        "evidence_note": "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
       },
       "evaluation_detail": {},
       "related_bundles": [],
@@ -3807,6 +3812,144 @@
       "safety_notes": [
         "Require explicit confirmation before sending customer communications, exporting or modifying customer data, changing tickets/users/organizations, activating triggers or automations, changing routing or permissions, publishing Help Center content, enabling AI/customer-facing behavior, or running integrations/API actions.",
         "Do not request credentials or claim Zendesk account access unless the user provides authorized tool access or evidence."
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "senior-product-manager",
+      "title": "Senior Product Manager",
+      "description": "Role knowledge for senior product strategy, roadmap tradeoffs, PRD review, product metric interpretation, and stakeholder alignment.",
+      "category": "roles",
+      "path": "bundles/roles/senior-product-manager",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/senior-product-manager",
+      "download_url": "https://openknowledgebank.com/downloads/senior-product-manager.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "product-management",
+        "product-strategy",
+        "roadmap",
+        "requirements",
+        "product-metrics",
+        "stakeholder-alignment"
+      ],
+      "aliases": [
+        "Senior PM",
+        "Sr PM",
+        "senior software product manager",
+        "senior digital product manager",
+        "product lead"
+      ],
+      "problems_solved": [
+        "Frame ambiguous product strategy and discovery decisions.",
+        "Review roadmap tradeoffs for executive and cross-functional alignment.",
+        "Improve PRDs and requirements before delivery work starts.",
+        "Reconcile product metric conflicts without inventing definitions.",
+        "Turn stakeholder disagreement into explicit options, risks, and decisions."
+      ],
+      "industries": [
+        "software",
+        "saas",
+        "digital-products",
+        "platforms",
+        "internal-tools"
+      ],
+      "tools": [
+        "Jira",
+        "Linear",
+        "Confluence",
+        "Notion",
+        "Figma",
+        "Amplitude",
+        "Mixpanel",
+        "Productboard",
+        "Aha!",
+        "spreadsheets",
+        "BI dashboards"
+      ],
+      "frameworks": [
+        "Jobs-to-be-Done",
+        "RICE prioritization",
+        "Kano model",
+        "opportunity solution tree",
+        "OKRs",
+        "North Star metric",
+        "evidence-to-decision matrix",
+        "product risk review"
+      ],
+      "deliverables": [
+        "strategy brief",
+        "roadmap decision memo",
+        "PRD review",
+        "metric interpretation memo",
+        "stakeholder alignment memo"
+      ],
+      "commands": [
+        "/draft-strategy-brief",
+        "/review-roadmap-tradeoffs",
+        "/review-prd"
+      ],
+      "skills": [],
+      "evaluations": [
+        "senior-product-management-quality-check"
+      ],
+      "evaluation_summary": {
+        "status": "blocked",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric planned",
+        "display_summary": "Measured evaluation is planned but blocked until model outputs are generated and human-scored aggregate results are reviewed.",
+        "evidence_note": "Public listing excludes raw private prompts and outputs; no measured score is claimed for this draft publication."
+      },
+      "evaluation_detail": {},
+      "related_bundles": [
+        "agile",
+        "figma",
+        "gdpr",
+        "jira",
+        "okrs"
+      ],
+      "adjacent_bundles": [
+        "product-manager",
+        "technical-product-manager",
+        "data-product-manager",
+        "product-designer",
+        "performance-marketer"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "11-2021.00"
+        ],
+        "soc": [
+          "11-2021"
+        ],
+        "isco_08": [
+          "1330"
+        ],
+        "esco": [
+          "1330.6"
+        ]
+      },
+      "limitations": [
+        "Product-management scope and seniority vary by organization; verify local ownership, decision rights, and escalation paths.",
+        "This bundle does not replace legal, privacy, security, accessibility, medical, financial, procurement, or regulated-domain review.",
+        "This bundle does not include authoritative tool-specific schemas, APIs, workspace fields, analytics definitions, or live system permissions.",
+        "Taxonomy mappings are broad role adjacencies and should not be treated as a precise seniority-specific occupation code."
+      ],
+      "safety_notes": [
+        "Confirm before changing live product docs, tickets, roadmap systems, analytics definitions, feature flags, pricing, release notes, customer communications, or external commitments.",
+        "Treat customer data, roadmap plans, product strategy, sales feedback, support tickets, and research notes as confidential unless the user confirms they are safe to use.",
+        "Require qualified review for regulated-domain, legal, privacy, security, accessibility, medical, financial, employment, or contractual conclusions."
       ]
     }
   ]

@@ -66,12 +66,12 @@ safety_notes:
   - Do not request, expose, or publish confidential issuer evidence, nonpublic financial data, audit workpapers, legal advice, board materials, credentials, or control documentation beyond what is necessary for user-approved analysis.
   - Require explicit confirmation before contacting auditors, regulators, executives, the board, or external parties; changing controls; exporting evidence; approving certifications; submitting filings; or modifying live financial-reporting systems.
 evaluation_summary:
-  status: planned
+  status: blocked
   last_evaluated:
   method: baseline-vs-okb-rubric
   tasks_count: 0
-  display_summary: Measured baseline-vs-OKB evaluation is planned but not complete for the SOX compliance hub.
-  evidence_note: No measured score is claimed for this draft publication. Exact SOX conclusions require current official sources, issuer evidence, and qualified professional review.
+  display_summary: "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned."
+  evidence_note: "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
 timestamp: "2026-07-09T00:00:00Z"
 ---
 

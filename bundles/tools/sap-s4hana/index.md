@@ -64,12 +64,12 @@ safety_notes:
   - "Require confirmation before changing configuration, transporting changes, posting transactions, exporting data, modifying roles, calling APIs, or changing integrations."
   - "Do not claim access to SAP tenants, Fiori apps, configuration, CDS views, APIs, tables, roles, logs, or data unless the user provides evidence or authorized tool access."
 evaluation_summary:
-  status: planned
+  status: blocked
   last_evaluated: null
   method: baseline-vs-okb-rubric
   tasks_count: 3
-  display_summary: "Measured baseline-vs-OKB evaluation is planned but not complete for the SAP S/4HANA tool hub."
-  evidence_note: "No measured score is claimed for this draft publication. Tenant-specific SAP S/4HANA conclusions require official SAP sources and customer-provided implementation evidence."
+  display_summary: "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned."
+  evidence_note: "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
 okb_bundle_id: sap-s4hana
 timestamp: "2026-07-09T00:00:00Z"
 ---

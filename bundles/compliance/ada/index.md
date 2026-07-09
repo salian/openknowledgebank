@@ -60,12 +60,12 @@ safety_notes:
   - Do not claim ADA compliance or WCAG conformance from incomplete scanner output, overlays, unsupported assumptions, or unreviewed product evidence.
   - Require explicit confirmation before publishing accessibility statements, sending legal or regulator communications, committing remediation timelines, changing live products, or exporting user data.
 evaluation_summary:
-  status: planned
+  status: blocked
   last_evaluated:
   method: baseline-vs-okb-rubric planned
   tasks_count: 3
-  display_summary: Measured baseline-vs-OKB evaluation is planned; this draft includes a source-awareness rubric and evaluation plan.
-  evidence_note: No measured score is claimed for this draft publication. Exact ADA conclusions require current official sources, product evidence, accessibility testing, and professional review.
+  display_summary: "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
+  evidence_note: "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
 evaluation_detail: {}
 timestamp: "2026-07-09T00:00:00Z"
 ---

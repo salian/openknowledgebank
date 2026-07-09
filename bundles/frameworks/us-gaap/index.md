@@ -64,12 +64,12 @@ safety_notes:
   - "Require qualified professional review before filing, audit support, board approval, lender delivery, investor communication, regulator response, or accounting-policy adoption."
   - "Do not claim access to Codification, EDGAR filings, contracts, workpapers, accounting systems, or auditor files unless the user provides evidence or authorized tool access."
 evaluation_summary:
-  status: planned
+  status: blocked
   last_evaluated: null
   method: baseline-vs-okb-rubric
   tasks_count: 3
-  display_summary: "Measured baseline-vs-OKB evaluation is planned for source-aware U.S. GAAP research and reconciliation tasks."
-  evidence_note: "No measured score is claimed for this draft publication. Outputs should identify source categories, user-provided evidence, assumptions, and missing verification."
+  display_summary: "Measured evaluation dry-run passed, but execution is blocked until OpenRouter credentials are available and reviewer scoring is assigned."
+  evidence_note: "No measured score is claimed. The evaluation config and public-safe task set exist; raw model runs and reviewed aggregate scores have not been completed."
 okb_bundle_id: us-gaap
 timestamp: "2026-07-09T00:00:00Z"
 ---

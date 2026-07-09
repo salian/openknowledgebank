@@ -66,10 +66,10 @@ safety_notes:
   - "Require confirmation before changing live boards, workflows, reports, staffing plans, contract commitments, release policies, or customer communications."
   - "Do not claim access to private delivery metrics, tickets, source repositories, or planning artifacts unless the user provides evidence or authorized tool access."
 evaluation_summary:
-  status: planned
+  status: blocked
   method: baseline-vs-okb-rubric
-  display_summary: "Measured evaluation is planned for a framework-hub task set."
-  evidence_note: "No measured baseline-vs-OKB score has been run for this initial umbrella release."
+  display_summary: "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
+  evidence_note: "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
 okb_bundle_id: agile
 timestamp: "2026-07-09T00:00:00Z"
 ---

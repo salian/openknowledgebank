@@ -62,12 +62,12 @@ safety_notes:
   - "Require confirmation before changing live OKR tools, employee communications, compensation policy, performance-review material, staffing decisions, or executive commitments."
   - "Do not claim access to private goals, metrics, dashboards, HR policies, or planning systems unless the user provides evidence or authorized tool access."
 evaluation_summary:
-  status: planned
+  status: blocked
   last_evaluated: null
   method: baseline-vs-okb-rubric
   tasks_count: 3
-  display_summary: "Measured baseline-vs-OKB evaluation is planned for an OKR drafting and review task set."
-  evidence_note: "No measured score is claimed for this draft publication. Outputs should identify source category, user-provided evidence, assumptions, and missing verification."
+  display_summary: "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
+  evidence_note: "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
 okb_bundle_id: okrs
 timestamp: "2026-07-09T00:00:00Z"
 ---
