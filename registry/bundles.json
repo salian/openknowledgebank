@@ -641,6 +641,152 @@
       ]
     },
     {
+      "type": "Bundle Index",
+      "title": "Confluence",
+      "description": "Tool bundle for source-aware Confluence documentation, page review, knowledge-base planning, REST API evidence handling, and permission-safe collaboration workflows.",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "category": "tools",
+      "tags": [
+        "confluence",
+        "atlassian",
+        "knowledge-management",
+        "product-documentation",
+        "collaboration"
+      ],
+      "aliases": [
+        "Atlassian Confluence",
+        "Confluence Cloud",
+        "Confluence knowledge base"
+      ],
+      "problems_solved": [
+        "Plan Confluence documentation without inventing spaces, pages, owners, permissions, labels, page trees, or API fields.",
+        "Review knowledge-base and product documentation evidence with source, version, permission, and stakeholder caveats.",
+        "Draft documentation briefs that connect Confluence content to product, support, engineering, and release workflows."
+      ],
+      "industries": [
+        "software",
+        "digital-products",
+        "technology",
+        "b2b-saas",
+        "cross-industry"
+      ],
+      "tools": [
+        "Confluence"
+      ],
+      "frameworks": [
+        "source-aware documentation review",
+        "page and space evidence review",
+        "permission confirmation boundary"
+      ],
+      "deliverables": [
+        "Confluence documentation brief"
+      ],
+      "commands": [
+        "/plan-confluence-documentation"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Confluence guidance quality check"
+      ],
+      "okb_bundle_version": "0.1.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "product-manager",
+        "senior-product-manager",
+        "data-product-manager",
+        "technical-product-manager"
+      ],
+      "adjacent_bundles": [
+        "jira",
+        "product-requirements-document",
+        "product-roadmap"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete Confluence implementation, administration, legal, research, or professional-advice reference.",
+        "Requires user-provided local evidence before final conclusions about Confluence usage, readiness, scoring, configuration, or commitments.",
+        "Does not replace qualified product, design, engineering, data, legal, privacy, security, or administrator review."
+      ],
+      "safety_notes": [
+        "Require confirmation before editing, deleting, moving, publishing, restricting, exporting, archiving, or sharing Confluence pages, spaces, comments, attachments, templates, or API-connected content.",
+        "Do not claim access to private systems, customer data, workspaces, documents, dashboards, roadmaps, repositories, accounts, or source records unless the user provides evidence or authorized tool access."
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 24,
+        "okb_score": 31,
+        "absolute_lift": 7,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 9,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 24/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "okb_bundle_id": "confluence",
+      "timestamp": "2026-07-09T00:00:00Z",
+      "id": "confluence",
+      "path": "bundles/tools/confluence",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/confluence",
+      "download_url": "https://openknowledgebank.com/downloads/confluence.zip",
+      "updated": "2026-07-09",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Confluence measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 24,
+        "okb_score": 31,
+        "absolute_lift": 7,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/confluence",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/confluence/v1/evaluation-results/"
+      }
+    },
+    {
       "id": "data-product-manager",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
@@ -2458,6 +2604,442 @@
       ]
     },
     {
+      "type": "Bundle Index",
+      "title": "Jobs to be Done / Outcome-Driven Innovation",
+      "description": "Framework bundle for applying Jobs to be Done and Outcome-Driven Innovation without inventing customer research, job maps, outcomes, or opportunity scores.",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "category": "frameworks",
+      "tags": [
+        "jobs-to-be-done",
+        "jtbd",
+        "outcome-driven-innovation",
+        "customer-research",
+        "product-strategy"
+      ],
+      "aliases": [
+        "JTBD",
+        "Jobs to be Done",
+        "Outcome-Driven Innovation",
+        "ODI"
+      ],
+      "problems_solved": [
+        "Frame customer research around jobs and desired outcomes without inventing interviews or evidence.",
+        "Separate JTBD/ODI source concepts from local market, segment, and customer evidence.",
+        "Draft opportunity briefs that expose assumptions, missing research, outcome statements, and prioritization risks."
+      ],
+      "industries": [
+        "software",
+        "digital-products",
+        "technology",
+        "b2b-saas",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "Jobs to be Done",
+        "Outcome-Driven Innovation",
+        "job map",
+        "outcome statement review"
+      ],
+      "deliverables": [
+        "JTBD opportunity brief"
+      ],
+      "commands": [
+        "/review-jtbd-opportunity"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Jobs to be Done / Outcome-Driven Innovation guidance quality check"
+      ],
+      "okb_bundle_version": "0.1.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "product-manager",
+        "senior-product-manager",
+        "data-product-manager",
+        "technical-product-manager",
+        "product-designer"
+      ],
+      "adjacent_bundles": [
+        "kano-model",
+        "rice-prioritization",
+        "product-roadmap"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete Jobs to be Done / Outcome-Driven Innovation implementation, administration, legal, research, or professional-advice reference.",
+        "Requires user-provided local evidence before final conclusions about Jobs to be Done / Outcome-Driven Innovation usage, readiness, scoring, configuration, or commitments.",
+        "Does not replace qualified product, design, engineering, data, legal, privacy, security, or administrator review."
+      ],
+      "safety_notes": [
+        "Require confirmation before claiming customer needs, market opportunity, prioritization scores, or roadmap recommendations without verified research evidence.",
+        "Do not claim access to private systems, customer data, workspaces, documents, dashboards, roadmaps, repositories, accounts, or source records unless the user provides evidence or authorized tool access."
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 28,
+        "absolute_lift": 7,
+        "task_scores": [
+          {
+            "task": "framework-fit-review",
+            "baseline_score": 4,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "artifact-quality-review",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "implementation-change-plan",
+            "baseline_score": 9,
+            "okb_score": 9,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 21/36 to 28/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "okb_bundle_id": "jobs-to-be-done",
+      "timestamp": "2026-07-09T00:00:00Z",
+      "id": "jobs-to-be-done",
+      "path": "bundles/frameworks/jobs-to-be-done",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/jobs-to-be-done",
+      "download_url": "https://openknowledgebank.com/downloads/jobs-to-be-done.zip",
+      "updated": "2026-07-09",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Jobs to be Done / Outcome-Driven Innovation measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 28,
+        "absolute_lift": 7,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/jobs-to-be-done",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/jobs-to-be-done/v1/evaluation-results/"
+      }
+    },
+    {
+      "type": "Bundle Index",
+      "title": "Kano Model",
+      "description": "Framework bundle for using the Kano Model to classify feature expectations without inventing survey responses, customer segments, or feature categories.",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "category": "frameworks",
+      "tags": [
+        "kano-model",
+        "customer-satisfaction",
+        "feature-prioritization",
+        "product-research",
+        "quality"
+      ],
+      "aliases": [
+        "Kano analysis",
+        "Kano customer satisfaction model",
+        "Attractive quality and must-be quality"
+      ],
+      "problems_solved": [
+        "Classify product features with explicit customer evidence rather than assumed delighters or basics.",
+        "Design Kano-style research plans that separate functional/dysfunctional questions, segments, and category uncertainty.",
+        "Explain how feature categories can vary by customer segment and change over time."
+      ],
+      "industries": [
+        "software",
+        "digital-products",
+        "technology",
+        "b2b-saas",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "Kano Model",
+        "functional/dysfunctional question pair",
+        "feature category review"
+      ],
+      "deliverables": [
+        "Kano feature classification brief"
+      ],
+      "commands": [
+        "/review-kano-features"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Kano Model guidance quality check"
+      ],
+      "okb_bundle_version": "0.1.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "product-manager",
+        "senior-product-manager",
+        "product-designer"
+      ],
+      "adjacent_bundles": [
+        "jobs-to-be-done",
+        "rice-prioritization",
+        "product-roadmap"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete Kano Model implementation, administration, legal, research, or professional-advice reference.",
+        "Requires user-provided local evidence before final conclusions about Kano Model usage, readiness, scoring, configuration, or commitments.",
+        "Does not replace qualified product, design, engineering, data, legal, privacy, security, or administrator review."
+      ],
+      "safety_notes": [
+        "Require confirmation before labeling features as must-be, performance, attractive, indifferent, reverse, or questionable without validated customer research.",
+        "Do not claim access to private systems, customer data, workspaces, documents, dashboards, roadmaps, repositories, accounts, or source records unless the user provides evidence or authorized tool access."
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 31,
+        "absolute_lift": 8,
+        "task_scores": [
+          {
+            "task": "framework-fit-review",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "artifact-quality-review",
+            "baseline_score": 9,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "implementation-change-plan",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 23/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "okb_bundle_id": "kano-model",
+      "timestamp": "2026-07-09T00:00:00Z",
+      "id": "kano-model",
+      "path": "bundles/frameworks/kano-model",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/kano-model",
+      "download_url": "https://openknowledgebank.com/downloads/kano-model.zip",
+      "updated": "2026-07-09",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Kano Model measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 31,
+        "absolute_lift": 8,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/kano-model",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/kano-model/v1/evaluation-results/"
+      }
+    },
+    {
+      "type": "Bundle Index",
+      "title": "Linear",
+      "description": "Tool bundle for source-aware Linear planning, issue triage, project/cycle review, GraphQL API evidence handling, and safe workflow recommendations.",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "category": "tools",
+      "tags": [
+        "linear",
+        "issue-tracking",
+        "product-delivery",
+        "engineering-planning",
+        "project-management"
+      ],
+      "aliases": [
+        "Linear issue tracking",
+        "Linear projects",
+        "Linear cycles"
+      ],
+      "problems_solved": [
+        "Plan Linear issue and project workflows without inventing teams, cycles, statuses, labels, fields, automations, or API results.",
+        "Separate Linear product/API behavior from local workspace configuration and user-provided issue evidence.",
+        "Review product-delivery work with explicit scope, ownership, priority, dependency, and permission caveats."
+      ],
+      "industries": [
+        "software",
+        "digital-products",
+        "technology",
+        "b2b-saas",
+        "cross-industry"
+      ],
+      "tools": [
+        "Linear"
+      ],
+      "frameworks": [
+        "issue triage review",
+        "project planning review",
+        "GraphQL evidence review"
+      ],
+      "deliverables": [
+        "Linear work planning brief"
+      ],
+      "commands": [
+        "/plan-linear-workflow"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Linear guidance quality check"
+      ],
+      "okb_bundle_version": "0.1.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "product-manager",
+        "senior-product-manager",
+        "technical-product-manager"
+      ],
+      "adjacent_bundles": [
+        "jira",
+        "agile",
+        "scrum",
+        "product-roadmap"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete Linear implementation, administration, legal, research, or professional-advice reference.",
+        "Requires user-provided local evidence before final conclusions about Linear usage, readiness, scoring, configuration, or commitments.",
+        "Does not replace qualified product, design, engineering, data, legal, privacy, security, or administrator review."
+      ],
+      "safety_notes": [
+        "Require confirmation before creating, editing, assigning, closing, deleting, importing, exporting, or automating Linear issues, projects, cycles, teams, comments, integrations, webhooks, or API actions.",
+        "Do not claim access to private systems, customer data, workspaces, documents, dashboards, roadmaps, repositories, accounts, or source records unless the user provides evidence or authorized tool access."
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 30,
+        "absolute_lift": 7,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 7,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 23/36 to 30/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "okb_bundle_id": "linear",
+      "timestamp": "2026-07-09T00:00:00Z",
+      "id": "linear",
+      "path": "bundles/tools/linear",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/linear",
+      "download_url": "https://openknowledgebank.com/downloads/linear.zip",
+      "updated": "2026-07-09",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Linear measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 30,
+        "absolute_lift": 7,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/linear",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/linear/v1/evaluation-results/"
+      }
+    },
+    {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
       "id": "microsoft-power-bi",
@@ -2605,6 +3187,152 @@
         "Require explicit confirmation before publishing, overwriting, deleting, exporting, embedding, sharing, changing permissions, triggering refreshes, changing schedules, changing gateway/credential settings, or broadening access.",
         "Do not claim access to Power BI tenants, workspaces, semantic models, reports, dashboards, dataflows, permissions, refresh history, or APIs unless the user provides evidence or authorized tool access."
       ]
+    },
+    {
+      "type": "Bundle Index",
+      "title": "Mixpanel",
+      "description": "Tool bundle for source-aware Mixpanel product analytics planning, event taxonomy review, funnel/cohort analysis, and metric reconciliation.",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "category": "tools",
+      "tags": [
+        "mixpanel",
+        "product-analytics",
+        "funnels",
+        "cohorts",
+        "event-analytics"
+      ],
+      "aliases": [
+        "Mixpanel Analytics",
+        "Mixpanel funnels",
+        "Mixpanel cohorts"
+      ],
+      "problems_solved": [
+        "Plan Mixpanel analysis without inventing event names, properties, cohorts, filters, identity logic, or project settings.",
+        "Review funnels and cohorts with explicit conversion criteria, time windows, segments, and instrumentation caveats.",
+        "Reconcile Mixpanel findings with source-of-record data before product decisions."
+      ],
+      "industries": [
+        "software",
+        "digital-products",
+        "technology",
+        "b2b-saas",
+        "cross-industry"
+      ],
+      "tools": [
+        "Mixpanel"
+      ],
+      "frameworks": [
+        "event taxonomy review",
+        "funnel analysis",
+        "cohort analysis",
+        "metric reconciliation"
+      ],
+      "deliverables": [
+        "Mixpanel analysis brief"
+      ],
+      "commands": [
+        "/plan-mixpanel-analysis"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Mixpanel guidance quality check"
+      ],
+      "okb_bundle_version": "0.1.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "product-manager",
+        "senior-product-manager",
+        "data-product-manager"
+      ],
+      "adjacent_bundles": [
+        "amplitude",
+        "funnel-analysis",
+        "ga4-analytics-specialist"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete Mixpanel implementation, administration, legal, research, or professional-advice reference.",
+        "Requires user-provided local evidence before final conclusions about Mixpanel usage, readiness, scoring, configuration, or commitments.",
+        "Does not replace qualified product, design, engineering, data, legal, privacy, security, or administrator review."
+      ],
+      "safety_notes": [
+        "Require confirmation before changing instrumentation, cohorts, dashboards, reports, alerts, exports, permissions, integrations, privacy settings, or user-facing product decisions from Mixpanel evidence.",
+        "Do not claim access to private systems, customer data, workspaces, documents, dashboards, roadmaps, repositories, accounts, or source records unless the user provides evidence or authorized tool access."
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 34,
+        "absolute_lift": 11,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 10,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 23/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "okb_bundle_id": "mixpanel",
+      "timestamp": "2026-07-09T00:00:00Z",
+      "id": "mixpanel",
+      "path": "bundles/tools/mixpanel",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/mixpanel",
+      "download_url": "https://openknowledgebank.com/downloads/mixpanel.zip",
+      "updated": "2026-07-09",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Mixpanel measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 34,
+        "absolute_lift": 11,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/mixpanel",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/mixpanel/v1/evaluation-results/"
+      }
     },
     {
       "schema_version": "0.1.0",
@@ -3359,6 +4087,297 @@
       }
     },
     {
+      "type": "Bundle Index",
+      "title": "Product Requirements Document (PRD)",
+      "description": "Deliverable bundle for drafting and reviewing Product Requirements Documents without inventing customer evidence, scope, requirements, metrics, or approvals.",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "category": "deliverables",
+      "tags": [
+        "prd",
+        "product-requirements",
+        "product-management",
+        "requirements",
+        "documentation"
+      ],
+      "aliases": [
+        "PRD",
+        "Product Requirements Document",
+        "product requirements"
+      ],
+      "problems_solved": [
+        "Draft PRDs that separate goals, evidence, requirements, open questions, risks, and decision status.",
+        "Review PRDs for missing customer, business, technical, design, analytics, and rollout evidence.",
+        "Prevent PRDs from becoming unsupported commitments or over-detailed pseudo-specs."
+      ],
+      "industries": [
+        "software",
+        "digital-products",
+        "technology",
+        "b2b-saas",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "requirements evidence review",
+        "scope and success criteria review",
+        "stakeholder alignment"
+      ],
+      "deliverables": [
+        "Product Requirements Document"
+      ],
+      "commands": [
+        "/draft-prd"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Product Requirements Document (PRD) guidance quality check"
+      ],
+      "okb_bundle_version": "0.1.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "product-manager",
+        "senior-product-manager",
+        "data-product-manager",
+        "technical-product-manager"
+      ],
+      "adjacent_bundles": [
+        "product-roadmap",
+        "confluence",
+        "jira",
+        "figma"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete Product Requirements Document (PRD) implementation, administration, legal, research, or professional-advice reference.",
+        "Requires user-provided local evidence before final conclusions about Product Requirements Document (PRD) usage, readiness, scoring, configuration, or commitments.",
+        "Does not replace qualified product, design, engineering, data, legal, privacy, security, or administrator review."
+      ],
+      "safety_notes": [
+        "Require confirmation before turning draft requirements into engineering, customer, legal, launch, or roadmap commitments without stakeholder review and evidence.",
+        "Do not claim access to private systems, customer data, workspaces, documents, dashboards, roadmaps, repositories, accounts, or source records unless the user provides evidence or authorized tool access."
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 31,
+        "absolute_lift": 12,
+        "task_scores": [
+          {
+            "task": "deliverable-draft-with-missing-evidence",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-quality-review",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "okb_bundle_id": "product-requirements-document",
+      "timestamp": "2026-07-09T00:00:00Z",
+      "id": "product-requirements-document",
+      "path": "bundles/deliverables/product-requirements-document",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/product-requirements-document",
+      "download_url": "https://openknowledgebank.com/downloads/product-requirements-document.zip",
+      "updated": "2026-07-09",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Product Requirements Document (PRD) measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 31,
+        "absolute_lift": 12,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/deliverables/product-requirements-document",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/product-requirements-document/v1/evaluation-results/"
+      }
+    },
+    {
+      "type": "Bundle Index",
+      "title": "Product Roadmap",
+      "description": "Deliverable bundle for creating and reviewing product roadmaps without inventing strategy, dates, priorities, capacity, dependencies, or stakeholder commitments.",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "category": "deliverables",
+      "tags": [
+        "product-roadmap",
+        "roadmapping",
+        "product-strategy",
+        "prioritization",
+        "planning"
+      ],
+      "aliases": [
+        "roadmap",
+        "product roadmap",
+        "agile roadmap",
+        "now next later roadmap"
+      ],
+      "problems_solved": [
+        "Connect roadmap items to strategy, goals, evidence, priorities, and progress.",
+        "Separate roadmap intent from delivery plans, release commitments, and task backlogs.",
+        "Review roadmap communication for audience, confidence, dependencies, and update cadence."
+      ],
+      "industries": [
+        "software",
+        "digital-products",
+        "technology",
+        "b2b-saas",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "roadmap evidence review",
+        "strategy-to-execution alignment",
+        "stakeholder communication"
+      ],
+      "deliverables": [
+        "Product Roadmap"
+      ],
+      "commands": [
+        "/review-product-roadmap"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Product Roadmap guidance quality check"
+      ],
+      "okb_bundle_version": "0.1.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "product-manager",
+        "senior-product-manager",
+        "data-product-manager",
+        "technical-product-manager"
+      ],
+      "adjacent_bundles": [
+        "rice-prioritization",
+        "product-requirements-document",
+        "jira",
+        "okrs"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete Product Roadmap implementation, administration, legal, research, or professional-advice reference.",
+        "Requires user-provided local evidence before final conclusions about Product Roadmap usage, readiness, scoring, configuration, or commitments.",
+        "Does not replace qualified product, design, engineering, data, legal, privacy, security, or administrator review."
+      ],
+      "safety_notes": [
+        "Require confirmation before publishing dates, commitments, customer promises, staffing implications, or release plans without authority, evidence, and stakeholder approval.",
+        "Do not claim access to private systems, customer data, workspaces, documents, dashboards, roadmaps, repositories, accounts, or source records unless the user provides evidence or authorized tool access."
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 25,
+        "okb_score": 31,
+        "absolute_lift": 6,
+        "task_scores": [
+          {
+            "task": "deliverable-draft-with-missing-evidence",
+            "baseline_score": 10,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-quality-review",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-reconciliation",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 25/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "okb_bundle_id": "product-roadmap",
+      "timestamp": "2026-07-09T00:00:00Z",
+      "id": "product-roadmap",
+      "path": "bundles/deliverables/product-roadmap",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/product-roadmap",
+      "download_url": "https://openknowledgebank.com/downloads/product-roadmap.zip",
+      "updated": "2026-07-09",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Product Roadmap measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 25,
+        "okb_score": 31,
+        "absolute_lift": 6,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/deliverables/product-roadmap",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/product-roadmap/v1/evaluation-results/"
+      }
+    },
+    {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
       "id": "quickbooks-online",
@@ -3497,6 +4516,151 @@
         "Require explicit confirmation before sending invoices or customer/vendor communications, exporting accounting data, modifying transactions/accounts/customers/vendors/items/settings, connecting apps, changing bank feeds, running production API calls, or changing tax/payroll/payment-adjacent behavior.",
         "Do not request credentials, client secrets, refresh tokens, bank credentials, or claim QuickBooks company access unless the user provides authorized tool access or evidence."
       ]
+    },
+    {
+      "type": "Bundle Index",
+      "title": "RICE Prioritization",
+      "description": "Framework bundle for using RICE prioritization without inventing reach estimates, impact scores, confidence levels, effort sizing, or roadmap commitments.",
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "category": "frameworks",
+      "tags": [
+        "rice",
+        "prioritization",
+        "product-management",
+        "roadmapping",
+        "decision-making"
+      ],
+      "aliases": [
+        "RICE scoring",
+        "Reach Impact Confidence Effort",
+        "RICE prioritization framework"
+      ],
+      "problems_solved": [
+        "Score product ideas using explicit reach, impact, confidence, and effort evidence.",
+        "Expose weak estimates, gaming risks, and missing assumptions before ranking roadmap options.",
+        "Turn a RICE table into a decision brief with caveats and review steps."
+      ],
+      "industries": [
+        "software",
+        "digital-products",
+        "technology",
+        "b2b-saas",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "RICE Prioritization",
+        "reach impact confidence effort scoring",
+        "confidence discounting"
+      ],
+      "deliverables": [
+        "RICE prioritization brief"
+      ],
+      "commands": [
+        "/score-rice-priorities"
+      ],
+      "skills": [],
+      "evaluations": [
+        "RICE Prioritization guidance quality check"
+      ],
+      "okb_bundle_version": "0.1.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "product-manager",
+        "senior-product-manager",
+        "data-product-manager",
+        "technical-product-manager"
+      ],
+      "adjacent_bundles": [
+        "product-roadmap",
+        "product-requirements-document",
+        "jobs-to-be-done",
+        "kano-model"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete RICE Prioritization implementation, administration, legal, research, or professional-advice reference.",
+        "Requires user-provided local evidence before final conclusions about RICE Prioritization usage, readiness, scoring, configuration, or commitments.",
+        "Does not replace qualified product, design, engineering, data, legal, privacy, security, or administrator review."
+      ],
+      "safety_notes": [
+        "Require confirmation before ranking roadmap items or committing delivery order from unsupported estimates, hidden assumptions, or unreviewed stakeholder pressure.",
+        "Do not claim access to private systems, customer data, workspaces, documents, dashboards, roadmaps, repositories, accounts, or source records unless the user provides evidence or authorized tool access."
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 31,
+        "absolute_lift": 10,
+        "task_scores": [
+          {
+            "task": "framework-fit-review",
+            "baseline_score": 5,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "artifact-quality-review",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "implementation-change-plan",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 21/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "okb_bundle_id": "rice-prioritization",
+      "timestamp": "2026-07-09T00:00:00Z",
+      "id": "rice-prioritization",
+      "path": "bundles/frameworks/rice-prioritization",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/rice-prioritization",
+      "download_url": "https://openknowledgebank.com/downloads/rice-prioritization.zip",
+      "updated": "2026-07-09",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "RICE Prioritization measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 31,
+        "absolute_lift": 10,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/rice-prioritization",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/rice-prioritization/v1/evaluation-results/"
+      }
     },
     {
       "id": "salesforce-service-cloud",
