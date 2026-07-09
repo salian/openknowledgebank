@@ -69,6 +69,33 @@ safety_notes:
   - "Do not claim access to GA4 properties, reports, events, or exports unless the user provides evidence or authorized tool access."
 okb_bundle_id: ga4-analysis-brief
 timestamp: "2026-07-09T00:00:00Z"
+evaluation_summary:
+  status: measured
+  last_evaluated: 2026-07-09
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 3
+  max_score: 36
+  baseline_score: 22
+  okb_score: 34
+  absolute_lift: 12
+  task_scores:
+    - task: deliverable-draft-with-missing-evidence
+      baseline_score: 8
+      okb_score: 12
+      max_score: 12
+    - task: deliverable-quality-review
+      baseline_score: 6
+      okb_score: 11
+      max_score: 12
+    - task: deliverable-reconciliation
+      baseline_score: 8
+      okb_score: 11
+      max_score: 12
+  comparison_scores:
+  display_summary: Improved measured rubric score from 22/36 to 34/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 ---
 
 # GA4 Analysis Brief

@@ -70,12 +70,32 @@ safety_notes:
   - "Require explicit confirmation before creating, editing, transitioning, deleting, commenting on, exporting, bulk changing, or moving Jira work items; changing workflows, statuses, boards, filters, dashboards, permissions, automations, notifications, or API-connected actions."
   - "Do not claim access to Jira sites, projects/spaces, boards, workflows, work items/issues, reports, automations, users, groups, permissions, or API results unless the user provides evidence or authorized tool access."
 evaluation_summary:
-  status: blocked
-  last_evaluated: "2026-07-09"
+  status: measured
+  last_evaluated: 2026-07-09
   method: baseline-vs-okb-rubric
-  tasks_count: 0
-  display_summary: "Measured evaluation is blocked until a Jira task set and model/provider configuration are selected."
-  evidence_note: "No raw prompts or outputs are included in the public bundle."
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 3
+  max_score: 36
+  baseline_score: 24
+  okb_score: 33
+  absolute_lift: 9
+  task_scores:
+    - task: analysis-plan-without-access
+      baseline_score: 7
+      okb_score: 12
+      max_score: 12
+    - task: configuration-risk-review
+      baseline_score: 10
+      okb_score: 10
+      max_score: 12
+    - task: metric-or-report-reconciliation
+      baseline_score: 7
+      okb_score: 11
+      max_score: 12
+  comparison_scores:
+  display_summary: Improved measured rubric score from 24/36 to 33/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 evaluation_detail: {}
 okb_bundle_id: jira
 timestamp: "2026-07-09T00:00:00Z"

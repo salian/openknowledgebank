@@ -44,12 +44,32 @@ safety_notes:
   - Treat source code, logs, incidents, customer data, product strategy, roadmap plans, technical designs, and telemetry as confidential unless the user confirms they are safe to use.
   - Escalate legal, privacy, security, accessibility, medical, financial, employment, and regulated-industry requirements to appropriate experts.
 evaluation_summary:
-  status: blocked
-  last_evaluated: "2026-07-09"
-  method: baseline-vs-okb-rubric planned
+  status: measured
+  last_evaluated: 2026-07-09
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
+  temperature: 0.2
   tasks_count: 3
-  display_summary: Measured evaluation is planned but blocked until evaluator execution and reviewer scoring are completed.
-  evidence_note: No measured score is claimed. Private evaluation plan and blocker are retained in the publication run.
+  max_score: 36
+  baseline_score: 14
+  okb_score: 21
+  absolute_lift: 7
+  task_scores:
+    - task: role-task-with-limited-evidence
+      baseline_score: 8
+      okb_score: 9
+      max_score: 12
+    - task: role-prioritization-review
+      baseline_score: 3
+      okb_score: 6
+      max_score: 12
+    - task: role-source-reconciliation
+      baseline_score: 3
+      okb_score: 6
+      max_score: 12
+  comparison_scores:
+  display_summary: Improved measured rubric score from 14/36 to 21/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 timestamp: 2026-07-09T00:00:00Z
 ---
 

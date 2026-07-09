@@ -71,12 +71,32 @@ safety_notes:
   - "Require explicit confirmation before sending outreach, enrolling contacts in sequences, modifying records, activating workflows, changing pipeline or permission settings, exporting CRM data, changing quote/payment behavior, or running integrations/API actions."
   - "Do not request credentials or claim HubSpot portal access unless the user provides authorized tool access or evidence."
 evaluation_summary:
-  status: blocked
-  last_evaluated: "2026-07-09"
+  status: measured
+  last_evaluated: 2026-07-09
   method: baseline-vs-okb-rubric
-  tasks_count: 0
-  display_summary: "Measured evaluation is blocked until a HubSpot Sales Hub task set and model/provider configuration are selected."
-  evidence_note: "No raw prompts or outputs are included in the public bundle."
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 3
+  max_score: 36
+  baseline_score: 20
+  okb_score: 35
+  absolute_lift: 15
+  task_scores:
+    - task: analysis-plan-without-access
+      baseline_score: 7
+      okb_score: 12
+      max_score: 12
+    - task: configuration-risk-review
+      baseline_score: 7
+      okb_score: 11
+      max_score: 12
+    - task: metric-or-report-reconciliation
+      baseline_score: 6
+      okb_score: 12
+      max_score: 12
+  comparison_scores:
+  display_summary: Improved measured rubric score from 20/36 to 35/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 okb_bundle_id: hubspot-sales-hub
 timestamp: "2026-07-09T00:00:00Z"
 ---

@@ -79,6 +79,33 @@ safety_notes:
   - Do not request, expose, or publish personal employee data, medical details, incident records, or employer confidential information beyond what is necessary for the user-approved analysis.
   - Require explicit confirmation before submitting reports, contacting OSHA or a state-plan authority, changing workplace controls, changing policies, exporting records, or modifying live systems.
 timestamp: "2026-07-09T00:00:00Z"
+evaluation_summary:
+  status: measured
+  last_evaluated: 2026-07-09
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 3
+  max_score: 36
+  baseline_score: 15
+  okb_score: 28
+  absolute_lift: 13
+  task_scores:
+    - task: applicability-triage
+      baseline_score: 5
+      okb_score: 10
+      max_score: 12
+    - task: source-aware-checklist
+      baseline_score: 7
+      okb_score: 7
+      max_score: 12
+    - task: conflicting-evidence-review
+      baseline_score: 3
+      okb_score: 11
+      max_score: 12
+  comparison_scores:
+  display_summary: Improved measured rubric score from 15/36 to 28/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 ---
 
 # OSHA

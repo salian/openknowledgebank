@@ -42,11 +42,32 @@ safety_notes:
   - Confirm before modifying live design files, tickets, research repositories, product specs, roadmap artifacts, or customer-facing communications.
   - Treat customer research, unreleased product strategy, design files, analytics, and roadmap plans as confidential unless the user confirms they are safe to use.
 evaluation_summary:
-  status: blocked
-  last_evaluated: "2026-07-09"
-  method: baseline-vs-okb-rubric planned
-  display_summary: Measured evaluation is planned but blocked until model execution and reviewer scoring are completed.
-  evidence_note: Public listing excludes raw private prompts and outputs; no measured score is claimed for this draft.
+  status: measured
+  last_evaluated: 2026-07-09
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 3
+  max_score: 36
+  baseline_score: 16
+  okb_score: 21
+  absolute_lift: 5
+  task_scores:
+    - task: checkout-flow-review
+      baseline_score: 2
+      okb_score: 9
+      max_score: 12
+    - task: onboarding-prototype-plan
+      baseline_score: 7
+      okb_score: 6
+      max_score: 12
+    - task: design-brief-from-sparse-context
+      baseline_score: 7
+      okb_score: 6
+      max_score: 12
+  comparison_scores:
+  display_summary: Improved measured rubric score from 16/36 to 21/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 timestamp: 2026-07-09T00:00:00Z
 ---
 

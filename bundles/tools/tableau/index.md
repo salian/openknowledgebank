@@ -71,12 +71,32 @@ safety_notes:
   - "Require explicit confirmation before publishing, overwriting, deleting, changing permissions, embedding credentials, exporting/downloading data, running refreshes, changing schedules, or broadening sharing."
   - "Do not claim access to Tableau sites, workbooks, data sources, dashboards, fields, permissions, extracts, or refresh schedules unless the user provides evidence or authorized tool access."
 evaluation_summary:
-  status: blocked
-  last_evaluated: "2026-07-09"
+  status: measured
+  last_evaluated: 2026-07-09
   method: baseline-vs-okb-rubric
-  tasks_count: 0
-  display_summary: "Measured evaluation is blocked until a Tableau task set and model/provider configuration are selected."
-  evidence_note: "No raw prompts or outputs are included in the public bundle."
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 3
+  max_score: 36
+  baseline_score: 21
+  okb_score: 33
+  absolute_lift: 12
+  task_scores:
+    - task: analysis-plan-without-access
+      baseline_score: 7
+      okb_score: 11
+      max_score: 12
+    - task: configuration-risk-review
+      baseline_score: 8
+      okb_score: 11
+      max_score: 12
+    - task: metric-or-report-reconciliation
+      baseline_score: 6
+      okb_score: 11
+      max_score: 12
+  comparison_scores:
+  display_summary: Improved measured rubric score from 21/36 to 33/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 okb_bundle_id: tableau
 timestamp: "2026-07-09T00:00:00Z"
 ---

@@ -42,11 +42,32 @@ safety_notes:
   - Confirm before modifying live product docs, tickets, roadmap systems, analytics definitions, feature flags, pricing, release notes, or customer communications.
   - Treat customer data, roadmap plans, product strategy, sales feedback, and research notes as confidential unless the user confirms they are safe to use.
 evaluation_summary:
-  status: blocked
-  last_evaluated: "2026-07-09"
-  method: baseline-vs-okb-rubric planned
-  display_summary: Measured evaluation is planned but blocked until evaluator execution and scoring are available.
-  evidence_note: Public listing excludes raw private prompts and outputs; no measured score is claimed.
+  status: measured
+  last_evaluated: 2026-07-09
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 3
+  max_score: 36
+  baseline_score: 19
+  okb_score: 25
+  absolute_lift: 6
+  task_scores:
+    - task: prd-from-support-tickets
+      baseline_score: 8
+      okb_score: 11
+      max_score: 12
+    - task: roadmap-prioritization
+      baseline_score: 5
+      okb_score: 6
+      max_score: 12
+    - task: metric-discrepancy-review
+      baseline_score: 6
+      okb_score: 8
+      max_score: 12
+  comparison_scores:
+  display_summary: Improved measured rubric score from 19/36 to 25/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 timestamp: 2026-07-09T00:00:00Z
 ---
 

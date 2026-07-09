@@ -54,14 +54,56 @@
         "ADA source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
-        "method": "baseline-vs-okb-rubric planned",
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
         "tasks_count": 3,
-        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
-        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 33,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "evaluation_detail": {},
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "ADA measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 33,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/ada",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/ada/v1/evaluation-results/"
+      },
       "related_bundles": [
         "wcag"
       ],
@@ -150,12 +192,56 @@
         "Agile guidance quality check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
-        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 25,
+        "absolute_lift": 7,
+        "task_scores": [
+          {
+            "task": "framework-fit-review",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "artifact-quality-review",
+            "baseline_score": 7,
+            "okb_score": 5,
+            "max_score": 12
+          },
+          {
+            "task": "implementation-change-plan",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 25/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "evaluation_detail": {},
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Agile measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 25,
+        "absolute_lift": 7,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/agile",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/agile/v1/evaluation-results/"
+      },
       "related_bundles": [
         "product-manager"
       ],
@@ -246,17 +332,55 @@
         "Amplitude analysis quality check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
         "tasks_count": 3,
-        "display_summary": "Measured evaluation is blocked until a reviewed Amplitude task set, evaluator config, model outputs, and reviewer scoring are completed.",
-        "evidence_note": "No measured score is claimed. The public bundle includes a rubric, but no completed baseline-vs-OKB model run exists."
+        "max_score": 36,
+        "baseline_score": 24,
+        "okb_score": 34,
+        "absolute_lift": 10,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 24/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "evaluation_detail": {
-        "status": "blocked",
-        "blocker": "No reviewed Amplitude task set, evaluator config, completed model outputs, or reviewer scoring exists yet.",
-        "next_action": "Create operations/evaluations/configs/amplitude-v1.json, run the generic evaluation harness, score outputs, and build a listing scorecard."
+        "status": "measured",
+        "title": "Amplitude measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 24,
+        "okb_score": 34,
+        "absolute_lift": 10,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/amplitude",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/amplitude/v1/evaluation-results/"
       },
       "related_bundles": [
         "product-manager",
@@ -609,14 +733,56 @@
         "data-product-management-quality-check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
         "last_evaluated": "2026-07-09",
-        "method": "baseline-vs-okb-rubric planned",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
         "tasks_count": 3,
-        "display_summary": "Measured evaluation is planned but blocked until live evaluator execution and reviewer scoring are authorized.",
-        "evidence_note": "No measured score is claimed. Private evaluation plan and blocker are retained in the publication run."
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 25,
+        "absolute_lift": 9,
+        "task_scores": [
+          {
+            "task": "customer-health-data-product-prd",
+            "baseline_score": 9,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "customer-events-contract-review",
+            "baseline_score": 3,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "active-customer-metric-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 6,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 25/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "evaluation_detail": {},
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Data Product Manager measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 25,
+        "absolute_lift": 9,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/data-product-manager",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/data-product-manager/v1/evaluation-results/"
+      },
       "related_bundles": [
         "agile",
         "figma",
@@ -728,14 +894,56 @@
         "DocuSign plan quality check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
         "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured evaluation is blocked until a DocuSign task set and model/provider configuration are selected.",
-        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 25,
+        "okb_score": 30,
+        "absolute_lift": 5,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 7,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 11,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 25/36 to 30/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "evaluation_detail": {},
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "DocuSign measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 25,
+        "okb_score": 30,
+        "absolute_lift": 5,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/docusign",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/docusign/v1/evaluation-results/"
+      },
       "related_bundles": [],
       "adjacent_bundles": [
         "hubspot-sales-hub",
@@ -829,18 +1037,55 @@
         "Figma handoff plan quality check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
         "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured evaluation is blocked until a Figma task set and model/provider configuration are selected.",
-        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 34,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 21/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "evaluation_detail": {
-        "status": "blocked",
-        "title": "Figma planned evaluation",
+        "status": "measured",
+        "title": "Figma measured evaluation",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "next_step": "Create public-safe Figma handoff tasks and run the generic evaluation harness."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 34,
+        "absolute_lift": 13,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/figma",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/figma/v1/evaluation-results/"
       },
       "related_bundles": [
         "product-manager"
@@ -960,17 +1205,55 @@
         "Do not claim access to analytics tools, event schemas, user-level records, or reports unless the user provides evidence or authorized tool access."
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
-        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 24,
+        "absolute_lift": 3,
+        "task_scores": [
+          {
+            "task": "framework-fit-review",
+            "baseline_score": 6,
+            "okb_score": 6,
+            "max_score": 12
+          },
+          {
+            "task": "artifact-quality-review",
+            "baseline_score": 6,
+            "okb_score": 6,
+            "max_score": 12
+          },
+          {
+            "task": "implementation-change-plan",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 21/36 to 24/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "evaluation_detail": {
-        "status": "blocked",
-        "title": "Funnel Analysis planned evaluation",
+        "status": "measured",
+        "title": "Funnel Analysis measured evaluation",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "next_step": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 24,
+        "absolute_lift": 3,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/funnel-analysis",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/funnel-analysis/v1/evaluation-results/"
       }
     },
     {
@@ -1064,17 +1347,55 @@
         "Do not claim access to GA4 properties, reports, events, or exports unless the user provides evidence or authorized tool access."
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
-        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 22,
+        "okb_score": 34,
+        "absolute_lift": 12,
+        "task_scores": [
+          {
+            "task": "deliverable-draft-with-missing-evidence",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-quality-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-reconciliation",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 22/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "evaluation_detail": {
-        "status": "blocked",
-        "title": "GA4 Analysis Brief planned evaluation",
+        "status": "measured",
+        "title": "GA4 Analysis Brief measured evaluation",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "next_step": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 22,
+        "okb_score": 34,
+        "absolute_lift": 12,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/deliverables/ga4-analysis-brief",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/ga4-analysis-brief/v1/evaluation-results/"
       }
     },
     {
@@ -1489,18 +1810,55 @@
         "GDPR source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
-        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 32,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "evaluation_detail": {
-        "status": "blocked",
-        "title": "GDPR source-awareness measured evaluation",
-        "planned_method": "Run baseline and bundle-assisted GDPR triage tasks against the source-awareness rubric before publishing measured lift.",
-        "next_step": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
+        "status": "measured",
+        "title": "GDPR measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 32,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/gdpr",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/gdpr/v1/evaluation-results/"
       },
       "related_bundles": [],
       "adjacent_bundles": [],
@@ -1589,16 +1947,55 @@
         "BigQuery query plan quality check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
-        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 22,
+        "okb_score": 31,
+        "absolute_lift": 9,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 9,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 22/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "evaluation_detail": {
-        "status": "blocked",
-        "title": "Google BigQuery evaluation plan",
-        "summary": "Create a BigQuery task set focused on schema discipline, query planning, cost preflight, and validation before measuring.",
-        "next_step": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
+        "status": "measured",
+        "title": "Google BigQuery measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 22,
+        "okb_score": 31,
+        "absolute_lift": 9,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/google-bigquery",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/google-bigquery/v1/evaluation-results/"
       },
       "related_bundles": [
         "ga4-analytics-specialist"
@@ -1725,17 +2122,55 @@
         "Require explicit confirmation before submitting reports, contacting regulators, changing policies, changing contracts, sending notices, exporting PHI/ePHI, or modifying live systems."
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
-        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 31,
+        "absolute_lift": 12,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "evaluation_detail": {
-        "status": "blocked",
-        "title": "HIPAA planned evaluation",
+        "status": "measured",
+        "title": "HIPAA measured evaluation",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "next_step": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 31,
+        "absolute_lift": 12,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/hipaa",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hipaa/v1/evaluation-results/"
       }
     },
     {
@@ -1801,18 +2236,55 @@
         "HubSpot Sales Hub plan quality check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
         "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured evaluation is blocked until a HubSpot Sales Hub task set and model/provider configuration are selected.",
-        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 35,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "evaluation_detail": {
-        "status": "blocked",
-        "title": "HubSpot Sales Hub planned evaluation",
+        "status": "measured",
+        "title": "HubSpot Sales Hub measured evaluation",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "next_step": "Create public-safe HubSpot Sales Hub planning tasks and run the generic evaluation harness."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 35,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/hubspot-sales-hub",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hubspot-sales-hub/v1/evaluation-results/"
       },
       "related_bundles": [],
       "adjacent_bundles": [
@@ -1907,14 +2379,56 @@
         "Jira planning quality check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
         "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured evaluation is blocked until a Jira task set and model/provider configuration are selected.",
-        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 24,
+        "okb_score": 33,
+        "absolute_lift": 9,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 10,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 24/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "evaluation_detail": {},
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Jira measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 24,
+        "okb_score": 33,
+        "absolute_lift": 9,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/jira",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/jira/v1/evaluation-results/"
+      },
       "related_bundles": [
         "product-manager"
       ],
@@ -2012,18 +2526,55 @@
         "Power BI report plan quality check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
         "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured evaluation is blocked until a Power BI task set, model/provider configuration, and reviewer are selected.",
-        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 22,
+        "okb_score": 33,
+        "absolute_lift": 11,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 10,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 22/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "evaluation_detail": {
-        "status": "blocked",
-        "title": "Microsoft Power BI planned evaluation",
+        "status": "measured",
+        "title": "Microsoft Power BI measured evaluation",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "next_step": "Create public-safe Power BI benchmark tasks and run the generic evaluation harness."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 22,
+        "okb_score": 33,
+        "absolute_lift": 11,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/microsoft-power-bi",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/microsoft-power-bi/v1/evaluation-results/"
       },
       "related_bundles": [
         "google-bigquery",
@@ -2110,12 +2661,39 @@
         "OKR quality check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
         "tasks_count": 3,
-        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
-        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 28,
+        "absolute_lift": 10,
+        "task_scores": [
+          {
+            "task": "framework-fit-review",
+            "baseline_score": 3,
+            "okb_score": 7,
+            "max_score": 12
+          },
+          {
+            "task": "artifact-quality-review",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "implementation-change-plan",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 28/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "related_bundles": [
         "product-manager"
@@ -2144,7 +2722,23 @@
       "safety_notes": [
         "Require confirmation before changing live OKR tools, employee communications, compensation policy, performance-review material, staffing decisions, or executive commitments.",
         "Do not claim access to private goals, metrics, dashboards, HR policies, or planning systems unless the user provides evidence or authorized tool access."
-      ]
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Objectives and Key Results (OKRs) measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 28,
+        "absolute_lift": 10,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/okrs",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/okrs/v1/evaluation-results/"
+      }
     },
     {
       "id": "osha",
@@ -2245,18 +2839,55 @@
         "Require explicit confirmation before submitting reports, contacting OSHA or a state-plan authority, changing workplace controls, changing policies, exporting records, or modifying live systems."
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
         "tasks_count": 3,
-        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
-        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 28,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 7,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 28/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "evaluation_detail": {
-        "status": "blocked",
-        "title": "OSHA planned evaluation",
+        "status": "measured",
+        "title": "OSHA measured evaluation",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "next_step": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 28,
+        "absolute_lift": 13,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/osha",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/osha/v1/evaluation-results/"
       }
     },
     {
@@ -2329,12 +2960,58 @@
         "Tool and campaign changes require explicit user confirmation."
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "display_summary": "Measured evaluation is blocked until a private run record and evaluation package are reconstructed for this legacy bundle.",
-        "evidence_note": "No measured score is claimed. This bundle predates the continuous run folder structure used by the current evaluation workflow."
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 19,
+        "absolute_lift": 4,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 7,
+            "okb_score": 8,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 5,
+            "okb_score": 5,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 3,
+            "okb_score": 6,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 19/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/performance-marketer",
-      "download_url": "https://openknowledgebank.com/downloads/performance-marketer.zip"
+      "download_url": "https://openknowledgebank.com/downloads/performance-marketer.zip",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Performance Marketer measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 19,
+        "absolute_lift": 4,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/performance-marketer",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/performance-marketer/v1/evaluation-results/"
+      }
     },
     {
       "schema_version": "0.1.0",
@@ -2416,13 +3093,56 @@
         "product-design-quality-check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
         "last_evaluated": "2026-07-09",
-        "method": "baseline-vs-okb-rubric planned",
-        "display_summary": "Measured evaluation is planned but blocked until model execution and reviewer scoring are completed.",
-        "evidence_note": "Public listing excludes raw private prompts and outputs; no measured score is claimed for this draft."
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 21,
+        "absolute_lift": 5,
+        "task_scores": [
+          {
+            "task": "checkout-flow-review",
+            "baseline_score": 2,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "onboarding-prototype-plan",
+            "baseline_score": 7,
+            "okb_score": 6,
+            "max_score": 12
+          },
+          {
+            "task": "design-brief-from-sparse-context",
+            "baseline_score": 7,
+            "okb_score": 6,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 21/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "evaluation_detail": {},
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Product Designer measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 21,
+        "absolute_lift": 5,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/product-designer",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/product-designer/v1/evaluation-results/"
+      },
       "related_bundles": [
         "ada",
         "figma",
@@ -2585,15 +3305,58 @@
         "Escalate legal, privacy, security, accessibility, medical, financial, employment, and regulated-industry requirements to appropriate experts."
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
         "last_evaluated": "2026-07-09",
-        "method": "baseline-vs-okb-rubric planned",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
         "tasks_count": 3,
-        "display_summary": "Measured evaluation is planned but blocked until evaluator execution and scoring are available.",
-        "evidence_note": "No measured score is claimed. Private evaluation plan and blocker are retained in the publication run."
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 25,
+        "absolute_lift": 6,
+        "task_scores": [
+          {
+            "task": "prd-from-support-tickets",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "roadmap-prioritization",
+            "baseline_score": 5,
+            "okb_score": 6,
+            "max_score": 12
+          },
+          {
+            "task": "metric-discrepancy-review",
+            "baseline_score": 6,
+            "okb_score": 8,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 25/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/product-manager",
-      "download_url": "https://openknowledgebank.com/downloads/product-manager.zip"
+      "download_url": "https://openknowledgebank.com/downloads/product-manager.zip",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Product Manager measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 25,
+        "absolute_lift": 6,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/product-manager",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/product-manager/v1/evaluation-results/"
+      }
     },
     {
       "schema_version": "0.1.0",
@@ -2661,14 +3424,56 @@
         "QuickBooks Online plan quality check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
         "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured evaluation is blocked until an approved QuickBooks Online task set, model/provider run, and reviewer scoring pass are available.",
-        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 26,
+        "okb_score": 33,
+        "absolute_lift": 7,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 26/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "evaluation_detail": {},
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "QuickBooks Online measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 26,
+        "okb_score": 33,
+        "absolute_lift": 7,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/quickbooks-online",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/quickbooks-online/v1/evaluation-results/"
+      },
       "related_bundles": [],
       "adjacent_bundles": [],
       "contributors": [
@@ -2758,12 +3563,39 @@
         "Service Cloud plan quality check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
         "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured evaluation is blocked until a Salesforce Service Cloud task set and model/provider configuration are selected.",
-        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 31,
+        "absolute_lift": 8,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 10,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 23/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "related_bundles": [],
       "adjacent_bundles": [],
@@ -2787,7 +3619,23 @@
       "safety_notes": [
         "Require explicit confirmation before changing Salesforce records, metadata, routing, queues, permissions, automations, integrations, exports, AI/customer-facing behavior, or customer communications.",
         "Do not request credentials or claim Salesforce org access unless the user provides authorized tool access or evidence."
-      ]
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Salesforce Service Cloud measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 31,
+        "absolute_lift": 8,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/salesforce-service-cloud",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/salesforce-service-cloud/v1/evaluation-results/"
+      }
     },
     {
       "schema_version": "0.1.0",
@@ -2970,17 +3818,55 @@
         "Scrum guidance quality check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
         "tasks_count": 3,
-        "display_summary": "Measured evaluation is blocked until a reviewed Scrum task set, evaluator config, model outputs, and reviewer scoring are completed.",
-        "evidence_note": "No measured score is claimed. The public bundle includes a rubric, but no completed baseline-vs-OKB model run exists."
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 34,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "framework-fit-review",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "artifact-quality-review",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "implementation-change-plan",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "evaluation_detail": {
-        "status": "blocked",
-        "blocker": "No reviewed Scrum task set, evaluator config, completed model outputs, or reviewer scoring exists yet.",
-        "next_action": "Create operations/evaluations/configs/scrum-v1.json, run the generic evaluation harness, score outputs, and build a listing scorecard."
+        "status": "measured",
+        "title": "Scrum measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 34,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/scrum",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/scrum/v1/evaluation-results/"
       },
       "related_bundles": [
         "agile",
@@ -3100,13 +3986,56 @@
         "senior-product-management-quality-check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
         "last_evaluated": "2026-07-09",
-        "method": "baseline-vs-okb-rubric planned",
-        "display_summary": "Measured evaluation is planned but blocked until model outputs are generated and human-scored aggregate results are reviewed.",
-        "evidence_note": "Public listing excludes raw private prompts and outputs; no measured score is claimed for this draft publication."
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 20,
+        "absolute_lift": 3,
+        "task_scores": [
+          {
+            "task": "strategy-brief-ambiguous-bet",
+            "baseline_score": 5,
+            "okb_score": 5,
+            "max_score": 12
+          },
+          {
+            "task": "prd-review-missing-evidence",
+            "baseline_score": 7,
+            "okb_score": 8,
+            "max_score": 12
+          },
+          {
+            "task": "metric-discrepancy-review",
+            "baseline_score": 5,
+            "okb_score": 7,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 20/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "evaluation_detail": {},
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Senior Product Manager measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 20,
+        "absolute_lift": 3,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/senior-product-manager",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/senior-product-manager/v1/evaluation-results/"
+      },
       "related_bundles": [
         "agile",
         "figma",
@@ -3249,17 +4178,55 @@
         "Do not recommend spam, link buying, cloaking, doorway pages, deceptive automation, or attempts to manipulate generative AI search responses."
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "display_summary": "Measured baseline-vs-OKB evaluation is blocked until OpenRouter credentials are available.",
-        "evidence_note": "No raw prompts or outputs were generated for this run."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "traffic-drop-without-evidence",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "content-optimization-brief",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "tool-metric-discrepancy",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "evaluation_detail": {
-        "status": "blocked",
-        "title": "SEO Specialist / Consultant planned evaluation",
+        "status": "measured",
+        "title": "SEO Specialist / Consultant measured evaluation",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "next_step": "Set OpenRouter credentials and run the generic evaluation harness for the v1 task set."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/seo-specialist-consultant",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/seo-specialist-consultant/v1/evaluation-results/"
       }
     },
     {
@@ -3316,18 +4283,55 @@
         "SOC 2 source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
-        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 33,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "evaluation_detail": {
-        "status": "blocked",
-        "title": "SOC 2 source-awareness measured evaluation",
-        "planned_method": "Run baseline and bundle-assisted SOC 2 triage tasks against the source-awareness rubric before publishing measured lift.",
-        "next_step": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected."
+        "status": "measured",
+        "title": "SOC 2 measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 33,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/soc-2",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/soc-2/v1/evaluation-results/"
       },
       "related_bundles": [
         "auditor-external",
@@ -3692,18 +4696,55 @@
         "Tableau dashboard plan quality check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
         "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured evaluation is blocked until a Tableau task set and model/provider configuration are selected.",
-        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 33,
+        "absolute_lift": 12,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 21/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
       "evaluation_detail": {
-        "status": "blocked",
-        "title": "Tableau planned evaluation",
+        "status": "measured",
+        "title": "Tableau measured evaluation",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "next_step": "Create public-safe Tableau benchmark tasks and run the generic evaluation harness."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 33,
+        "absolute_lift": 12,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/tableau",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/tableau/v1/evaluation-results/"
       },
       "related_bundles": [
         "google-bigquery"
@@ -3957,14 +4998,56 @@
         "technical-product-management-quality-check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
         "last_evaluated": "2026-07-09",
-        "method": "baseline-vs-okb-rubric planned",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
         "tasks_count": 3,
-        "display_summary": "Measured evaluation is planned but blocked until evaluator execution and reviewer scoring are completed.",
-        "evidence_note": "No measured score is claimed. Private evaluation plan and blocker are retained in the publication run."
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 21,
+        "absolute_lift": 7,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 8,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 3,
+            "okb_score": 6,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 3,
+            "okb_score": 6,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 21/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "evaluation_detail": {},
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Technical Product Manager measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 21,
+        "absolute_lift": 7,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/technical-product-manager",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/technical-product-manager/v1/evaluation-results/"
+      },
       "related_bundles": [
         "agile",
         "figma",
@@ -4185,14 +5268,56 @@
         "WCAG source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
-        "method": "baseline-vs-okb-rubric planned",
-        "tasks_count": 1,
-        "display_summary": "Measured evaluation is blocked until a benchmark task set, evaluator config, model/provider credentials, and reviewer scoring are selected.",
-        "evidence_note": "No measured score is claimed. The public bundle includes a rubric or evaluation plan, but no completed baseline-vs-OKB model run exists."
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 33,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "evaluation_detail": {},
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "WCAG measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 33,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/wcag",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/wcag/v1/evaluation-results/"
+      },
       "related_bundles": [],
       "adjacent_bundles": [],
       "contributors": [
@@ -4286,14 +5411,56 @@
         "Zendesk plan quality check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
+        "status": "measured",
         "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured evaluation is blocked until a Zendesk task set, model/provider configuration, and reviewer are selected.",
-        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 26,
+        "okb_score": 33,
+        "absolute_lift": 7,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 9,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 26/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "evaluation_detail": {},
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Zendesk measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 26,
+        "okb_score": 33,
+        "absolute_lift": 7,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/zendesk",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/zendesk/v1/evaluation-results/"
+      },
       "related_bundles": [],
       "adjacent_bundles": [
         "salesforce-service-cloud",

@@ -41,11 +41,32 @@ safety_notes:
   - Require confirmation before modifying live CMS content, robots.txt, sitemaps, redirects, canonicals, structured data, internal links at scale, analytics/search settings, or exports.
   - Do not recommend spam, link buying, cloaking, doorway pages, deceptive automation, or attempts to manipulate generative AI search responses.
 evaluation_summary:
-  status: blocked
-  last_evaluated:
+  status: measured
+  last_evaluated: 2026-07-09
   method: baseline-vs-okb-rubric
-  display_summary: Measured baseline-vs-OKB evaluation is blocked until OpenRouter credentials are available.
-  evidence_note: No raw prompts or outputs were generated for this run.
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 3
+  max_score: 36
+  baseline_score: 14
+  okb_score: 32
+  absolute_lift: 18
+  task_scores:
+    - task: traffic-drop-without-evidence
+      baseline_score: 3
+      okb_score: 10
+      max_score: 12
+    - task: content-optimization-brief
+      baseline_score: 6
+      okb_score: 10
+      max_score: 12
+    - task: tool-metric-discrepancy
+      baseline_score: 5
+      okb_score: 12
+      max_score: 12
+  comparison_scores:
+  display_summary: Improved measured rubric score from 14/36 to 32/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 timestamp: 2026-07-09T00:00:00Z
 ---
 
