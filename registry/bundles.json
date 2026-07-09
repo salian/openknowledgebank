@@ -1637,6 +1637,118 @@
     {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
+      "id": "microsoft-power-bi",
+      "title": "Microsoft Power BI",
+      "description": "Tool bundle for source-aware Power BI report, dashboard, semantic model, refresh, security, sharing, and REST API planning.",
+      "category": "tools",
+      "path": "bundles/tools/microsoft-power-bi",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "updated": "2026-07-09",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/microsoft-power-bi",
+      "download_url": "https://openknowledgebank.com/downloads/microsoft-power-bi.zip",
+      "tags": [
+        "microsoft-power-bi",
+        "power-bi",
+        "business-intelligence",
+        "dashboards",
+        "analytics",
+        "data-visualization"
+      ],
+      "aliases": [
+        "Power BI",
+        "Microsoft Power BI Desktop",
+        "Power BI service",
+        "Microsoft Fabric Power BI"
+      ],
+      "problems_solved": [
+        "Plan Power BI reports and dashboards without inventing workspaces, semantic models, fields, measures, filters, or permissions.",
+        "Separate official Microsoft Learn product and API behavior from user-provided tenant, workspace, semantic model, and report evidence.",
+        "Review refresh, lineage, RLS, sharing, export, embedding, and publishing decisions with explicit confirmation boundaries.",
+        "Produce Power BI readiness plans that include source notes, metric validation, security review, and governance checks."
+      ],
+      "industries": [
+        "analytics",
+        "data",
+        "business-intelligence",
+        "finance",
+        "operations",
+        "sales",
+        "marketing"
+      ],
+      "tools": [
+        "Microsoft Power BI",
+        "Power BI Desktop",
+        "Power BI service",
+        "Microsoft Fabric",
+        "Power BI REST APIs"
+      ],
+      "frameworks": [
+        "verify-first BI planning",
+        "semantic model evidence check",
+        "source-of-record reconciliation",
+        "publishing and permissions confirmation boundary"
+      ],
+      "deliverables": [
+        "Power BI report readiness plan"
+      ],
+      "commands": [
+        "/plan-power-bi-report"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Power BI report plan quality check"
+      ],
+      "evaluation_summary": {
+        "status": "blocked",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 0,
+        "display_summary": "Measured evaluation is blocked until a Power BI task set, model/provider configuration, and reviewer are selected.",
+        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+      },
+      "evaluation_detail": {
+        "status": "blocked",
+        "title": "Microsoft Power BI planned evaluation",
+        "method": "baseline-vs-okb-rubric",
+        "next_step": "Create public-safe Power BI benchmark tasks and run the generic evaluation harness."
+      },
+      "related_bundles": [
+        "google-bigquery",
+        "tableau"
+      ],
+      "adjacent_bundles": [
+        "ga4-analytics-specialist",
+        "performance-marketer"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete Power BI Desktop, Power BI service, Microsoft Fabric, DAX, Power Query M, REST API, pricing, licensing, connector, capacity, tenant administration, or release reference.",
+        "Requires user-provided tenant, workspace, semantic model, report, dashboard, dataflow, field, measure, filter, RLS/OLS, refresh, lineage, gateway, capacity, permission, and governance evidence before final conclusions.",
+        "Does not replace Power BI administrator, BI governance, data owner, security, privacy, accessibility, legal, procurement, or compliance review."
+      ],
+      "safety_notes": [
+        "Require explicit confirmation before publishing, overwriting, deleting, exporting, embedding, sharing, changing permissions, triggering refreshes, changing schedules, changing gateway/credential settings, or broadening access.",
+        "Do not claim access to Power BI tenants, workspaces, semantic models, reports, dashboards, dataflows, permissions, refresh history, or APIs unless the user provides evidence or authorized tool access."
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
       "id": "okrs",
       "title": "Objectives and Key Results (OKRs)",
       "description": "Framework hub for drafting, reviewing, and operating OKRs without inventing local strategy, metrics, cadence, tool fields, or HR policy.",
