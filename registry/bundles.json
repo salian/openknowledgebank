@@ -2320,6 +2320,1615 @@
       }
     },
     {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "hipaa-breach-notification-rule",
+      "title": "HIPAA Breach Notification Rule",
+      "description": "Source-aware compliance bundle for HIPAA breach notification triage, evidence review, and notice-readiness planning.",
+      "category": "compliance",
+      "path": "bundles/compliance/hipaa-breach-notification-rule",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/hipaa-breach-notification-rule",
+      "download_url": "https://openknowledgebank.com/downloads/hipaa-breach-notification-rule.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "hipaa",
+        "breach-notification",
+        "privacy",
+        "healthcare",
+        "compliance"
+      ],
+      "aliases": [
+        "45 CFR 164.400-414",
+        "HIPAA breach reporting",
+        "unsecured PHI breach notification"
+      ],
+      "problems_solved": [
+        "Route Breach Notification Rule questions to the correct official source category.",
+        "Separate official-source facts, user-provided evidence, assumptions, and missing verification.",
+        "Produce a breach-notification readiness brief for professional review."
+      ],
+      "industries": [
+        "healthcare",
+        "health-insurance",
+        "health-technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "HIPAA rule-family triage",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "breach-notification readiness brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "HIPAA Breach Notification Rule source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 34,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "hipaa",
+        "hipaa-claims-attachments-standards",
+        "hipaa-eft-era-operating-rules",
+        "hipaa-eligibility-claim-status-operating-rules",
+        "hipaa-employer-identifier-ein"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice or a complete rule-by-rule treatise.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified professional review.",
+        "Do not rely on proposed rules, summaries, stale implementation guides, payer policies, or assumptions without inspection."
+      ],
+      "safety_notes": [
+        "Minimize PHI and ePHI in prompts, examples, exports, and review artifacts.",
+        "Require qualified legal, privacy, security, compliance, revenue-cycle, coding, or technical review before reliance.",
+        "Require explicit confirmation before sending notices, submitting reports, changing transactions, contacting regulators, modifying systems, exporting data, or making public compliance claims."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "HIPAA Breach Notification Rule measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 34,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/hipaa-breach-notification-rule",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hipaa-breach-notification-rule/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "hipaa-claims-attachments-standards",
+      "title": "HIPAA Claims Attachments Standards",
+      "description": "Source-aware compliance bundle for the health care claims attachments and electronic signature standards adopted in CMS-0053-F.",
+      "category": "compliance",
+      "path": "bundles/compliance/hipaa-claims-attachments-standards",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/hipaa-claims-attachments-standards",
+      "download_url": "https://openknowledgebank.com/downloads/hipaa-claims-attachments-standards.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "hipaa",
+        "claims-attachments",
+        "x12",
+        "electronic-signatures",
+        "administrative-simplification"
+      ],
+      "aliases": [
+        "CMS-0053-F",
+        "health care claims attachments",
+        "electronic signature standards"
+      ],
+      "problems_solved": [
+        "Route Administrative Simplification claims attachments standards questions to the correct official source category.",
+        "Separate official-source facts, user-provided evidence, assumptions, and missing verification.",
+        "Produce a claims attachment standards readiness brief for professional review."
+      ],
+      "industries": [
+        "healthcare",
+        "health-insurance",
+        "health-technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "HIPAA rule-family triage",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "claims attachment standards readiness brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "HIPAA Claims Attachments Standards source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 32,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "hipaa",
+        "hipaa-breach-notification-rule",
+        "hipaa-eft-era-operating-rules",
+        "hipaa-eligibility-claim-status-operating-rules",
+        "hipaa-employer-identifier-ein"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice or a complete rule-by-rule treatise.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified professional review.",
+        "Do not rely on proposed rules, summaries, stale implementation guides, payer policies, or assumptions without inspection."
+      ],
+      "safety_notes": [
+        "Minimize PHI and ePHI in prompts, examples, exports, and review artifacts.",
+        "Require qualified legal, privacy, security, compliance, revenue-cycle, coding, or technical review before reliance.",
+        "Require explicit confirmation before sending notices, submitting reports, changing transactions, contacting regulators, modifying systems, exporting data, or making public compliance claims."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "HIPAA Claims Attachments Standards measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 32,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/hipaa-claims-attachments-standards",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hipaa-claims-attachments-standards/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "hipaa-eft-era-operating-rules",
+      "title": "HIPAA EFT and ERA Operating Rules",
+      "description": "Source-aware compliance bundle for CAQH CORE operating rules for electronic funds transfer and electronic remittance advice.",
+      "category": "compliance",
+      "path": "bundles/compliance/hipaa-eft-era-operating-rules",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/hipaa-eft-era-operating-rules",
+      "download_url": "https://openknowledgebank.com/downloads/hipaa-eft-era-operating-rules.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "hipaa",
+        "eft",
+        "era",
+        "caqH-core",
+        "operating-rules"
+      ],
+      "aliases": [
+        "EFT and ERA operating rules",
+        "payment and remittance operating rules",
+        "CAQH CORE payment remittance"
+      ],
+      "problems_solved": [
+        "Route EFT and ERA operating rules questions to the correct official source category.",
+        "Separate official-source facts, user-provided evidence, assumptions, and missing verification.",
+        "Produce a EFT/ERA operating-rule readiness brief for professional review."
+      ],
+      "industries": [
+        "healthcare",
+        "health-insurance",
+        "health-technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "HIPAA rule-family triage",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "EFT/ERA operating-rule readiness brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "HIPAA EFT and ERA Operating Rules source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "hipaa",
+        "hipaa-breach-notification-rule",
+        "hipaa-claims-attachments-standards",
+        "hipaa-eligibility-claim-status-operating-rules",
+        "hipaa-employer-identifier-ein"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice or a complete rule-by-rule treatise.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified professional review.",
+        "Do not rely on proposed rules, summaries, stale implementation guides, payer policies, or assumptions without inspection."
+      ],
+      "safety_notes": [
+        "Minimize PHI and ePHI in prompts, examples, exports, and review artifacts.",
+        "Require qualified legal, privacy, security, compliance, revenue-cycle, coding, or technical review before reliance.",
+        "Require explicit confirmation before sending notices, submitting reports, changing transactions, contacting regulators, modifying systems, exporting data, or making public compliance claims."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "HIPAA EFT and ERA Operating Rules measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/hipaa-eft-era-operating-rules",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hipaa-eft-era-operating-rules/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "hipaa-eligibility-claim-status-operating-rules",
+      "title": "HIPAA Eligibility and Claim Status Operating Rules",
+      "description": "Source-aware compliance bundle for CAQH CORE operating rules for eligibility and claim status transactions.",
+      "category": "compliance",
+      "path": "bundles/compliance/hipaa-eligibility-claim-status-operating-rules",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/hipaa-eligibility-claim-status-operating-rules",
+      "download_url": "https://openknowledgebank.com/downloads/hipaa-eligibility-claim-status-operating-rules.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "hipaa",
+        "eligibility",
+        "claim-status",
+        "caqH-core",
+        "operating-rules"
+      ],
+      "aliases": [
+        "eligibility operating rules",
+        "claim status operating rules",
+        "CAQH CORE eligibility and claim status"
+      ],
+      "problems_solved": [
+        "Route Eligibility and claim status operating rules questions to the correct official source category.",
+        "Separate official-source facts, user-provided evidence, assumptions, and missing verification.",
+        "Produce a eligibility and claim-status operating-rule brief for professional review."
+      ],
+      "industries": [
+        "healthcare",
+        "health-insurance",
+        "health-technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "HIPAA rule-family triage",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "eligibility and claim-status operating-rule brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "HIPAA Eligibility and Claim Status Operating Rules source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 32,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "hipaa",
+        "hipaa-breach-notification-rule",
+        "hipaa-claims-attachments-standards",
+        "hipaa-eft-era-operating-rules",
+        "hipaa-employer-identifier-ein"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice or a complete rule-by-rule treatise.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified professional review.",
+        "Do not rely on proposed rules, summaries, stale implementation guides, payer policies, or assumptions without inspection."
+      ],
+      "safety_notes": [
+        "Minimize PHI and ePHI in prompts, examples, exports, and review artifacts.",
+        "Require qualified legal, privacy, security, compliance, revenue-cycle, coding, or technical review before reliance.",
+        "Require explicit confirmation before sending notices, submitting reports, changing transactions, contacting regulators, modifying systems, exporting data, or making public compliance claims."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "HIPAA Eligibility and Claim Status Operating Rules measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 32,
+        "absolute_lift": 13,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/hipaa-eligibility-claim-status-operating-rules",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hipaa-eligibility-claim-status-operating-rules/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "hipaa-employer-identifier-ein",
+      "title": "HIPAA Employer Identifier Standard",
+      "description": "Source-aware compliance bundle for the EIN as the HIPAA standard unique employer identifier in covered standard transactions.",
+      "category": "compliance",
+      "path": "bundles/compliance/hipaa-employer-identifier-ein",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/hipaa-employer-identifier-ein",
+      "download_url": "https://openknowledgebank.com/downloads/hipaa-employer-identifier-ein.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "hipaa",
+        "ein",
+        "employer-identifier",
+        "administrative-simplification",
+        "transactions"
+      ],
+      "aliases": [
+        "Employer Identifier Standard",
+        "standard unique employer identifier",
+        "EIN standard"
+      ],
+      "problems_solved": [
+        "Route Employer Identifier Standard questions to the correct official source category.",
+        "Separate official-source facts, user-provided evidence, assumptions, and missing verification.",
+        "Produce a employer identifier transaction brief for professional review."
+      ],
+      "industries": [
+        "healthcare",
+        "health-insurance",
+        "health-technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "HIPAA rule-family triage",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "employer identifier transaction brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "HIPAA Employer Identifier Standard source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "hipaa",
+        "hipaa-breach-notification-rule",
+        "hipaa-claims-attachments-standards",
+        "hipaa-eft-era-operating-rules",
+        "hipaa-eligibility-claim-status-operating-rules"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice or a complete rule-by-rule treatise.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified professional review.",
+        "Do not rely on proposed rules, summaries, stale implementation guides, payer policies, or assumptions without inspection."
+      ],
+      "safety_notes": [
+        "Minimize PHI and ePHI in prompts, examples, exports, and review artifacts.",
+        "Require qualified legal, privacy, security, compliance, revenue-cycle, coding, or technical review before reliance.",
+        "Require explicit confirmation before sending notices, submitting reports, changing transactions, contacting regulators, modifying systems, exporting data, or making public compliance claims."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "HIPAA Employer Identifier Standard measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/hipaa-employer-identifier-ein",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hipaa-employer-identifier-ein/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "hipaa-enforcement-cooperation",
+      "title": "HIPAA Enforcement Cooperation",
+      "description": "Source-aware compliance bundle for responding to HHS OCR compliance reviews, investigations, audits, and enforcement requests.",
+      "category": "compliance",
+      "path": "bundles/compliance/hipaa-enforcement-cooperation",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/hipaa-enforcement-cooperation",
+      "download_url": "https://openknowledgebank.com/downloads/hipaa-enforcement-cooperation.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "hipaa",
+        "enforcement",
+        "ocr",
+        "investigations",
+        "compliance-review"
+      ],
+      "aliases": [
+        "OCR compliance review cooperation",
+        "HIPAA investigations",
+        "HIPAA enforcement cooperation"
+      ],
+      "problems_solved": [
+        "Route HIPAA Enforcement Rule and OCR cooperation questions to the correct official source category.",
+        "Separate official-source facts, user-provided evidence, assumptions, and missing verification.",
+        "Produce a OCR enforcement-response brief for professional review."
+      ],
+      "industries": [
+        "healthcare",
+        "health-insurance",
+        "health-technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "HIPAA rule-family triage",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "OCR enforcement-response brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "HIPAA Enforcement Cooperation source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 34,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "hipaa",
+        "hipaa-breach-notification-rule",
+        "hipaa-claims-attachments-standards",
+        "hipaa-eft-era-operating-rules",
+        "hipaa-eligibility-claim-status-operating-rules"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice or a complete rule-by-rule treatise.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified professional review.",
+        "Do not rely on proposed rules, summaries, stale implementation guides, payer policies, or assumptions without inspection."
+      ],
+      "safety_notes": [
+        "Minimize PHI and ePHI in prompts, examples, exports, and review artifacts.",
+        "Require qualified legal, privacy, security, compliance, revenue-cycle, coding, or technical review before reliance.",
+        "Require explicit confirmation before sending notices, submitting reports, changing transactions, contacting regulators, modifying systems, exporting data, or making public compliance claims."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "HIPAA Enforcement Cooperation measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 34,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/hipaa-enforcement-cooperation",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hipaa-enforcement-cooperation/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "hipaa-medical-code-sets",
+      "title": "HIPAA Medical Code Sets",
+      "description": "Source-aware compliance bundle for HIPAA adopted medical code sets used in standard electronic health care transactions.",
+      "category": "compliance",
+      "path": "bundles/compliance/hipaa-medical-code-sets",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/hipaa-medical-code-sets",
+      "download_url": "https://openknowledgebank.com/downloads/hipaa-medical-code-sets.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "hipaa",
+        "code-sets",
+        "icd",
+        "cpt",
+        "hcpcs",
+        "administrative-simplification"
+      ],
+      "aliases": [
+        "HIPAA adopted code sets",
+        "medical data code sets",
+        "45 CFR 162.1002"
+      ],
+      "problems_solved": [
+        "Route HIPAA adopted medical code sets questions to the correct official source category.",
+        "Separate official-source facts, user-provided evidence, assumptions, and missing verification.",
+        "Produce a medical code-set validation brief for professional review."
+      ],
+      "industries": [
+        "healthcare",
+        "health-insurance",
+        "health-technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "HIPAA rule-family triage",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "medical code-set validation brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "HIPAA Medical Code Sets source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 31,
+        "absolute_lift": 11,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "hipaa",
+        "hipaa-breach-notification-rule",
+        "hipaa-claims-attachments-standards",
+        "hipaa-eft-era-operating-rules",
+        "hipaa-eligibility-claim-status-operating-rules"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice or a complete rule-by-rule treatise.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified professional review.",
+        "Do not rely on proposed rules, summaries, stale implementation guides, payer policies, or assumptions without inspection."
+      ],
+      "safety_notes": [
+        "Minimize PHI and ePHI in prompts, examples, exports, and review artifacts.",
+        "Require qualified legal, privacy, security, compliance, revenue-cycle, coding, or technical review before reliance.",
+        "Require explicit confirmation before sending notices, submitting reports, changing transactions, contacting regulators, modifying systems, exporting data, or making public compliance claims."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "HIPAA Medical Code Sets measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 31,
+        "absolute_lift": 11,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/hipaa-medical-code-sets",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hipaa-medical-code-sets/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "hipaa-national-provider-identifier",
+      "title": "HIPAA National Provider Identifier",
+      "description": "Source-aware compliance bundle for NPI use, validation, and evidence handling in HIPAA standard transactions.",
+      "category": "compliance",
+      "path": "bundles/compliance/hipaa-national-provider-identifier",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/hipaa-national-provider-identifier",
+      "download_url": "https://openknowledgebank.com/downloads/hipaa-national-provider-identifier.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "hipaa",
+        "npi",
+        "provider-identifier",
+        "nppes",
+        "administrative-simplification"
+      ],
+      "aliases": [
+        "National Provider Identifier",
+        "NPI standard",
+        "NPPES NPI Registry"
+      ],
+      "problems_solved": [
+        "Route National Provider Identifier Standard questions to the correct official source category.",
+        "Separate official-source facts, user-provided evidence, assumptions, and missing verification.",
+        "Produce a NPI evidence and transaction-use brief for professional review."
+      ],
+      "industries": [
+        "healthcare",
+        "health-insurance",
+        "health-technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "HIPAA rule-family triage",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "NPI evidence and transaction-use brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "HIPAA National Provider Identifier source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "hipaa",
+        "hipaa-breach-notification-rule",
+        "hipaa-claims-attachments-standards",
+        "hipaa-eft-era-operating-rules",
+        "hipaa-eligibility-claim-status-operating-rules"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice or a complete rule-by-rule treatise.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified professional review.",
+        "Do not rely on proposed rules, summaries, stale implementation guides, payer policies, or assumptions without inspection."
+      ],
+      "safety_notes": [
+        "Minimize PHI and ePHI in prompts, examples, exports, and review artifacts.",
+        "Require qualified legal, privacy, security, compliance, revenue-cycle, coding, or technical review before reliance.",
+        "Require explicit confirmation before sending notices, submitting reports, changing transactions, contacting regulators, modifying systems, exporting data, or making public compliance claims."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "HIPAA National Provider Identifier measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/hipaa-national-provider-identifier",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hipaa-national-provider-identifier/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "hipaa-privacy-rule",
+      "title": "HIPAA Privacy Rule",
+      "description": "Source-aware compliance bundle for HIPAA Privacy Rule use, disclosure, individual-rights, notice, and minimum-necessary triage.",
+      "category": "compliance",
+      "path": "bundles/compliance/hipaa-privacy-rule",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/hipaa-privacy-rule",
+      "download_url": "https://openknowledgebank.com/downloads/hipaa-privacy-rule.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "hipaa",
+        "privacy-rule",
+        "phi",
+        "individual-rights",
+        "compliance"
+      ],
+      "aliases": [
+        "45 CFR Part 164 Subpart E",
+        "HIPAA use and disclosure rules",
+        "protected health information privacy"
+      ],
+      "problems_solved": [
+        "Route Privacy Rule questions to the correct official source category.",
+        "Separate official-source facts, user-provided evidence, assumptions, and missing verification.",
+        "Produce a privacy-rule source-aware brief for professional review."
+      ],
+      "industries": [
+        "healthcare",
+        "health-insurance",
+        "health-technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "HIPAA rule-family triage",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "privacy-rule source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "HIPAA Privacy Rule source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 22,
+        "okb_score": 33,
+        "absolute_lift": 11,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 22/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "hipaa",
+        "hipaa-breach-notification-rule",
+        "hipaa-claims-attachments-standards",
+        "hipaa-eft-era-operating-rules",
+        "hipaa-eligibility-claim-status-operating-rules"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice or a complete rule-by-rule treatise.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified professional review.",
+        "Do not rely on proposed rules, summaries, stale implementation guides, payer policies, or assumptions without inspection."
+      ],
+      "safety_notes": [
+        "Minimize PHI and ePHI in prompts, examples, exports, and review artifacts.",
+        "Require qualified legal, privacy, security, compliance, revenue-cycle, coding, or technical review before reliance.",
+        "Require explicit confirmation before sending notices, submitting reports, changing transactions, contacting regulators, modifying systems, exporting data, or making public compliance claims."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "HIPAA Privacy Rule measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 22,
+        "okb_score": 33,
+        "absolute_lift": 11,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/hipaa-privacy-rule",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hipaa-privacy-rule/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "hipaa-security-rule",
+      "title": "HIPAA Security Rule",
+      "description": "Source-aware compliance bundle for HIPAA Security Rule risk-analysis, safeguard, documentation, and ePHI control triage.",
+      "category": "compliance",
+      "path": "bundles/compliance/hipaa-security-rule",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/hipaa-security-rule",
+      "download_url": "https://openknowledgebank.com/downloads/hipaa-security-rule.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "hipaa",
+        "security-rule",
+        "ephi",
+        "risk-analysis",
+        "safeguards"
+      ],
+      "aliases": [
+        "45 CFR Part 164 Subpart C",
+        "HIPAA ePHI safeguards",
+        "Security Rule risk analysis"
+      ],
+      "problems_solved": [
+        "Route Security Rule questions to the correct official source category.",
+        "Separate official-source facts, user-provided evidence, assumptions, and missing verification.",
+        "Produce a security-rule source-aware brief for professional review."
+      ],
+      "industries": [
+        "healthcare",
+        "health-insurance",
+        "health-technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "HIPAA rule-family triage",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "security-rule source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "HIPAA Security Rule source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 28,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 2,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 9,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 28/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "hipaa",
+        "hipaa-breach-notification-rule",
+        "hipaa-claims-attachments-standards",
+        "hipaa-eft-era-operating-rules",
+        "hipaa-eligibility-claim-status-operating-rules"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice or a complete rule-by-rule treatise.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified professional review.",
+        "Do not rely on proposed rules, summaries, stale implementation guides, payer policies, or assumptions without inspection."
+      ],
+      "safety_notes": [
+        "Minimize PHI and ePHI in prompts, examples, exports, and review artifacts.",
+        "Require qualified legal, privacy, security, compliance, revenue-cycle, coding, or technical review before reliance.",
+        "Require explicit confirmation before sending notices, submitting reports, changing transactions, contacting regulators, modifying systems, exporting data, or making public compliance claims."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "HIPAA Security Rule measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 28,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/hipaa-security-rule",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hipaa-security-rule/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "hipaa-security-rule-cybersecurity-nprm",
+      "title": "HIPAA Security Rule Cybersecurity NPRM",
+      "description": "Source-aware bundle for tracking the proposed HIPAA Security Rule cybersecurity strengthening NPRM without treating proposed provisions as final law.",
+      "category": "compliance",
+      "path": "bundles/compliance/hipaa-security-rule-cybersecurity-nprm",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/hipaa-security-rule-cybersecurity-nprm",
+      "download_url": "https://openknowledgebank.com/downloads/hipaa-security-rule-cybersecurity-nprm.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "hipaa",
+        "security-rule",
+        "cybersecurity",
+        "nprm",
+        "proposed-rule"
+      ],
+      "aliases": [
+        "HIPAA Security Rule NPRM",
+        "cybersecurity strengthening proposed rule",
+        "89 FR Security Rule proposal"
+      ],
+      "problems_solved": [
+        "Route Security Rule cybersecurity NPRM questions to the correct official source category.",
+        "Separate official-source facts, user-provided evidence, assumptions, and missing verification.",
+        "Produce a NPRM status and impact brief for professional review."
+      ],
+      "industries": [
+        "healthcare",
+        "health-insurance",
+        "health-technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "HIPAA rule-family triage",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "NPRM status and impact brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "HIPAA Security Rule Cybersecurity NPRM source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 31,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 2,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "hipaa",
+        "hipaa-breach-notification-rule",
+        "hipaa-claims-attachments-standards",
+        "hipaa-eft-era-operating-rules",
+        "hipaa-eligibility-claim-status-operating-rules"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice or a complete rule-by-rule treatise.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified professional review.",
+        "Do not rely on proposed rules, summaries, stale implementation guides, payer policies, or assumptions without inspection."
+      ],
+      "safety_notes": [
+        "Minimize PHI and ePHI in prompts, examples, exports, and review artifacts.",
+        "Require qualified legal, privacy, security, compliance, revenue-cycle, coding, or technical review before reliance.",
+        "Require explicit confirmation before sending notices, submitting reports, changing transactions, contacting regulators, modifying systems, exporting data, or making public compliance claims."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "HIPAA Security Rule Cybersecurity NPRM measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 31,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/hipaa-security-rule-cybersecurity-nprm",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hipaa-security-rule-cybersecurity-nprm/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "hipaa-transactions-standards",
+      "title": "HIPAA Transactions Standards",
+      "description": "Source-aware compliance bundle for HIPAA standard electronic transaction selection, implementation evidence, and reconciliation.",
+      "category": "compliance",
+      "path": "bundles/compliance/hipaa-transactions-standards",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/hipaa-transactions-standards",
+      "download_url": "https://openknowledgebank.com/downloads/hipaa-transactions-standards.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "hipaa",
+        "transactions",
+        "x12",
+        "ncpdp",
+        "administrative-simplification"
+      ],
+      "aliases": [
+        "standard electronic transactions",
+        "45 CFR Part 162 transaction standards",
+        "ASC X12N and NCPDP standards"
+      ],
+      "problems_solved": [
+        "Route Standard electronic transactions questions to the correct official source category.",
+        "Separate official-source facts, user-provided evidence, assumptions, and missing verification.",
+        "Produce a transaction standards readiness brief for professional review."
+      ],
+      "industries": [
+        "healthcare",
+        "health-insurance",
+        "health-technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "HIPAA rule-family triage",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "transaction standards readiness brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "HIPAA Transactions Standards source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 34,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 21/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "hipaa",
+        "hipaa-breach-notification-rule",
+        "hipaa-claims-attachments-standards",
+        "hipaa-eft-era-operating-rules",
+        "hipaa-eligibility-claim-status-operating-rules"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice or a complete rule-by-rule treatise.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified professional review.",
+        "Do not rely on proposed rules, summaries, stale implementation guides, payer policies, or assumptions without inspection."
+      ],
+      "safety_notes": [
+        "Minimize PHI and ePHI in prompts, examples, exports, and review artifacts.",
+        "Require qualified legal, privacy, security, compliance, revenue-cycle, coding, or technical review before reliance.",
+        "Require explicit confirmation before sending notices, submitting reports, changing transactions, contacting regulators, modifying systems, exporting data, or making public compliance claims."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "HIPAA Transactions Standards measured evaluation",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 34,
+        "absolute_lift": 13,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/hipaa-transactions-standards",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hipaa-transactions-standards/v1/evaluation-results/"
+      }
+    },
+    {
       "id": "hubspot-sales-hub",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
