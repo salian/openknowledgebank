@@ -2160,6 +2160,104 @@
       "download_url": "https://openknowledgebank.com/downloads/product-manager.zip"
     },
     {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "quickbooks-online",
+      "title": "QuickBooks Online",
+      "description": "Tool bundle for source-aware QuickBooks Online accounting, bookkeeping, reporting, reconciliation, and API planning.",
+      "category": "tools",
+      "path": "bundles/tools/quickbooks-online",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/quickbooks-online",
+      "download_url": "https://openknowledgebank.com/downloads/quickbooks-online.zip",
+      "updated": "2026-07-09",
+      "tags": [
+        "quickbooks-online",
+        "quickbooks",
+        "qbo",
+        "accounting",
+        "bookkeeping",
+        "finance-operations",
+        "smb-finance"
+      ],
+      "aliases": [
+        "QuickBooks",
+        "QBO",
+        "Intuit QuickBooks Online"
+      ],
+      "problems_solved": [
+        "Plan QuickBooks Online bookkeeping, reporting, reconciliation, or integration work without inventing company configuration.",
+        "Separate official Intuit product/API behavior from user-provided QuickBooks company evidence and assumptions.",
+        "Reconcile QuickBooks Online reports, exports, API data, and external-system totals with explicit source, basis, filter, timing, and entity checks.",
+        "Produce QuickBooks Online work plans that include source notes, validation checks, confirmation boundaries, and rollback before live accounting changes."
+      ],
+      "industries": [
+        "accounting",
+        "bookkeeping",
+        "smb-finance",
+        "ecommerce",
+        "professional-services",
+        "nonprofit"
+      ],
+      "tools": [
+        "QuickBooks Online",
+        "Intuit Developer",
+        "QuickBooks Online Accounting API",
+        "QuickBooks Online API Explorer"
+      ],
+      "frameworks": [
+        "inspect-first accounting system planning",
+        "source-of-record reconciliation",
+        "sandbox-before-production integration review"
+      ],
+      "deliverables": [
+        "QuickBooks Online work plan"
+      ],
+      "commands": [
+        "/plan-qbo-accounting-work"
+      ],
+      "skills": [],
+      "evaluations": [
+        "QuickBooks Online plan quality check"
+      ],
+      "evaluation_summary": {
+        "status": "blocked",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "tasks_count": 0,
+        "display_summary": "Measured evaluation is blocked until an approved QuickBooks Online task set, model/provider run, and reviewer scoring pass are available.",
+        "evidence_note": "No raw prompts or outputs are included in the public bundle."
+      },
+      "evaluation_detail": {},
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a complete QuickBooks Online implementation, migration, data model, API schema, pricing, packaging, SKU, accounting, payroll, payments, sales-tax, or tax-advice reference.",
+        "Requires user-provided QuickBooks company evidence before final conclusions about chart of accounts, classes, locations, products/services, customers, vendors, tax setup, bank feeds, permissions, reports, automations, apps, integrations, or API behavior.",
+        "Does not replace a qualified bookkeeper, accountant, controller, tax professional, auditor, QuickBooks administrator, security/privacy reviewer, or Intuit Developer implementation review."
+      ],
+      "safety_notes": [
+        "Require explicit confirmation before sending invoices or customer/vendor communications, exporting accounting data, modifying transactions/accounts/customers/vendors/items/settings, connecting apps, changing bank feeds, running production API calls, or changing tax/payroll/payment-adjacent behavior.",
+        "Do not request credentials, client secrets, refresh tokens, bank credentials, or claim QuickBooks company access unless the user provides authorized tool access or evidence."
+      ]
+    },
+    {
       "id": "salesforce-service-cloud",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
