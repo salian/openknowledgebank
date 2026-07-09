@@ -142,17 +142,41 @@
         "CAN-SPAM source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
         "tasks_count": 3,
-        "display_summary": "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed.",
-        "evidence_note": "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 32,
+        "absolute_lift": 12,
+        "task_scores": [
+          {
+            "task": "send-readiness-incomplete-evidence",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "opt-out-flow-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "third-party-sender-responsibility",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts, raw outputs, and provider response artifacts. Private artifacts are retained in the evaluation run folder."
       },
-      "evaluation_detail": {
-        "status": "blocked",
-        "next_step": "Review and score the generated baseline and OKB-assisted outputs, write aggregate-scores.json and reviewer-notes.md, then build listing-scorecard.json."
-      },
+      "evaluation_detail": {},
       "related_bundles": [],
       "adjacent_bundles": [],
       "contributors": [
@@ -230,17 +254,41 @@
         "CCPA source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
-        "method": "baseline-vs-okb-rubric planned",
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
         "tasks_count": 3,
-        "display_summary": "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed.",
-        "evidence_note": "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 30,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "sale-sharing-gpc",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "regulation-update-status",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 30/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts, raw outputs, and provider response artifacts. Private artifacts are retained in the evaluation run folder."
       },
-      "evaluation_detail": {
-        "status": "blocked",
-        "next_step": "Review and score the generated baseline and OKB-assisted outputs, write aggregate-scores.json and reviewer-notes.md, then build listing-scorecard.json."
-      },
+      "evaluation_detail": {},
       "related_bundles": [
         "gdpr"
       ],
@@ -740,19 +788,41 @@
         "SOX source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
-        "tasks_count": 0,
-        "display_summary": "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed.",
-        "evidence_note": "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 30,
+        "baseline_score": 16,
+        "okb_score": 29,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "certification-readiness",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 10
+          },
+          {
+            "task": "icfr-deficiency-triage",
+            "baseline_score": 6,
+            "okb_score": 9,
+            "max_score": 10
+          },
+          {
+            "task": "attestation-applicability",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 10
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/30 to 29/30 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts, raw outputs, and provider response artifacts. Private artifacts are retained in the evaluation run folder."
       },
-      "evaluation_detail": {
-        "status": "blocked",
-        "title": "SOX source-awareness measured evaluation",
-        "planned_method": "Run baseline and bundle-assisted SOX triage tasks against the source-awareness rubric before publishing measured lift.",
-        "next_step": "Review and score the generated baseline and OKB-assisted outputs, write aggregate-scores.json and reviewer-notes.md, then build listing-scorecard.json."
-      },
+      "evaluation_detail": {},
       "related_bundles": [],
       "adjacent_bundles": [
         "soc-2"
@@ -846,12 +916,39 @@
         "TCPA source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
         "tasks_count": 3,
-        "display_summary": "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed.",
-        "evidence_note": "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
+        "max_score": 48,
+        "baseline_score": 27,
+        "okb_score": 43,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "sms-send-readiness-incomplete-evidence",
+            "baseline_score": 11,
+            "okb_score": 15,
+            "max_score": 16
+          },
+          {
+            "task": "robocall-vendor-responsibility",
+            "baseline_score": 10,
+            "okb_score": 14,
+            "max_score": 16
+          },
+          {
+            "task": "fax-ad-review",
+            "baseline_score": 6,
+            "okb_score": 14,
+            "max_score": 16
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 27/48 to 43/48 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts, raw outputs, and provider response artifacts. Private artifacts are retained in the evaluation run folder."
       },
       "related_bundles": [
         "can-spam"
@@ -878,7 +975,8 @@
         "Require qualified legal or compliance professional review before relying on outputs for campaign, calling, texting, faxing, enforcement, contractual, or regulatory decisions.",
         "Do not use this bundle for spam, spoofing, deceptive lead generation, phishing, evasion, consent laundering, list abuse, or ignoring opt-outs.",
         "Require explicit confirmation before placing calls, sending texts, sending faxes, uploading lists, exporting contacts, changing consent capture, changing DNC or suppression logic, contacting regulators, or sending legal communications."
-      ]
+      ],
+      "evaluation_detail": {}
     },
     {
       "schema_version": "0.1.0",
@@ -1416,12 +1514,39 @@
         "GAAP source awareness check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
         "tasks_count": 3,
-        "display_summary": "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed.",
-        "evidence_note": "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
+        "max_score": 48,
+        "baseline_score": 16,
+        "okb_score": 32,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "policy-question-missing-evidence",
+            "baseline_score": 2,
+            "okb_score": 7,
+            "max_score": 16
+          },
+          {
+            "task": "gaap-non-gaap-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 16
+          },
+          {
+            "task": "memo-source-review",
+            "baseline_score": 8,
+            "okb_score": 13,
+            "max_score": 16
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/48 to 32/48 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts, raw outputs, and provider response artifacts. Private artifacts are retained in the evaluation run folder."
       },
       "related_bundles": [],
       "adjacent_bundles": [
@@ -1448,7 +1573,8 @@
       "safety_notes": [
         "Require qualified professional review before filing, audit support, board approval, lender delivery, investor communication, regulator response, or accounting-policy adoption.",
         "Do not claim access to Codification, EDGAR filings, contracts, workpapers, accounting systems, or auditor files unless the user provides evidence or authorized tool access."
-      ]
+      ],
+      "evaluation_detail": {}
     },
     {
       "id": "data-product-manager",
@@ -3575,17 +3701,41 @@
         "SAP S/4HANA source-awareness check"
       ],
       "evaluation_summary": {
-        "status": "blocked",
-        "last_evaluated": null,
+        "status": "measured",
+        "last_evaluated": "2026-07-09",
         "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
         "tasks_count": 3,
-        "display_summary": "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed.",
-        "evidence_note": "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
+        "max_score": 48,
+        "baseline_score": 23,
+        "okb_score": 42,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "po-approval-fit-gap",
+            "baseline_score": 6,
+            "okb_score": 13,
+            "max_score": 16
+          },
+          {
+            "task": "reporting-reconciliation",
+            "baseline_score": 8,
+            "okb_score": 14,
+            "max_score": 16
+          },
+          {
+            "task": "integration-evidence-checklist",
+            "baseline_score": 9,
+            "okb_score": 15,
+            "max_score": 16
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 23/48 to 42/48 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts, raw outputs, and provider response artifacts. Private artifacts are retained in the evaluation run folder."
       },
-      "evaluation_detail": {
-        "status": "blocked",
-        "next_step": "Review and score the generated baseline and OKB-assisted outputs, write aggregate-scores.json and reviewer-notes.md, then build listing-scorecard.json."
-      },
+      "evaluation_detail": {},
       "related_bundles": [],
       "adjacent_bundles": [
         "google-bigquery"

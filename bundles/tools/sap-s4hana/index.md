@@ -64,12 +64,18 @@ safety_notes:
   - "Require confirmation before changing configuration, transporting changes, posting transactions, exporting data, modifying roles, calling APIs, or changing integrations."
   - "Do not claim access to SAP tenants, Fiori apps, configuration, CDS views, APIs, tables, roles, logs, or data unless the user provides evidence or authorized tool access."
 evaluation_summary:
-  status: blocked
-  last_evaluated: null
-  method: baseline-vs-okb-rubric
+  status: "measured"
+  last_evaluated: "2026-07-09"
+  method: "baseline-vs-okb-rubric"
+  model: "openai/gpt-4o-mini"
+  temperature: 0.2
   tasks_count: 3
-  display_summary: "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed."
-  evidence_note: "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
+  max_score: 48
+  baseline_score: 23
+  okb_score: 42
+  absolute_lift: 19
+  display_summary: "Improved measured rubric score from 23/48 to 42/48 across 3 benchmark tasks."
+  evidence_note: "Public listing scorecard excludes raw prompts, raw outputs, and provider response artifacts. Private artifacts are retained in the evaluation run folder."
 okb_bundle_id: sap-s4hana
 timestamp: "2026-07-09T00:00:00Z"
 ---

@@ -64,12 +64,18 @@ safety_notes:
   - "Require qualified professional review before filing, audit support, board approval, lender delivery, investor communication, regulator response, or accounting-policy adoption."
   - "Do not claim access to Codification, EDGAR filings, contracts, workpapers, accounting systems, or auditor files unless the user provides evidence or authorized tool access."
 evaluation_summary:
-  status: blocked
-  last_evaluated: null
-  method: baseline-vs-okb-rubric
+  status: "measured"
+  last_evaluated: "2026-07-09"
+  method: "baseline-vs-okb-rubric"
+  model: "openai/gpt-4o-mini"
+  temperature: 0.2
   tasks_count: 3
-  display_summary: "Measured evaluation model outputs have been generated; publication is blocked until reviewer scoring, aggregate scores, and a public-safe listing scorecard are completed."
-  evidence_note: "No measured score is claimed yet. Baseline and OKB-assisted model outputs exist in the private run; reviewed aggregate scores and listing scorecard are pending."
+  max_score: 48
+  baseline_score: 16
+  okb_score: 32
+  absolute_lift: 16
+  display_summary: "Improved measured rubric score from 16/48 to 32/48 across 3 benchmark tasks."
+  evidence_note: "Public listing scorecard excludes raw prompts, raw outputs, and provider response artifacts. Private artifacts are retained in the evaluation run folder."
 okb_bundle_id: us-gaap
 timestamp: "2026-07-09T00:00:00Z"
 ---
