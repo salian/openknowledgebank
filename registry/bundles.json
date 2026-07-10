@@ -4469,6 +4469,3908 @@
     {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
+      "id": "bc-pipa-commissioner-oversight",
+      "title": "BC PIPA Commissioner Oversight and Cooperation (PIPA s. 38, 50, 52)",
+      "description": "Source-aware compliance bundle for BC PIPA Commissioner Oversight and Cooperation (PIPA s. 38, 50, 52) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/bc-pipa-commissioner-oversight",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/bc-pipa-commissioner-oversight",
+      "download_url": "https://openknowledgebank.com/downloads/bc-pipa-commissioner-oversight.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "pipa",
+        "commissioner",
+        "oversight",
+        "cooperation",
+        "canada",
+        "privacy",
+        "private",
+        "sector",
+        "compliance"
+      ],
+      "aliases": [
+        "BC PIPA Commissioner Oversight and Cooperation (PIPA s. 38, 50, 52)",
+        "Canada Privacy",
+        "Canada"
+      ],
+      "problems_solved": [
+        "Route BC PIPA Commissioner Oversight and Cooperation (PIPA s. 38, 50, 52) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a BC PIPA Commissioner Oversight and Cooperation (PIPA s. 38, 50, 52) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Private-sector organisations handling personal information"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "BC PIPA Commissioner Oversight and Cooperation (PIPA s. 38, 50, 52) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "BC PIPA Commissioner Oversight and Cooperation (PIPA s. 38, 50, 52) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 33,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "BC PIPA Commissioner Oversight and Cooperation (PIPA s. 38, 50, 52) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 33,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/bc-pipa-commissioner-oversight",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/bc-pipa-commissioner-oversight/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "bc-pipa-personal-information-protection",
+      "title": "Personal Information Protection Act (British Columbia) - Core Obligations",
+      "description": "Source-aware compliance bundle for Personal Information Protection Act (British Columbia) - Core Obligations applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/bc-pipa-personal-information-protection",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/bc-pipa-personal-information-protection",
+      "download_url": "https://openknowledgebank.com/downloads/bc-pipa-personal-information-protection.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "pipa",
+        "personal",
+        "information",
+        "protection",
+        "act",
+        "british",
+        "columbia",
+        "core",
+        "compliance"
+      ],
+      "aliases": [
+        "Personal Information Protection Act (British Columbia) - Core Obligations",
+        "Canada Privacy",
+        "Canada"
+      ],
+      "problems_solved": [
+        "Route Personal Information Protection Act (British Columbia) - Core Obligations work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Personal Information Protection Act (British Columbia) - Core Obligations source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Private-sector organisations handling personal information"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Personal Information Protection Act (British Columbia) - Core Obligations source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Personal Information Protection Act (British Columbia) - Core Obligations source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 31,
+        "absolute_lift": 11,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Personal Information Protection Act (British Columbia) - Core Obligations measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 31,
+        "absolute_lift": 11,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/bc-pipa-personal-information-protection",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/bc-pipa-personal-information-protection/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "bc-pipa-voluntary-breach-reporting",
+      "title": "BC PIPA Voluntary Breach Reporting (OIPC BC Breach Guidance)",
+      "description": "Source-aware compliance bundle for BC PIPA Voluntary Breach Reporting (OIPC BC Breach Guidance) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/bc-pipa-voluntary-breach-reporting",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/bc-pipa-voluntary-breach-reporting",
+      "download_url": "https://openknowledgebank.com/downloads/bc-pipa-voluntary-breach-reporting.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "pipa",
+        "voluntary",
+        "breach",
+        "reporting",
+        "oipc",
+        "guidance",
+        "canada",
+        "privacy",
+        "compliance"
+      ],
+      "aliases": [
+        "BC PIPA Voluntary Breach Reporting (OIPC BC Breach Guidance)",
+        "Canada Privacy",
+        "Canada"
+      ],
+      "problems_solved": [
+        "Route BC PIPA Voluntary Breach Reporting (OIPC BC Breach Guidance) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a BC PIPA Voluntary Breach Reporting (OIPC BC Breach Guidance) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Private-sector organisations handling personal information"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "BC PIPA Voluntary Breach Reporting (OIPC BC Breach Guidance) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "BC PIPA Voluntary Breach Reporting (OIPC BC Breach Guidance) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 31,
+        "absolute_lift": 11,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "BC PIPA Voluntary Breach Reporting (OIPC BC Breach Guidance) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 31,
+        "absolute_lift": 11,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/bc-pipa-voluntary-breach-reporting",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/bc-pipa-voluntary-breach-reporting/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "bdsg-section38-dpo-designation-germany",
+      "title": "Obligation to Designate a DPO under Section 38 BDSG (Germany)",
+      "description": "Source-aware compliance bundle for Obligation to Designate a DPO under Section 38 BDSG (Germany) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/bdsg-section38-dpo-designation-germany",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/bdsg-section38-dpo-designation-germany",
+      "download_url": "https://openknowledgebank.com/downloads/bdsg-section38-dpo-designation-germany.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "bdsg",
+        "section38",
+        "dpo",
+        "designation",
+        "germany",
+        "obligation",
+        "designate",
+        "under",
+        "compliance"
+      ],
+      "aliases": [
+        "Obligation to Designate a DPO under Section 38 BDSG (Germany)",
+        "EU Data Protection",
+        "European Union"
+      ],
+      "problems_solved": [
+        "Route Obligation to Designate a DPO under Section 38 BDSG (Germany) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Obligation to Designate a DPO under Section 38 BDSG (Germany) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Organisations processing personal data (GDPR controllers and processors)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Obligation to Designate a DPO under Section 38 BDSG (Germany) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Obligation to Designate a DPO under Section 38 BDSG (Germany) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 31,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Obligation to Designate a DPO under Section 38 BDSG (Germany) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 31,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/bdsg-section38-dpo-designation-germany",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/bdsg-section38-dpo-designation-germany/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "beneficial-ownership-13d-13g",
+      "title": "Beneficial Ownership Reporting (Schedules 13D / 13G)",
+      "description": "Source-aware compliance bundle for Beneficial Ownership Reporting (Schedules 13D / 13G) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/beneficial-ownership-13d-13g",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/beneficial-ownership-13d-13g",
+      "download_url": "https://openknowledgebank.com/downloads/beneficial-ownership-13d-13g.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "beneficial",
+        "ownership",
+        "13d",
+        "13g",
+        "reporting",
+        "schedules",
+        "securities",
+        "broker",
+        "compliance"
+      ],
+      "aliases": [
+        "Beneficial Ownership Reporting (Schedules 13D / 13G)",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Beneficial Ownership Reporting (Schedules 13D / 13G) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Beneficial Ownership Reporting (Schedules 13D / 13G) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Beneficial Ownership Reporting (Schedules 13D / 13G) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Beneficial Ownership Reporting (Schedules 13D / 13G) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 31,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Beneficial Ownership Reporting (Schedules 13D / 13G) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 31,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/beneficial-ownership-13d-13g",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/beneficial-ownership-13d-13g/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "bhc-registration-regulation-y",
+      "title": "Bank Holding Company Act Registration and Prior Approval - Regulation Y",
+      "description": "Source-aware compliance bundle for Bank Holding Company Act Registration and Prior Approval - Regulation Y applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/bhc-registration-regulation-y",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/bhc-registration-regulation-y",
+      "download_url": "https://openknowledgebank.com/downloads/bhc-registration-regulation-y.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "bhc",
+        "registration",
+        "regulation",
+        "bank",
+        "holding",
+        "company",
+        "act",
+        "prior",
+        "compliance"
+      ],
+      "aliases": [
+        "Bank Holding Company Act Registration and Prior Approval - Regulation Y",
+        "US Banking & Financial Institutions",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Bank Holding Company Act Registration and Prior Approval - Regulation Y work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Bank Holding Company Act Registration and Prior Approval - Regulation Y source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Banks, depository institutions, and bank holding companies"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Bank Holding Company Act Registration and Prior Approval - Regulation Y source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Bank Holding Company Act Registration and Prior Approval - Regulation Y source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 34,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Bank Holding Company Act Registration and Prior Approval - Regulation Y measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 34,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/bhc-registration-regulation-y",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/bhc-registration-regulation-y/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "bls-employer-surveys",
+      "title": "BLS Statistical Survey Reporting Requirements",
+      "description": "Source-aware compliance bundle for BLS Statistical Survey Reporting Requirements applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/bls-employer-surveys",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/bls-employer-surveys",
+      "download_url": "https://openknowledgebank.com/downloads/bls-employer-surveys.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "bls",
+        "employer",
+        "surveys",
+        "statistical",
+        "survey",
+        "reporting",
+        "employment",
+        "workplace",
+        "compliance"
+      ],
+      "aliases": [
+        "BLS Statistical Survey Reporting Requirements",
+        "US Employment & Workplace Safety",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route BLS Statistical Survey Reporting Requirements work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a BLS Statistical Survey Reporting Requirements source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Employers (any industry)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "BLS Statistical Survey Reporting Requirements source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "BLS Statistical Survey Reporting Requirements source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "BLS Statistical Survey Reporting Requirements measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/bls-employer-surveys",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/bls-employer-surveys/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "blue-sky-offering-notice-filings",
+      "title": "State Blue Sky Offering Registration & Notice Filings",
+      "description": "Source-aware compliance bundle for State Blue Sky Offering Registration & Notice Filings applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/blue-sky-offering-notice-filings",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/blue-sky-offering-notice-filings",
+      "download_url": "https://openknowledgebank.com/downloads/blue-sky-offering-notice-filings.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "blue",
+        "sky",
+        "offering",
+        "notice",
+        "filings",
+        "state",
+        "registration",
+        "securities",
+        "compliance"
+      ],
+      "aliases": [
+        "State Blue Sky Offering Registration & Notice Filings",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route State Blue Sky Offering Registration & Notice Filings work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a State Blue Sky Offering Registration & Notice Filings source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "State Blue Sky Offering Registration & Notice Filings source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "State Blue Sky Offering Registration & Notice Filings source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 31,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 2,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "State Blue Sky Offering Registration & Notice Filings measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 31,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/blue-sky-offering-notice-filings",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/blue-sky-offering-notice-filings/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "broker-dealer-agent-conduct-rule",
+      "title": "Dishonest or Unethical Business Practices of BDs and Agents (NASAA)",
+      "description": "Source-aware compliance bundle for Dishonest or Unethical Business Practices of BDs and Agents (NASAA) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/broker-dealer-agent-conduct-rule",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/broker-dealer-agent-conduct-rule",
+      "download_url": "https://openknowledgebank.com/downloads/broker-dealer-agent-conduct-rule.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "broker",
+        "dealer",
+        "agent",
+        "conduct",
+        "dishonest",
+        "unethical",
+        "business",
+        "practices",
+        "compliance"
+      ],
+      "aliases": [
+        "Dishonest or Unethical Business Practices of BDs and Agents (NASAA)",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Dishonest or Unethical Business Practices of BDs and Agents (NASAA) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Dishonest or Unethical Business Practices of BDs and Agents (NASAA) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Dishonest or Unethical Business Practices of BDs and Agents (NASAA) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Dishonest or Unethical Business Practices of BDs and Agents (NASAA) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 31,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Dishonest or Unethical Business Practices of BDs and Agents (NASAA) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 31,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/broker-dealer-agent-conduct-rule",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/broker-dealer-agent-conduct-rule/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "broker-dealer-books-and-records",
+      "title": "Broker-Dealer Recordkeeping & Preservation (Rules 17a-3 / 17a-4)",
+      "description": "Source-aware compliance bundle for Broker-Dealer Recordkeeping & Preservation (Rules 17a-3 / 17a-4) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/broker-dealer-books-and-records",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/broker-dealer-books-and-records",
+      "download_url": "https://openknowledgebank.com/downloads/broker-dealer-books-and-records.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "broker",
+        "dealer",
+        "books",
+        "records",
+        "recordkeeping",
+        "preservation",
+        "17a",
+        "securities",
+        "compliance"
+      ],
+      "aliases": [
+        "Broker-Dealer Recordkeeping & Preservation (Rules 17a-3 / 17a-4)",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Broker-Dealer Recordkeeping & Preservation (Rules 17a-3 / 17a-4) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Broker-Dealer Recordkeeping & Preservation (Rules 17a-3 / 17a-4) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Broker-Dealer Recordkeeping & Preservation (Rules 17a-3 / 17a-4) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Broker-Dealer Recordkeeping & Preservation (Rules 17a-3 / 17a-4) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 31,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Broker-Dealer Recordkeeping & Preservation (Rules 17a-3 / 17a-4) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 31,
+        "absolute_lift": 13,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/broker-dealer-books-and-records",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/broker-dealer-books-and-records/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "broker-supervision-office-policy",
+      "title": "Broker Supervision & Office Policy",
+      "description": "Source-aware compliance bundle for Broker Supervision & Office Policy applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/broker-supervision-office-policy",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/broker-supervision-office-policy",
+      "download_url": "https://openknowledgebank.com/downloads/broker-supervision-office-policy.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "broker",
+        "supervision",
+        "office",
+        "policy",
+        "real",
+        "estate",
+        "fair",
+        "housing",
+        "compliance"
+      ],
+      "aliases": [
+        "Broker Supervision & Office Policy",
+        "US Real Estate & Fair Housing",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Broker Supervision & Office Policy work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Broker Supervision & Office Policy source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Real estate brokerages, agents, property managers, and residential mortgage lenders"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Broker Supervision & Office Policy source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Broker Supervision & Office Policy source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 32,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Broker Supervision & Office Policy measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 32,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/broker-supervision-office-policy",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/broker-supervision-office-policy/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "broker-trust-account-handling",
+      "title": "Broker Trust/Escrow Account Handling",
+      "description": "Source-aware compliance bundle for Broker Trust/Escrow Account Handling applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/broker-trust-account-handling",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/broker-trust-account-handling",
+      "download_url": "https://openknowledgebank.com/downloads/broker-trust-account-handling.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "broker",
+        "trust",
+        "account",
+        "handling",
+        "escrow",
+        "real",
+        "estate",
+        "fair",
+        "compliance"
+      ],
+      "aliases": [
+        "Broker Trust/Escrow Account Handling",
+        "US Real Estate & Fair Housing",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Broker Trust/Escrow Account Handling work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Broker Trust/Escrow Account Handling source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Real estate brokerages, agents, property managers, and residential mortgage lenders"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Broker Trust/Escrow Account Handling source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Broker Trust/Escrow Account Handling source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 30,
+        "absolute_lift": 10,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 8,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 30/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Broker Trust/Escrow Account Handling measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 30,
+        "absolute_lift": 10,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/broker-trust-account-handling",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/broker-trust-account-handling/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "brokered-deposits-interest-rate-restrictions",
+      "title": "Brokered Deposits and Interest Rate Restrictions",
+      "description": "Source-aware compliance bundle for Brokered Deposits and Interest Rate Restrictions applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/brokered-deposits-interest-rate-restrictions",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/brokered-deposits-interest-rate-restrictions",
+      "download_url": "https://openknowledgebank.com/downloads/brokered-deposits-interest-rate-restrictions.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "brokered",
+        "deposits",
+        "interest",
+        "rate",
+        "restrictions",
+        "banking",
+        "financial",
+        "institutions",
+        "compliance"
+      ],
+      "aliases": [
+        "Brokered Deposits and Interest Rate Restrictions",
+        "US Banking & Financial Institutions",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Brokered Deposits and Interest Rate Restrictions work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Brokered Deposits and Interest Rate Restrictions source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Banks, depository institutions, and bank holding companies"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Brokered Deposits and Interest Rate Restrictions source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Brokered Deposits and Interest Rate Restrictions source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 34,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Brokered Deposits and Interest Rate Restrictions measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 34,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/brokered-deposits-interest-rate-restrictions",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/brokered-deposits-interest-rate-restrictions/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "bsa-aml-compliance-program",
+      "title": "Bank Secrecy Act / AML Compliance Program",
+      "description": "Source-aware compliance bundle for Bank Secrecy Act / AML Compliance Program applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/bsa-aml-compliance-program",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/bsa-aml-compliance-program",
+      "download_url": "https://openknowledgebank.com/downloads/bsa-aml-compliance-program.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "bsa",
+        "aml",
+        "bank",
+        "secrecy",
+        "act",
+        "banking",
+        "financial",
+        "institutions",
+        "compliance"
+      ],
+      "aliases": [
+        "Bank Secrecy Act / AML Compliance Program",
+        "US Banking & Financial Institutions",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Bank Secrecy Act / AML Compliance Program work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Bank Secrecy Act / AML Compliance Program source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Banks, depository institutions, and bank holding companies"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Bank Secrecy Act / AML Compliance Program source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Bank Secrecy Act / AML Compliance Program source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 33,
+        "absolute_lift": 10,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 23/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Bank Secrecy Act / AML Compliance Program measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 33,
+        "absolute_lift": 10,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/bsa-aml-compliance-program",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/bsa-aml-compliance-program/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "bsa-e-filing",
+      "title": "BSA E-Filing System Mandatory Electronic Filing",
+      "description": "Source-aware compliance bundle for BSA E-Filing System Mandatory Electronic Filing applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/bsa-e-filing",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/bsa-e-filing",
+      "download_url": "https://openknowledgebank.com/downloads/bsa-e-filing.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "bsa",
+        "filing",
+        "system",
+        "mandatory",
+        "electronic",
+        "banking",
+        "financial",
+        "institutions",
+        "compliance"
+      ],
+      "aliases": [
+        "BSA E-Filing System Mandatory Electronic Filing",
+        "US Banking & Financial Institutions",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route BSA E-Filing System Mandatory Electronic Filing work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a BSA E-Filing System Mandatory Electronic Filing source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Banks, depository institutions, and bank holding companies"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "BSA E-Filing System Mandatory Electronic Filing source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "BSA E-Filing System Mandatory Electronic Filing source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 33,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "BSA E-Filing System Mandatory Electronic Filing measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 33,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/bsa-e-filing",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/bsa-e-filing/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "bsa-general-recordkeeping",
+      "title": "General BSA Records To Be Made and Retained",
+      "description": "Source-aware compliance bundle for General BSA Records To Be Made and Retained applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/bsa-general-recordkeeping",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/bsa-general-recordkeeping",
+      "download_url": "https://openknowledgebank.com/downloads/bsa-general-recordkeeping.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "bsa",
+        "general",
+        "recordkeeping",
+        "records",
+        "made",
+        "retained",
+        "banking",
+        "financial",
+        "compliance"
+      ],
+      "aliases": [
+        "General BSA Records To Be Made and Retained",
+        "US Banking & Financial Institutions",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route General BSA Records To Be Made and Retained work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a General BSA Records To Be Made and Retained source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Banks, depository institutions, and bank holding companies"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "General BSA Records To Be Made and Retained source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "General BSA Records To Be Made and Retained source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 32,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "General BSA Records To Be Made and Retained measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 32,
+        "absolute_lift": 13,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/bsa-general-recordkeeping",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/bsa-general-recordkeeping/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "business-opportunity-rule",
+      "title": "Business Opportunity Rule",
+      "description": "Source-aware compliance bundle for Business Opportunity Rule applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/business-opportunity-rule",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/business-opportunity-rule",
+      "download_url": "https://openknowledgebank.com/downloads/business-opportunity-rule.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "business",
+        "opportunity",
+        "consumer",
+        "marketing",
+        "privacy",
+        "businesses",
+        "collecting",
+        "personal",
+        "compliance"
+      ],
+      "aliases": [
+        "Business Opportunity Rule",
+        "US Consumer & Marketing Privacy",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Business Opportunity Rule work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Business Opportunity Rule source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Business Opportunity Rule source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Business Opportunity Rule source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 33,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 10,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Business Opportunity Rule measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 33,
+        "absolute_lift": 13,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/business-opportunity-rule",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/business-opportunity-rule/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "c-tpat",
+      "title": "C-TPAT (Customs-Trade Partnership Against Terrorism)",
+      "description": "Source-aware compliance bundle for C-TPAT (Customs-Trade Partnership Against Terrorism) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/c-tpat",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/c-tpat",
+      "download_url": "https://openknowledgebank.com/downloads/c-tpat.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "tpat",
+        "customs",
+        "trade",
+        "partnership",
+        "against",
+        "terrorism",
+        "standards",
+        "body",
+        "compliance"
+      ],
+      "aliases": [
+        "C-TPAT (Customs-Trade Partnership Against Terrorism)",
+        "Standards-body & niche regimes (freeze)",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route C-TPAT (Customs-Trade Partnership Against Terrorism) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a C-TPAT (Customs-Trade Partnership Against Terrorism) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Importers, carriers, brokers, and other supply-chain actors (voluntary CBP program)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "C-TPAT (Customs-Trade Partnership Against Terrorism) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "C-TPAT (Customs-Trade Partnership Against Terrorism) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "C-TPAT (Customs-Trade Partnership Against Terrorism) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/c-tpat",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/c-tpat/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "ca-charitable-fundraising-platform-ab488",
+      "title": "California Charitable Fundraising Platform Regulation (AB 488)",
+      "description": "Source-aware compliance bundle for California Charitable Fundraising Platform Regulation (AB 488) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/ca-charitable-fundraising-platform-ab488",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/ca-charitable-fundraising-platform-ab488",
+      "download_url": "https://openknowledgebank.com/downloads/ca-charitable-fundraising-platform-ab488.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "charitable",
+        "fundraising",
+        "platform",
+        "ab488",
+        "california",
+        "regulation",
+        "488",
+        "nonprofit",
+        "compliance"
+      ],
+      "aliases": [
+        "California Charitable Fundraising Platform Regulation (AB 488)",
+        "US Nonprofit & Tax-Exempt",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route California Charitable Fundraising Platform Regulation (AB 488) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California Charitable Fundraising Platform Regulation (AB 488) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Nonprofit and tax-exempt organizations (501(c) entities and charitable foundations)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California Charitable Fundraising Platform Regulation (AB 488) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California Charitable Fundraising Platform Regulation (AB 488) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 31,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 2,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 9,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "California Charitable Fundraising Platform Regulation (AB 488) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 31,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/ca-charitable-fundraising-platform-ab488",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/ca-charitable-fundraising-platform-ab488/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "ca-commercial-fundraiser-regulation",
+      "title": "California Commercial Fundraiser, Counsel, and Co-Venturer Regulation",
+      "description": "Source-aware compliance bundle for California Commercial Fundraiser, Counsel, and Co-Venturer Regulation applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/ca-commercial-fundraiser-regulation",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/ca-commercial-fundraiser-regulation",
+      "download_url": "https://openknowledgebank.com/downloads/ca-commercial-fundraiser-regulation.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "commercial",
+        "fundraiser",
+        "regulation",
+        "california",
+        "counsel",
+        "venturer",
+        "nonprofit",
+        "tax",
+        "compliance"
+      ],
+      "aliases": [
+        "California Commercial Fundraiser, Counsel, and Co-Venturer Regulation",
+        "US Nonprofit & Tax-Exempt",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route California Commercial Fundraiser, Counsel, and Co-Venturer Regulation work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California Commercial Fundraiser, Counsel, and Co-Venturer Regulation source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Nonprofit and tax-exempt organizations (501(c) entities and charitable foundations)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California Commercial Fundraiser, Counsel, and Co-Venturer Regulation source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California Commercial Fundraiser, Counsel, and Co-Venturer Regulation source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 30,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 30/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "California Commercial Fundraiser, Counsel, and Co-Venturer Regulation measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 30,
+        "absolute_lift": 13,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/ca-commercial-fundraiser-regulation",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/ca-commercial-fundraiser-regulation/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "ca-nonprofit-raffle-registration",
+      "title": "California Nonprofit Raffle Registration and Reporting",
+      "description": "Source-aware compliance bundle for California Nonprofit Raffle Registration and Reporting applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/ca-nonprofit-raffle-registration",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/ca-nonprofit-raffle-registration",
+      "download_url": "https://openknowledgebank.com/downloads/ca-nonprofit-raffle-registration.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "nonprofit",
+        "raffle",
+        "registration",
+        "california",
+        "reporting",
+        "tax",
+        "exempt",
+        "organizations",
+        "compliance"
+      ],
+      "aliases": [
+        "California Nonprofit Raffle Registration and Reporting",
+        "US Nonprofit & Tax-Exempt",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route California Nonprofit Raffle Registration and Reporting work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California Nonprofit Raffle Registration and Reporting source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Nonprofit and tax-exempt organizations (501(c) entities and charitable foundations)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California Nonprofit Raffle Registration and Reporting source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California Nonprofit Raffle Registration and Reporting source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 31,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "California Nonprofit Raffle Registration and Reporting measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 31,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/ca-nonprofit-raffle-registration",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/ca-nonprofit-raffle-registration/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "ca-registry-registration-reporting",
+      "title": "California Registry of Charities and Fundraisers Registration and Annual Reporting",
+      "description": "Source-aware compliance bundle for California Registry of Charities and Fundraisers Registration and Annual Reporting applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/ca-registry-registration-reporting",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/ca-registry-registration-reporting",
+      "download_url": "https://openknowledgebank.com/downloads/ca-registry-registration-reporting.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "registry",
+        "registration",
+        "reporting",
+        "california",
+        "charities",
+        "fundraisers",
+        "annual",
+        "nonprofit",
+        "compliance"
+      ],
+      "aliases": [
+        "California Registry of Charities and Fundraisers Registration and Annual Reporting",
+        "US Nonprofit & Tax-Exempt",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route California Registry of Charities and Fundraisers Registration and Annual Reporting work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California Registry of Charities and Fundraisers Registration and Annual Reporting source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Nonprofit and tax-exempt organizations (501(c) entities and charitable foundations)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California Registry of Charities and Fundraisers Registration and Annual Reporting source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California Registry of Charities and Fundraisers Registration and Annual Reporting source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 29,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 8,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 29/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "California Registry of Charities and Fundraisers Registration and Annual Reporting measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 29,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/ca-registry-registration-reporting",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/ca-registry-registration-reporting/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "cahps-patient-experience-surveys",
+      "title": "CAHPS Patient Experience Surveys",
+      "description": "Source-aware compliance bundle for CAHPS Patient Experience Surveys applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/cahps-patient-experience-surveys",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/cahps-patient-experience-surveys",
+      "download_url": "https://openknowledgebank.com/downloads/cahps-patient-experience-surveys.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "cahps",
+        "patient",
+        "experience",
+        "surveys",
+        "healthcare",
+        "fraud",
+        "billing",
+        "providers",
+        "compliance"
+      ],
+      "aliases": [
+        "CAHPS Patient Experience Surveys",
+        "US Healthcare Fraud & Billing",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route CAHPS Patient Experience Surveys work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a CAHPS Patient Experience Surveys source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Healthcare providers and suppliers billing Medicare, Medicaid, and other federal health programs"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "CAHPS Patient Experience Surveys source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "CAHPS Patient Experience Surveys source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 31,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "anti-kickback-statute"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "CAHPS Patient Experience Surveys measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 31,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/cahps-patient-experience-surveys",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/cahps-patient-experience-surveys/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "california-data-breach-notification-law",
+      "title": "California Data Breach Notification Law",
+      "description": "Source-aware compliance bundle for California Data Breach Notification Law applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/california-data-breach-notification-law",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/california-data-breach-notification-law",
+      "download_url": "https://openknowledgebank.com/downloads/california-data-breach-notification-law.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "california",
+        "data",
+        "breach",
+        "notification",
+        "law",
+        "consumer",
+        "marketing",
+        "privacy",
+        "compliance"
+      ],
+      "aliases": [
+        "California Data Breach Notification Law",
+        "US Consumer & Marketing Privacy",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route California Data Breach Notification Law work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California Data Breach Notification Law source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California Data Breach Notification Law source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California Data Breach Notification Law source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 2,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "California Data Breach Notification Law measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/california-data-breach-notification-law",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/california-data-breach-notification-law/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "california-delete-act-data-broker-registry",
+      "title": "California Delete Act - Data Broker Registration and DROP",
+      "description": "Source-aware compliance bundle for California Delete Act - Data Broker Registration and DROP applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/california-delete-act-data-broker-registry",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/california-delete-act-data-broker-registry",
+      "download_url": "https://openknowledgebank.com/downloads/california-delete-act-data-broker-registry.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "california",
+        "delete",
+        "act",
+        "data",
+        "broker",
+        "registry",
+        "registration",
+        "drop",
+        "compliance"
+      ],
+      "aliases": [
+        "California Delete Act - Data Broker Registration and DROP",
+        "US Consumer & Marketing Privacy",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route California Delete Act - Data Broker Registration and DROP work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California Delete Act - Data Broker Registration and DROP source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California Delete Act - Data Broker Registration and DROP source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California Delete Act - Data Broker Registration and DROP source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 31,
+        "absolute_lift": 11,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 10,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "California Delete Act - Data Broker Registration and DROP measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 31,
+        "absolute_lift": 11,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/california-delete-act-data-broker-registry",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/california-delete-act-data-broker-registry/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "california-eraser-button-law",
+      "title": "California 'Eraser Button' / Minor Online Erasure Law (SB 568)",
+      "description": "Source-aware compliance bundle for California 'Eraser Button' / Minor Online Erasure Law (SB 568) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/california-eraser-button-law",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/california-eraser-button-law",
+      "download_url": "https://openknowledgebank.com/downloads/california-eraser-button-law.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "california",
+        "eraser",
+        "button",
+        "law",
+        "minor",
+        "online",
+        "erasure",
+        "568",
+        "compliance"
+      ],
+      "aliases": [
+        "California 'Eraser Button' / Minor Online Erasure Law (SB 568)",
+        "US Consumer & Marketing Privacy",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route California 'Eraser Button' / Minor Online Erasure Law (SB 568) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California 'Eraser Button' / Minor Online Erasure Law (SB 568) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California 'Eraser Button' / Minor Online Erasure Law (SB 568) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California 'Eraser Button' / Minor Online Erasure Law (SB 568) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 30,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 2,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 30/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "California 'Eraser Button' / Minor Online Erasure Law (SB 568) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 30,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/california-eraser-button-law",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/california-eraser-button-law/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "california-financial-information-privacy-act",
+      "title": "California Financial Information Privacy Act (SB 1)",
+      "description": "Source-aware compliance bundle for California Financial Information Privacy Act (SB 1) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/california-financial-information-privacy-act",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/california-financial-information-privacy-act",
+      "download_url": "https://openknowledgebank.com/downloads/california-financial-information-privacy-act.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "california",
+        "financial",
+        "information",
+        "privacy",
+        "act",
+        "consumer",
+        "marketing",
+        "businesses",
+        "compliance"
+      ],
+      "aliases": [
+        "California Financial Information Privacy Act (SB 1)",
+        "US Consumer & Marketing Privacy",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route California Financial Information Privacy Act (SB 1) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California Financial Information Privacy Act (SB 1) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California Financial Information Privacy Act (SB 1) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California Financial Information Privacy Act (SB 1) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "California Financial Information Privacy Act (SB 1) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/california-financial-information-privacy-act",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/california-financial-information-privacy-act/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "california-genetic-information-privacy-act",
+      "title": "California Genetic Information Privacy Act (GIPA)",
+      "description": "Source-aware compliance bundle for California Genetic Information Privacy Act (GIPA) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/california-genetic-information-privacy-act",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/california-genetic-information-privacy-act",
+      "download_url": "https://openknowledgebank.com/downloads/california-genetic-information-privacy-act.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "california",
+        "genetic",
+        "information",
+        "privacy",
+        "act",
+        "gipa",
+        "consumer",
+        "marketing",
+        "compliance"
+      ],
+      "aliases": [
+        "California Genetic Information Privacy Act (GIPA)",
+        "US Consumer & Marketing Privacy",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route California Genetic Information Privacy Act (GIPA) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California Genetic Information Privacy Act (GIPA) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California Genetic Information Privacy Act (GIPA) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California Genetic Information Privacy Act (GIPA) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 30,
+        "absolute_lift": 11,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 30/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "California Genetic Information Privacy Act (GIPA) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 30,
+        "absolute_lift": 11,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/california-genetic-information-privacy-act",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/california-genetic-information-privacy-act/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "california-iot-security-law",
+      "title": "California IoT Security Law (SB-327)",
+      "description": "Source-aware compliance bundle for California IoT Security Law (SB-327) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/california-iot-security-law",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/california-iot-security-law",
+      "download_url": "https://openknowledgebank.com/downloads/california-iot-security-law.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "california",
+        "iot",
+        "security",
+        "law",
+        "327",
+        "consumer",
+        "marketing",
+        "privacy",
+        "compliance"
+      ],
+      "aliases": [
+        "California IoT Security Law (SB-327)",
+        "US Consumer & Marketing Privacy",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route California IoT Security Law (SB-327) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California IoT Security Law (SB-327) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California IoT Security Law (SB-327) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California IoT Security Law (SB-327) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 2,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "California IoT Security Law (SB-327) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/california-iot-security-law",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/california-iot-security-law/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "california-reader-privacy-act",
+      "title": "California Reader Privacy Act",
+      "description": "Source-aware compliance bundle for California Reader Privacy Act applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/california-reader-privacy-act",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/california-reader-privacy-act",
+      "download_url": "https://openknowledgebank.com/downloads/california-reader-privacy-act.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "california",
+        "reader",
+        "privacy",
+        "act",
+        "consumer",
+        "marketing",
+        "businesses",
+        "collecting",
+        "compliance"
+      ],
+      "aliases": [
+        "California Reader Privacy Act",
+        "US Consumer & Marketing Privacy",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route California Reader Privacy Act work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California Reader Privacy Act source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California Reader Privacy Act source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California Reader Privacy Act source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "California Reader Privacy Act measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/california-reader-privacy-act",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/california-reader-privacy-act/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
       "id": "can-spam",
       "title": "CAN-SPAM",
       "description": "Source-aware compliance hub for U.S. commercial email marketing rules under the CAN-SPAM Act and FTC CAN-SPAM Rule.",
