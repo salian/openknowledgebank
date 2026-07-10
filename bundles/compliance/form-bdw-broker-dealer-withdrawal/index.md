@@ -39,9 +39,7 @@ skills:
   []
 evaluations:
   - "Form BDW — Uniform Request for Broker-Dealer Withdrawal source-awareness check"
-okb_bundle_id:
-  __raw__:
-    "form-bdw-broker-dealer-withdrawal"
+okb_bundle_id: form-bdw-broker-dealer-withdrawal
 okb_bundle_version: "0.1.0"
 trust_tier: "trusted"
 status: "beta"
