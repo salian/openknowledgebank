@@ -1,8 +1,11 @@
 ---
-type: "Workflow Index"
-title: "Scrum Workflows"
+type: Directory Index
+title: Scrum Workflows
+okb_bundle_id: scrum
+timestamp: "2026-07-09T00:00:00Z"
 ---
 
 # Scrum Workflows
 
-- [Source-aware triage](source-aware-triage.md)
+- [Scrum Adoption Review](scrum-adoption-review.md)
+- [Sprint Operating Review](sprint-operating-review.md)

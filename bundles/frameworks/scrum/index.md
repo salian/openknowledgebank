@@ -1,74 +1,79 @@
 ---
-type: "Bundle Index"
-title: "Scrum"
-description: "Source-aware framework bundle for Scrum scoping, evidence collection, source inspection, and review-ready decision support."
-schema_version: "0.1.0"
-bundle_format: "okf-compatible"
-category: "frameworks"
+type: Bundle Index
+title: Scrum
+description: "Framework hub bundle for applying Scrum using the official Scrum Guide structure without inventing local team practice, tool settings, or delivery metrics."
+schema_version: 0.1.0
+bundle_format: okf-compatible
+category: frameworks
 tags:
-  - "scrum"
-  - "framework"
+  - scrum
+  - agile
+  - software-delivery
+  - product-development
+  - sprint-planning
 aliases:
-  - "Scrum"
-  - "Regulated organizations"
-  - "General"
+  - Scrum framework
+  - Scrum Guide
+  - Scrum process
+  - sprint operating model
 problems_solved:
-  - "Route Scrum work to the right source category and evidence set."
-  - "Separate verified source facts, user-provided facts, assumptions, and missing evidence."
-  - "Produce a Scrum source-aware brief suitable for qualified review."
+  - Review Scrum practice against source-grounded accountabilities, events, artifacts, commitments, and values.
+  - Separate official Scrum framework terms from local team workflow, tooling, and governance choices.
+  - Draft Scrum operating briefs without inventing sprint metrics, board fields, Definition of Done, or team policy.
 industries:
-  - "Regulated organizations"
-tools:
-  []
+  - software
+  - digital-products
+  - technology
+  - b2b-saas
+tools: []
 frameworks:
-  - "Scrum"
+  - Scrum
+  - Scrum Guide
+  - Sprint
+  - Product Goal
+  - Sprint Goal
+  - Definition of Done
 deliverables:
-  - "Scrum source-aware brief"
+  - Scrum operating brief
 commands:
-  []
-skills:
-  []
+  - /review-scrum-practice
+skills: []
 evaluations:
-  - "Scrum source-awareness check"
-okb_bundle_id: scrum
-okb_bundle_version: "0.1.0"
-trust_tier: "trusted"
-status: "beta"
-license: "CC-BY-4.0"
+  - Scrum guidance quality check
+okb_bundle_version: 0.1.0
+trust_tier: trusted
+status: beta
+license: CC-BY-4.0
 related_bundles:
-  - "data-product-manager"
-  - "product-manager"
-  - "senior-product-manager"
-  - "technical-product-manager"
+  - agile
+  - product-manager
+  - senior-product-manager
+  - data-product-manager
+  - technical-product-manager
 adjacent_bundles:
-  []
+  - jira
+  - okrs
 contributors:
-  - "OpenKnowledgeBank"
+  - OpenKnowledgeBank
 maintainers:
-  - "OpenKnowledgeBank"
+  - OpenKnowledgeBank
 standard_mappings:
-  onet_soc:
-    []
-  soc:
-    []
-  isco_08:
-    []
-  esco:
-    []
+  onet_soc: []
+  soc: []
+  isco_08: []
+  esco: []
 limitations:
-  - "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice."
-  - "Scenario-specific answers require current official sources, local evidence, and qualified review."
-  - "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, capabilities, configuration, responsibilities, or outcomes without evidence."
+  - "Not a substitute for Scrum training, organizational coaching, HR policy, contract advice, or delivery governance."
+  - "Requires user-provided local evidence before judging actual team practice, sprint cadence, Definition of Done, metrics, tooling, or stakeholder process."
+  - "Does not prescribe a universal sprint length, velocity target, estimation method, board setup, or reporting cadence."
 safety_notes:
-  - "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples."
-  - "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, contract, system, campaign, or tool actions."
-  - "Route final reliance to a qualified practitioner, manager, or accountable business reviewer."
-timestamp: "2026-07-11T00:00:00Z"
+  - "Require confirmation before changing live boards, sprint commitments, Definition of Done, release plans, staffing responsibilities, stakeholder communications, or customer-facing delivery promises."
+  - "Do not claim access to private backlogs, sprint metrics, team policies, source repositories, product plans, or delivery tools unless the user provides evidence or authorized tool access."
 evaluation_summary:
-  status: "measured"
-  last_evaluated: "2026-07-10"
-  method: "baseline-vs-okb-rubric"
-  model: "openai/gpt-4o-mini"
+  status: measured
+  last_evaluated: 2026-07-09
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
   max_score: 36
@@ -76,34 +81,44 @@ evaluation_summary:
   okb_score: 34
   absolute_lift: 14
   task_scores:
-    - task: "framework-fit-review"
+    - task: framework-fit-review
       baseline_score: 4
       okb_score: 12
       max_score: 12
-    - task: "artifact-quality-review"
+    - task: artifact-quality-review
       baseline_score: 7
       okb_score: 11
       max_score: 12
-    - task: "implementation-change-plan"
+    - task: implementation-change-plan
       baseline_score: 9
       okb_score: 11
       max_score: 12
   comparison_scores:
-    []
-  display_summary: "Improved measured rubric score from 20/36 to 34/36 across 3 benchmark tasks."
-  evidence_note: "Public listing scorecard excludes raw prompts and private run artifacts."
+  display_summary: Improved measured rubric score from 20/36 to 34/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
+okb_bundle_id: scrum
+timestamp: "2026-07-09T00:00:00Z"
 ---
 
 # Scrum
 
-Source-aware framework bundle for Scrum scoping, evidence collection, source inspection, and review-ready decision support.
+This bundle helps an agent use Scrum as a lightweight framework for complex product work. It keeps the official Scrum Guide structure visible while requiring local evidence before judging a team's actual practice or recommending process changes.
 
 ## Required Answer Habit
 
-Include a short **Source note** naming the official or authoritative source category, local evidence used, and missing source or fact still needed before a conclusion is reliable.
+For Scrum work, include a short **Source note** naming the Scrum source category, the user-provided team or delivery evidence used, and missing local evidence required before treating a recommendation as specific to the user's organization.
 
 ## Start Here
 
-- [overview.md](overview.md)
-- [workflows/source-aware-triage.md](workflows/source-aware-triage.md)
-- [deliverables/source-aware-brief.md](deliverables/source-aware-brief.md)
+- [framework.md](framework.md)
+- [frameworks/scrum-guide-lens.md](frameworks/scrum-guide-lens.md)
+- [commands/review-scrum-practice.md](commands/review-scrum-practice.md)
+- [workflows/scrum-adoption-review.md](workflows/scrum-adoption-review.md)
+- [workflows/sprint-operating-review.md](workflows/sprint-operating-review.md)
+- [deliverables/scrum-operating-brief.md](deliverables/scrum-operating-brief.md)
+- [evaluations/scrum-guidance-quality-check.md](evaluations/scrum-guidance-quality-check.md)
+- [references/source-checks.md](references/source-checks.md)
+
+## Official Source Categories
+
+Use the official Scrum Guide for Scrum accountabilities, events, artifacts, commitments, and values. Use user-provided local evidence for a team's actual workflow, sprint cadence, backlog quality, Definition of Done, release constraints, metrics, tool configuration, governance, and stakeholder process.

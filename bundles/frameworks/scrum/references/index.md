@@ -1,8 +1,10 @@
 ---
-type: "Reference Index"
-title: "Scrum References"
+type: Directory Index
+title: Scrum References
+okb_bundle_id: scrum
+timestamp: "2026-07-09T00:00:00Z"
 ---
 
 # Scrum References
 
-- https://scrumguides.org/
+- [Source Checks](source-checks.md)
