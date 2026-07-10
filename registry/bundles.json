@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "updated": "2026-07-09",
+  "updated": "2026-07-10",
   "bundles": [
     {
       "schema_version": "0.1.0",
@@ -417,6 +417,138 @@
     {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
+      "id": "auditor-external",
+      "title": "Auditor (External)",
+      "description": "Role bundle for external audit planning, evidence requests, workpaper review, control testing, and report-ready findings without acting as the signing auditor.",
+      "category": "roles",
+      "path": "bundles/roles/auditor-external",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/auditor-external",
+      "download_url": "https://openknowledgebank.com/downloads/auditor-external.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "audit",
+        "external-audit",
+        "assurance",
+        "controls",
+        "finance"
+      ],
+      "aliases": [
+        "External Auditor",
+        "Financial Statement Auditor"
+      ],
+      "problems_solved": [
+        "Route Auditor (External) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a external audit evidence brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "external audit evidence brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Auditor (External) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 32,
+        "absolute_lift": 11,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 21/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "soc-2",
+        "us-gaap",
+        "sox",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Auditor (External) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 32,
+        "absolute_lift": 11,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/auditor-external",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/auditor-external/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
       "id": "can-spam",
       "title": "CAN-SPAM",
       "description": "Source-aware compliance hub for U.S. commercial email marketing rules under the CAN-SPAM Act and FTC CAN-SPAM Rule.",
@@ -639,6 +771,401 @@
         "Do not request, expose, or publish personal information beyond what is necessary for the user-approved analysis.",
         "Require explicit confirmation before submitting notices, contacting regulators, changing privacy notices, changing contracts, sending legal communications, exporting personal information, or modifying live privacy controls."
       ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "chief-information-security-officer-ciso",
+      "title": "Chief Information Security Officer (CISO)",
+      "description": "Role bundle for security strategy, risk governance, board reporting, incident readiness, control prioritization, and compliance-facing security evidence.",
+      "category": "roles",
+      "path": "bundles/roles/chief-information-security-officer-ciso",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/chief-information-security-officer-ciso",
+      "download_url": "https://openknowledgebank.com/downloads/chief-information-security-officer-ciso.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "security",
+        "ciso",
+        "risk-management",
+        "governance",
+        "cybersecurity"
+      ],
+      "aliases": [
+        "CISO",
+        "Chief Security Officer"
+      ],
+      "problems_solved": [
+        "Route Chief Information Security Officer (CISO) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a security governance decision brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "security governance decision brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Chief Information Security Officer (CISO) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 32,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "soc-2",
+        "hipaa",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping",
+        "osha-machine-and-process-safety"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Chief Information Security Officer (CISO) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 32,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/chief-information-security-officer-ciso",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/chief-information-security-officer-ciso/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "cloud-engineer",
+      "title": "Cloud Engineer",
+      "description": "Role bundle for cloud architecture, infrastructure-as-code review, deployment planning, observability, cost, reliability, and security evidence handling.",
+      "category": "roles",
+      "path": "bundles/roles/cloud-engineer",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/cloud-engineer",
+      "download_url": "https://openknowledgebank.com/downloads/cloud-engineer.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "devops",
+        "iac",
+        "platform-engineering"
+      ],
+      "aliases": [
+        "Cloud Infrastructure Engineer",
+        "Cloud Platform Engineer"
+      ],
+      "problems_solved": [
+        "Route Cloud Engineer work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a cloud engineering change brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "cloud engineering change brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Cloud Engineer source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 34,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "soc-2",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping",
+        "osha-machine-and-process-safety"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Cloud Engineer measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 34,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/cloud-engineer",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/cloud-engineer/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "compliance-officer",
+      "title": "Compliance Officer",
+      "description": "Role bundle for compliance assessments, control evidence, findings, corrective-action plans, regulatory source routing, and professional-review boundaries.",
+      "category": "roles",
+      "path": "bundles/roles/compliance-officer",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/compliance-officer",
+      "download_url": "https://openknowledgebank.com/downloads/compliance-officer.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "compliance",
+        "risk",
+        "controls",
+        "regulatory",
+        "audit"
+      ],
+      "aliases": [
+        "Compliance Specialist",
+        "Regulatory Compliance Officer"
+      ],
+      "problems_solved": [
+        "Route Compliance Officer work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a compliance assessment brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "compliance assessment brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Compliance Officer source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 33,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "hipaa",
+        "soc-2",
+        "osha",
+        "gdpr",
+        "osh-act-general-safety",
+        "osha-hazard-communication"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Compliance Officer measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 33,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/compliance-officer",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/compliance-officer/v1/evaluation-results/"
+      }
     },
     {
       "type": "Bundle Index",
@@ -979,6 +1506,271 @@
     {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
+      "id": "data-protection-officer-privacy-officer",
+      "title": "Data Protection Officer / Privacy Officer",
+      "description": "Role bundle for privacy governance, DPIAs, ROPA evidence, breach triage, data-subject request routing, and regulator-ready privacy documentation.",
+      "category": "roles",
+      "path": "bundles/roles/data-protection-officer-privacy-officer",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/data-protection-officer-privacy-officer",
+      "download_url": "https://openknowledgebank.com/downloads/data-protection-officer-privacy-officer.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "privacy",
+        "data-protection",
+        "dpo",
+        "gdpr",
+        "hipaa"
+      ],
+      "aliases": [
+        "DPO",
+        "Privacy Officer",
+        "Data Protection Officer"
+      ],
+      "problems_solved": [
+        "Route Data Protection Officer / Privacy Officer work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a privacy governance evidence brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "privacy governance evidence brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Data Protection Officer / Privacy Officer source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 24,
+        "okb_score": 32,
+        "absolute_lift": 8,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 10,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 24/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "gdpr",
+        "hipaa",
+        "ccpa",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Data Protection Officer / Privacy Officer measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 24,
+        "okb_score": 32,
+        "absolute_lift": 8,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/data-protection-officer-privacy-officer",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/data-protection-officer-privacy-officer/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "devops-engineer",
+      "title": "DevOps Engineer",
+      "description": "Role bundle for CI/CD, infrastructure automation, release risk, incident runbooks, observability, and deployment evidence without making unapproved live changes.",
+      "category": "roles",
+      "path": "bundles/roles/devops-engineer",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/devops-engineer",
+      "download_url": "https://openknowledgebank.com/downloads/devops-engineer.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "devops",
+        "ci-cd",
+        "automation",
+        "reliability",
+        "platform-engineering"
+      ],
+      "aliases": [
+        "DevOps Engineer",
+        "Site Reliability Automation Engineer"
+      ],
+      "problems_solved": [
+        "Route DevOps Engineer work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a deployment change readiness brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "deployment change readiness brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "DevOps Engineer source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 33,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "soc-2",
+        "cloud-engineer",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping",
+        "osha-machine-and-process-safety"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "DevOps Engineer measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 33,
+        "absolute_lift": 13,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/devops-engineer",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/devops-engineer/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
       "id": "docusign",
       "title": "DocuSign",
       "description": "Source-aware DocuSign tool bundle for eSignature envelope, template, recipient, routing, field, status, and integration planning.",
@@ -1116,6 +1908,138 @@
         "Require explicit confirmation before sending envelopes, notifying recipients, correcting or voiding envelopes, changing templates, editing recipient/routing/field settings, exporting agreement data, or running production integration/API actions.",
         "Do not request credentials or claim DocuSign account access unless the user provides authorized tool access or evidence."
       ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "electrician",
+      "title": "Electrician",
+      "description": "Role bundle for electrical code/source triage, permit-prep reasoning, load/calculation review, and safety documentation without performing field work.",
+      "category": "roles",
+      "path": "bundles/roles/electrician",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/electrician",
+      "download_url": "https://openknowledgebank.com/downloads/electrician.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "electrician",
+        "electrical-safety",
+        "trades",
+        "osha",
+        "field-work"
+      ],
+      "aliases": [
+        "Electrical Technician",
+        "Journeyman Electrician"
+      ],
+      "problems_solved": [
+        "Route Electrician work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a electrical code and safety review brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "electrical code and safety review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Electrician source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 33,
+        "absolute_lift": 12,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 11,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 21/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osha",
+        "osha-ppe-and-worker-protection",
+        "osh-act-general-safety",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Electrician measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 33,
+        "absolute_lift": 12,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/electrician",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/electrician/v1/evaluation-results/"
+      }
     },
     {
       "id": "figma",
@@ -2170,6 +3094,138 @@
         "Require confirmation before running live queries, exporting data, writing tables, changing permissions, or making billing/capacity changes.",
         "Do not claim access to BigQuery projects, datasets, tables, schemas, or jobs unless the user provides evidence or authorized tool access."
       ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "healthcare-hipaa-business-associate-agreement-baa-attorney",
+      "title": "Healthcare / HIPAA BAA Attorney",
+      "description": "Micro-role bundle for HIPAA business associate agreement issue spotting, source-aware clause review, and professional legal review boundaries.",
+      "category": "roles",
+      "path": "bundles/roles/healthcare-hipaa-business-associate-agreement-baa-attorney",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/healthcare-hipaa-business-associate-agreement-baa-attorney",
+      "download_url": "https://openknowledgebank.com/downloads/healthcare-hipaa-business-associate-agreement-baa-attorney.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "hipaa",
+        "baa",
+        "healthcare-law",
+        "contracts",
+        "privacy"
+      ],
+      "aliases": [
+        "HIPAA BAA Attorney",
+        "Business Associate Agreement Lawyer"
+      ],
+      "problems_solved": [
+        "Route Healthcare / HIPAA BAA Attorney work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a BAA source-aware issue brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "BAA source-aware issue brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Healthcare / HIPAA BAA Attorney source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 33,
+        "absolute_lift": 10,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 10,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 23/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "hipaa",
+        "hipaa-privacy-rule",
+        "hipaa-security-rule",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Healthcare / HIPAA BAA Attorney measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 33,
+        "absolute_lift": 10,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/healthcare-hipaa-business-associate-agreement-baa-attorney",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/healthcare-hipaa-business-associate-agreement-baa-attorney/v1/evaluation-results/"
+      }
     },
     {
       "id": "hipaa",
@@ -4069,6 +5125,536 @@
       ]
     },
     {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "human-resources-manager",
+      "title": "Human Resources Manager",
+      "description": "Role bundle for HR policy, employee-relations evidence, workforce planning, compliance routing, and OSHA/ADA/privacy-aware people operations output.",
+      "category": "roles",
+      "path": "bundles/roles/human-resources-manager",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/human-resources-manager",
+      "download_url": "https://openknowledgebank.com/downloads/human-resources-manager.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "human-resources",
+        "people-operations",
+        "employee-relations",
+        "policy",
+        "compliance"
+      ],
+      "aliases": [
+        "HR Manager",
+        "Human Resources Director"
+      ],
+      "problems_solved": [
+        "Route Human Resources Manager work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a HR decision and policy brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "HR decision and policy brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Human Resources Manager source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 31,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 8,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osha",
+        "ada",
+        "compliance-officer",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Human Resources Manager measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 31,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/human-resources-manager",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/human-resources-manager/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "hvac-r-mechanic-and-installer",
+      "title": "HVAC/R Mechanic and Installer",
+      "description": "Role bundle for HVAC/R diagnostic reasoning, safety/source checks, work-order documentation, and EPA/OSHA-aware review boundaries.",
+      "category": "roles",
+      "path": "bundles/roles/hvac-r-mechanic-and-installer",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/hvac-r-mechanic-and-installer",
+      "download_url": "https://openknowledgebank.com/downloads/hvac-r-mechanic-and-installer.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "hvac",
+        "refrigeration",
+        "trades",
+        "diagnostics",
+        "osha"
+      ],
+      "aliases": [
+        "HVAC Technician",
+        "Refrigeration Mechanic",
+        "HVAC/R Installer"
+      ],
+      "problems_solved": [
+        "Route HVAC/R Mechanic and Installer work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a HVAC/R diagnostic evidence brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "HVAC/R diagnostic evidence brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "HVAC/R Mechanic and Installer source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 33,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osha",
+        "osha-ppe-and-worker-protection",
+        "osha-occupational-exposure-limits",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "HVAC/R Mechanic and Installer measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 33,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/hvac-r-mechanic-and-installer",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/hvac-r-mechanic-and-installer/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "industrial-production-manager",
+      "title": "Industrial Production Manager",
+      "description": "Role bundle for production planning, throughput/capacity analysis, quality/safety evidence, and manufacturing operations decision briefs.",
+      "category": "roles",
+      "path": "bundles/roles/industrial-production-manager",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/industrial-production-manager",
+      "download_url": "https://openknowledgebank.com/downloads/industrial-production-manager.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "manufacturing",
+        "production-management",
+        "operations",
+        "quality",
+        "safety"
+      ],
+      "aliases": [
+        "Production Manager",
+        "Manufacturing Manager",
+        "Plant Manager"
+      ],
+      "problems_solved": [
+        "Route Industrial Production Manager work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a production operations decision brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "production operations decision brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Industrial Production Manager source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 33,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 2,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osha",
+        "compliance-officer",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping",
+        "osha-machine-and-process-safety"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Industrial Production Manager measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 33,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/industrial-production-manager",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/industrial-production-manager/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "internal-auditor",
+      "title": "Internal Auditor",
+      "description": "Role bundle for internal audit planning, risk/control assessment, evidence requests, findings, and management-action tracking.",
+      "category": "roles",
+      "path": "bundles/roles/internal-auditor",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/internal-auditor",
+      "download_url": "https://openknowledgebank.com/downloads/internal-auditor.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "internal-audit",
+        "controls",
+        "risk",
+        "assurance",
+        "governance"
+      ],
+      "aliases": [
+        "Internal Audit Specialist",
+        "Corporate Auditor"
+      ],
+      "problems_solved": [
+        "Route Internal Auditor work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a internal audit finding brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "internal audit finding brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Internal Auditor source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "soc-2",
+        "sox",
+        "compliance-officer",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Internal Auditor measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/internal-auditor",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/internal-auditor/v1/evaluation-results/"
+      }
+    },
+    {
       "id": "jira",
       "title": "Jira",
       "description": "Tool bundle for source-aware Jira work tracking, board, backlog, workflow, JQL, report, automation, and REST API planning.",
@@ -5078,6 +6664,141 @@
       }
     },
     {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "osh-act-general-safety",
+      "title": "OSH Act General Safety",
+      "description": "Source-aware compliance bundle for OSH Act general duty, worker rights, employer duties, and OSHA posting/source triage.",
+      "category": "compliance",
+      "path": "bundles/compliance/osh-act-general-safety",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/osh-act-general-safety",
+      "download_url": "https://openknowledgebank.com/downloads/osh-act-general-safety.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "osha",
+        "osh-act",
+        "general-duty",
+        "workplace-safety",
+        "compliance"
+      ],
+      "aliases": [
+        "Occupational Safety and Health Act general requirements",
+        "OSH Act general duty",
+        "OSHA general safety requirements"
+      ],
+      "problems_solved": [
+        "Route OSH Act General Safety work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a OSH Act source-aware safety brief for professional review."
+      ],
+      "industries": [
+        "manufacturing",
+        "construction",
+        "warehousing",
+        "healthcare",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "OSH Act source-aware safety brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "OSH Act General Safety source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 30,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 30/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping",
+        "osha-machine-and-process-safety",
+        "osha-occupational-exposure-limits"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "OSH Act General Safety measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 30,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/osh-act-general-safety",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/osh-act-general-safety/v1/evaluation-results/"
+      }
+    },
+    {
       "id": "osha",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
@@ -5228,6 +6949,1089 @@
       }
     },
     {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "osha-hazard-communication",
+      "title": "OSHA Hazard Communication Standard",
+      "description": "Source-aware compliance bundle for OSHA Hazard Communication classification, labels, safety data sheets, written program, and worker training triage.",
+      "category": "compliance",
+      "path": "bundles/compliance/osha-hazard-communication",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/osha-hazard-communication",
+      "download_url": "https://openknowledgebank.com/downloads/osha-hazard-communication.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "osha",
+        "hazard-communication",
+        "chemicals",
+        "sds",
+        "labels"
+      ],
+      "aliases": [
+        "HazCom",
+        "HCS",
+        "29 CFR 1910.1200"
+      ],
+      "problems_solved": [
+        "Route OSHA Hazard Communication Standard work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a hazard communication readiness brief for professional review."
+      ],
+      "industries": [
+        "manufacturing",
+        "construction",
+        "warehousing",
+        "healthcare",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "hazard communication readiness brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "OSHA Hazard Communication Standard source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 32,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osh-act-general-safety",
+        "osha-injury-illness-recordkeeping",
+        "osha-machine-and-process-safety",
+        "osha-occupational-exposure-limits"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "OSHA Hazard Communication Standard measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 32,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/osha-hazard-communication",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/osha-hazard-communication/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "osha-injury-illness-recordkeeping",
+      "title": "OSHA Injury and Illness Recordkeeping and Reporting",
+      "description": "Source-aware compliance bundle for OSHA injury and illness recording, reporting, and electronic submission triage.",
+      "category": "compliance",
+      "path": "bundles/compliance/osha-injury-illness-recordkeeping",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/osha-injury-illness-recordkeeping",
+      "download_url": "https://openknowledgebank.com/downloads/osha-injury-illness-recordkeeping.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "osha",
+        "recordkeeping",
+        "injury-reporting",
+        "illness-reporting",
+        "part-1904"
+      ],
+      "aliases": [
+        "OSHA 300 Log",
+        "OSHA 301",
+        "OSHA 300A",
+        "29 CFR Part 1904"
+      ],
+      "problems_solved": [
+        "Route OSHA Injury and Illness Recordkeeping and Reporting work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a recordkeeping and reporting decision brief for professional review."
+      ],
+      "industries": [
+        "manufacturing",
+        "construction",
+        "warehousing",
+        "healthcare",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "recordkeeping and reporting decision brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "OSHA Injury and Illness Recordkeeping and Reporting source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-machine-and-process-safety",
+        "osha-occupational-exposure-limits"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "OSHA Injury and Illness Recordkeeping and Reporting measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/osha-injury-illness-recordkeeping",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/osha-injury-illness-recordkeeping/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "osha-machine-and-process-safety",
+      "title": "OSHA Machine Guarding, Lockout/Tagout, and Process Safety Management",
+      "description": "Source-aware compliance bundle for machine guarding, hazardous energy control, and process safety management triage.",
+      "category": "compliance",
+      "path": "bundles/compliance/osha-machine-and-process-safety",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/osha-machine-and-process-safety",
+      "download_url": "https://openknowledgebank.com/downloads/osha-machine-and-process-safety.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "osha",
+        "machine-guarding",
+        "lockout-tagout",
+        "psm",
+        "process-safety"
+      ],
+      "aliases": [
+        "machine guarding",
+        "LOTO",
+        "process safety management",
+        "29 CFR 1910.147",
+        "29 CFR 1910.119"
+      ],
+      "problems_solved": [
+        "Route OSHA Machine Guarding, Lockout/Tagout, and Process Safety Management work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a machine and process safety review brief for professional review."
+      ],
+      "industries": [
+        "manufacturing",
+        "construction",
+        "warehousing",
+        "healthcare",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "machine and process safety review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "OSHA Machine Guarding, Lockout/Tagout, and Process Safety Management source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 32,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping",
+        "osha-occupational-exposure-limits"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "OSHA Machine Guarding, Lockout/Tagout, and Process Safety Management measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 32,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/osha-machine-and-process-safety",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/osha-machine-and-process-safety/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "osha-occupational-exposure-limits",
+      "title": "OSHA Occupational Exposure Standards",
+      "description": "Source-aware compliance bundle for OSHA exposure standards such as noise, silica, and employee exposure/medical records access.",
+      "category": "compliance",
+      "path": "bundles/compliance/osha-occupational-exposure-limits",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/osha-occupational-exposure-limits",
+      "download_url": "https://openknowledgebank.com/downloads/osha-occupational-exposure-limits.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "osha",
+        "exposure-limits",
+        "industrial-hygiene",
+        "noise",
+        "silica"
+      ],
+      "aliases": [
+        "occupational exposure limits",
+        "OSHA PELs",
+        "noise and silica exposure standards"
+      ],
+      "problems_solved": [
+        "Route OSHA Occupational Exposure Standards work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a exposure standard evidence brief for professional review."
+      ],
+      "industries": [
+        "manufacturing",
+        "construction",
+        "warehousing",
+        "healthcare",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "exposure standard evidence brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "OSHA Occupational Exposure Standards source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 12,
+        "okb_score": 30,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 2,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 12/36 to 30/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping",
+        "osha-machine-and-process-safety"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "OSHA Occupational Exposure Standards measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 12,
+        "okb_score": 30,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/osha-occupational-exposure-limits",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/osha-occupational-exposure-limits/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "osha-poster-requirement",
+      "title": "OSHA Workplace Poster Requirement",
+      "description": "Source-aware compliance bundle for OSHA workplace poster and citation posting triage.",
+      "category": "compliance",
+      "path": "bundles/compliance/osha-poster-requirement",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/osha-poster-requirement",
+      "download_url": "https://openknowledgebank.com/downloads/osha-poster-requirement.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "osha",
+        "poster",
+        "worker-rights",
+        "posting",
+        "compliance"
+      ],
+      "aliases": [
+        "OSHA Job Safety and Health poster",
+        "OSHA workplace poster",
+        "It is the Law poster"
+      ],
+      "problems_solved": [
+        "Route OSHA Workplace Poster Requirement work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a poster requirement readiness brief for professional review."
+      ],
+      "industries": [
+        "manufacturing",
+        "construction",
+        "warehousing",
+        "healthcare",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "poster requirement readiness brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "OSHA Workplace Poster Requirement source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 31,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping",
+        "osha-machine-and-process-safety"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "OSHA Workplace Poster Requirement measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 31,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/osha-poster-requirement",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/osha-poster-requirement/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "osha-ppe-and-worker-protection",
+      "title": "OSHA PPE and Worker Protection Programs",
+      "description": "Source-aware compliance bundle for OSHA PPE hazard assessment, selection, training, and worker-protection program triage.",
+      "category": "compliance",
+      "path": "bundles/compliance/osha-ppe-and-worker-protection",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/osha-ppe-and-worker-protection",
+      "download_url": "https://openknowledgebank.com/downloads/osha-ppe-and-worker-protection.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "osha",
+        "ppe",
+        "worker-protection",
+        "hazard-assessment",
+        "safety-program"
+      ],
+      "aliases": [
+        "personal protective equipment",
+        "PPE hazard assessment",
+        "29 CFR 1910 Subpart I"
+      ],
+      "problems_solved": [
+        "Route OSHA PPE and Worker Protection Programs work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a PPE program evidence brief for professional review."
+      ],
+      "industries": [
+        "manufacturing",
+        "construction",
+        "warehousing",
+        "healthcare",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "PPE program evidence brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "OSHA PPE and Worker Protection Programs source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 31,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 2,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping",
+        "osha-machine-and-process-safety"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "OSHA PPE and Worker Protection Programs measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 31,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/osha-ppe-and-worker-protection",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/osha-ppe-and-worker-protection/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "osha-recordkeeping",
+      "title": "OSHA Recordkeeping",
+      "description": "Source-aware compliance bundle for 29 CFR Part 1904 recordkeeping forms, criteria, retention, and OSHA reporting evidence.",
+      "category": "compliance",
+      "path": "bundles/compliance/osha-recordkeeping",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/osha-recordkeeping",
+      "download_url": "https://openknowledgebank.com/downloads/osha-recordkeeping.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "osha",
+        "recordkeeping",
+        "part-1904",
+        "osha-forms",
+        "reporting"
+      ],
+      "aliases": [
+        "29 CFR Part 1904",
+        "OSHA forms 300 300A 301",
+        "recordable injury and illness"
+      ],
+      "problems_solved": [
+        "Route OSHA Recordkeeping work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a recordkeeping evidence checklist for professional review."
+      ],
+      "industries": [
+        "manufacturing",
+        "construction",
+        "warehousing",
+        "healthcare",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "recordkeeping evidence checklist"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "OSHA Recordkeeping source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 13,
+        "okb_score": 31,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 2,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 13/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping",
+        "osha-machine-and-process-safety"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "OSHA Recordkeeping measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 13,
+        "okb_score": 31,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/osha-recordkeeping",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/osha-recordkeeping/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "osha-specific-standards",
+      "title": "OSHA Workplace Safety Standards",
+      "description": "Source-aware compliance bundle for selecting applicable OSHA general-industry and construction standards without guessing from a sparse scenario.",
+      "category": "compliance",
+      "path": "bundles/compliance/osha-specific-standards",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/osha-specific-standards",
+      "download_url": "https://openknowledgebank.com/downloads/osha-specific-standards.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "osha",
+        "29-cfr-1910",
+        "29-cfr-1926",
+        "workplace-safety",
+        "standards-selection"
+      ],
+      "aliases": [
+        "29 CFR 1910",
+        "29 CFR 1926",
+        "OSHA specific standards"
+      ],
+      "problems_solved": [
+        "Route OSHA Workplace Safety Standards work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a OSHA standard-selection brief for professional review."
+      ],
+      "industries": [
+        "manufacturing",
+        "construction",
+        "warehousing",
+        "healthcare",
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "OSHA standard-selection brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "OSHA Workplace Safety Standards source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 31,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping",
+        "osha-machine-and-process-safety"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "OSHA Workplace Safety Standards measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 31,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/osha-specific-standards",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/osha-specific-standards/v1/evaluation-results/"
+      }
+    },
+    {
       "id": "performance-marketer",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
@@ -5348,6 +8152,138 @@
         "bundle_context_source": "bundles/roles/performance-marketer",
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/performance-marketer/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "plumber",
+      "title": "Plumber",
+      "description": "Role bundle for plumbing diagnostic reasoning, code/source triage, work-order documentation, and safety boundaries without performing field work.",
+      "category": "roles",
+      "path": "bundles/roles/plumber",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/plumber",
+      "download_url": "https://openknowledgebank.com/downloads/plumber.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "plumber",
+        "plumbing",
+        "trades",
+        "diagnostics",
+        "osha"
+      ],
+      "aliases": [
+        "Plumbing Technician",
+        "Pipefitter"
+      ],
+      "problems_solved": [
+        "Route Plumber work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a plumbing diagnostic and code brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "plumbing diagnostic and code brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Plumber source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 33,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osha",
+        "osha-ppe-and-worker-protection",
+        "osh-act-general-safety",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Plumber measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 33,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/plumber",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/plumber/v1/evaluation-results/"
       }
     },
     {
@@ -6272,6 +9208,140 @@
       }
     },
     {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "saas-contract-lawyer-msa-sla-dpa-drafting",
+      "title": "SaaS Contract Lawyer (MSA/SLA/DPA Drafting)",
+      "description": "Micro-role bundle for SaaS MSA, SLA, DPA, security exhibit, and SOC 2 evidence issue spotting with attorney-review boundaries.",
+      "category": "roles",
+      "path": "bundles/roles/saas-contract-lawyer-msa-sla-dpa-drafting",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/saas-contract-lawyer-msa-sla-dpa-drafting",
+      "download_url": "https://openknowledgebank.com/downloads/saas-contract-lawyer-msa-sla-dpa-drafting.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "saas",
+        "contracts",
+        "msa",
+        "sla",
+        "dpa",
+        "legal"
+      ],
+      "aliases": [
+        "SaaS contract lawyer",
+        "MSA SLA DPA attorney",
+        "technology transactions lawyer"
+      ],
+      "problems_solved": [
+        "Route SaaS Contract Lawyer (MSA/SLA/DPA Drafting) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a SaaS contract issue-spotting brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "SaaS contract issue-spotting brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "SaaS Contract Lawyer (MSA/SLA/DPA Drafting) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 33,
+        "absolute_lift": 10,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 10,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 23/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "soc-2",
+        "gdpr",
+        "hipaa",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "SaaS Contract Lawyer (MSA/SLA/DPA Drafting) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 33,
+        "absolute_lift": 10,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/saas-contract-lawyer-msa-sla-dpa-drafting",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/saas-contract-lawyer-msa-sla-dpa-drafting/v1/evaluation-results/"
+      }
+    },
+    {
       "id": "salesforce-service-cloud",
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
@@ -6673,6 +9743,139 @@
         "Require confirmation before changing live boards, sprint commitments, Definition of Done, release plans, staffing responsibilities, stakeholder communications, or customer-facing delivery promises.",
         "Do not claim access to private backlogs, sprint metrics, team policies, source repositories, product plans, or delivery tools unless the user provides evidence or authorized tool access."
       ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "security-software-application-security-engineer",
+      "title": "Security Software / Application Security Engineer",
+      "description": "Role bundle for secure-code review, threat modeling, SAST/DAST/SCA triage, CI/CD controls, and remediation planning.",
+      "category": "roles",
+      "path": "bundles/roles/security-software-application-security-engineer",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/security-software-application-security-engineer",
+      "download_url": "https://openknowledgebank.com/downloads/security-software-application-security-engineer.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "application-security",
+        "secure-code",
+        "sast",
+        "dast",
+        "software-security"
+      ],
+      "aliases": [
+        "Application Security Engineer",
+        "AppSec Engineer",
+        "Security Software Engineer"
+      ],
+      "problems_solved": [
+        "Route Security Software / Application Security Engineer work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a application security remediation brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "application security remediation brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Security Software / Application Security Engineer source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 33,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 9,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 2,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "soc-2",
+        "chief-information-security-officer-ciso",
+        "devops-engineer",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Security Software / Application Security Engineer measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 33,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/security-software-application-security-engineer",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/security-software-application-security-engineer/v1/evaluation-results/"
+      }
     },
     {
       "schema_version": "0.1.0",
@@ -7989,6 +11192,139 @@
         "Do not claim access to Codification, EDGAR filings, contracts, workpapers, accounting systems, or auditor files unless the user provides evidence or authorized tool access."
       ],
       "evaluation_detail": {}
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "warehouse-manager",
+      "title": "Warehouse Manager",
+      "description": "Role bundle for warehouse operations planning, safety program evidence, slotting/capacity analysis, inventory controls, and KPI reporting.",
+      "category": "roles",
+      "path": "bundles/roles/warehouse-manager",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/warehouse-manager",
+      "download_url": "https://openknowledgebank.com/downloads/warehouse-manager.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "warehouse",
+        "logistics",
+        "operations",
+        "inventory",
+        "safety"
+      ],
+      "aliases": [
+        "Distribution Center Manager",
+        "Warehouse Supervisor",
+        "Logistics Operations Manager"
+      ],
+      "problems_solved": [
+        "Route Warehouse Manager work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a warehouse operations decision brief for professional review."
+      ],
+      "industries": [
+        "cross-industry"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "professional-review gate"
+      ],
+      "deliverables": [
+        "warehouse operations decision brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Warehouse Manager source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 33,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "role-task-with-limited-evidence",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "osha",
+        "industrial-production-manager",
+        "human-resources-manager",
+        "osh-act-general-safety",
+        "osha-hazard-communication",
+        "osha-injury-illness-recordkeeping"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal advice, professional certification, engineering approval, safety approval, or a substitute for licensed/qualified review.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, worksites, contracts, controls, people, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, employee, customer, PHI/ePHI, security, payroll, and incident data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, safety, security, employment, reporting, disclosure, deployment, or contract actions.",
+        "Route final reliance to qualified professionals, licensed trades, counsel, auditors, safety staff, security leadership, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Warehouse Manager measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 33,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/warehouse-manager",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/warehouse-manager/v1/evaluation-results/"
+      }
     },
     {
       "schema_version": "0.1.0",
