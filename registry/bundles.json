@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "updated": "2026-07-10",
+  "updated": "2026-07-11",
   "bundles": [
     {
       "schema_version": "0.1.0",
@@ -39044,6 +39044,121 @@
         ],
         "comparison_scores": [],
         "display_summary": "Improved measured rubric score from 18/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      }
+    },
+    {
+      "id": "form-bd-broker-dealer-registration",
+      "title": "Form BD \u2014 Uniform Application for Broker-Dealer Registration",
+      "description": "Source-aware compliance bundle for Form BD \u2014 Uniform Application for Broker-Dealer Registration applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/form-bd-broker-dealer-registration",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/form-bd-broker-dealer-registration",
+      "download_url": "https://openknowledgebank.com/downloads/form-bd-broker-dealer-registration.zip",
+      "tags": [
+        "form",
+        "bd",
+        "broker",
+        "dealer",
+        "registration",
+        "united",
+        "compliance"
+      ],
+      "aliases": [
+        "Form BD \u2014 Uniform Application for Broker-Dealer Registration",
+        "Broker-dealers and registered investment advisers",
+        "United States",
+        "U.S. Securities and Exchange Commission (SEC)",
+        "Financial Industry Regulatory Authority (FINRA)"
+      ],
+      "problems_solved": [
+        "Route Form BD \u2014 Uniform Application for Broker-Dealer Registration work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Form BD \u2014 Uniform Application for Broker-Dealer Registration source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Form BD \u2014 Uniform Application for Broker-Dealer Registration source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Form BD \u2014 Uniform Application for Broker-Dealer Registration source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.finra.org/registration-exams-ce/broker-dealers/form-bd"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-11T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 30,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 30/36 across 3 benchmark tasks.",
         "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       }
     }
