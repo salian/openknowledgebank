@@ -5,6 +5,528 @@
     {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
+      "id": "340b-drug-pricing-program",
+      "title": "340B Drug Pricing Program Compliance",
+      "description": "Source-aware compliance bundle for 340B Drug Pricing Program Compliance applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/340b-drug-pricing-program",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/340b-drug-pricing-program",
+      "download_url": "https://openknowledgebank.com/downloads/340b-drug-pricing-program.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "340b",
+        "drug",
+        "pricing",
+        "healthcare",
+        "fraud",
+        "billing",
+        "providers",
+        "suppliers",
+        "compliance"
+      ],
+      "aliases": [
+        "340B Drug Pricing Program Compliance",
+        "US Healthcare Fraud & Billing",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route 340B Drug Pricing Program Compliance work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a 340B Drug Pricing Program Compliance source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Healthcare providers and suppliers billing Medicare, Medicaid, and other federal health programs"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "340B Drug Pricing Program Compliance source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "340B Drug Pricing Program Compliance source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 31,
+        "absolute_lift": 12,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "anti-kickback-statute"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "340B Drug Pricing Program Compliance measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 31,
+        "absolute_lift": 12,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/340b-drug-pricing-program",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/340b-drug-pricing-program/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "ab-pipa-breach-notification",
+      "title": "Alberta PIPA Breach Notification Regime (PIPA ss. 34.1, 37.1; PIPA Regulation ss. 19, 19.1)",
+      "description": "Source-aware compliance bundle for Alberta PIPA Breach Notification Regime (PIPA ss. 34.1, 37.1; PIPA Regulation ss. 19, 19.1) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/ab-pipa-breach-notification",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/ab-pipa-breach-notification",
+      "download_url": "https://openknowledgebank.com/downloads/ab-pipa-breach-notification.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "pipa",
+        "breach",
+        "notification",
+        "alberta",
+        "regime",
+        "regulation",
+        "canada",
+        "privacy",
+        "compliance"
+      ],
+      "aliases": [
+        "Alberta PIPA Breach Notification Regime (PIPA ss. 34.1, 37.1; PIPA Regulation ss. 19, 19.1)",
+        "Canada Privacy",
+        "Canada"
+      ],
+      "problems_solved": [
+        "Route Alberta PIPA Breach Notification Regime (PIPA ss. 34.1, 37.1; PIPA Regulation ss. 19, 19.1) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Alberta PIPA Breach Notification Regime (PIPA ss. 34.1, 37.1; PIPA Regulation ss. 19, 19.1) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Private-sector organisations handling personal information"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Alberta PIPA Breach Notification Regime (PIPA ss. 34.1, 37.1; PIPA Regulation ss. 19, 19.1) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Alberta PIPA Breach Notification Regime (PIPA ss. 34.1, 37.1; PIPA Regulation ss. 19, 19.1) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 32,
+        "absolute_lift": 12,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Alberta PIPA Breach Notification Regime (PIPA ss. 34.1, 37.1; PIPA Regulation ss. 19, 19.1) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 32,
+        "absolute_lift": 12,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/ab-pipa-breach-notification",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/ab-pipa-breach-notification/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "ab-pipa-personal-information-protection",
+      "title": "Personal Information Protection Act (Alberta) - Core Obligations",
+      "description": "Source-aware compliance bundle for Personal Information Protection Act (Alberta) - Core Obligations applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/ab-pipa-personal-information-protection",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/ab-pipa-personal-information-protection",
+      "download_url": "https://openknowledgebank.com/downloads/ab-pipa-personal-information-protection.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "pipa",
+        "personal",
+        "information",
+        "protection",
+        "act",
+        "alberta",
+        "core",
+        "obligations",
+        "compliance"
+      ],
+      "aliases": [
+        "Personal Information Protection Act (Alberta) - Core Obligations",
+        "Canada Privacy",
+        "Canada"
+      ],
+      "problems_solved": [
+        "Route Personal Information Protection Act (Alberta) - Core Obligations work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Personal Information Protection Act (Alberta) - Core Obligations source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Private-sector organisations handling personal information"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Personal Information Protection Act (Alberta) - Core Obligations source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Personal Information Protection Act (Alberta) - Core Obligations source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 31,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Personal Information Protection Act (Alberta) - Core Obligations measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 31,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/ab-pipa-personal-information-protection",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/ab-pipa-personal-information-protection/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "aca-employer-reporting",
+      "title": "ACA Applicable Large Employer Information Reporting",
+      "description": "Source-aware compliance bundle for ACA Applicable Large Employer Information Reporting applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/aca-employer-reporting",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/aca-employer-reporting",
+      "download_url": "https://openknowledgebank.com/downloads/aca-employer-reporting.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "aca",
+        "employer",
+        "reporting",
+        "applicable",
+        "large",
+        "information",
+        "employment",
+        "workplace",
+        "compliance"
+      ],
+      "aliases": [
+        "ACA Applicable Large Employer Information Reporting",
+        "US Employment & Workplace Safety",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route ACA Applicable Large Employer Information Reporting work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a ACA Applicable Large Employer Information Reporting source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Employers (any industry)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "ACA Applicable Large Employer Information Reporting source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "ACA Applicable Large Employer Information Reporting source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 32,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "ACA Applicable Large Employer Information Reporting measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 32,
+        "absolute_lift": 13,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/aca-employer-reporting",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/aca-employer-reporting/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
       "id": "ada",
       "title": "ADA",
       "description": "Source-aware compliance hub for Americans with Disabilities Act Title III public accommodation and digital accessibility questions.",
@@ -131,6 +653,1696 @@
         "Do not claim ADA compliance or WCAG conformance from incomplete scanner output, overlays, unsupported assumptions, or unreviewed product evidence.",
         "Require explicit confirmation before publishing accessibility statements, sending legal or regulator communications, committing remediation timelines, changing live products, or exporting user data."
       ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "advanced-approaches-capital-ffiec-101",
+      "title": "Regulatory Capital Reporting - Advanced Approaches (FFIEC 101)",
+      "description": "Source-aware compliance bundle for Regulatory Capital Reporting - Advanced Approaches (FFIEC 101) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/advanced-approaches-capital-ffiec-101",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/advanced-approaches-capital-ffiec-101",
+      "download_url": "https://openknowledgebank.com/downloads/advanced-approaches-capital-ffiec-101.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "advanced",
+        "approaches",
+        "capital",
+        "ffiec",
+        "101",
+        "regulatory",
+        "reporting",
+        "banking",
+        "compliance"
+      ],
+      "aliases": [
+        "Regulatory Capital Reporting - Advanced Approaches (FFIEC 101)",
+        "US Banking & Financial Institutions",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Regulatory Capital Reporting - Advanced Approaches (FFIEC 101) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Regulatory Capital Reporting - Advanced Approaches (FFIEC 101) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Banks, depository institutions, and bank holding companies"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Regulatory Capital Reporting - Advanced Approaches (FFIEC 101) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Regulatory Capital Reporting - Advanced Approaches (FFIEC 101) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 32,
+        "absolute_lift": 12,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Regulatory Capital Reporting - Advanced Approaches (FFIEC 101) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 32,
+        "absolute_lift": 12,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/advanced-approaches-capital-ffiec-101",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/advanced-approaches-capital-ffiec-101/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "adviser-books-and-records",
+      "title": "Investment Adviser Books and Records Rule",
+      "description": "Source-aware compliance bundle for Investment Adviser Books and Records Rule applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/adviser-books-and-records",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/adviser-books-and-records",
+      "download_url": "https://openknowledgebank.com/downloads/adviser-books-and-records.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "adviser",
+        "books",
+        "records",
+        "investment",
+        "securities",
+        "broker",
+        "dealers",
+        "registered",
+        "compliance"
+      ],
+      "aliases": [
+        "Investment Adviser Books and Records Rule",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Investment Adviser Books and Records Rule work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Investment Adviser Books and Records Rule source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Investment Adviser Books and Records Rule source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Investment Adviser Books and Records Rule source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 33,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Investment Adviser Books and Records Rule measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 33,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/adviser-books-and-records",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/adviser-books-and-records/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "adviser-brochure-delivery",
+      "title": "Investment Adviser Brochure Delivery (Form ADV Part 2)",
+      "description": "Source-aware compliance bundle for Investment Adviser Brochure Delivery (Form ADV Part 2) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/adviser-brochure-delivery",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/adviser-brochure-delivery",
+      "download_url": "https://openknowledgebank.com/downloads/adviser-brochure-delivery.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "adviser",
+        "brochure",
+        "delivery",
+        "investment",
+        "form",
+        "adv",
+        "securities",
+        "broker",
+        "compliance"
+      ],
+      "aliases": [
+        "Investment Adviser Brochure Delivery (Form ADV Part 2)",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Investment Adviser Brochure Delivery (Form ADV Part 2) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Investment Adviser Brochure Delivery (Form ADV Part 2) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Investment Adviser Brochure Delivery (Form ADV Part 2) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Investment Adviser Brochure Delivery (Form ADV Part 2) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 31,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Investment Adviser Brochure Delivery (Form ADV Part 2) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 31,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/adviser-brochure-delivery",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/adviser-brochure-delivery/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "adviser-business-continuity",
+      "title": "Investment Adviser Business Continuity & Succession Planning",
+      "description": "Source-aware compliance bundle for Investment Adviser Business Continuity & Succession Planning applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/adviser-business-continuity",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/adviser-business-continuity",
+      "download_url": "https://openknowledgebank.com/downloads/adviser-business-continuity.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "adviser",
+        "business",
+        "continuity",
+        "investment",
+        "succession",
+        "planning",
+        "securities",
+        "broker",
+        "compliance"
+      ],
+      "aliases": [
+        "Investment Adviser Business Continuity & Succession Planning",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Investment Adviser Business Continuity & Succession Planning work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Investment Adviser Business Continuity & Succession Planning source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Investment Adviser Business Continuity & Succession Planning source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Investment Adviser Business Continuity & Succession Planning source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 32,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Investment Adviser Business Continuity & Succession Planning measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 32,
+        "absolute_lift": 13,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/adviser-business-continuity",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/adviser-business-continuity/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "adviser-code-of-ethics",
+      "title": "Investment Adviser Code of Ethics (Rule 204A-1)",
+      "description": "Source-aware compliance bundle for Investment Adviser Code of Ethics (Rule 204A-1) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/adviser-code-of-ethics",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/adviser-code-of-ethics",
+      "download_url": "https://openknowledgebank.com/downloads/adviser-code-of-ethics.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "adviser",
+        "code",
+        "ethics",
+        "investment",
+        "204a",
+        "securities",
+        "broker",
+        "dealers",
+        "compliance"
+      ],
+      "aliases": [
+        "Investment Adviser Code of Ethics (Rule 204A-1)",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Investment Adviser Code of Ethics (Rule 204A-1) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Investment Adviser Code of Ethics (Rule 204A-1) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Investment Adviser Code of Ethics (Rule 204A-1) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Investment Adviser Code of Ethics (Rule 204A-1) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 11,
+        "okb_score": 32,
+        "absolute_lift": 21,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 11/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Investment Adviser Code of Ethics (Rule 204A-1) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 11,
+        "okb_score": 32,
+        "absolute_lift": 21,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/adviser-code-of-ethics",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/adviser-code-of-ethics/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "adviser-compliance-program",
+      "title": "Investment Adviser Compliance Program (Rule 206(4)-7)",
+      "description": "Source-aware compliance bundle for Investment Adviser Compliance Program (Rule 206(4)-7) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/adviser-compliance-program",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/adviser-compliance-program",
+      "download_url": "https://openknowledgebank.com/downloads/adviser-compliance-program.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "adviser",
+        "investment",
+        "206",
+        "securities",
+        "broker",
+        "dealers",
+        "registered",
+        "advisers",
+        "compliance"
+      ],
+      "aliases": [
+        "Investment Adviser Compliance Program (Rule 206(4)-7)",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Investment Adviser Compliance Program (Rule 206(4)-7) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Investment Adviser Compliance Program (Rule 206(4)-7) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Investment Adviser Compliance Program (Rule 206(4)-7) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Investment Adviser Compliance Program (Rule 206(4)-7) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 33,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Investment Adviser Compliance Program (Rule 206(4)-7) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 33,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/adviser-compliance-program",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/adviser-compliance-program/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "adviser-contract-and-fees",
+      "title": "Advisory Contract & Performance Fee Requirements (NASAA)",
+      "description": "Source-aware compliance bundle for Advisory Contract & Performance Fee Requirements (NASAA) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/adviser-contract-and-fees",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/adviser-contract-and-fees",
+      "download_url": "https://openknowledgebank.com/downloads/adviser-contract-and-fees.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "adviser",
+        "contract",
+        "fees",
+        "advisory",
+        "performance",
+        "fee",
+        "nasaa",
+        "securities",
+        "compliance"
+      ],
+      "aliases": [
+        "Advisory Contract & Performance Fee Requirements (NASAA)",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Advisory Contract & Performance Fee Requirements (NASAA) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Advisory Contract & Performance Fee Requirements (NASAA) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Advisory Contract & Performance Fee Requirements (NASAA) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Advisory Contract & Performance Fee Requirements (NASAA) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 32,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Advisory Contract & Performance Fee Requirements (NASAA) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 32,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/adviser-contract-and-fees",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/adviser-contract-and-fees/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "adviser-custody-rule",
+      "title": "Investment Adviser Custody Rule",
+      "description": "Source-aware compliance bundle for Investment Adviser Custody Rule applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/adviser-custody-rule",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/adviser-custody-rule",
+      "download_url": "https://openknowledgebank.com/downloads/adviser-custody-rule.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "adviser",
+        "custody",
+        "investment",
+        "securities",
+        "broker",
+        "dealers",
+        "registered",
+        "advisers",
+        "compliance"
+      ],
+      "aliases": [
+        "Investment Adviser Custody Rule",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Investment Adviser Custody Rule work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Investment Adviser Custody Rule source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Investment Adviser Custody Rule source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Investment Adviser Custody Rule source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 32,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Investment Adviser Custody Rule measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 32,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/adviser-custody-rule",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/adviser-custody-rule/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "adviser-cybersecurity",
+      "title": "Investment Adviser Cybersecurity Policies (NASAA)",
+      "description": "Source-aware compliance bundle for Investment Adviser Cybersecurity Policies (NASAA) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/adviser-cybersecurity",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/adviser-cybersecurity",
+      "download_url": "https://openknowledgebank.com/downloads/adviser-cybersecurity.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "adviser",
+        "cybersecurity",
+        "investment",
+        "policies",
+        "nasaa",
+        "securities",
+        "broker",
+        "dealers",
+        "compliance"
+      ],
+      "aliases": [
+        "Investment Adviser Cybersecurity Policies (NASAA)",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Investment Adviser Cybersecurity Policies (NASAA) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Investment Adviser Cybersecurity Policies (NASAA) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Investment Adviser Cybersecurity Policies (NASAA) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Investment Adviser Cybersecurity Policies (NASAA) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 30,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 9,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 30/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Investment Adviser Cybersecurity Policies (NASAA) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 30,
+        "absolute_lift": 13,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/adviser-cybersecurity",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/adviser-cybersecurity/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "adviser-iar-unethical-practices",
+      "title": "Unethical/Prohibited Business Practices of Advisers and IARs (NASAA)",
+      "description": "Source-aware compliance bundle for Unethical/Prohibited Business Practices of Advisers and IARs (NASAA) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/adviser-iar-unethical-practices",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/adviser-iar-unethical-practices",
+      "download_url": "https://openknowledgebank.com/downloads/adviser-iar-unethical-practices.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "adviser",
+        "iar",
+        "unethical",
+        "practices",
+        "prohibited",
+        "business",
+        "advisers",
+        "iars",
+        "compliance"
+      ],
+      "aliases": [
+        "Unethical/Prohibited Business Practices of Advisers and IARs (NASAA)",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Unethical/Prohibited Business Practices of Advisers and IARs (NASAA) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Unethical/Prohibited Business Practices of Advisers and IARs (NASAA) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Unethical/Prohibited Business Practices of Advisers and IARs (NASAA) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Unethical/Prohibited Business Practices of Advisers and IARs (NASAA) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 29,
+        "absolute_lift": 11,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 8,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 29/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Unethical/Prohibited Business Practices of Advisers and IARs (NASAA) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 29,
+        "absolute_lift": 11,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/adviser-iar-unethical-practices",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/adviser-iar-unethical-practices/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "adviser-marketing-rule",
+      "title": "Investment Adviser Marketing Rule (Rule 206(4)-1)",
+      "description": "Source-aware compliance bundle for Investment Adviser Marketing Rule (Rule 206(4)-1) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/adviser-marketing-rule",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/adviser-marketing-rule",
+      "download_url": "https://openknowledgebank.com/downloads/adviser-marketing-rule.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "adviser",
+        "marketing",
+        "investment",
+        "206",
+        "securities",
+        "broker",
+        "dealers",
+        "registered",
+        "compliance"
+      ],
+      "aliases": [
+        "Investment Adviser Marketing Rule (Rule 206(4)-1)",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Investment Adviser Marketing Rule (Rule 206(4)-1) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Investment Adviser Marketing Rule (Rule 206(4)-1) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Investment Adviser Marketing Rule (Rule 206(4)-1) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Investment Adviser Marketing Rule (Rule 206(4)-1) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 31,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Investment Adviser Marketing Rule (Rule 206(4)-1) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 31,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/adviser-marketing-rule",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/adviser-marketing-rule/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "adviser-minimum-financial-requirements",
+      "title": "State Adviser Minimum Financial Requirements & Bonding",
+      "description": "Source-aware compliance bundle for State Adviser Minimum Financial Requirements & Bonding applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/adviser-minimum-financial-requirements",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/adviser-minimum-financial-requirements",
+      "download_url": "https://openknowledgebank.com/downloads/adviser-minimum-financial-requirements.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "adviser",
+        "minimum",
+        "financial",
+        "state",
+        "bonding",
+        "securities",
+        "broker",
+        "dealers",
+        "compliance"
+      ],
+      "aliases": [
+        "State Adviser Minimum Financial Requirements & Bonding",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route State Adviser Minimum Financial Requirements & Bonding work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a State Adviser Minimum Financial Requirements & Bonding source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "State Adviser Minimum Financial Requirements & Bonding source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "State Adviser Minimum Financial Requirements & Bonding source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 22,
+        "okb_score": 31,
+        "absolute_lift": 9,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 22/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "State Adviser Minimum Financial Requirements & Bonding measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 22,
+        "okb_score": 31,
+        "absolute_lift": 9,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/adviser-minimum-financial-requirements",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/adviser-minimum-financial-requirements/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "adviser-proxy-voting",
+      "title": "Investment Adviser Proxy Voting Rule (Rule 206(4)-6)",
+      "description": "Source-aware compliance bundle for Investment Adviser Proxy Voting Rule (Rule 206(4)-6) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/adviser-proxy-voting",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/adviser-proxy-voting",
+      "download_url": "https://openknowledgebank.com/downloads/adviser-proxy-voting.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "adviser",
+        "proxy",
+        "voting",
+        "investment",
+        "206",
+        "securities",
+        "broker",
+        "dealers",
+        "compliance"
+      ],
+      "aliases": [
+        "Investment Adviser Proxy Voting Rule (Rule 206(4)-6)",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Investment Adviser Proxy Voting Rule (Rule 206(4)-6) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Investment Adviser Proxy Voting Rule (Rule 206(4)-6) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Investment Adviser Proxy Voting Rule (Rule 206(4)-6) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Investment Adviser Proxy Voting Rule (Rule 206(4)-6) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 29,
+        "absolute_lift": 12,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 29/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Investment Adviser Proxy Voting Rule (Rule 206(4)-6) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 29,
+        "absolute_lift": 12,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/adviser-proxy-voting",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/adviser-proxy-voting/v1/evaluation-results/"
+      }
     },
     {
       "id": "agile",
@@ -417,6 +2629,1186 @@
     {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
+      "id": "annual-audited-financial-reports",
+      "title": "Annual Audited Financial Reports (Rule 17a-5 Part III)",
+      "description": "Source-aware compliance bundle for Annual Audited Financial Reports (Rule 17a-5 Part III) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/annual-audited-financial-reports",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/annual-audited-financial-reports",
+      "download_url": "https://openknowledgebank.com/downloads/annual-audited-financial-reports.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "annual",
+        "audited",
+        "financial",
+        "reports",
+        "17a",
+        "iii",
+        "securities",
+        "broker",
+        "compliance"
+      ],
+      "aliases": [
+        "Annual Audited Financial Reports (Rule 17a-5 Part III)",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Annual Audited Financial Reports (Rule 17a-5 Part III) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Annual Audited Financial Reports (Rule 17a-5 Part III) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Annual Audited Financial Reports (Rule 17a-5 Part III) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Annual Audited Financial Reports (Rule 17a-5 Part III) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Annual Audited Financial Reports (Rule 17a-5 Part III) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/annual-audited-financial-reports",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/annual-audited-financial-reports/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "annual-independent-audits-part-363",
+      "title": "Annual Independent Audits and Reporting",
+      "description": "Source-aware compliance bundle for Annual Independent Audits and Reporting applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/annual-independent-audits-part-363",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/annual-independent-audits-part-363",
+      "download_url": "https://openknowledgebank.com/downloads/annual-independent-audits-part-363.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "annual",
+        "independent",
+        "audits",
+        "363",
+        "reporting",
+        "banking",
+        "financial",
+        "institutions",
+        "compliance"
+      ],
+      "aliases": [
+        "Annual Independent Audits and Reporting",
+        "US Banking & Financial Institutions",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Annual Independent Audits and Reporting work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Annual Independent Audits and Reporting source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Banks, depository institutions, and bank holding companies"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Annual Independent Audits and Reporting source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Annual Independent Audits and Reporting source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 32,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Annual Independent Audits and Reporting measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 32,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/annual-independent-audits-part-363",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/annual-independent-audits-part-363/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "annual-registration-charges",
+      "title": "Annual RTO Registration Charges and Fees",
+      "description": "Source-aware compliance bundle for Annual RTO Registration Charges and Fees applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/annual-registration-charges",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/annual-registration-charges",
+      "download_url": "https://openknowledgebank.com/downloads/annual-registration-charges.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "annual",
+        "registration",
+        "charges",
+        "rto",
+        "fees",
+        "australia",
+        "vet",
+        "vocational",
+        "compliance"
+      ],
+      "aliases": [
+        "Annual RTO Registration Charges and Fees",
+        "Australia VET",
+        "Australia"
+      ],
+      "problems_solved": [
+        "Route Annual RTO Registration Charges and Fees work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Annual RTO Registration Charges and Fees source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Vocational Education and Training (VET)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Annual RTO Registration Charges and Fees source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Annual RTO Registration Charges and Fees source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 30,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 2,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 30/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "avetmiss-data-reporting-nvr-provider-collection"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Annual RTO Registration Charges and Fees measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 30,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/annual-registration-charges",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/annual-registration-charges/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "anti-kickback-statute",
+      "title": "Federal Anti-Kickback Statute and Safe Harbors (42 CFR 1001.952)",
+      "description": "Source-aware compliance bundle for Federal Anti-Kickback Statute and Safe Harbors (42 CFR 1001.952) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/anti-kickback-statute",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/anti-kickback-statute",
+      "download_url": "https://openknowledgebank.com/downloads/anti-kickback-statute.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "anti",
+        "kickback",
+        "statute",
+        "federal",
+        "safe",
+        "harbors",
+        "cfr",
+        "1001",
+        "compliance"
+      ],
+      "aliases": [
+        "Federal Anti-Kickback Statute and Safe Harbors (42 CFR 1001.952)",
+        "US Healthcare Fraud & Billing",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Federal Anti-Kickback Statute and Safe Harbors (42 CFR 1001.952) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Federal Anti-Kickback Statute and Safe Harbors (42 CFR 1001.952) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Healthcare providers and suppliers billing Medicare, Medicaid, and other federal health programs"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Federal Anti-Kickback Statute and Safe Harbors (42 CFR 1001.952) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Federal Anti-Kickback Statute and Safe Harbors (42 CFR 1001.952) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 33,
+        "absolute_lift": 10,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 23/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "340b-drug-pricing-program"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Federal Anti-Kickback Statute and Safe Harbors (42 CFR 1001.952) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 33,
+        "absolute_lift": 10,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/anti-kickback-statute",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/anti-kickback-statute/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "anti-money-laundering-program",
+      "title": "Anti-Money Laundering Compliance Program",
+      "description": "Source-aware compliance bundle for Anti-Money Laundering Compliance Program applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/anti-money-laundering-program",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/anti-money-laundering-program",
+      "download_url": "https://openknowledgebank.com/downloads/anti-money-laundering-program.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "anti",
+        "money",
+        "laundering",
+        "securities",
+        "broker",
+        "dealers",
+        "registered",
+        "investment",
+        "compliance"
+      ],
+      "aliases": [
+        "Anti-Money Laundering Compliance Program",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Anti-Money Laundering Compliance Program work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Anti-Money Laundering Compliance Program source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Anti-Money Laundering Compliance Program source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Anti-Money Laundering Compliance Program source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 32,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "compliance-officer"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Anti-Money Laundering Compliance Program measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 32,
+        "absolute_lift": 13,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/anti-money-laundering-program",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/anti-money-laundering-program/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "aqf-certification-issuance",
+      "title": "AQF Certification Documentation Issuance and Content Requirements",
+      "description": "Source-aware compliance bundle for AQF Certification Documentation Issuance and Content Requirements applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/aqf-certification-issuance",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/aqf-certification-issuance",
+      "download_url": "https://openknowledgebank.com/downloads/aqf-certification-issuance.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "aqf",
+        "certification",
+        "issuance",
+        "documentation",
+        "content",
+        "australia",
+        "vet",
+        "vocational",
+        "compliance"
+      ],
+      "aliases": [
+        "AQF Certification Documentation Issuance and Content Requirements",
+        "Australia VET",
+        "Australia"
+      ],
+      "problems_solved": [
+        "Route AQF Certification Documentation Issuance and Content Requirements work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a AQF Certification Documentation Issuance and Content Requirements source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Vocational Education and Training (VET)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "AQF Certification Documentation Issuance and Content Requirements source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "AQF Certification Documentation Issuance and Content Requirements source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "avetmiss-data-reporting-nvr-provider-collection"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "AQF Certification Documentation Issuance and Content Requirements measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/aqf-certification-issuance",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/aqf-certification-issuance/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "asc-606",
+      "title": "ASC 606 (Revenue from Contracts with Customers)",
+      "description": "Source-aware compliance bundle for ASC 606 (Revenue from Contracts with Customers) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/asc-606",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/asc-606",
+      "download_url": "https://openknowledgebank.com/downloads/asc-606.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "asc",
+        "606",
+        "revenue",
+        "from",
+        "contracts",
+        "customers",
+        "standards",
+        "body",
+        "compliance"
+      ],
+      "aliases": [
+        "ASC 606 (Revenue from Contracts with Customers)",
+        "Standards-body & niche regimes (freeze)",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route ASC 606 (Revenue from Contracts with Customers) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a ASC 606 (Revenue from Contracts with Customers) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "US GAAP filers recognizing revenue from customer contracts"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "ASC 606 (Revenue from Contracts with Customers) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "ASC 606 (Revenue from Contracts with Customers) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 13,
+        "okb_score": 32,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 13/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "us-gaap"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "ASC 606 (Revenue from Contracts with Customers) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 13,
+        "okb_score": 32,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/asc-606",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/asc-606/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "asc-quality-reporting",
+      "title": "Ambulatory Surgical Center Quality Reporting (ASCQR) Program (42 CFR 416 Subpart H)",
+      "description": "Source-aware compliance bundle for Ambulatory Surgical Center Quality Reporting (ASCQR) Program (42 CFR 416 Subpart H) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/asc-quality-reporting",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/asc-quality-reporting",
+      "download_url": "https://openknowledgebank.com/downloads/asc-quality-reporting.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "asc",
+        "quality",
+        "reporting",
+        "ambulatory",
+        "surgical",
+        "center",
+        "ascqr",
+        "cfr",
+        "compliance"
+      ],
+      "aliases": [
+        "Ambulatory Surgical Center Quality Reporting (ASCQR) Program (42 CFR 416 Subpart H)",
+        "US Healthcare",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Ambulatory Surgical Center Quality Reporting (ASCQR) Program (42 CFR 416 Subpart H) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Ambulatory Surgical Center Quality Reporting (ASCQR) Program (42 CFR 416 Subpart H) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Healthcare providers and health plans (HIPAA covered entities and business associates)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Ambulatory Surgical Center Quality Reporting (ASCQR) Program (42 CFR 416 Subpart H) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Ambulatory Surgical Center Quality Reporting (ASCQR) Program (42 CFR 416 Subpart H) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 34,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Ambulatory Surgical Center Quality Reporting (ASCQR) Program (42 CFR 416 Subpart H) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 34,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/asc-quality-reporting",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/asc-quality-reporting/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "associated-person-registration-u4-u5",
+      "title": "Uniform Registration of Associated Persons (Forms U4, U5, U6)",
+      "description": "Source-aware compliance bundle for Uniform Registration of Associated Persons (Forms U4, U5, U6) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/associated-person-registration-u4-u5",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/associated-person-registration-u4-u5",
+      "download_url": "https://openknowledgebank.com/downloads/associated-person-registration-u4-u5.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "associated",
+        "person",
+        "registration",
+        "uniform",
+        "persons",
+        "forms",
+        "securities",
+        "broker",
+        "compliance"
+      ],
+      "aliases": [
+        "Uniform Registration of Associated Persons (Forms U4, U5, U6)",
+        "US Securities",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Uniform Registration of Associated Persons (Forms U4, U5, U6) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Uniform Registration of Associated Persons (Forms U4, U5, U6) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Uniform Registration of Associated Persons (Forms U4, U5, U6) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Uniform Registration of Associated Persons (Forms U4, U5, U6) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 32,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Uniform Registration of Associated Persons (Forms U4, U5, U6) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 32,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/associated-person-registration-u4-u5",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/associated-person-registration-u4-u5/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
       "id": "auditor-external",
       "title": "Auditor (External)",
       "description": "Role bundle for external audit planning, evidence requests, workpaper review, control testing, and report-ready findings without acting as the signing auditor.",
@@ -544,6 +3936,534 @@
         "bundle_context_source": "bundles/roles/auditor-external",
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/auditor-external/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "avetmiss-apprentice-trainee-collection",
+      "title": "National Apprentice and Trainee Collection (AVETMISS) Reporting",
+      "description": "Source-aware compliance bundle for National Apprentice and Trainee Collection (AVETMISS) Reporting applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/avetmiss-apprentice-trainee-collection",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/avetmiss-apprentice-trainee-collection",
+      "download_url": "https://openknowledgebank.com/downloads/avetmiss-apprentice-trainee-collection.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "avetmiss",
+        "apprentice",
+        "trainee",
+        "collection",
+        "national",
+        "reporting",
+        "australia",
+        "vet",
+        "compliance"
+      ],
+      "aliases": [
+        "National Apprentice and Trainee Collection (AVETMISS) Reporting",
+        "Australia VET",
+        "Australia"
+      ],
+      "problems_solved": [
+        "Route National Apprentice and Trainee Collection (AVETMISS) Reporting work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a National Apprentice and Trainee Collection (AVETMISS) Reporting source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Vocational Education and Training (VET)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "National Apprentice and Trainee Collection (AVETMISS) Reporting source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "National Apprentice and Trainee Collection (AVETMISS) Reporting source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 33,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 2,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "avetmiss-data-reporting-nvr-provider-collection"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "National Apprentice and Trainee Collection (AVETMISS) Reporting measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 33,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/avetmiss-apprentice-trainee-collection",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/avetmiss-apprentice-trainee-collection/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "avetmiss-data-reporting-nvr-provider-collection",
+      "title": "AVETMISS Reporting to the National VET Provider Collection (Total VET Activity)",
+      "description": "Source-aware compliance bundle for AVETMISS Reporting to the National VET Provider Collection (Total VET Activity) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/avetmiss-data-reporting-nvr-provider-collection",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/avetmiss-data-reporting-nvr-provider-collection",
+      "download_url": "https://openknowledgebank.com/downloads/avetmiss-data-reporting-nvr-provider-collection.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "avetmiss",
+        "data",
+        "reporting",
+        "nvr",
+        "provider",
+        "collection",
+        "national",
+        "vet",
+        "compliance"
+      ],
+      "aliases": [
+        "AVETMISS Reporting to the National VET Provider Collection (Total VET Activity)",
+        "Australia VET",
+        "Australia"
+      ],
+      "problems_solved": [
+        "Route AVETMISS Reporting to the National VET Provider Collection (Total VET Activity) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a AVETMISS Reporting to the National VET Provider Collection (Total VET Activity) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Vocational Education and Training (VET)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "AVETMISS Reporting to the National VET Provider Collection (Total VET Activity) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "AVETMISS Reporting to the National VET Provider Collection (Total VET Activity) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 32,
+        "absolute_lift": 12,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "annual-registration-charges",
+        "aqf-certification-issuance",
+        "avetmiss-apprentice-trainee-collection"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "AVETMISS Reporting to the National VET Provider Collection (Total VET Activity) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 32,
+        "absolute_lift": 12,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/avetmiss-data-reporting-nvr-provider-collection",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/avetmiss-data-reporting-nvr-provider-collection/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "basel-iii",
+      "title": "Basel III (Regulatory Capital Framework) - US Implementation Overview",
+      "description": "Source-aware compliance bundle for Basel III (Regulatory Capital Framework) - US Implementation Overview applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/basel-iii",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/basel-iii",
+      "download_url": "https://openknowledgebank.com/downloads/basel-iii.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "basel",
+        "iii",
+        "regulatory",
+        "capital",
+        "framework",
+        "implementation",
+        "overview",
+        "banking",
+        "compliance"
+      ],
+      "aliases": [
+        "Basel III (Regulatory Capital Framework) - US Implementation Overview",
+        "US Banking & Financial Institutions",
+        "United States (Basel Committee international accord, implemented via US rules)"
+      ],
+      "problems_solved": [
+        "Route Basel III (Regulatory Capital Framework) - US Implementation Overview work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Basel III (Regulatory Capital Framework) - US Implementation Overview source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Banks, bank holding companies, and depository institutions"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Basel III (Regulatory Capital Framework) - US Implementation Overview source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Basel III (Regulatory Capital Framework) - US Implementation Overview source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "advanced-approaches-capital-ffiec-101"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Basel III (Regulatory Capital Framework) - US Implementation Overview measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/basel-iii",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/basel-iii/v1/evaluation-results/"
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "bc-pipa-access-correction",
+      "title": "BC PIPA Access and Correction Rights (PIPA ss. 23-24, 28-29, 31-32)",
+      "description": "Source-aware compliance bundle for BC PIPA Access and Correction Rights (PIPA ss. 23-24, 28-29, 31-32) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/bc-pipa-access-correction",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "draft",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/bc-pipa-access-correction",
+      "download_url": "https://openknowledgebank.com/downloads/bc-pipa-access-correction.zip",
+      "updated": "2026-07-10",
+      "tags": [
+        "pipa",
+        "access",
+        "correction",
+        "rights",
+        "canada",
+        "privacy",
+        "private",
+        "sector",
+        "compliance"
+      ],
+      "aliases": [
+        "BC PIPA Access and Correction Rights (PIPA ss. 23-24, 28-29, 31-32)",
+        "Canada Privacy",
+        "Canada"
+      ],
+      "problems_solved": [
+        "Route BC PIPA Access and Correction Rights (PIPA ss. 23-24, 28-29, 31-32) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a BC PIPA Access and Correction Rights (PIPA ss. 23-24, 28-29, 31-32) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Private-sector organisations handling personal information"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "BC PIPA Access and Correction Rights (PIPA ss. 23-24, 28-29, 31-32) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "BC PIPA Access and Correction Rights (PIPA ss. 23-24, 28-29, 31-32) source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 28,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 8,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 28/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "BC PIPA Access and Correction Rights (PIPA ss. 23-24, 28-29, 31-32) measured evaluation",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 28,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/compliance/bc-pipa-access-correction",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/bc-pipa-access-correction/v1/evaluation-results/"
       }
     },
     {
