@@ -39276,6 +39276,120 @@
         "display_summary": "Improved measured rubric score from 17/36 to 30/36 across 3 benchmark tasks.",
         "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       }
+    },
+    {
+      "id": "form-crs-relationship-summary",
+      "title": "Form CRS \u2014 Client/Customer Relationship Summary",
+      "description": "Source-aware compliance bundle for Form CRS \u2014 Client/Customer Relationship Summary applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/form-crs-relationship-summary",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/form-crs-relationship-summary",
+      "download_url": "https://openknowledgebank.com/downloads/form-crs-relationship-summary.zip",
+      "tags": [
+        "form",
+        "crs",
+        "relationship",
+        "summary",
+        "united",
+        "compliance"
+      ],
+      "aliases": [
+        "Form CRS \u2014 Client/Customer Relationship Summary",
+        "Broker-dealers and registered investment advisers",
+        "United States",
+        "U.S. Securities and Exchange Commission (SEC)",
+        "Financial Industry Regulatory Authority (FINRA)"
+      ],
+      "problems_solved": [
+        "Route Form CRS \u2014 Client/Customer Relationship Summary work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Form CRS \u2014 Client/Customer Relationship Summary source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Broker-dealers and registered investment advisers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Form CRS \u2014 Client/Customer Relationship Summary source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Form CRS \u2014 Client/Customer Relationship Summary source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/form-crs-relationship-summary-amendments-form-adv"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-11T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 29,
+        "absolute_lift": 12,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 8,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 29/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      }
     }
   ]
 }
