@@ -1,0 +1,15 @@
+---
+type: "Change Log"
+title: "Secure Software Development Attestation Requirement (EO 14028 / OMB M-22-18) Change Log"
+description: "Publication history for this bundle."
+okb_bundle_id: cisa-secure-software-attestation-federal-suppliers
+timestamp: "2026-07-10T00:00:00Z"
+---
+
+# Change Log
+
+## 0.1.0 - 2026-07-10
+
+- First public draft promoted from private run `cisa-secure-software-attestation-federal-suppliers/v1`.
+- Created source-aware overview, workflow, brief deliverable, evaluation rubric, and references.
+- Initial evaluation status recorded as planned until the batch evaluation run completes.

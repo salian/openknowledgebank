@@ -8369,6 +8369,590 @@
       }
     },
     {
+      "id": "california-shine-the-light-law",
+      "title": "California 'Shine the Light' Law",
+      "description": "Source-aware compliance bundle for California 'Shine the Light' Law applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/california-shine-the-light-law",
+      "tags": [
+        "california",
+        "shine",
+        "the",
+        "light",
+        "law",
+        "us",
+        "consumer",
+        "marketing",
+        "privacy",
+        "compliance"
+      ],
+      "aliases": [
+        "California 'Shine the Light' Law",
+        "US Consumer & Marketing Privacy",
+        "United States",
+        "California"
+      ],
+      "problems_solved": [
+        "Route California 'Shine the Light' Law work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California 'Shine the Light' Law source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California 'Shine the Light' Law source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California 'Shine the Light' Law source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.83.&lawCode=CIV"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 33,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 2,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/california-shine-the-light-law",
+      "download_url": "https://openknowledgebank.com/downloads/california-shine-the-light-law.zip"
+    },
+    {
+      "id": "california-sopipa",
+      "title": "California Student Online Personal Information Protection Act (SOPIPA)",
+      "description": "Source-aware compliance bundle for California Student Online Personal Information Protection Act (SOPIPA) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/california-sopipa",
+      "tags": [
+        "california",
+        "student",
+        "online",
+        "personal",
+        "information",
+        "protection",
+        "act",
+        "sopipa",
+        "us",
+        "consumer"
+      ],
+      "aliases": [
+        "California Student Online Personal Information Protection Act (SOPIPA)",
+        "US Consumer & Marketing Privacy",
+        "United States",
+        "California"
+      ],
+      "problems_solved": [
+        "Route California Student Online Personal Information Protection Act (SOPIPA) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California Student Online Personal Information Protection Act (SOPIPA) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California Student Online Personal Information Protection Act (SOPIPA) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California Student Online Personal Information Protection Act (SOPIPA) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=8.&title=&part=&chapter=22.2.&article="
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 12,
+        "okb_score": 33,
+        "absolute_lift": 21,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 2,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 12/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/california-sopipa",
+      "download_url": "https://openknowledgebank.com/downloads/california-sopipa.zip"
+    },
+    {
+      "id": "california-unfair-competition-law-privacy",
+      "title": "California Unfair Competition Law as Applied to Privacy Practices",
+      "description": "Source-aware compliance bundle for California Unfair Competition Law as Applied to Privacy Practices applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/california-unfair-competition-law-privacy",
+      "tags": [
+        "california",
+        "unfair",
+        "competition",
+        "law",
+        "as",
+        "applied",
+        "to",
+        "privacy",
+        "practices",
+        "us"
+      ],
+      "aliases": [
+        "California Unfair Competition Law as Applied to Privacy Practices",
+        "US Consumer & Marketing Privacy",
+        "United States",
+        "California"
+      ],
+      "problems_solved": [
+        "Route California Unfair Competition Law as Applied to Privacy Practices work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California Unfair Competition Law as Applied to Privacy Practices source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California Unfair Competition Law as Applied to Privacy Practices source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California Unfair Competition Law as Applied to Privacy Practices source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=17200.&lawCode=BPC"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 32,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/california-unfair-competition-law-privacy",
+      "download_url": "https://openknowledgebank.com/downloads/california-unfair-competition-law-privacy.zip"
+    },
+    {
+      "id": "call-report-ffiec-031-041-051",
+      "title": "Consolidated Reports of Condition and Income (Call Report)",
+      "description": "Source-aware compliance bundle for Consolidated Reports of Condition and Income (Call Report) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/call-report-ffiec-031-041-051",
+      "tags": [
+        "consolidated",
+        "reports",
+        "of",
+        "condition",
+        "and",
+        "income",
+        "call",
+        "report",
+        "us",
+        "banking"
+      ],
+      "aliases": [
+        "Consolidated Reports of Condition and Income (Call Report)",
+        "US Banking & Financial Institutions",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Consolidated Reports of Condition and Income (Call Report) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Consolidated Reports of Condition and Income (Call Report) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Banks, depository institutions, and bank holding companies"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Consolidated Reports of Condition and Income (Call Report) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Consolidated Reports of Condition and Income (Call Report) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.fdic.gov/news/financial-institution-letters/2026/consolidated-reports-condition-and-income-first-quarter"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 32,
+        "absolute_lift": 12,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/call-report-ffiec-031-041-051",
+      "download_url": "https://openknowledgebank.com/downloads/call-report-ffiec-031-041-051.zip"
+    },
+    {
+      "id": "caloppa",
+      "title": "California Online Privacy Protection Act (CalOPPA)",
+      "description": "Source-aware compliance bundle for California Online Privacy Protection Act (CalOPPA) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/caloppa",
+      "tags": [
+        "california",
+        "online",
+        "privacy",
+        "protection",
+        "act",
+        "caloppa",
+        "us",
+        "consumer",
+        "marketing",
+        "compliance"
+      ],
+      "aliases": [
+        "California Online Privacy Protection Act (CalOPPA)",
+        "US Consumer & Marketing Privacy",
+        "United States",
+        "California"
+      ],
+      "problems_solved": [
+        "Route California Online Privacy Protection Act (CalOPPA) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California Online Privacy Protection Act (CalOPPA) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California Online Privacy Protection Act (CalOPPA) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California Online Privacy Protection Act (CalOPPA) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=22575."
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 32,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/caloppa",
+      "download_url": "https://openknowledgebank.com/downloads/caloppa.zip"
+    },
+    {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
       "id": "can-spam",
@@ -8479,6 +9063,122 @@
         "Do not use this bundle for spam, phishing, deceptive sender identity, deceptive subject lines, list harvesting, evasion, or abuse workflows.",
         "Require explicit confirmation before sending email, changing campaigns, uploading lists, exporting contacts, changing suppression logic, or sending legal communications."
       ]
+    },
+    {
+      "id": "can-spam-act",
+      "title": "CAN-SPAM Act and Rule",
+      "description": "Source-aware compliance bundle for CAN-SPAM Act and Rule applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/can-spam-act",
+      "tags": [
+        "can",
+        "spam",
+        "act",
+        "and",
+        "rule",
+        "us",
+        "consumer",
+        "marketing",
+        "privacy",
+        "compliance"
+      ],
+      "aliases": [
+        "CAN-SPAM Act and Rule",
+        "US Consumer & Marketing Privacy",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route CAN-SPAM Act and Rule work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a CAN-SPAM Act and Rule source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "CAN-SPAM Act and Rule source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "CAN-SPAM Act and Rule source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 33,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/can-spam-act",
+      "download_url": "https://openknowledgebank.com/downloads/can-spam-act.zip"
     },
     {
       "schema_version": "0.1.0",
@@ -8593,6 +9293,1284 @@
         "Do not request, expose, or publish personal information beyond what is necessary for the user-approved analysis.",
         "Require explicit confirmation before submitting notices, contacting regulators, changing privacy notices, changing contracts, sending legal communications, exporting personal information, or modifying live privacy controls."
       ]
+    },
+    {
+      "id": "ccpa-cppa-regulations",
+      "title": "California Consumer Privacy Act / CPRA Regulations (Cal. Code Regs. tit. 11)",
+      "description": "Source-aware compliance bundle for California Consumer Privacy Act / CPRA Regulations (Cal. Code Regs. tit. 11) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/ccpa-cppa-regulations",
+      "tags": [
+        "california",
+        "consumer",
+        "privacy",
+        "act",
+        "cpra",
+        "regulations",
+        "cal",
+        "code",
+        "regs",
+        "tit"
+      ],
+      "aliases": [
+        "California Consumer Privacy Act / CPRA Regulations (Cal. Code Regs. tit. 11)",
+        "US SaaS Trust & Accessibility",
+        "United States",
+        "California"
+      ],
+      "problems_solved": [
+        "Route California Consumer Privacy Act / CPRA Regulations (Cal. Code Regs. tit. 11) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California Consumer Privacy Act / CPRA Regulations (Cal. Code Regs. tit. 11) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "SaaS/technology vendors and public-facing digital services"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California Consumer Privacy Act / CPRA Regulations (Cal. Code Regs. tit. 11) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California Consumer Privacy Act / CPRA Regulations (Cal. Code Regs. tit. 11) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://cppa.ca.gov/regulations/consumer_privacy_act.html"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/ccpa-cppa-regulations",
+      "download_url": "https://openknowledgebank.com/downloads/ccpa-cppa-regulations.zip"
+    },
+    {
+      "id": "ccpa-cpra-core-framework",
+      "title": "California Consumer Privacy Act / CPRA Core Compliance Framework",
+      "description": "Source-aware compliance bundle for California Consumer Privacy Act / CPRA Core Compliance Framework applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/ccpa-cpra-core-framework",
+      "tags": [
+        "california",
+        "consumer",
+        "privacy",
+        "act",
+        "cpra",
+        "core",
+        "compliance",
+        "framework",
+        "us",
+        "marketing"
+      ],
+      "aliases": [
+        "California Consumer Privacy Act / CPRA Core Compliance Framework",
+        "US Consumer & Marketing Privacy",
+        "United States",
+        "California"
+      ],
+      "problems_solved": [
+        "Route California Consumer Privacy Act / CPRA Core Compliance Framework work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a California Consumer Privacy Act / CPRA Core Compliance Framework source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "California Consumer Privacy Act / CPRA Core Compliance Framework source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "California Consumer Privacy Act / CPRA Core Compliance Framework source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.oag.ca.gov/privacy/ccpa"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 30,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 30/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/ccpa-cpra-core-framework",
+      "download_url": "https://openknowledgebank.com/downloads/ccpa-cpra-core-framework.zip"
+    },
+    {
+      "id": "census-annual-integrated-economic-survey",
+      "title": "Census Bureau Annual Integrated Economic Survey (and Legacy Predecessor Surveys)",
+      "description": "Source-aware compliance bundle for Census Bureau Annual Integrated Economic Survey (and Legacy Predecessor Surveys) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/census-annual-integrated-economic-survey",
+      "tags": [
+        "census",
+        "bureau",
+        "annual",
+        "integrated",
+        "economic",
+        "survey",
+        "and",
+        "legacy",
+        "predecessor",
+        "surveys"
+      ],
+      "aliases": [
+        "Census Bureau Annual Integrated Economic Survey (and Legacy Predecessor Surveys)",
+        "US Public Company Governance & Quality",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Census Bureau Annual Integrated Economic Survey (and Legacy Predecessor Surveys) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Census Bureau Annual Integrated Economic Survey (and Legacy Predecessor Surveys) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Public companies (SEC-reporting) and quality-managed manufacturers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Census Bureau Annual Integrated Economic Survey (and Legacy Predecessor Surveys) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Census Bureau Annual Integrated Economic Survey (and Legacy Predecessor Surveys) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.census.gov/programs-surveys/aies/about.html"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 33,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/census-annual-integrated-economic-survey",
+      "download_url": "https://openknowledgebank.com/downloads/census-annual-integrated-economic-survey.zip"
+    },
+    {
+      "id": "census-confidentiality-stewardship",
+      "title": "Census Title 13 Confidentiality and Data Stewardship Obligations",
+      "description": "Source-aware compliance bundle for Census Title 13 Confidentiality and Data Stewardship Obligations applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/census-confidentiality-stewardship",
+      "tags": [
+        "census",
+        "title",
+        "13",
+        "confidentiality",
+        "and",
+        "data",
+        "stewardship",
+        "obligations",
+        "us",
+        "public"
+      ],
+      "aliases": [
+        "Census Title 13 Confidentiality and Data Stewardship Obligations",
+        "US Public Company Governance & Quality",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Census Title 13 Confidentiality and Data Stewardship Obligations work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Census Title 13 Confidentiality and Data Stewardship Obligations source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Public companies (SEC-reporting) and quality-managed manufacturers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Census Title 13 Confidentiality and Data Stewardship Obligations source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Census Title 13 Confidentiality and Data Stewardship Obligations source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.census.gov/about/policies/privacy/data_stewardship/title_13_-_protection_of_confidential_information.html"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 32,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/census-confidentiality-stewardship",
+      "download_url": "https://openknowledgebank.com/downloads/census-confidentiality-stewardship.zip"
+    },
+    {
+      "id": "census-economic-census-manufacturing",
+      "title": "Census Bureau Economic Census (Manufacturing Sector)",
+      "description": "Source-aware compliance bundle for Census Bureau Economic Census (Manufacturing Sector) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/census-economic-census-manufacturing",
+      "tags": [
+        "census",
+        "bureau",
+        "economic",
+        "manufacturing",
+        "sector",
+        "us",
+        "public",
+        "company",
+        "governance",
+        "quality"
+      ],
+      "aliases": [
+        "Census Bureau Economic Census (Manufacturing Sector)",
+        "US Public Company Governance & Quality",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Census Bureau Economic Census (Manufacturing Sector) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Census Bureau Economic Census (Manufacturing Sector) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Public companies (SEC-reporting) and quality-managed manufacturers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Census Bureau Economic Census (Manufacturing Sector) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Census Bureau Economic Census (Manufacturing Sector) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.census.gov/programs-surveys/economic-census/about.html"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 34,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/census-economic-census-manufacturing",
+      "download_url": "https://openknowledgebank.com/downloads/census-economic-census-manufacturing.zip"
+    },
+    {
+      "id": "census-export-information-filing",
+      "title": "Census Bureau Electronic Export Information Filing (AES)",
+      "description": "Source-aware compliance bundle for Census Bureau Electronic Export Information Filing (AES) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/census-export-information-filing",
+      "tags": [
+        "census",
+        "bureau",
+        "electronic",
+        "export",
+        "information",
+        "filing",
+        "aes",
+        "us",
+        "public",
+        "company"
+      ],
+      "aliases": [
+        "Census Bureau Electronic Export Information Filing (AES)",
+        "US Public Company Governance & Quality",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Census Bureau Electronic Export Information Filing (AES) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Census Bureau Electronic Export Information Filing (AES) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Public companies (SEC-reporting) and quality-managed manufacturers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Census Bureau Electronic Export Information Filing (AES) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Census Bureau Electronic Export Information Filing (AES) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.census.gov/foreign-trade/aes/index.html"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 31,
+        "absolute_lift": 11,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/census-export-information-filing",
+      "download_url": "https://openknowledgebank.com/downloads/census-export-information-filing.zip"
+    },
+    {
+      "id": "census-manufacturing-energy-survey",
+      "title": "Census/EIA Manufacturing Energy Consumption Survey",
+      "description": "Source-aware compliance bundle for Census/EIA Manufacturing Energy Consumption Survey applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/census-manufacturing-energy-survey",
+      "tags": [
+        "census",
+        "eia",
+        "manufacturing",
+        "energy",
+        "consumption",
+        "survey",
+        "us",
+        "public",
+        "company",
+        "governance"
+      ],
+      "aliases": [
+        "Census/EIA Manufacturing Energy Consumption Survey",
+        "US Public Company Governance & Quality",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Census/EIA Manufacturing Energy Consumption Survey work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Census/EIA Manufacturing Energy Consumption Survey source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Public companies (SEC-reporting) and quality-managed manufacturers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Census/EIA Manufacturing Energy Consumption Survey source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Census/EIA Manufacturing Energy Consumption Survey source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.eia.gov/consumption/manufacturing/about.php"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 33,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/census-manufacturing-energy-survey",
+      "download_url": "https://openknowledgebank.com/downloads/census-manufacturing-energy-survey.zip"
+    },
+    {
+      "id": "census-plant-capacity-survey",
+      "title": "Census Bureau Quarterly Survey of Plant Capacity Utilization",
+      "description": "Source-aware compliance bundle for Census Bureau Quarterly Survey of Plant Capacity Utilization applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/census-plant-capacity-survey",
+      "tags": [
+        "census",
+        "bureau",
+        "quarterly",
+        "survey",
+        "of",
+        "plant",
+        "capacity",
+        "utilization",
+        "us",
+        "public"
+      ],
+      "aliases": [
+        "Census Bureau Quarterly Survey of Plant Capacity Utilization",
+        "US Public Company Governance & Quality",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Census Bureau Quarterly Survey of Plant Capacity Utilization work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Census Bureau Quarterly Survey of Plant Capacity Utilization source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Public companies (SEC-reporting) and quality-managed manufacturers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Census Bureau Quarterly Survey of Plant Capacity Utilization source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Census Bureau Quarterly Survey of Plant Capacity Utilization source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.census.gov/programs-surveys/qpc/about.html"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 34,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/census-plant-capacity-survey",
+      "download_url": "https://openknowledgebank.com/downloads/census-plant-capacity-survey.zip"
+    },
+    {
+      "id": "cfpb-complaint-program",
+      "title": "CFPB Consumer Complaint Program Response",
+      "description": "Source-aware compliance bundle for CFPB Consumer Complaint Program Response applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/cfpb-complaint-program",
+      "tags": [
+        "cfpb",
+        "consumer",
+        "complaint",
+        "program",
+        "response",
+        "us",
+        "banking",
+        "financial",
+        "institutions",
+        "compliance"
+      ],
+      "aliases": [
+        "CFPB Consumer Complaint Program Response",
+        "US Banking & Financial Institutions",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route CFPB Consumer Complaint Program Response work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a CFPB Consumer Complaint Program Response source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Banks, depository institutions, and bank holding companies"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "CFPB Consumer Complaint Program Response source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "CFPB Consumer Complaint Program Response source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.consumerfinance.gov/compliance/consumer-complaint-program/company-process/"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 31,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/cfpb-complaint-program",
+      "download_url": "https://openknowledgebank.com/downloads/cfpb-complaint-program.zip"
+    },
+    {
+      "id": "cfpb-supervision-large-institutions",
+      "title": "CFPB Supervision for Institutions Over $10 Billion",
+      "description": "Source-aware compliance bundle for CFPB Supervision for Institutions Over $10 Billion applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/cfpb-supervision-large-institutions",
+      "tags": [
+        "cfpb",
+        "supervision",
+        "for",
+        "institutions",
+        "over",
+        "10",
+        "billion",
+        "us",
+        "banking",
+        "financial"
+      ],
+      "aliases": [
+        "CFPB Supervision for Institutions Over $10 Billion",
+        "US Banking & Financial Institutions",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route CFPB Supervision for Institutions Over $10 Billion work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a CFPB Supervision for Institutions Over $10 Billion source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Banks, depository institutions, and bank holding companies"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "CFPB Supervision for Institutions Over $10 Billion source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "CFPB Supervision for Institutions Over $10 Billion source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.consumerfinance.gov/compliance/supervision-examinations/institutions/"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 34,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/cfpb-supervision-large-institutions",
+      "download_url": "https://openknowledgebank.com/downloads/cfpb-supervision-large-institutions.zip"
+    },
+    {
+      "id": "change-in-bank-control",
+      "title": "Change in Bank Control Act Notice",
+      "description": "Source-aware compliance bundle for Change in Bank Control Act Notice applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/change-in-bank-control",
+      "tags": [
+        "change",
+        "in",
+        "bank",
+        "control",
+        "act",
+        "notice",
+        "us",
+        "banking",
+        "financial",
+        "institutions"
+      ],
+      "aliases": [
+        "Change in Bank Control Act Notice",
+        "US Banking & Financial Institutions",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Change in Bank Control Act Notice work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Change in Bank Control Act Notice source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Banks, depository institutions, and bank holding companies"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Change in Bank Control Act Notice source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Change in Bank Control Act Notice source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.ecfr.gov/current/title-12/chapter-II/subchapter-A/part-225/subpart-E"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 33,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/change-in-bank-control",
+      "download_url": "https://openknowledgebank.com/downloads/change-in-bank-control.zip"
     },
     {
       "schema_version": "0.1.0",
@@ -8727,6 +10705,469 @@
       }
     },
     {
+      "id": "circia-cyber-incident-reporting",
+      "title": "Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA) Rulemaking",
+      "description": "Source-aware compliance bundle for Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA) Rulemaking applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/circia-cyber-incident-reporting",
+      "tags": [
+        "cyber",
+        "incident",
+        "reporting",
+        "for",
+        "critical",
+        "infrastructure",
+        "act",
+        "circia",
+        "rulemaking",
+        "us"
+      ],
+      "aliases": [
+        "Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA) Rulemaking",
+        "US SaaS Trust & Accessibility",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA) Rulemaking work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA) Rulemaking source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "SaaS/technology vendors and public-facing digital services"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA) Rulemaking source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA) Rulemaking source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.federalregister.gov/documents/2026/02/13/2026-02948/cyber-incident-reporting-for-critical-infrastructure-act-circia-rulemaking-town-hall-meetings"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 31,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/circia-cyber-incident-reporting",
+      "download_url": "https://openknowledgebank.com/downloads/circia-cyber-incident-reporting.zip"
+    },
+    {
+      "id": "cisa-secure-software-attestation-federal-suppliers",
+      "title": "Secure Software Development Attestation Requirement (EO 14028 / OMB M-22-18)",
+      "description": "Source-aware compliance bundle for Secure Software Development Attestation Requirement (EO 14028 / OMB M-22-18) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/cisa-secure-software-attestation-federal-suppliers",
+      "tags": [
+        "secure",
+        "software",
+        "development",
+        "attestation",
+        "requirement",
+        "eo",
+        "14028",
+        "omb",
+        "22",
+        "18"
+      ],
+      "aliases": [
+        "Secure Software Development Attestation Requirement (EO 14028 / OMB M-22-18)",
+        "US SaaS Trust & Accessibility",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Secure Software Development Attestation Requirement (EO 14028 / OMB M-22-18) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Secure Software Development Attestation Requirement (EO 14028 / OMB M-22-18) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "SaaS/technology vendors and public-facing digital services"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Secure Software Development Attestation Requirement (EO 14028 / OMB M-22-18) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Secure Software Development Attestation Requirement (EO 14028 / OMB M-22-18) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.cisa.gov/sites/default/files/2023-11/Secure%20Software%20Development%20Attestation%20Form_508c.pdf"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 33,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/cisa-secure-software-attestation-federal-suppliers",
+      "download_url": "https://openknowledgebank.com/downloads/cisa-secure-software-attestation-federal-suppliers.zip"
+    },
+    {
+      "id": "cisa-voluntary-secure-by-design",
+      "title": "CISA Voluntary Cyber Incident Reporting and Secure-by-Design Initiatives",
+      "description": "Source-aware compliance bundle for CISA Voluntary Cyber Incident Reporting and Secure-by-Design Initiatives applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/cisa-voluntary-secure-by-design",
+      "tags": [
+        "cisa",
+        "voluntary",
+        "cyber",
+        "incident",
+        "reporting",
+        "and",
+        "secure",
+        "by",
+        "design",
+        "initiatives"
+      ],
+      "aliases": [
+        "CISA Voluntary Cyber Incident Reporting and Secure-by-Design Initiatives",
+        "US SaaS Trust & Accessibility",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route CISA Voluntary Cyber Incident Reporting and Secure-by-Design Initiatives work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a CISA Voluntary Cyber Incident Reporting and Secure-by-Design Initiatives source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "SaaS/technology vendors and public-facing digital services"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "CISA Voluntary Cyber Incident Reporting and Secure-by-Design Initiatives source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "CISA Voluntary Cyber Incident Reporting and Secure-by-Design Initiatives source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.cisa.gov/securebydesign/pledge ; https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia/voluntary-cyber-incident-reporting"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 34,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 10,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/cisa-voluntary-secure-by-design",
+      "download_url": "https://openknowledgebank.com/downloads/cisa-voluntary-secure-by-design.zip"
+    },
+    {
+      "id": "clia-certification",
+      "title": "Clinical Laboratory Improvement Amendments (CLIA) Certification",
+      "description": "Source-aware compliance bundle for Clinical Laboratory Improvement Amendments (CLIA) Certification applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/clia-certification",
+      "tags": [
+        "clinical",
+        "laboratory",
+        "improvement",
+        "amendments",
+        "clia",
+        "certification",
+        "us",
+        "healthcare",
+        "compliance"
+      ],
+      "aliases": [
+        "Clinical Laboratory Improvement Amendments (CLIA) Certification",
+        "US Healthcare",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route Clinical Laboratory Improvement Amendments (CLIA) Certification work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Clinical Laboratory Improvement Amendments (CLIA) Certification source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Healthcare providers and health plans (HIPAA covered entities and business associates)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Clinical Laboratory Improvement Amendments (CLIA) Certification source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Clinical Laboratory Improvement Amendments (CLIA) Certification source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 33,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/clia-certification",
+      "download_url": "https://openknowledgebank.com/downloads/clia-certification.zip"
+    },
+    {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
       "id": "cloud-engineer",
@@ -8856,6 +11297,1051 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/cloud-engineer/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "cms-interoperability-prior-authorization-apis",
+      "title": "CMS Interoperability and Prior Authorization APIs (CMS-0057-F)",
+      "description": "Source-aware compliance bundle for CMS Interoperability and Prior Authorization APIs (CMS-0057-F) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/cms-interoperability-prior-authorization-apis",
+      "tags": [
+        "cms",
+        "interoperability",
+        "and",
+        "prior",
+        "authorization",
+        "apis",
+        "0057",
+        "us",
+        "healthcare",
+        "compliance"
+      ],
+      "aliases": [
+        "CMS Interoperability and Prior Authorization APIs (CMS-0057-F)",
+        "US Healthcare",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route CMS Interoperability and Prior Authorization APIs (CMS-0057-F) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a CMS Interoperability and Prior Authorization APIs (CMS-0057-F) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Healthcare providers and health plans (HIPAA covered entities and business associates)"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "CMS Interoperability and Prior Authorization APIs (CMS-0057-F) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "CMS Interoperability and Prior Authorization APIs (CMS-0057-F) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 35,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/cms-interoperability-prior-authorization-apis",
+      "download_url": "https://openknowledgebank.com/downloads/cms-interoperability-prior-authorization-apis.zip"
+    },
+    {
+      "id": "colorado-privacy-act",
+      "title": "Colorado Privacy Act (CPA) and Implementing Rules",
+      "description": "Source-aware compliance bundle for Colorado Privacy Act (CPA) and Implementing Rules applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/colorado-privacy-act",
+      "tags": [
+        "colorado",
+        "privacy",
+        "act",
+        "cpa",
+        "and",
+        "implementing",
+        "rules",
+        "us",
+        "consumer",
+        "marketing"
+      ],
+      "aliases": [
+        "Colorado Privacy Act (CPA) and Implementing Rules",
+        "US Consumer & Marketing Privacy",
+        "United States",
+        "Colorado"
+      ],
+      "problems_solved": [
+        "Route Colorado Privacy Act (CPA) and Implementing Rules work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Colorado Privacy Act (CPA) and Implementing Rules source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Businesses marketing to or collecting personal information from US consumers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Colorado Privacy Act (CPA) and Implementing Rules source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Colorado Privacy Act (CPA) and Implementing Rules source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://coag.gov/resources/colorado-privacy-act/"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 33,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/colorado-privacy-act",
+      "download_url": "https://openknowledgebank.com/downloads/colorado-privacy-act.zip"
+    },
+    {
+      "id": "companies-house-acsp-registration",
+      "title": "Authorised Corporate Service Provider Registration (ECCTA 2023)",
+      "description": "Source-aware compliance bundle for Authorised Corporate Service Provider Registration (ECCTA 2023) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/companies-house-acsp-registration",
+      "tags": [
+        "authorised",
+        "corporate",
+        "service",
+        "provider",
+        "registration",
+        "eccta",
+        "2023",
+        "uk",
+        "modern",
+        "slavery"
+      ],
+      "aliases": [
+        "Authorised Corporate Service Provider Registration (ECCTA 2023)",
+        "UK Modern Slavery",
+        "United Kingdom"
+      ],
+      "problems_solved": [
+        "Route Authorised Corporate Service Provider Registration (ECCTA 2023) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Authorised Corporate Service Provider Registration (ECCTA 2023) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Large commercial organisations and their supply chains"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Authorised Corporate Service Provider Registration (ECCTA 2023) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Authorised Corporate Service Provider Registration (ECCTA 2023) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.gov.uk/guidance/register-as-a-companies-house-authorised-agent"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 32,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/companies-house-acsp-registration",
+      "download_url": "https://openknowledgebank.com/downloads/companies-house-acsp-registration.zip"
+    },
+    {
+      "id": "companies-house-annual-accounts-filing",
+      "title": "Annual Accounts Filing (Companies Act 2006, Part 15)",
+      "description": "Source-aware compliance bundle for Annual Accounts Filing (Companies Act 2006, Part 15) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/companies-house-annual-accounts-filing",
+      "tags": [
+        "annual",
+        "accounts",
+        "filing",
+        "companies",
+        "act",
+        "2006",
+        "part",
+        "15",
+        "uk",
+        "modern"
+      ],
+      "aliases": [
+        "Annual Accounts Filing (Companies Act 2006, Part 15)",
+        "UK Modern Slavery",
+        "United Kingdom"
+      ],
+      "problems_solved": [
+        "Route Annual Accounts Filing (Companies Act 2006, Part 15) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Annual Accounts Filing (Companies Act 2006, Part 15) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Large commercial organisations and their supply chains"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Annual Accounts Filing (Companies Act 2006, Part 15) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Annual Accounts Filing (Companies Act 2006, Part 15) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.legislation.gov.uk/ukpga/2006/46/section/441"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 30,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 30/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/companies-house-annual-accounts-filing",
+      "download_url": "https://openknowledgebank.com/downloads/companies-house-annual-accounts-filing.zip"
+    },
+    {
+      "id": "companies-house-audit-requirement",
+      "title": "Audit and Auditor's Report Requirement (Companies Act 2006, Part 16)",
+      "description": "Source-aware compliance bundle for Audit and Auditor's Report Requirement (Companies Act 2006, Part 16) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/companies-house-audit-requirement",
+      "tags": [
+        "audit",
+        "and",
+        "auditor",
+        "report",
+        "requirement",
+        "companies",
+        "act",
+        "2006",
+        "part",
+        "16"
+      ],
+      "aliases": [
+        "Audit and Auditor's Report Requirement (Companies Act 2006, Part 16)",
+        "UK Modern Slavery",
+        "United Kingdom"
+      ],
+      "problems_solved": [
+        "Route Audit and Auditor's Report Requirement (Companies Act 2006, Part 16) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Audit and Auditor's Report Requirement (Companies Act 2006, Part 16) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Large commercial organisations and their supply chains"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Audit and Auditor's Report Requirement (Companies Act 2006, Part 16) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Audit and Auditor's Report Requirement (Companies Act 2006, Part 16) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.legislation.gov.uk/ukpga/2006/46/part/16"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 30,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 9,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 30/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/companies-house-audit-requirement",
+      "download_url": "https://openknowledgebank.com/downloads/companies-house-audit-requirement.zip"
+    },
+    {
+      "id": "companies-house-charges-registration",
+      "title": "Registration of Charges (Companies Act 2006, s.859A)",
+      "description": "Source-aware compliance bundle for Registration of Charges (Companies Act 2006, s.859A) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/companies-house-charges-registration",
+      "tags": [
+        "registration",
+        "of",
+        "charges",
+        "companies",
+        "act",
+        "2006",
+        "859a",
+        "uk",
+        "modern",
+        "slavery"
+      ],
+      "aliases": [
+        "Registration of Charges (Companies Act 2006, s.859A)",
+        "UK Modern Slavery",
+        "United Kingdom"
+      ],
+      "problems_solved": [
+        "Route Registration of Charges (Companies Act 2006, s.859A) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Registration of Charges (Companies Act 2006, s.859A) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Large commercial organisations and their supply chains"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Registration of Charges (Companies Act 2006, s.859A) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Registration of Charges (Companies Act 2006, s.859A) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.legislation.gov.uk/ukpga/2006/46/section/859A"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 33,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/companies-house-charges-registration",
+      "download_url": "https://openknowledgebank.com/downloads/companies-house-charges-registration.zip"
+    },
+    {
+      "id": "companies-house-confirmation-statement",
+      "title": "Confirmation Statement (Companies Act 2006, s.853A)",
+      "description": "Source-aware compliance bundle for Confirmation Statement (Companies Act 2006, s.853A) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/companies-house-confirmation-statement",
+      "tags": [
+        "confirmation",
+        "statement",
+        "companies",
+        "act",
+        "2006",
+        "853a",
+        "uk",
+        "modern",
+        "slavery",
+        "compliance"
+      ],
+      "aliases": [
+        "Confirmation Statement (Companies Act 2006, s.853A)",
+        "UK Modern Slavery",
+        "United Kingdom"
+      ],
+      "problems_solved": [
+        "Route Confirmation Statement (Companies Act 2006, s.853A) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Confirmation Statement (Companies Act 2006, s.853A) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Large commercial organisations and their supply chains"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Confirmation Statement (Companies Act 2006, s.853A) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Confirmation Statement (Companies Act 2006, s.853A) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.legislation.gov.uk/ukpga/2006/46/section/853A"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 32,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 5,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/companies-house-confirmation-statement",
+      "download_url": "https://openknowledgebank.com/downloads/companies-house-confirmation-statement.zip"
+    },
+    {
+      "id": "companies-house-identity-verification",
+      "title": "Identity Verification for Directors and PSCs (ECCTA 2023)",
+      "description": "Source-aware compliance bundle for Identity Verification for Directors and PSCs (ECCTA 2023) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/companies-house-identity-verification",
+      "tags": [
+        "identity",
+        "verification",
+        "for",
+        "directors",
+        "and",
+        "pscs",
+        "eccta",
+        "2023",
+        "uk",
+        "modern"
+      ],
+      "aliases": [
+        "Identity Verification for Directors and PSCs (ECCTA 2023)",
+        "UK Modern Slavery",
+        "United Kingdom"
+      ],
+      "problems_solved": [
+        "Route Identity Verification for Directors and PSCs (ECCTA 2023) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Identity Verification for Directors and PSCs (ECCTA 2023) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Large commercial organisations and their supply chains"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Identity Verification for Directors and PSCs (ECCTA 2023) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Identity Verification for Directors and PSCs (ECCTA 2023) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.gov.uk/guidance/when-you-need-to-verify-your-identity-for-companies-house"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 35,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/companies-house-identity-verification",
+      "download_url": "https://openknowledgebank.com/downloads/companies-house-identity-verification.zip"
+    },
+    {
+      "id": "companies-house-incorporation-and-registered-particulars",
+      "title": "Company Incorporation and Registered Particulars (Companies Act 2006 / ECCTA 2023)",
+      "description": "Source-aware compliance bundle for Company Incorporation and Registered Particulars (Companies Act 2006 / ECCTA 2023) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/companies-house-incorporation-and-registered-particulars",
+      "tags": [
+        "company",
+        "incorporation",
+        "and",
+        "registered",
+        "particulars",
+        "companies",
+        "act",
+        "2006",
+        "eccta",
+        "2023"
+      ],
+      "aliases": [
+        "Company Incorporation and Registered Particulars (Companies Act 2006 / ECCTA 2023)",
+        "UK Modern Slavery",
+        "United Kingdom"
+      ],
+      "problems_solved": [
+        "Route Company Incorporation and Registered Particulars (Companies Act 2006 / ECCTA 2023) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Company Incorporation and Registered Particulars (Companies Act 2006 / ECCTA 2023) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Large commercial organisations and their supply chains"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Company Incorporation and Registered Particulars (Companies Act 2006 / ECCTA 2023) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Company Incorporation and Registered Particulars (Companies Act 2006 / ECCTA 2023) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "draft",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.gov.uk/government/news/companies-house-begins-phased-roll-out-of-new-powers-to-tackle-fraud"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 32,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/companies-house-incorporation-and-registered-particulars",
+      "download_url": "https://openknowledgebank.com/downloads/companies-house-incorporation-and-registered-particulars.zip"
     },
     {
       "schema_version": "0.1.0",
