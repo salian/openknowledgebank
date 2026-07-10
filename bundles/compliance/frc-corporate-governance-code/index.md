@@ -43,7 +43,7 @@ trust_tier: "trusted"
 status: "beta"
 license: "CC-BY-4.0"
 related_bundles:
-  - "managing-director"
+  []
 adjacent_bundles:
   []
 contributors:
