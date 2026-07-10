@@ -39,7 +39,7 @@ skills:
   []
 evaluations:
   - "Form BD — Uniform Application for Broker-Dealer Registration source-awareness check"
-okb_bundle_id: "form-bd-broker-dealer-registration"
+okb_bundle_id: form-bd-broker-dealer-registration
 okb_bundle_version: "0.1.0"
 trust_tier: "trusted"
 status: "beta"
