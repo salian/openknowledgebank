@@ -1,10 +1,8 @@
 ---
-type: Directory Index
-title: Scrum Evaluations
-okb_bundle_id: scrum
-timestamp: "2026-07-09T00:00:00Z"
+type: "Evaluation Index"
+title: "Scrum Evaluations"
 ---
 
 # Scrum Evaluations
 
-- [Scrum Guidance Quality Check](scrum-guidance-quality-check.md)
+- [Source-awareness check](source-awareness-check.md)

@@ -33069,149 +33069,6 @@
     {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
-      "id": "scrum",
-      "title": "Scrum",
-      "description": "Framework hub bundle for applying Scrum using the official Scrum Guide structure without inventing local team practice, tool settings, or delivery metrics.",
-      "category": "frameworks",
-      "path": "bundles/frameworks/scrum",
-      "repo": "https://github.com/salian/openknowledgebank",
-      "license": "CC-BY-4.0",
-      "trust_tier": "trusted",
-      "status": "beta",
-      "version": "0.1.0",
-      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/scrum",
-      "download_url": "https://openknowledgebank.com/downloads/scrum.zip",
-      "updated": "2026-07-09",
-      "tags": [
-        "scrum",
-        "agile",
-        "software-delivery",
-        "product-development",
-        "sprint-planning"
-      ],
-      "aliases": [
-        "Scrum framework",
-        "Scrum Guide",
-        "Scrum process",
-        "sprint operating model"
-      ],
-      "problems_solved": [
-        "Review Scrum practice against source-grounded accountabilities, events, artifacts, commitments, and values.",
-        "Separate official Scrum framework terms from local team workflow, tooling, and governance choices.",
-        "Draft Scrum operating briefs without inventing sprint metrics, board fields, Definition of Done, or team policy."
-      ],
-      "industries": [
-        "software",
-        "digital-products",
-        "technology",
-        "b2b-saas"
-      ],
-      "tools": [],
-      "frameworks": [
-        "Scrum",
-        "Scrum Guide",
-        "Sprint",
-        "Product Goal",
-        "Sprint Goal",
-        "Definition of Done"
-      ],
-      "deliverables": [
-        "Scrum operating brief"
-      ],
-      "commands": [
-        "/review-scrum-practice"
-      ],
-      "skills": [],
-      "evaluations": [
-        "Scrum guidance quality check"
-      ],
-      "evaluation_summary": {
-        "status": "measured",
-        "last_evaluated": "2026-07-09",
-        "method": "baseline-vs-okb-rubric",
-        "model": "openai/gpt-4o-mini",
-        "temperature": 0.2,
-        "tasks_count": 3,
-        "max_score": 36,
-        "baseline_score": 20,
-        "okb_score": 34,
-        "absolute_lift": 14,
-        "task_scores": [
-          {
-            "task": "framework-fit-review",
-            "baseline_score": 4,
-            "okb_score": 12,
-            "max_score": 12
-          },
-          {
-            "task": "artifact-quality-review",
-            "baseline_score": 7,
-            "okb_score": 11,
-            "max_score": 12
-          },
-          {
-            "task": "implementation-change-plan",
-            "baseline_score": 9,
-            "okb_score": 11,
-            "max_score": 12
-          }
-        ],
-        "comparison_scores": [],
-        "display_summary": "Improved measured rubric score from 20/36 to 34/36 across 3 benchmark tasks.",
-        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
-      },
-      "evaluation_detail": {
-        "status": "measured",
-        "title": "Scrum measured evaluation",
-        "last_evaluated": "2026-07-09",
-        "method": "baseline-vs-okb-rubric",
-        "model": "openai/gpt-4o-mini",
-        "temperature": 0.2,
-        "max_score": 36,
-        "baseline_score": 20,
-        "okb_score": 34,
-        "absolute_lift": 14,
-        "tasks_total": 3,
-        "bundle_context_source": "bundles/frameworks/scrum",
-        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
-        "private_artifacts": "research/bundle-runs/scrum/v1/evaluation-results/"
-      },
-      "related_bundles": [
-        "agile",
-        "product-manager",
-        "senior-product-manager",
-        "data-product-manager",
-        "technical-product-manager"
-      ],
-      "adjacent_bundles": [
-        "jira",
-        "okrs"
-      ],
-      "contributors": [
-        "OpenKnowledgeBank"
-      ],
-      "maintainers": [
-        "OpenKnowledgeBank"
-      ],
-      "standard_mappings": {
-        "onet_soc": [],
-        "soc": [],
-        "isco_08": [],
-        "esco": []
-      },
-      "limitations": [
-        "Not a substitute for Scrum training, organizational coaching, HR policy, contract advice, or delivery governance.",
-        "Requires user-provided local evidence before judging actual team practice, sprint cadence, Definition of Done, metrics, tooling, or stakeholder process.",
-        "Does not prescribe a universal sprint length, velocity target, estimation method, board setup, or reporting cadence."
-      ],
-      "safety_notes": [
-        "Require confirmation before changing live boards, sprint commitments, Definition of Done, release plans, staffing responsibilities, stakeholder communications, or customer-facing delivery promises.",
-        "Do not claim access to private backlogs, sprint metrics, team policies, source repositories, product plans, or delivery tools unless the user provides evidence or authorized tool access."
-      ]
-    },
-    {
-      "schema_version": "0.1.0",
-      "bundle_format": "okf-compatible",
       "id": "security-software-application-security-engineer",
       "title": "Security Software / Application Security Engineer",
       "description": "Role bundle for secure-code review, threat modeling, SAST/DAST/SCA triage, CI/CD controls, and remediation planning.",
@@ -44068,6 +43925,117 @@
         ],
         "comparison_scores": [],
         "display_summary": "Improved measured rubric score from 17/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      }
+    },
+    {
+      "id": "scrum",
+      "title": "Scrum",
+      "description": "Source-aware framework bundle for Scrum scoping, evidence collection, source inspection, and review-ready decision support.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/scrum",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/scrum",
+      "download_url": "https://openknowledgebank.com/downloads/scrum.zip",
+      "tags": [
+        "scrum",
+        "framework"
+      ],
+      "aliases": [
+        "Scrum",
+        "Regulated organizations",
+        "General"
+      ],
+      "problems_solved": [
+        "Route Scrum work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Scrum source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Regulated organizations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "Scrum"
+      ],
+      "deliverables": [
+        "Scrum source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Scrum source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "data-product-manager",
+        "product-manager",
+        "senior-product-manager",
+        "technical-product-manager"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://scrumguides.org/"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, capabilities, configuration, responsibilities, or outcomes without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, contract, system, campaign, or tool actions.",
+        "Route final reliance to a qualified practitioner, manager, or accountable business reviewer."
+      ],
+      "timestamp": "2026-07-11T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 34,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "framework-fit-review",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "artifact-quality-review",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "implementation-change-plan",
+            "baseline_score": 9,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 34/36 across 3 benchmark tasks.",
         "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       }
     }

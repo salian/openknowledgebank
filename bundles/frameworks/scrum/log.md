@@ -1,14 +1,8 @@
 ---
-type: Bundle Log
-title: Scrum Bundle Log
-okb_bundle_id: scrum
-timestamp: "2026-07-09T00:00:00Z"
+type: "Bundle Changelog"
+title: "Scrum Changelog"
 ---
 
-# Scrum Bundle Log
+# Scrum Changelog
 
-## 0.1.0 - 2026-07-09
-
-- Initial public draft promoted from private creation run `v1`.
-- Added Scrum framework overview, Scrum Guide lens, practice-review command, adoption and sprint operating workflows, operating-brief deliverable, evaluation rubric, and source-check reference.
-- Evaluation status: blocked. Measured baseline-vs-OKB scoring is blocked until a reviewed Scrum task set, evaluator config, model outputs, and reviewer scoring are completed.
+- 2026-07-11: Published initial source-aware framework bundle version 0.1.0.
