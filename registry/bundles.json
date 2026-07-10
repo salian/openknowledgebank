@@ -35061,6 +35061,119 @@
         "Require explicit confirmation before sending customer communications, exporting or modifying customer data, changing tickets/users/organizations, activating triggers or automations, changing routing or permissions, publishing Help Center content, enabling AI/customer-facing behavior, or running integrations/API actions.",
         "Do not request credentials or claim Zendesk account access unless the user provides authorized tool access or evidence."
       ]
+    },
+    {
+      "id": "ferpa",
+      "title": "FERPA (Family Educational Rights and Privacy Act)",
+      "description": "Source-aware compliance bundle for FERPA (Family Educational Rights and Privacy Act) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "category": "compliance",
+      "path": "bundles/compliance/ferpa",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/compliance/ferpa",
+      "download_url": "https://openknowledgebank.com/downloads/ferpa.zip",
+      "tags": [
+        "ferpa",
+        "family",
+        "educational",
+        "rights",
+        "privacy",
+        "us",
+        "compliance"
+      ],
+      "aliases": [
+        "FERPA (Family Educational Rights and Privacy Act)",
+        "Educational agencies and institutions receiving US Dept. of Education funds",
+        "United States"
+      ],
+      "problems_solved": [
+        "Route FERPA (Family Educational Rights and Privacy Act) work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a FERPA (Family Educational Rights and Privacy Act) source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Educational agencies and institutions receiving US Dept. of Education funds"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "FERPA (Family Educational Rights and Privacy Act) source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "FERPA (Family Educational Rights and Privacy Act) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://studentprivacy.ed.gov/"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, or contract actions.",
+        "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
+      ],
+      "timestamp": "2026-07-10T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 28,
+        "absolute_lift": 13,
+        "task_scores": [
+          {
+            "task": "applicability-triage",
+            "baseline_score": 3,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "source-aware-checklist",
+            "baseline_score": 7,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "conflicting-evidence-review",
+            "baseline_score": 5,
+            "okb_score": 9,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 28/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      }
     }
   ]
 }
