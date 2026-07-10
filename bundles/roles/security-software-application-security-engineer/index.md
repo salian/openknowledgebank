@@ -35,7 +35,7 @@ evaluations:
 okb_bundle_id: security-software-application-security-engineer
 okb_bundle_version: "0.1.0"
 trust_tier: trusted
-status: draft
+status: beta
 license: CC-BY-4.0
 related_bundles:
   - soc-2

@@ -23,7 +23,7 @@ evaluations: [senior-product-management-quality-check]
 okb_bundle_id: senior-product-manager
 okb_bundle_version: "0.1.0"
 trust_tier: trusted
-status: draft
+status: beta
 license: CC-BY-4.0
 related_bundles: [agile, figma, gdpr, jira, okrs]
 adjacent_bundles: [product-manager, technical-product-manager, data-product-manager, product-designer, performance-marketer]

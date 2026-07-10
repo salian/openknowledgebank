@@ -23,7 +23,7 @@ evaluations: [product-management-quality-check]
 okb_bundle_id: product-manager
 okb_bundle_version: "0.1.0"
 trust_tier: trusted
-status: draft
+status: beta
 license: CC-BY-4.0
 related_bundles: [agile, amplitude, confluence, figma, jira, jobs-to-be-done, kano-model, linear, mixpanel, okrs, product-requirements-document, product-roadmap, rice-prioritization, scrum]
 adjacent_bundles: [performance-marketer]

@@ -26,7 +26,7 @@ CATEGORIES = {
 }
 
 TRUST_TIERS = {"trusted", "community", "unverified", "rejected"}
-STATUSES = {"draft", "review", "stable", "deprecated"}
+STATUSES = {"draft", "beta", "stable", "deprecated"}
 
 REQUIRED_REGISTRY_FIELDS = {
     "id",

@@ -48,7 +48,7 @@ evaluations:
   - GA4 analysis quality check
 okb_bundle_version: 0.8.0-candidate
 trust_tier: trusted-preview
-status: candidate
+status: beta
 license: CC-BY-4.0
 related_bundles:
   - datasets/ga4-bigquery-export

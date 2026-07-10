@@ -132,7 +132,7 @@ Recommended fields:
 ## Status Values
 
 - `draft`
-- `review`
+- `beta`
 - `stable`
 - `deprecated`
 

@@ -42,7 +42,7 @@ evaluations:
 okb_bundle_id: cahps-patient-experience-surveys
 okb_bundle_version: "0.1.0"
 trust_tier: "trusted"
-status: "draft"
+status: "beta"
 license: "CC-BY-4.0"
 related_bundles:
   - "anti-kickback-statute"

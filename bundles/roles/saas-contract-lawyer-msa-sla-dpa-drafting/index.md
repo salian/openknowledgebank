@@ -36,7 +36,7 @@ evaluations:
 okb_bundle_id: saas-contract-lawyer-msa-sla-dpa-drafting
 okb_bundle_version: "0.1.0"
 trust_tier: trusted
-status: draft
+status: beta
 license: CC-BY-4.0
 related_bundles:
   - soc-2

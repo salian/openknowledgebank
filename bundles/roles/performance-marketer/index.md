@@ -5,6 +5,7 @@ description: Entry point for the Performance Marketer OpenKnowledge bundle.
 tags: [marketing, paid-acquisition, growth]
 okb_bundle_id: performance-marketer
 okb_bundle_version: "0.1.0"
+status: beta
 timestamp: 2026-06-19T00:00:00Z
 evaluation_summary:
   status: measured

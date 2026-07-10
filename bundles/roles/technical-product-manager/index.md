@@ -23,7 +23,7 @@ evaluations: [technical-product-management-quality-check]
 okb_bundle_id: technical-product-manager
 okb_bundle_version: "0.1.0"
 trust_tier: trusted
-status: draft
+status: beta
 license: CC-BY-4.0
 related_bundles: [agile, figma, gdpr, jira, okrs, product-manager, soc-2, wcag]
 adjacent_bundles: [product-manager, product-designer]

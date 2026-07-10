@@ -26,7 +26,7 @@ evaluations: [stackoverflow-analysis-quality-check]
 okb_bundle_id: stackoverflow-data-analyst
 okb_bundle_version: "0.3.0"
 trust_tier: trusted
-status: draft
+status: beta
 license: CC-BY-4.0
 related_bundles: []
 adjacent_bundles: [ga4-analytics-specialist]

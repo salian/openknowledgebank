@@ -65,7 +65,7 @@
     },
     "status": {
       "type": "string",
-      "enum": ["draft", "review", "stable", "deprecated"]
+      "enum": ["draft", "beta", "stable", "deprecated"]
     },
     "version": {
       "type": "string"

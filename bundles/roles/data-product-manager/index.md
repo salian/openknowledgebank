@@ -24,7 +24,7 @@ evaluations: [data-product-management-quality-check]
 okb_bundle_id: data-product-manager
 okb_bundle_version: "0.1.0"
 trust_tier: trusted
-status: draft
+status: beta
 license: CC-BY-4.0
 related_bundles: [agile, figma, gdpr, jira, okrs, product-manager, soc-2, technical-product-manager]
 adjacent_bundles: [product-manager, technical-product-manager, ga4-analytics-specialist, stackoverflow-data-analyst]
