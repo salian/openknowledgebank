@@ -43728,6 +43728,119 @@
         "display_summary": "Improved measured rubric score from 23/36 to 33/36 across 3 benchmark tasks.",
         "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       }
+    },
+    {
+      "id": "docker",
+      "title": "Docker",
+      "description": "Source-aware tool bundle for Docker scoping, evidence collection, source inspection, and review-ready decision support.",
+      "category": "tools",
+      "path": "bundles/tools/docker",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/docker",
+      "download_url": "https://openknowledgebank.com/downloads/docker.zip",
+      "tags": [
+        "docker",
+        "tool"
+      ],
+      "aliases": [
+        "Docker",
+        "Regulated organizations",
+        "General"
+      ],
+      "problems_solved": [
+        "Route Docker work to the right source category and evidence set.",
+        "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
+        "Produce a Docker source-aware brief suitable for qualified review."
+      ],
+      "industries": [
+        "Regulated organizations"
+      ],
+      "tools": [
+        "Docker"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "inspect-first workflow",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Docker source-aware brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Docker source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "cloud-engineer",
+        "devops-engineer"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.docker.com"
+      ],
+      "limitations": [
+        "This bundle is not legal, financial, medical, safety, engineering, tax, audit, or other professional advice.",
+        "Scenario-specific answers require current official sources, local evidence, and qualified review.",
+        "Do not infer facts about local systems, records, contracts, people, controls, filings, eligibility, hazards, capabilities, configuration, responsibilities, or outcomes without evidence."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, patient, employee, financial, security, and regulated data in prompts and examples.",
+        "Require explicit confirmation before live operational, legal, financial, safety, security, employment, reporting, disclosure, filing, contract, system, campaign, or tool actions.",
+        "Route final reliance to a qualified tool owner, administrator, security reviewer, or accountable business reviewer."
+      ],
+      "timestamp": "2026-07-11T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-10",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 23,
+        "okb_score": 31,
+        "absolute_lift": 8,
+        "task_scores": [
+          {
+            "task": "analysis-plan-without-access",
+            "baseline_score": 8,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 9,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 23/36 to 31/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      }
     }
   ]
 }
