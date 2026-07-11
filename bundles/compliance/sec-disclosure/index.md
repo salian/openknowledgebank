@@ -1,86 +1,111 @@
 ---
-type: "Bundle Index"
-title: "SEC Reporting & Disclosure (US Public Companies)"
-description: "Source-aware compliance bundle for SEC reporting and disclosure source triage, evidence collection, and review-ready decision support for US public companies."
-schema_version: "0.1.0"
-bundle_format: "okf-compatible"
-category: "compliance"
+type: Bundle Index
+title: SEC Reporting & Disclosure (US Public Companies)
+description: Source-aware compliance bundle for SEC reporting and disclosure source
+  triage, evidence collection, and review-ready decision support for US public companies.
+schema_version: 0.1.0
+bundle_format: okf-compatible
+category: compliance
 tags:
-  - "sec"
-  - "disclosure"
-  - "reporting"
-  - "public-companies"
-  - "exchange-act"
-  - "edgar"
-  - "xbrl"
-  - "regulation-fd"
-  - "compliance"
+- sec
+- disclosure
+- reporting
+- public-companies
+- exchange-act
+- edgar
+- xbrl
+- regulation-fd
+- compliance
 aliases:
-  - "SEC Reporting & Disclosure"
-  - "SEC public company reporting"
-  - "Exchange Act reporting"
-  - "US Public Companies"
+- SEC Reporting & Disclosure
+- SEC public company reporting
+- Exchange Act reporting
+- US Public Companies
 problems_solved:
-  - "Route SEC reporting and disclosure questions to the right official source category and issuer evidence set."
-  - "Separate verified SEC source facts, user-provided issuer facts, assumptions, and missing evidence."
-  - "Produce an SEC disclosure source-aware brief suitable for qualified legal, accounting, audit, governance, or disclosure committee review."
+- Route SEC reporting and disclosure questions to the right official source category
+  and issuer evidence set.
+- Separate verified SEC source facts, user-provided issuer facts, assumptions, and
+  missing evidence.
+- Produce an SEC disclosure source-aware brief suitable for qualified legal, accounting,
+  audit, governance, or disclosure committee review.
 industries:
-  - "Public companies and SEC-reporting issuers"
+- Public companies and SEC-reporting issuers
 tools:
-  - "SEC.gov"
-  - "EDGAR"
-  - "Inline XBRL"
+- SEC.gov
+- EDGAR
+- Inline XBRL
 frameworks:
-  - "source-evidence matrix"
-  - "inspect-first workflow"
-  - "qualified-review gate"
-  - "disclosure control handoff"
+- source-evidence matrix
+- inspect-first workflow
+- qualified-review gate
+- disclosure control handoff
 deliverables:
-  - "SEC disclosure source-aware brief"
-commands:
-  []
-skills:
-  []
+- SEC disclosure source-aware brief
+commands: []
+skills: []
 evaluations:
-  - "SEC disclosure source-awareness check"
+- SEC disclosure source-awareness check
 okb_bundle_id: sec-disclosure
-okb_bundle_version: "0.1.0"
-trust_tier: "trusted"
-status: "beta"
-license: "CC-BY-4.0"
+okb_bundle_version: 0.1.0
+trust_tier: trusted
+status: beta
+license: CC-BY-4.0
 related_bundles:
-  - "auditor-external"
-  - "beneficial-ownership-13d-13g"
-adjacent_bundles:
-  []
+- auditor-external
+- beneficial-ownership-13d-13g
+adjacent_bundles: []
 contributors:
-  - "OpenKnowledgeBank"
+- OpenKnowledgeBank
 maintainers:
-  - "OpenKnowledgeBank"
+- OpenKnowledgeBank
 standard_mappings:
-  onet_soc:
-    []
-  soc:
-    []
-  isco_08:
-    []
-  esco:
-    []
+  onet_soc: []
+  soc: []
+  isco_08: []
+  esco: []
 limitations:
-  - "This bundle is not legal, securities, accounting, audit, tax, investment, governance, or disclosure advice."
-  - "Scenario-specific answers require current SEC sources, issuer-specific evidence, disclosure controls, and qualified review."
-  - "Do not infer issuer status, filing deadlines, form items, materiality, disclosure text, EDGAR behavior, or compliance status without evidence."
+- This bundle is not legal, securities, accounting, audit, tax, investment, governance,
+  or disclosure advice.
+- Scenario-specific answers require current SEC sources, issuer-specific evidence,
+  disclosure controls, and qualified review.
+- Do not infer issuer status, filing deadlines, form items, materiality, disclosure
+  text, EDGAR behavior, or compliance status without evidence.
 safety_notes:
-  - "Minimize sensitive issuer, financial, personal, security, incident, trading, compensation, customer, and employee data in prompts and examples."
-  - "Require explicit confirmation before live filing, public disclosure, investor communication, trading-policy, governance, financial reporting, data export, or regulatory actions."
-  - "Route final reliance to qualified counsel, accounting or audit professionals, disclosure committee members, governance leaders, or management as appropriate."
-timestamp: "2026-07-11T00:00:00Z"
+- Minimize sensitive issuer, financial, personal, security, incident, trading, compensation,
+  customer, and employee data in prompts and examples.
+- Require explicit confirmation before live filing, public disclosure, investor communication,
+  trading-policy, governance, financial reporting, data export, or regulatory actions.
+- Route final reliance to qualified counsel, accounting or audit professionals, disclosure
+  committee members, governance leaders, or management as appropriate.
+timestamp: '2026-07-11T00:00:00Z'
 evaluation_summary:
-  status: "blocked"
-  last_evaluated: "2026-07-11"
-  method: "baseline-vs-okb-rubric"
-  display_summary: "Measured evaluation is blocked pending generated baseline and bundle-assisted outputs plus reviewer scoring."
-  evidence_note: "No measured performance claim is made for this bundle."
+  status: measured
+  last_evaluated: '2026-07-11'
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 3
+  max_score: 36
+  baseline_score: 23
+  okb_score: 36
+  absolute_lift: 13
+  task_scores:
+  - task: mixed-source-triage
+    baseline_score: 6
+    okb_score: 12
+    max_score: 12
+  - task: regulation-fd-brief
+    baseline_score: 9
+    okb_score: 12
+    max_score: 12
+  - task: cyber-disclosure-triage
+    baseline_score: 8
+    okb_score: 12
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 23/36 to 36/36 across 3 benchmark
+    tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 ---
 
 # SEC Reporting & Disclosure (US Public Companies)

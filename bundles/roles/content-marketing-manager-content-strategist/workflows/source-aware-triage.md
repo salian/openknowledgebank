@@ -15,6 +15,8 @@ Use this workflow before producing a strategy, calendar, brief, or performance r
 4. For metrics, define source, date range, filters, attribution model, conversion definition, and whether the number is directional or decision-grade.
 5. Produce a concise recommendation with open questions and review gates before any publishing or campaign action.
 
+When no local evidence is supplied, return an evidence-request brief. Do not fill missing fields with plausible audience facts, metrics, dates, product claims, source attributions, channel preferences, certifications, or examples that could be mistaken for current evidence.
+
 ## Output Contract
 
 The final answer should include the recommended content direction, evidence used, evidence missing, risks, next review owner, confirmation requirements, and Source note.

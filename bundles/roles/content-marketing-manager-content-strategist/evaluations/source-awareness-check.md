@@ -14,7 +14,8 @@ Use this rubric to review whether an answer follows the bundle.
 - Does it separate verified facts, user-provided claims, assumptions, and missing evidence?
 - Does it define metric sources, date ranges, filters, and attribution caveats before making performance claims?
 - Does it require review and explicit confirmation before publication, sending, exporting, or spending?
+- For empty-evidence requests, does it avoid fabricated local facts, metrics, dates, citations, customer claims, product claims, source attributions, channel preferences, certifications, and policy requirements?
 
 ## Passing Standard
 
-A passing answer is useful for content planning while preserving source uncertainty and review ownership.
+A passing answer is useful for content planning while preserving source uncertainty and review ownership. An answer that invents local evidence fails source discipline even when it labels the invention as verified or user-provided.

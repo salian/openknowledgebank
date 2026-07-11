@@ -1,82 +1,99 @@
 ---
-type: "Bundle Index"
-title: "Data Engineer"
-description: "Source-aware role bundle for data pipeline planning, schema and warehouse design, ETL/ELT review, orchestration triage, and data quality handoff."
-schema_version: "0.1.0"
-bundle_format: "okf-compatible"
-category: "roles"
+type: Bundle Index
+title: Data Engineer
+description: Source-aware role bundle for data pipeline planning, schema and warehouse
+  design, ETL/ELT review, orchestration triage, and data quality handoff.
+schema_version: 0.1.0
+bundle_format: okf-compatible
+category: roles
 tags:
-  - "data-engineering"
-  - "pipelines"
-  - "etl"
-  - "warehousing"
-  - "role"
+- data-engineering
+- pipelines
+- etl
+- warehousing
+- role
 aliases:
-  - "Data Engineer"
-  - "Analytics Engineer"
-  - "Data Platform Engineer"
+- Data Engineer
+- Analytics Engineer
+- Data Platform Engineer
 problems_solved:
-  - "Turn source-system context, schemas, transformation rules, and warehouse constraints into a reviewable data pipeline plan."
-  - "Separate verified schema facts, user-provided assumptions, missing source evidence, and environment-specific configuration."
-  - "Prepare data quality, lineage, orchestration, and validation guidance without inventing fields, tables, credentials, or platform behavior."
+- Turn source-system context, schemas, transformation rules, and warehouse constraints
+  into a reviewable data pipeline plan.
+- Separate verified schema facts, user-provided assumptions, missing source evidence,
+  and environment-specific configuration.
+- Prepare data quality, lineage, orchestration, and validation guidance without inventing
+  fields, tables, credentials, or platform behavior.
 industries:
-  - "General"
-tools:
-  []
+- General
+tools: []
 frameworks:
-  - "source-evidence matrix"
-  - "schema-grounding protocol"
-  - "data-quality validation gate"
+- source-evidence matrix
+- schema-grounding protocol
+- data-quality validation gate
 deliverables:
-  - "Source-aware data pipeline plan"
-commands:
-  []
-skills:
-  []
+- Source-aware data pipeline plan
+commands: []
+skills: []
 evaluations:
-  - "Data engineering source-awareness check"
+- Data engineering source-awareness check
 okb_bundle_id: data-engineer
-okb_bundle_version: "0.1.0"
-trust_tier: "trusted"
-status: "beta"
-license: "CC-BY-4.0"
+okb_bundle_version: 0.1.0
+trust_tier: trusted
+status: beta
+license: CC-BY-4.0
 related_bundles:
-  - "data-warehousing-specialist"
-  - "gdpr"
-  - "google-bigquery"
-  - "hipaa"
-  - "soc-2"
-adjacent_bundles:
-  []
+- data-warehousing-specialist
+- gdpr
+- google-bigquery
+- hipaa
+- soc-2
+adjacent_bundles: []
 contributors:
-  - "OpenKnowledgeBank"
+- OpenKnowledgeBank
 maintainers:
-  - "OpenKnowledgeBank"
+- OpenKnowledgeBank
 standard_mappings:
   onet_soc:
-    - "15-1243.00"
-  soc:
-    []
-  isco_08:
-    []
+  - 15-1243.00
+  soc: []
+  isco_08: []
   esco:
-    - "data scientist"
+  - data scientist
 limitations:
-  - "This bundle supports data engineering planning and review; it is not security, privacy, legal, audit, or production-change approval."
-  - "Environment-specific recommendations require current schemas, data samples, access controls, contracts, platform configuration, and owner review."
-  - "Do not invent table names, fields, metric definitions, pipeline behavior, credentials, costs, SLAs, lineage, or data quality results."
+- This bundle supports data engineering planning and review; it is not security, privacy,
+  legal, audit, or production-change approval.
+- Environment-specific recommendations require current schemas, data samples, access
+  controls, contracts, platform configuration, and owner review.
+- Do not invent table names, fields, metric definitions, pipeline behavior, credentials,
+  costs, SLAs, lineage, or data quality results.
 safety_notes:
-  - "Minimize personal, customer, patient, employee, financial, credential, and regulated data in prompts and examples."
-  - "Require explicit confirmation before modifying production pipelines, schemas, permissions, jobs, exports, retention settings, or infrastructure."
-  - "Route privacy, security, compliance, and production-impacting changes to accountable reviewers."
-timestamp: "2026-07-11T00:00:00Z"
+- Minimize personal, customer, patient, employee, financial, credential, and regulated
+  data in prompts and examples.
+- Require explicit confirmation before modifying production pipelines, schemas, permissions,
+  jobs, exports, retention settings, or infrastructure.
+- Route privacy, security, compliance, and production-impacting changes to accountable
+  reviewers.
+timestamp: '2026-07-11T00:00:00Z'
 evaluation_summary:
-  status: "blocked"
-  last_evaluated: "2026-07-11"
-  method: "baseline-vs-okb-rubric"
-  tasks_count: 0
-  display_summary: "Evaluation blocked: measured baseline and OKB-assisted outputs plus reviewer-scored aggregate results are not available for this run."
-  evidence_note: "No measured score is claimed; private run records the evaluation blocker."
+  status: measured
+  last_evaluated: '2026-07-11'
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 1
+  max_score: 12
+  baseline_score: 8
+  okb_score: 11
+  absolute_lift: 3
+  task_scores:
+  - task: source-aware-pipeline-plan
+    baseline_score: 8
+    okb_score: 11
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 8/12 to 11/12 across 1 benchmark
+    tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 ---
 
 # Data Engineer

@@ -19,3 +19,5 @@ A brief should make the content decision reviewable, not just persuasive.
 ## Quality Bar
 
 Do not present unverified claims as facts, cite analytics without definitions, or recommend risky actions without explicit confirmation and owner review. Include a Source note at the end.
+
+When the request provides no local evidence, retain unknown fields as `missing` and list the exact source needed. Do not manufacture facts, metrics, dates, citations, customer statements, product capabilities, channel preferences, certifications, or policy requirements to make the brief look complete.
