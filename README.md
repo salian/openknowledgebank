@@ -10,13 +10,13 @@ OpenKnowledgeBank gives agents role knowledge, workflows, safety rules, delivera
 
 Use it when you want an agent to do specialized work with better structure, clearer source discipline, and more reusable operating guidance than a one-off prompt.
 
-**Status:** early public preview. The first measured benchmark bundle is GA4 Analytics Specialist.
+**Status:** public beta. The catalog currently lists 370 bundles across roles, compliance regimes, tools, frameworks, and deliverables; 335 are beta and 363 have measured evaluation summaries.
 
 **Star this repo to follow the open library of reusable agent knowledge bundles.**
 
 ## Measured Proof
 
-The first measured benchmark bundle is [GA4 Analytics Specialist](bundles/roles/ga4-analytics-specialist). In a three-task GA4 evaluation, the same lower-cost model improved from a baseline score of `17/48` to an OpenKnowledgeBank-assisted score of `42/48`.
+[GA4 Analytics Specialist](bundles/roles/ga4-analytics-specialist) is the flagship measured benchmark bundle. In a three-task GA4 evaluation, the same lower-cost model improved from a baseline score of `17/48` to an OpenKnowledgeBank-assisted score of `42/48`.
 
 ![GA4 Analytics Specialist scorecard](docs/assets/ga4-scorecard.svg)
 
@@ -26,7 +26,7 @@ The first measured benchmark bundle is [GA4 Analytics Specialist](bundles/roles/
 | General-purpose LLM | 25 | 46 | 48 |
 | Reasoning LLM | 31 | 47 | 48 |
 
-The benchmark covers conversion-drop diagnosis, GA4 UI vs BigQuery reconciliation, and GA4 BigQuery query planning. It is an early public proof point, not a universal claim about every model or task.
+The benchmark covers conversion-drop diagnosis, GA4 UI vs BigQuery reconciliation, and GA4 BigQuery query planning. It is a measured proof point, not a universal claim about every model or task.
 
 ## Try It In 60 Seconds
 
@@ -47,12 +47,32 @@ Useful starting files:
 - [bundles/roles/ga4-analytics-specialist/index.md](bundles/roles/ga4-analytics-specialist/index.md): entry point for the measured GA4 bundle.
 - [docs/BUNDLE_SCHEMA.md](docs/BUNDLE_SCHEMA.md): current working bundle schema.
 
-## Available Bundles
+## Featured Bundles
+
+OpenKnowledgeBank is no longer a single-bundle preview. The catalog spans:
+
+- 39 role bundles for specialized work such as analytics, product, sales, security, finance, HR, operations, and field-service support.
+- 302 compliance bundles for privacy, security, healthcare, finance, employment, reporting, safety, and regulated operational workflows.
+- 18 tool bundles for common business, analytics, data, CRM, support, design, and engineering platforms.
+- 8 framework bundles and 3 deliverable bundles for reusable thinking patterns and output formats.
+
+Start with these if you want to see the range:
 
 | Bundle | Use it for | Status | Evidence |
 | --- | --- | --- | --- |
-| [GA4 Analytics Specialist](bundles/roles/ga4-analytics-specialist) | GA4 analysis, ecommerce diagnosis, BigQuery export planning, UI/export reconciliation | Candidate / measured | `17/48` baseline to `42/48` bundle-assisted |
-| [Performance Marketer](bundles/roles/performance-marketer) | Campaign diagnosis, paid acquisition context, marketing workflows | Seed skeleton | Planned after the GA4 benchmark |
+| [GA4 Analytics Specialist](bundles/roles/ga4-analytics-specialist) | GA4 analysis, ecommerce diagnosis, BigQuery export planning, UI/export reconciliation | Beta / measured | Lower-cost model improved from `17/48` baseline to `42/48` bundle-assisted |
+| [Product Manager](bundles/roles/product-manager) | Product discovery, prioritization, roadmap tradeoffs, stakeholder-ready product reasoning | Beta / measured | Improved from `19/36` baseline to `25/36` bundle-assisted |
+| [Sales Development Representative](bundles/roles/sales-development-representative-sdr) | Prospect research, outbound qualification, discovery prep, objection handling | Beta / measured | Improved from `17/36` baseline to `32/36` bundle-assisted |
+| [EU AI Act](bundles/compliance/eu-ai-act) | Source-aware AI compliance triage, evidence collection, qualified-review routing | Beta / measured | Improved from `19/36` baseline to `34/36` bundle-assisted |
+| [GDPR](bundles/compliance/gdpr) | Privacy obligation triage, evidence separation, source-aware compliance briefs | Beta / measured | Improved from `16/36` baseline to `32/36` bundle-assisted |
+| [HIPAA](bundles/compliance/hipaa) | Healthcare privacy/security compliance triage and review-ready issue framing | Beta / measured | Improved from `19/36` baseline to `31/36` bundle-assisted |
+| [SOC 2](bundles/compliance/soc-2) | Trust services criteria triage, control evidence requests, audit-readiness briefs | Beta / measured | Improved from `16/36` baseline to `33/36` bundle-assisted |
+| [Google BigQuery](bundles/tools/google-bigquery) | Warehouse analysis, SQL planning, data modeling, safe query-context handling | Beta / measured | Improved from `22/36` baseline to `31/36` bundle-assisted |
+| [Salesforce Service Cloud](bundles/tools/salesforce-service-cloud) | Support operations analysis, CRM workflow diagnosis, evidence-aware recommendations | Beta / measured | Improved from `23/36` baseline to `31/36` bundle-assisted |
+| [Jobs to be Done / Outcome-Driven Innovation](bundles/frameworks/jobs-to-be-done) | Customer problem framing, outcome statements, opportunity analysis | Beta / measured | Improved from `21/36` baseline to `28/36` bundle-assisted |
+| [Product Requirements Document](bundles/deliverables/product-requirements-document) | PRD structure, acceptance criteria, product decision capture | Beta / measured | Improved from `19/36` baseline to `31/36` bundle-assisted |
+
+For the full catalog, use [registry/bundles.json](registry/bundles.json) or browse the [bundles](bundles) directory.
 
 ## What Is Inside A Bundle?
 
