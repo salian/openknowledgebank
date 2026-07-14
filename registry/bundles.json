@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "updated": "2026-07-11",
+  "updated": "2026-07-14",
   "bundles": [
     {
       "schema_version": "0.1.0",
@@ -45431,6 +45431,119 @@
         "display_summary": "Evaluation blocked: measured baseline and OKB-assisted outputs plus reviewer-scored aggregate results are not available for this run.",
         "evidence_note": "No measured score is claimed; private run records the evaluation blocker."
       }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "ipo-investment-analyst-india",
+      "title": "IPO Investment Analyst (India)",
+      "description": "Investor-side Indian IPO research with strict source-state propagation, causal restraint, denominator scenarios, peer admission, and non-advisory decision gates.",
+      "category": "roles",
+      "path": "bundles/roles/ipo-investment-analyst-india",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "beta",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/ipo-investment-analyst-india",
+      "download_url": "https://openknowledgebank.com/downloads/ipo-investment-analyst-india.zip",
+      "updated": "2026-07-14",
+      "tags": [
+        "ipo",
+        "india",
+        "investment-research",
+        "valuation"
+      ],
+      "aliases": [
+        "Indian IPO Investment Analyst"
+      ],
+      "problems_solved": [
+        "Keep user-provided offer-document facts distinct from verified official evidence.",
+        "Reconcile fresh-issue, offer-for-sale, and potential-share scenarios without false dilution labels.",
+        "Prevent peer rankings and relative-value conclusions when economic comparability is unverified.",
+        "Produce conditional IPO research without personalized bid, buy, subscribe, or avoid instructions."
+      ],
+      "industries": [
+        "Indian capital markets"
+      ],
+      "tools": [],
+      "frameworks": [
+        "IPO integrity gates"
+      ],
+      "deliverables": [
+        "India IPO evidence-led assessment"
+      ],
+      "commands": [
+        "/analyze-india-ipo-evidence"
+      ],
+      "skills": [],
+      "evaluations": [
+        "IPO integrity regression"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-14",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 9,
+        "okb_score": 29,
+        "absolute_lift": 20,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 2,
+            "okb_score": 7,
+            "max_score": 12
+          },
+          {
+            "task": "document-version-offer-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "share-count-peer-valuation-reconciliation",
+            "baseline_score": 2,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 9/36 to 29/36 across 3 synthetic benchmark tasks.",
+        "evidence_note": "Scores measure source, calculation, peer-comparison, safety, and task-quality behavior on synthetic tasks; they do not measure investment performance or prediction accuracy."
+      },
+      "related_bundles": [
+        "accountant",
+        "auditor-external"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Covers investor-side Indian main-board equity IPO analysis; SME offers and issuer-side execution require separate treatment.",
+        "Provides research structure, not personalized investment, legal, tax, accounting, audit, or regulatory advice.",
+        "Issuer-specific conclusions require current official documents and authorized market data.",
+        "Evaluation results measure rubric adherence on synthetic tasks, not returns, suitability, or forecast accuracy."
+      ],
+      "safety_notes": [
+        "Do not bid, trade, spend, access accounts, submit filings, or communicate externally on a user's behalf.",
+        "Do not upgrade user-provided excerpts to verified official evidence without inspecting a matching official copy.",
+        "Do not issue personalized buy, subscribe, apply, avoid, sell, or equivalent action language.",
+        "Require accountable human and compliance review before distributing or relying on securities research."
+      ]
     }
   ]
 }
