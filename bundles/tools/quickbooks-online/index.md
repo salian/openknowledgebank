@@ -69,30 +69,30 @@ safety_notes:
   - "Do not request credentials, client secrets, refresh tokens, bank credentials, or claim QuickBooks company access unless the user provides authorized tool access or evidence."
 evaluation_summary:
   status: measured
-  last_evaluated: 2026-07-09
+  last_evaluated: '2026-07-29'
   method: baseline-vs-okb-rubric
   model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
   max_score: 36
-  baseline_score: 26
-  okb_score: 33
-  absolute_lift: 7
+  baseline_score: 19
+  okb_score: 27
+  absolute_lift: 8
   task_scores:
-    - task: analysis-plan-without-access
-      baseline_score: 8
-      okb_score: 10
-      max_score: 12
-    - task: configuration-risk-review
-      baseline_score: 9
-      okb_score: 11
-      max_score: 12
-    - task: metric-or-report-reconciliation
-      baseline_score: 9
-      okb_score: 12
-      max_score: 12
-  comparison_scores:
-  display_summary: Improved measured rubric score from 26/36 to 33/36 across 3 benchmark tasks.
+  - task: empty-evidence-integrity
+    baseline_score: 2
+    okb_score: 6
+    max_score: 12
+  - task: configuration-risk-review
+    baseline_score: 11
+    okb_score: 9
+    max_score: 12
+  - task: metric-or-report-reconciliation
+    baseline_score: 6
+    okb_score: 12
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 19/36 to 27/36 across 3 benchmark tasks.
   evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 okb_bundle_id: quickbooks-online
 timestamp: "2026-07-09T00:00:00Z"

@@ -69,30 +69,30 @@ safety_notes:
   - Do not claim access to private systems, customer data, workspaces, documents, dashboards, roadmaps, repositories, accounts, or source records unless the user provides evidence or authorized tool access.
 evaluation_summary:
   status: measured
-  last_evaluated: 2026-07-09
+  last_evaluated: '2026-07-29'
   method: baseline-vs-okb-rubric
   model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
   max_score: 36
-  baseline_score: 19
-  okb_score: 31
-  absolute_lift: 12
+  baseline_score: 16
+  okb_score: 30
+  absolute_lift: 14
   task_scores:
-    - task: deliverable-draft-with-missing-evidence
-      baseline_score: 7
-      okb_score: 11
-      max_score: 12
-    - task: deliverable-quality-review
-      baseline_score: 6
-      okb_score: 10
-      max_score: 12
-    - task: deliverable-reconciliation
-      baseline_score: 6
-      okb_score: 10
-      max_score: 12
-  comparison_scores:
-  display_summary: Improved measured rubric score from 19/36 to 31/36 across 3 benchmark tasks.
+  - task: empty-evidence-integrity
+    baseline_score: 1
+    okb_score: 10
+    max_score: 12
+  - task: deliverable-quality-review
+    baseline_score: 8
+    okb_score: 10
+    max_score: 12
+  - task: deliverable-reconciliation
+    baseline_score: 7
+    okb_score: 10
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 16/36 to 30/36 across 3 benchmark tasks.
   evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 okb_bundle_id: product-requirements-document
 timestamp: "2026-07-09T00:00:00Z"

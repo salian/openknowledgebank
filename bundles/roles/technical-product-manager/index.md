@@ -45,30 +45,30 @@ safety_notes:
   - Escalate legal, privacy, security, accessibility, medical, financial, employment, and regulated-industry requirements to appropriate experts.
 evaluation_summary:
   status: measured
-  last_evaluated: 2026-07-09
+  last_evaluated: '2026-07-29'
   method: baseline-vs-okb-rubric
   model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
   max_score: 36
-  baseline_score: 14
-  okb_score: 21
-  absolute_lift: 7
+  baseline_score: 10
+  okb_score: 18
+  absolute_lift: 8
   task_scores:
-    - task: role-task-with-limited-evidence
-      baseline_score: 8
-      okb_score: 9
-      max_score: 12
-    - task: role-prioritization-review
-      baseline_score: 3
-      okb_score: 6
-      max_score: 12
-    - task: role-source-reconciliation
-      baseline_score: 3
-      okb_score: 6
-      max_score: 12
-  comparison_scores:
-  display_summary: Improved measured rubric score from 14/36 to 21/36 across 3 benchmark tasks.
+  - task: empty-evidence-integrity
+    baseline_score: 1
+    okb_score: 6
+    max_score: 12
+  - task: role-prioritization-review
+    baseline_score: 4
+    okb_score: 5
+    max_score: 12
+  - task: role-source-reconciliation
+    baseline_score: 5
+    okb_score: 7
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 10/36 to 18/36 across 3 benchmark tasks.
   evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 timestamp: 2026-07-09T00:00:00Z
 ---

@@ -43,30 +43,30 @@ safety_notes:
   - Treat customer research, unreleased product strategy, design files, analytics, and roadmap plans as confidential unless the user confirms they are safe to use.
 evaluation_summary:
   status: measured
-  last_evaluated: 2026-07-09
+  last_evaluated: '2026-07-29'
   method: baseline-vs-okb-rubric
   model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
   max_score: 36
-  baseline_score: 16
-  okb_score: 21
-  absolute_lift: 5
+  baseline_score: 8
+  okb_score: 17
+  absolute_lift: 9
   task_scores:
-    - task: checkout-flow-review
-      baseline_score: 2
-      okb_score: 9
-      max_score: 12
-    - task: onboarding-prototype-plan
-      baseline_score: 7
-      okb_score: 6
-      max_score: 12
-    - task: design-brief-from-sparse-context
-      baseline_score: 7
-      okb_score: 6
-      max_score: 12
-  comparison_scores:
-  display_summary: Improved measured rubric score from 16/36 to 21/36 across 3 benchmark tasks.
+  - task: empty-evidence-integrity
+    baseline_score: 2
+    okb_score: 7
+    max_score: 12
+  - task: role-prioritization-review
+    baseline_score: 3
+    okb_score: 4
+    max_score: 12
+  - task: role-source-reconciliation
+    baseline_score: 3
+    okb_score: 6
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 8/36 to 17/36 across 3 benchmark tasks.
   evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 timestamp: 2026-07-09T00:00:00Z
 ---

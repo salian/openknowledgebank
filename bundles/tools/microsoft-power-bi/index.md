@@ -76,30 +76,30 @@ safety_notes:
   - "Do not claim access to Power BI tenants, workspaces, semantic models, reports, dashboards, dataflows, permissions, refresh history, or APIs unless the user provides evidence or authorized tool access."
 evaluation_summary:
   status: measured
-  last_evaluated: 2026-07-09
+  last_evaluated: '2026-07-29'
   method: baseline-vs-okb-rubric
   model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
   max_score: 36
-  baseline_score: 22
-  okb_score: 33
-  absolute_lift: 11
+  baseline_score: 20
+  okb_score: 28
+  absolute_lift: 8
   task_scores:
-    - task: analysis-plan-without-access
-      baseline_score: 6
-      okb_score: 12
-      max_score: 12
-    - task: configuration-risk-review
-      baseline_score: 10
-      okb_score: 10
-      max_score: 12
-    - task: metric-or-report-reconciliation
-      baseline_score: 6
-      okb_score: 11
-      max_score: 12
-  comparison_scores:
-  display_summary: Improved measured rubric score from 22/36 to 33/36 across 3 benchmark tasks.
+  - task: empty-evidence-integrity
+    baseline_score: 2
+    okb_score: 10
+    max_score: 12
+  - task: configuration-risk-review
+    baseline_score: 11
+    okb_score: 9
+    max_score: 12
+  - task: metric-or-report-reconciliation
+    baseline_score: 7
+    okb_score: 9
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 20/36 to 28/36 across 3 benchmark tasks.
   evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 evaluation_detail:
   status: blocked

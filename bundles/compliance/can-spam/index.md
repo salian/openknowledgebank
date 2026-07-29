@@ -58,6 +58,33 @@ safety_notes:
   - Do not use this bundle for spam, phishing, deceptive sender identity, deceptive subject lines, list harvesting, evasion, or abuse workflows.
   - Require explicit confirmation before sending email, changing campaigns, uploading lists, exporting contacts, changing suppression logic, or sending legal communications.
 timestamp: "2026-07-08T22:23:14Z"
+evaluation_summary:
+  status: measured
+  last_evaluated: '2026-07-29'
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 3
+  max_score: 36
+  baseline_score: 16
+  okb_score: 31
+  absolute_lift: 15
+  task_scores:
+  - task: empty-evidence-integrity
+    baseline_score: 6
+    okb_score: 10
+    max_score: 12
+  - task: source-aware-checklist
+    baseline_score: 6
+    okb_score: 9
+    max_score: 12
+  - task: conflicting-evidence-review
+    baseline_score: 4
+    okb_score: 12
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 16/36 to 31/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 ---
 
 # CAN-SPAM
