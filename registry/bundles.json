@@ -49259,6 +49259,137 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/ipo-investment-analyst-india/v4/evaluation-results/"
       }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "mlops-engineer",
+      "title": "MLOps Engineer",
+      "description": "Source-aware role bundle for ML operational planning, evidence review, deployment readiness, and qualified production handoff.",
+      "category": "roles",
+      "path": "bundles/roles/mlops-engineer",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "beta",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/mlops-engineer",
+      "download_url": "https://openknowledgebank.com/downloads/mlops-engineer.zip",
+      "updated": "2026-07-29",
+      "tags": [
+        "mlops",
+        "machine-learning",
+        "model-operations",
+        "role"
+      ],
+      "aliases": [
+        "MLOps Engineer",
+        "Machine Learning Operations Engineer",
+        "O*NET 15-2051.00"
+      ],
+      "problems_solved": [
+        "Turn model, data, deployment, and monitoring evidence into a reviewable operational plan.",
+        "Separate source-confirmed facts, supplied environment evidence, assumptions, and missing verification.",
+        "Avoid invented model, pipeline, platform, access, quality, or production claims."
+      ],
+      "industries": [
+        "Technology",
+        "Data and analytics"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "deployment-readiness gate",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "MLOps source-aware operational plan"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "MLOps source-awareness check"
+      ],
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-29",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 28,
+        "absolute_lift": 12,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 6,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 6,
+            "okb_score": 9,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 10,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 28/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "related_bundles": [
+        "data-engineer",
+        "docker"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "15-2051.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle supports planning and review; it is not model-validation, security, privacy, legal, safety, or production-change approval.",
+        "Environment-specific guidance requires current model documentation, data evidence, platform configuration, monitoring definitions, access controls, and accountable review.",
+        "Do not infer model quality, pipeline behavior, deployment state, access permissions, costs, service levels, or compliance status without evidence."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, proprietary model, training-data, credential, and regulated data in prompts and examples.",
+        "Require explicit confirmation before deploying, rolling back, retraining, changing model routing, modifying infrastructure, or exporting data.",
+        "Route production-impacting, privacy, security, safety, and compliance decisions to accountable reviewers."
+      ],
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "MLOps Engineer measured evaluation",
+        "last_evaluated": "2026-07-29",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 28,
+        "absolute_lift": 12,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/mlops-engineer",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/mlops-engineer/v1/evaluation-results/"
+      }
     }
   ]
 }
