@@ -66,18 +66,32 @@ safety_notes:
   - Do not request, expose, or publish confidential issuer evidence, nonpublic financial data, audit workpapers, legal advice, board materials, credentials, or control documentation beyond what is necessary for user-approved analysis.
   - Require explicit confirmation before contacting auditors, regulators, executives, the board, or external parties; changing controls; exporting evidence; approving certifications; submitting filings; or modifying live financial-reporting systems.
 evaluation_summary:
-  status: "measured"
-  last_evaluated: "2026-07-09"
-  method: "baseline-vs-okb-rubric"
-  model: "openai/gpt-4o-mini"
+  status: measured
+  last_evaluated: '2026-07-29'
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
-  max_score: 30
-  baseline_score: 16
-  okb_score: 29
+  max_score: 36
+  baseline_score: 11
+  okb_score: 24
   absolute_lift: 13
-  display_summary: "Improved measured rubric score from 16/30 to 29/30 across 3 benchmark tasks."
-  evidence_note: "Public listing scorecard excludes raw prompts, raw outputs, and provider response artifacts. Private artifacts are retained in the evaluation run folder."
+  task_scores:
+  - task: empty-evidence-integrity
+    baseline_score: 2
+    okb_score: 5
+    max_score: 12
+  - task: source-aware-checklist
+    baseline_score: 7
+    okb_score: 8
+    max_score: 12
+  - task: conflicting-evidence-review
+    baseline_score: 2
+    okb_score: 11
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 11/36 to 24/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 timestamp: "2026-07-09T00:00:00Z"
 ---
 

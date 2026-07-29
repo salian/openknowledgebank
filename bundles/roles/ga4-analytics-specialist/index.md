@@ -78,6 +78,33 @@ safety_notes:
   - "Do not include private property IDs, account IDs, credentials, dashboards, SQL, or user-level data in public improvements."
 okb_bundle_id: ga4-analytics-specialist
 timestamp: "2026-06-23T00:00:00Z"
+evaluation_summary:
+  status: measured
+  last_evaluated: '2026-07-29'
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 3
+  max_score: 36
+  baseline_score: 14
+  okb_score: 16
+  absolute_lift: 2
+  task_scores:
+  - task: empty-evidence-integrity
+    baseline_score: 5
+    okb_score: 3
+    max_score: 12
+  - task: role-prioritization-review
+    baseline_score: 4
+    okb_score: 4
+    max_score: 12
+  - task: role-source-reconciliation
+    baseline_score: 5
+    okb_score: 9
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 14/36 to 16/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 ---
 
 # GA4 Analytics Specialist

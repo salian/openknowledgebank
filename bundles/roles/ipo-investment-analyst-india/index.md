@@ -30,22 +30,31 @@ safety_notes: [No transaction or account actions, no personalized action verdict
 timestamp: "2026-07-14T00:00:00Z"
 evaluation_summary:
   status: measured
-  last_evaluated: "2026-07-14"
+  last_evaluated: '2026-07-29'
   method: baseline-vs-okb-rubric
   model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
   max_score: 36
   baseline_score: 9
-  okb_score: 29
-  absolute_lift: 20
+  okb_score: 24
+  absolute_lift: 15
   task_scores:
-    - {task: empty-evidence-integrity, baseline_score: 2, okb_score: 7, max_score: 12}
-    - {task: document-version-offer-reconciliation, baseline_score: 5, okb_score: 11, max_score: 12}
-    - {task: share-count-peer-valuation-reconciliation, baseline_score: 2, okb_score: 11, max_score: 12}
+  - task: empty-evidence-integrity
+    baseline_score: 2
+    okb_score: 5
+    max_score: 12
+  - task: document-version-offer-reconciliation
+    baseline_score: 5
+    okb_score: 9
+    max_score: 12
+  - task: share-count-peer-valuation-reconciliation
+    baseline_score: 2
+    okb_score: 10
+    max_score: 12
   comparison_scores: []
-  display_summary: Improved from 9/36 to 29/36 across three synthetic tasks; all five substantive response gates passed.
-  evidence_note: Measures rubric adherence on synthetic tasks, not investment performance, suitability, or prediction accuracy.
+  display_summary: Improved measured rubric score from 9/36 to 24/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 ---
 
 # IPO Investment Analyst (India)

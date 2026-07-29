@@ -70,12 +70,32 @@ safety_notes:
   - "Route legal, security, privacy, commercial, and contractual issues to the accountable reviewer."
 timestamp: "2026-07-11T00:00:00Z"
 evaluation_summary:
-  status: "blocked"
-  last_evaluated: "2026-07-11"
-  method: "baseline-vs-okb-rubric"
-  tasks_count: 0
-  display_summary: "Evaluation blocked: measured baseline and OKB-assisted outputs plus reviewer-scored aggregate results are not available for this run."
-  evidence_note: "No measured score is claimed; private run records the evaluation blocker."
+  status: measured
+  last_evaluated: '2026-07-29'
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 3
+  max_score: 36
+  baseline_score: 12
+  okb_score: 24
+  absolute_lift: 12
+  task_scores:
+  - task: empty-evidence-integrity
+    baseline_score: 3
+    okb_score: 8
+    max_score: 12
+  - task: role-prioritization-review
+    baseline_score: 6
+    okb_score: 7
+    max_score: 12
+  - task: role-source-reconciliation
+    baseline_score: 3
+    okb_score: 9
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 12/36 to 24/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 ---
 
 # Customer Success Manager (CSM)

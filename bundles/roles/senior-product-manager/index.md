@@ -45,30 +45,30 @@ safety_notes:
   - Require qualified review for regulated-domain, legal, privacy, security, accessibility, medical, financial, employment, or contractual conclusions.
 evaluation_summary:
   status: measured
-  last_evaluated: 2026-07-09
+  last_evaluated: '2026-07-29'
   method: baseline-vs-okb-rubric
   model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
   max_score: 36
-  baseline_score: 17
-  okb_score: 20
-  absolute_lift: 3
+  baseline_score: 10
+  okb_score: 19
+  absolute_lift: 9
   task_scores:
-    - task: strategy-brief-ambiguous-bet
-      baseline_score: 5
-      okb_score: 5
-      max_score: 12
-    - task: prd-review-missing-evidence
-      baseline_score: 7
-      okb_score: 8
-      max_score: 12
-    - task: metric-discrepancy-review
-      baseline_score: 5
-      okb_score: 7
-      max_score: 12
-  comparison_scores:
-  display_summary: Improved measured rubric score from 17/36 to 20/36 across 3 benchmark tasks.
+  - task: empty-evidence-integrity
+    baseline_score: 1
+    okb_score: 4
+    max_score: 12
+  - task: role-prioritization-review
+    baseline_score: 4
+    okb_score: 8
+    max_score: 12
+  - task: role-source-reconciliation
+    baseline_score: 5
+    okb_score: 7
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 10/36 to 19/36 across 3 benchmark tasks.
   evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 timestamp: 2026-07-09T00:00:00Z
 ---

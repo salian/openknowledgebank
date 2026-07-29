@@ -64,18 +64,32 @@ safety_notes:
   - "Require confirmation before changing configuration, transporting changes, posting transactions, exporting data, modifying roles, calling APIs, or changing integrations."
   - "Do not claim access to SAP tenants, Fiori apps, configuration, CDS views, APIs, tables, roles, logs, or data unless the user provides evidence or authorized tool access."
 evaluation_summary:
-  status: "measured"
-  last_evaluated: "2026-07-09"
-  method: "baseline-vs-okb-rubric"
-  model: "openai/gpt-4o-mini"
+  status: measured
+  last_evaluated: '2026-07-29'
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
-  max_score: 48
-  baseline_score: 23
-  okb_score: 42
-  absolute_lift: 19
-  display_summary: "Improved measured rubric score from 23/48 to 42/48 across 3 benchmark tasks."
-  evidence_note: "Public listing scorecard excludes raw prompts, raw outputs, and provider response artifacts. Private artifacts are retained in the evaluation run folder."
+  max_score: 36
+  baseline_score: 19
+  okb_score: 30
+  absolute_lift: 11
+  task_scores:
+  - task: empty-evidence-integrity
+    baseline_score: 2
+    okb_score: 10
+    max_score: 12
+  - task: configuration-risk-review
+    baseline_score: 10
+    okb_score: 10
+    max_score: 12
+  - task: metric-or-report-reconciliation
+    baseline_score: 7
+    okb_score: 10
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 19/36 to 30/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 okb_bundle_id: sap-s4hana
 timestamp: "2026-07-09T00:00:00Z"
 ---

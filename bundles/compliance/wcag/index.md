@@ -58,30 +58,30 @@ safety_notes:
   - Require explicit confirmation before publishing accessibility statements, submitting VPAT/ACR materials, changing live products, or sending legal/compliance communications.
 evaluation_summary:
   status: measured
-  last_evaluated: 2026-07-09
+  last_evaluated: '2026-07-29'
   method: baseline-vs-okb-rubric
   model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
   max_score: 36
   baseline_score: 14
-  okb_score: 33
-  absolute_lift: 19
+  okb_score: 30
+  absolute_lift: 16
   task_scores:
-    - task: applicability-triage
-      baseline_score: 5
-      okb_score: 11
-      max_score: 12
-    - task: source-aware-checklist
-      baseline_score: 4
-      okb_score: 11
-      max_score: 12
-    - task: conflicting-evidence-review
-      baseline_score: 5
-      okb_score: 11
-      max_score: 12
-  comparison_scores:
-  display_summary: Improved measured rubric score from 14/36 to 33/36 across 3 benchmark tasks.
+  - task: empty-evidence-integrity
+    baseline_score: 3
+    okb_score: 11
+    max_score: 12
+  - task: source-aware-checklist
+    baseline_score: 5
+    okb_score: 7
+    max_score: 12
+  - task: conflicting-evidence-review
+    baseline_score: 6
+    okb_score: 12
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 14/36 to 30/36 across 3 benchmark tasks.
   evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 evaluation_detail: {}
 timestamp: "2026-07-09T00:00:00Z"

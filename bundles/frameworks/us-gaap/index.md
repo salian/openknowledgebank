@@ -64,18 +64,32 @@ safety_notes:
   - "Require qualified professional review before filing, audit support, board approval, lender delivery, investor communication, regulator response, or accounting-policy adoption."
   - "Do not claim access to Codification, EDGAR filings, contracts, workpapers, accounting systems, or auditor files unless the user provides evidence or authorized tool access."
 evaluation_summary:
-  status: "measured"
-  last_evaluated: "2026-07-09"
-  method: "baseline-vs-okb-rubric"
-  model: "openai/gpt-4o-mini"
+  status: measured
+  last_evaluated: '2026-07-29'
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
-  max_score: 48
+  max_score: 36
   baseline_score: 16
-  okb_score: 32
-  absolute_lift: 16
-  display_summary: "Improved measured rubric score from 16/48 to 32/48 across 3 benchmark tasks."
-  evidence_note: "Public listing scorecard excludes raw prompts, raw outputs, and provider response artifacts. Private artifacts are retained in the evaluation run folder."
+  okb_score: 30
+  absolute_lift: 14
+  task_scores:
+  - task: empty-evidence-integrity
+    baseline_score: 2
+    okb_score: 9
+    max_score: 12
+  - task: artifact-quality-review
+    baseline_score: 5
+    okb_score: 11
+    max_score: 12
+  - task: implementation-change-plan
+    baseline_score: 9
+    okb_score: 10
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 16/36 to 30/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 okb_bundle_id: us-gaap
 timestamp: "2026-07-09T00:00:00Z"
 ---

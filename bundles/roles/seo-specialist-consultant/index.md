@@ -42,30 +42,30 @@ safety_notes:
   - Do not recommend spam, link buying, cloaking, doorway pages, deceptive automation, or attempts to manipulate generative AI search responses.
 evaluation_summary:
   status: measured
-  last_evaluated: 2026-07-09
+  last_evaluated: '2026-07-29'
   method: baseline-vs-okb-rubric
   model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
   max_score: 36
-  baseline_score: 14
-  okb_score: 32
+  baseline_score: 8
+  okb_score: 26
   absolute_lift: 18
   task_scores:
-    - task: traffic-drop-without-evidence
-      baseline_score: 3
-      okb_score: 10
-      max_score: 12
-    - task: content-optimization-brief
-      baseline_score: 6
-      okb_score: 10
-      max_score: 12
-    - task: tool-metric-discrepancy
-      baseline_score: 5
-      okb_score: 12
-      max_score: 12
-  comparison_scores:
-  display_summary: Improved measured rubric score from 14/36 to 32/36 across 3 benchmark tasks.
+  - task: empty-evidence-integrity
+    baseline_score: 1
+    okb_score: 8
+    max_score: 12
+  - task: role-prioritization-review
+    baseline_score: 4
+    okb_score: 9
+    max_score: 12
+  - task: role-source-reconciliation
+    baseline_score: 3
+    okb_score: 9
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 8/36 to 26/36 across 3 benchmark tasks.
   evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 timestamp: 2026-07-09T00:00:00Z
 ---

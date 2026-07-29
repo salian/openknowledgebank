@@ -43,30 +43,30 @@ safety_notes:
   - Treat customer data, roadmap plans, product strategy, sales feedback, and research notes as confidential unless the user confirms they are safe to use.
 evaluation_summary:
   status: measured
-  last_evaluated: 2026-07-09
+  last_evaluated: '2026-07-29'
   method: baseline-vs-okb-rubric
   model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
   max_score: 36
-  baseline_score: 19
-  okb_score: 25
-  absolute_lift: 6
+  baseline_score: 11
+  okb_score: 21
+  absolute_lift: 10
   task_scores:
-    - task: prd-from-support-tickets
-      baseline_score: 8
-      okb_score: 11
-      max_score: 12
-    - task: roadmap-prioritization
-      baseline_score: 5
-      okb_score: 6
-      max_score: 12
-    - task: metric-discrepancy-review
-      baseline_score: 6
-      okb_score: 8
-      max_score: 12
-  comparison_scores:
-  display_summary: Improved measured rubric score from 19/36 to 25/36 across 3 benchmark tasks.
+  - task: empty-evidence-integrity
+    baseline_score: 4
+    okb_score: 3
+    max_score: 12
+  - task: role-prioritization-review
+    baseline_score: 5
+    okb_score: 10
+    max_score: 12
+  - task: role-source-reconciliation
+    baseline_score: 2
+    okb_score: 8
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 11/36 to 21/36 across 3 benchmark tasks.
   evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 timestamp: 2026-07-09T00:00:00Z
 ---

@@ -67,30 +67,30 @@ safety_notes:
   - Do not claim access to private systems, customer data, workspaces, documents, dashboards, roadmaps, repositories, accounts, or source records unless the user provides evidence or authorized tool access.
 evaluation_summary:
   status: measured
-  last_evaluated: 2026-07-09
+  last_evaluated: '2026-07-29'
   method: baseline-vs-okb-rubric
   model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
   max_score: 36
-  baseline_score: 23
-  okb_score: 31
-  absolute_lift: 8
+  baseline_score: 17
+  okb_score: 29
+  absolute_lift: 12
   task_scores:
-    - task: framework-fit-review
-      baseline_score: 6
-      okb_score: 10
-      max_score: 12
-    - task: artifact-quality-review
-      baseline_score: 9
-      okb_score: 10
-      max_score: 12
-    - task: implementation-change-plan
-      baseline_score: 8
-      okb_score: 11
-      max_score: 12
-  comparison_scores:
-  display_summary: Improved measured rubric score from 23/36 to 31/36 across 3 benchmark tasks.
+  - task: empty-evidence-integrity
+    baseline_score: 2
+    okb_score: 9
+    max_score: 12
+  - task: artifact-quality-review
+    baseline_score: 7
+    okb_score: 10
+    max_score: 12
+  - task: implementation-change-plan
+    baseline_score: 8
+    okb_score: 10
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 17/36 to 29/36 across 3 benchmark tasks.
   evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 okb_bundle_id: kano-model
 timestamp: "2026-07-09T00:00:00Z"

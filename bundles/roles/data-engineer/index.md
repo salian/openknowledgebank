@@ -71,12 +71,32 @@ safety_notes:
   - "Route privacy, security, compliance, and production-impacting changes to accountable reviewers."
 timestamp: "2026-07-11T00:00:00Z"
 evaluation_summary:
-  status: "blocked"
-  last_evaluated: "2026-07-11"
-  method: "baseline-vs-okb-rubric"
-  tasks_count: 0
-  display_summary: "Evaluation blocked: measured baseline and OKB-assisted outputs plus reviewer-scored aggregate results are not available for this run."
-  evidence_note: "No measured score is claimed; private run records the evaluation blocker."
+  status: measured
+  last_evaluated: '2026-07-29'
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 3
+  max_score: 36
+  baseline_score: 13
+  okb_score: 26
+  absolute_lift: 13
+  task_scores:
+  - task: empty-evidence-integrity
+    baseline_score: 4
+    okb_score: 8
+    max_score: 12
+  - task: role-prioritization-review
+    baseline_score: 3
+    okb_score: 10
+    max_score: 12
+  - task: role-source-reconciliation
+    baseline_score: 6
+    okb_score: 8
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 13/36 to 26/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 ---
 
 # Data Engineer

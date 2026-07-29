@@ -59,6 +59,33 @@ safety_notes:
   - Do not request, expose, or publish personal information beyond what is necessary for the user-approved analysis.
   - Require explicit confirmation before submitting notices, contacting regulators, changing privacy notices, changing contracts, sending legal communications, exporting personal information, or modifying live privacy controls.
 timestamp: "2026-07-08T21:51:32Z"
+evaluation_summary:
+  status: measured
+  last_evaluated: '2026-07-29'
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
+  temperature: 0.2
+  tasks_count: 3
+  max_score: 36
+  baseline_score: 18
+  okb_score: 29
+  absolute_lift: 11
+  task_scores:
+  - task: empty-evidence-integrity
+    baseline_score: 7
+    okb_score: 11
+    max_score: 12
+  - task: source-aware-checklist
+    baseline_score: 7
+    okb_score: 8
+    max_score: 12
+  - task: conflicting-evidence-review
+    baseline_score: 4
+    okb_score: 10
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 18/36 to 29/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 ---
 
 # CCPA

@@ -71,33 +71,32 @@ safety_notes:
   - "Route final reliance to qualified counsel, compliance staff, auditors, clinicians, safety professionals, security leadership, tax professionals, or management as appropriate."
 timestamp: "2026-07-10T00:00:00Z"
 evaluation_summary:
-  status: "measured"
-  last_evaluated: "2026-07-10"
-  method: "baseline-vs-okb-rubric"
-  model: "openai/gpt-4o-mini"
+  status: measured
+  last_evaluated: '2026-07-29'
+  method: baseline-vs-okb-rubric
+  model: openai/gpt-4o-mini
   temperature: 0.2
   tasks_count: 3
   max_score: 36
-  baseline_score: 20
-  okb_score: 25
-  absolute_lift: 5
+  baseline_score: 21
+  okb_score: 27
+  absolute_lift: 6
   task_scores:
-    - task: "applicability-triage"
-      baseline_score: 6
-      okb_score: 9
-      max_score: 12
-    - task: "source-aware-checklist"
-      baseline_score: 8
-      okb_score: 8
-      max_score: 12
-    - task: "conflicting-evidence-review"
-      baseline_score: 6
-      okb_score: 8
-      max_score: 12
-  comparison_scores:
-    []
-  display_summary: "Improved measured rubric score from 20/36 to 25/36 across 3 benchmark tasks."
-  evidence_note: "Public listing scorecard excludes raw prompts and private run artifacts."
+  - task: empty-evidence-integrity
+    baseline_score: 5
+    okb_score: 8
+    max_score: 12
+  - task: source-aware-checklist
+    baseline_score: 8
+    okb_score: 10
+    max_score: 12
+  - task: conflicting-evidence-review
+    baseline_score: 8
+    okb_score: 9
+    max_score: 12
+  comparison_scores: []
+  display_summary: Improved measured rubric score from 21/36 to 27/36 across 3 benchmark tasks.
+  evidence_note: Public listing scorecard excludes raw prompts and private run artifacts.
 ---
 # Foreign Branch Report of Condition (FFIEC 030 / 030S)
 
