@@ -49663,6 +49663,144 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/paralegal-legal-assistant/v1/evaluation-results/"
       }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "web-analytics-marketing-data-specialist",
+      "title": "Web Analytics / Marketing Data Specialist",
+      "description": "Source-aware role bundle for measurement planning, implementation review, web-data reconciliation, KPI analysis, and decision-ready analytics briefs.",
+      "category": "roles",
+      "path": "bundles/roles/web-analytics-marketing-data-specialist",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/web-analytics-marketing-data-specialist",
+      "download_url": "https://openknowledgebank.com/downloads/web-analytics-marketing-data-specialist.zip",
+      "tags": [
+        "web-analytics",
+        "marketing-data",
+        "measurement",
+        "role"
+      ],
+      "aliases": [
+        "Web Analytics Specialist",
+        "Marketing Data Specialist"
+      ],
+      "problems_solved": [
+        "Plan analytics without pretending to access an account.",
+        "Reconcile conflicting web metrics and definitions.",
+        "Produce decision-ready analysis with explicit instrumentation gaps."
+      ],
+      "industries": [
+        "Marketing",
+        "Digital products"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "measurement-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Web analytics measurement and reconciliation brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Web Analytics / Marketing Data Specialist source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "ccpa",
+        "gdpr",
+        "mixpanel",
+        "tableau"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "13-1161.01"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2431.4"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/13-1161.01"
+      ],
+      "limitations": [
+        "Environment-specific analysis requires current implementation, consent, schema, filter, identity, and export evidence.",
+        "This bundle does not establish legal privacy compliance.",
+        "Do not infer events, metrics, traffic, conversions, attribution, or configuration state."
+      ],
+      "safety_notes": [
+        "Minimize identifiers and customer-level data.",
+        "Require confirmation before changing tags, consent settings, destinations, or production analytics configuration.",
+        "Route privacy and compliance decisions to accountable reviewers."
+      ],
+      "timestamp": "2026-07-29T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-29",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 11,
+        "okb_score": 34,
+        "absolute_lift": 23,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 11/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-29",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Web Analytics / Marketing Data Specialist measured evaluation",
+        "last_evaluated": "2026-07-29",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 11,
+        "okb_score": 34,
+        "absolute_lift": 23,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/web-analytics-marketing-data-specialist",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/web-analytics-marketing-data-specialist/v1/evaluation-results/"
+      }
     }
   ]
 }
