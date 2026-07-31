@@ -57882,6 +57882,141 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/adobe-acrobat-document-cloud/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "jenkins",
+      "title": "Jenkins",
+      "description": "Source-aware tool bundle for Jenkins controller, agent, job, pipeline, plugin, credential, build, release, and controlled automation briefs.",
+      "category": "tools",
+      "path": "bundles/tools/jenkins",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/jenkins",
+      "download_url": "https://openknowledgebank.com/downloads/jenkins.zip",
+      "tags": [
+        "jenkins",
+        "ci-cd",
+        "automation",
+        "tool"
+      ],
+      "aliases": [
+        "Jenkins"
+      ],
+      "problems_solved": [
+        "Prepare a jenkins pipeline and change brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce review-ready decisions with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Software",
+        "Information technology"
+      ],
+      "tools": [
+        "Jenkins"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "continuous-integration-and-delivery-automation evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Jenkins pipeline and change brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Jenkins source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "applications-programmer",
+        "devops-engineer",
+        "ict-system-developer",
+        "release-build-engineer",
+        "software-developer-software-engineer",
+        "software-developers-and-analysts-not-elsewhere-classified"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.jenkins.io/doc/"
+      ],
+      "limitations": [
+        "Use official Jenkins sources for general context; local continuous integration and delivery automation, configuration, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for Jenkins version and controller scope, agents, labels, executors, and node state, job, pipeline, multibranch, and Jenkinsfile definitions, plugins, dependencies, and compatibility evidence, credentials references and permission boundaries, build parameters, logs, artifacts, and test results, and environment, deployment, rollback, and approval evidence.",
+        "Do not infer controller state, agents, pipeline definition, plugins, credentials, build results, artifacts, deployment state."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, and other sensitive data.",
+        "Require explicit confirmation before running jobs, changing pipelines, plugins, credentials, permissions, agents, artifacts, releases, or deployments.",
+        "Route legal, privacy, security, compliance, financial, employment, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 36,
+        "absolute_lift": 20,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Jenkins measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 36,
+        "absolute_lift": 20,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/jenkins",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/jenkins/v1/evaluation-results/"
+      }
     }
   ]
 }
