@@ -74223,6 +74223,138 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, actionability, and named authoritative source use.",
         "private_artifacts": "research/bundle-runs/conversation-conversational-ux-designer/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "design-systems-designer",
+      "title": "Design Systems Designer",
+      "description": "Source-aware role bundle for design-system component, token, governance, adoption, and release planning, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/design-systems-designer",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/design-systems-designer",
+      "download_url": "https://openknowledgebank.com/downloads/design-systems-designer.zip",
+      "tags": [
+        "design-systems-designer",
+        "design",
+        "role"
+      ],
+      "aliases": [
+        "Design Systems Designer"
+      ],
+      "problems_solved": [
+        "Prepare a design system change brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Product design",
+        "Digital products"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "design-system component, token, governance, adoption, and release planning review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "design system change brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Design Systems Designer source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "figma",
+        "github",
+        "wcag"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "15-1255.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2166"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/15-1255.00"
+      ],
+      "limitations": [
+        "Use the cited authoritative sources for general role, standards, or regulatory context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for products, platforms, users, tokens, components, variants, states, and code-design versions; governance, ownership, accessibility criteria, usage, adoption, tests, release, migration, and deprecation evidence.",
+        "Do not infer component behavior, implementation parity, adoption, accessibility, test result, or release readiness."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, and other sensitive data.",
+        "Require explicit confirmation before actions that publish a package, make a breaking change, deprecate an interface, or claim implementation parity or conformance.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 36,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 10,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 21/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Design Systems Designer measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 36,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/design-systems-designer",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, actionability, and named authoritative source use.",
+        "private_artifacts": "research/bundle-runs/design-systems-designer/v1/evaluation-results/"
+      }
     }
   ]
 }
