@@ -69001,6 +69001,141 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/art-director/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "compensation-benefits-manager",
+      "title": "Compensation & Benefits Manager",
+      "description": "Source-aware role bundle for compensation and benefits management, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/compensation-benefits-manager",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/compensation-benefits-manager",
+      "download_url": "https://openknowledgebank.com/downloads/compensation-benefits-manager.zip",
+      "tags": [
+        "compensation-benefits-manager",
+        "compensation",
+        "role"
+      ],
+      "aliases": [
+        "Compensation & Benefits Manager"
+      ],
+      "problems_solved": [
+        "Prepare a total rewards decision brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Human resources",
+        "Total rewards"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "compensation and benefits management review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "total rewards decision brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Compensation & Benefits Manager source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "erisa-plan-reporting-disclosure",
+        "flsa-minimum-wage-overtime",
+        "hipaa-eligibility-claim-status-operating-rules",
+        "sap-successfactors",
+        "workday-hcm"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "11-3111.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "1212"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/11-3111.00",
+        "https://www.eeoc.gov/laws/guidance/section-10-compensation-discrimination"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general compensation and benefits management context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for workforce scope, jurisdictions, employee populations, and decision rights; current job architecture, pay structures, benefits plans, eligibility, and policies; market surveys, effective dates, peer groups, and methodology; employee-level data, protected characteristics, privacy, and access; equity analyses, cost models, legal requirements, plan documents, approvals, and communications.",
+        "Do not infer employee eligibility, market position, pay equity, discriminatory effect, benefit entitlement, legal compliance, cost, or approval."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, and other sensitive data.",
+        "Require explicit confirmation before changing pay or benefits, accessing identifiable employee data, communicating decisions, amending plans, or making legal or fiduciary conclusions.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Compensation & Benefits Manager measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/compensation-benefits-manager",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/compensation-benefits-manager/v1/evaluation-results/"
+      }
     }
   ]
 }
