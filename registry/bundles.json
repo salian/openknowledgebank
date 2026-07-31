@@ -64582,6 +64582,134 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/board-executive-product-update/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "go-to-market-plan",
+      "title": "Go-to-Market Plan",
+      "description": "Source-aware deliverable bundle for go-to-market planning across market, segment, positioning, offer, pricing, channels, sales, launch, operations, economics, measurement, and risk.",
+      "category": "deliverables",
+      "path": "bundles/deliverables/go-to-market-plan",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/go-to-market-plan",
+      "download_url": "https://openknowledgebank.com/downloads/go-to-market-plan.zip",
+      "tags": [
+        "go-to-market",
+        "product-launch",
+        "marketing-strategy",
+        "deliverable"
+      ],
+      "aliases": [
+        "Go-to-Market Plan"
+      ],
+      "problems_solved": [
+        "Prepare a go-to-market plan without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Marketing",
+        "Product management",
+        "Sales"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "product launch and market execution planning review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "go-to-market plan"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Go-to-Market Plan source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://productschool.com/blog/product-management-2/go-to-market-strategies-product-managers",
+        "https://openstax.org/books/principles-marketing/pages/2-2-the-marketing-plan"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general product launch and market execution planning context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for product, market, problem, segment, and research evidence, positioning, value proposition, differentiation, claims, and reasons to believe, offer, packaging, pricing, terms, and unit economics, channels, partners, sales process, enablement, and customer success readiness, launch scope, timeline, dependencies, supply, support, legal, privacy, and localization, and budget, forecast assumptions, measures, owners, risks, stop conditions, and approvals.",
+        "Do not infer market demand, segment fit, positioning, price response, channel readiness, and launch outcome."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, and other sensitive data.",
+        "Require explicit confirmation before launching, publishing claims, changing price or terms, contacting customers, committing spend or forecasts, or entering markets without accountable approval.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-quality-review",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Go-to-Market Plan measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/deliverables/go-to-market-plan",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/go-to-market-plan/v1/evaluation-results/"
+      }
     }
   ]
 }
