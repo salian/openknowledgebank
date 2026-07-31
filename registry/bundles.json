@@ -67791,6 +67791,142 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/treasury-analyst-corporate-treasurer/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "content-creator-social-media-producer",
+      "title": "Content Creator / Social Media Producer",
+      "description": "Source-aware role bundle for digital content creation and social production, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/content-creator-social-media-producer",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/content-creator-social-media-producer",
+      "download_url": "https://openknowledgebank.com/downloads/content-creator-social-media-producer.zip",
+      "tags": [
+        "content-creator-social-media-producer",
+        "digital",
+        "role"
+      ],
+      "aliases": [
+        "Content Creator / Social Media Producer"
+      ],
+      "problems_solved": [
+        "Prepare a content production brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Media",
+        "Marketing"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "digital content creation and social production review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "content production brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Content Creator / Social Media Producer source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "adobe-photoshop",
+        "adobe-premiere-pro",
+        "content-calendar",
+        "coppa",
+        "ftc-endorsement-and-review-integrity-rules"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "27-3099.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "http://data.europa.eu/esco/occupation/social-media-content-creator"
+        ]
+      },
+      "source_urls": [
+        "https://www.abs.gov.au/statistics/classifications/osca-occupation-standard-classification-australia/2024-version-1-0/browse-classification/2/23/231/2311/231133",
+        "https://www.abs.gov.au/statistics/classifications/occupation-standard-classification-australia/2024-version-1-0/browse-classification/2/23/231/2311/231133",
+        "https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general digital content creation and social production context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for objective, audience, channel, jurisdiction, and success criteria; creative brief, script, claims, and approvals; source assets, copyright, licenses, releases, and usage rights; sponsorships, material connections, disclosure requirements, and brand safety; accessibility, schedule, distribution, budget, and measurement definitions.",
+        "Do not infer asset rights, subject consent, claim substantiation, disclosure sufficiency, audience response, or content performance."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, and other sensitive data.",
+        "Require explicit confirmation before publishing content, using unclear-rights assets, targeting minors, entering sponsorships, or committing spend.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 10,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Content Creator / Social Media Producer measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/content-creator-social-media-producer",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/content-creator-social-media-producer/v1/evaluation-results/"
+      }
     }
   ]
 }
