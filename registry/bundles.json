@@ -83564,6 +83564,132 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/nine-box-grid/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "aarrr-pirate-metrics",
+      "title": "AARRR Pirate Metrics",
+      "description": "Source-aware framework bundle for acquisition, activation, retention, referral, revenue, event definition, cohort, attribution, funnel, experiment, and growth review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/aarrr-pirate-metrics",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/aarrr-pirate-metrics",
+      "download_url": "https://openknowledgebank.com/downloads/aarrr-pirate-metrics.zip",
+      "tags": [
+        "aarrr-pirate-metrics",
+        "framework",
+        "source-aware"
+      ],
+      "aliases": [
+        "AARRR Pirate Metrics"
+      ],
+      "problems_solved": [
+        "Prepare a aarrr pirate metrics review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "AARRR Pirate Metrics",
+        "source-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "AARRR Pirate Metrics review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "AARRR Pirate Metrics source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "growth-marketing-manager"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.slideshare.net/dmc500hats/startup-metrics-for-pirates-long-version"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general AARRR Pirate Metrics guidance; local facts, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for source interpretation and local framework variant, product and user scope, event taxonomy and instrumentation, identity and deduplication, acquisition source and attribution, activation definition, cohort and retention window, referral event, revenue definition and refunds, filters and exclusions, source queries, baselines, experiments, privacy, owner, and approvals.",
+        "Do not infer stage definition, event accuracy, identity, cohort retention, attribution, referral, revenue, causal growth, or product outcome."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that change tracking or metric definitions, launch experiments or campaigns, contact users, collect or export personal data, spend budget, publish metrics, or claim causal growth.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-08-01T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 13,
+        "okb_score": 35,
+        "absolute_lift": 22,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 13/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "AARRR Pirate Metrics measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 13,
+        "okb_score": 35,
+        "absolute_lift": 22,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/aarrr-pirate-metrics",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/aarrr-pirate-metrics/v1/evaluation-results/"
+      }
     }
   ]
 }
