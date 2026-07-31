@@ -84449,6 +84449,132 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/sales-pipeline-report/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "blog-articles",
+      "title": "Blog Posts and Long-Form Articles",
+      "description": "Source-aware deliverable bundle for audience, purpose, claim, source, outline, headline, accessibility, originality, voice, disclosure, review, publication, and measurement review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "deliverables",
+      "path": "bundles/deliverables/blog-articles",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/blog-articles",
+      "download_url": "https://openknowledgebank.com/downloads/blog-articles.zip",
+      "tags": [
+        "blog-articles",
+        "deliverable",
+        "source-aware"
+      ],
+      "aliases": [
+        "Blog Posts and Long-Form Articles"
+      ],
+      "problems_solved": [
+        "Prepare a blog posts and long-form articles review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Blog Posts and Long-Form Articles review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Blog Posts and Long-Form Articles source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "content-marketing-manager-content-strategist"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://developers.google.com/style",
+        "https://developers.google.com/style/headings"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general Blog Posts and Long-Form Articles guidance; local facts, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for commissioning brief and audience, publication and brand standards, topic and search intent, primary sources and claim ledger, interviews and consent, product or legal substantiation, outline and draft, originality and rights checks, accessibility and inclusive-language review, author and editor, disclosures, links, publication approval, distribution plan, and metric definitions.",
+        "Do not infer audience need, claim truth, source authority, authorship, originality, rights, endorsement, publication approval, search performance, or business impact."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that publish or distribute content, use names, quotes, images, or copyrighted material, make product, legal, health, financial, or performance claims, contact sources, spend promotion budget, or alter live pages.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-08-01T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 34,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-quality-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Blog Posts and Long-Form Articles measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 34,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/deliverables/blog-articles",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/blog-articles/v1/evaluation-results/"
+      }
     }
   ]
 }
