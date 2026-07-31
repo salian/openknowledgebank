@@ -58815,6 +58815,138 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/miro/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "sap-successfactors",
+      "title": "SAP SuccessFactors",
+      "description": "Source-aware tool bundle for SAP SuccessFactors tenant, module, employee, workflow, integration, permission, reporting, and controlled HR-system briefs.",
+      "category": "tools",
+      "path": "bundles/tools/sap-successfactors",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/sap-successfactors",
+      "download_url": "https://openknowledgebank.com/downloads/sap-successfactors.zip",
+      "tags": [
+        "sap-successfactors",
+        "hris",
+        "human-capital-management",
+        "tool"
+      ],
+      "aliases": [
+        "SAP SuccessFactors"
+      ],
+      "problems_solved": [
+        "Prepare a successfactors analysis and change brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce review-ready decisions with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Human resources",
+        "Enterprise software"
+      ],
+      "tools": [
+        "SAP SuccessFactors"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "human-capital-management-system-analysis-and-administration evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "SuccessFactors analysis and change brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "SAP SuccessFactors source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "hr-business-partner-hrbp",
+        "human-resources-generalist-hr-specialist",
+        "human-resources-manager"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM"
+      ],
+      "limitations": [
+        "Use official SAP SuccessFactors sources for general context; local human-capital management system analysis and administration, configuration, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for tenant, data center, release, and module scope, business configuration and effective dates, OData metadata, entities, fields, and API version, role-based permissions and target populations, workflow, rule, event, and integration configuration, employee, compensation, recruiting, or learning data definitions, and audit, test, privacy, and approval evidence.",
+        "Do not infer tenant configuration, module availability, entities, fields, permissions, workflow state, employee data, integration state."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, and other sensitive data.",
+        "Require explicit confirmation before viewing or exporting restricted HR data, changing records, permissions, workflows, rules, integrations, compensation, recruiting, or employee status.",
+        "Route legal, privacy, security, compliance, financial, employment, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 10,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "SAP SuccessFactors measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/sap-successfactors",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/sap-successfactors/v1/evaluation-results/"
+      }
     }
   ]
 }
