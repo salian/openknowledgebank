@@ -70749,6 +70749,140 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/bookkeeper-accounting-clerk/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "contact-center-call-center-agent",
+      "title": "Contact Center / Call Center Agent",
+      "description": "Source-aware role bundle for contact-center customer service, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/contact-center-call-center-agent",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/contact-center-call-center-agent",
+      "download_url": "https://openknowledgebank.com/downloads/contact-center-call-center-agent.zip",
+      "tags": [
+        "contact-center-call-center-agent",
+        "contact-center",
+        "role"
+      ],
+      "aliases": [
+        "Contact Center / Call Center Agent"
+      ],
+      "problems_solved": [
+        "Prepare a contact-center case brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Customer service",
+        "Contact centers"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "contact-center customer service review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "contact-center case brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Contact Center / Call Center Agent source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "gdpr",
+        "hipaa",
+        "salesforce-service-cloud",
+        "tcpa",
+        "zendesk"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "43-4051.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "4222"
+        ]
+      },
+      "source_urls": [
+        "https://ec.europa.eu/esco/lod/isco/C4222"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general contact-center customer service context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for customer identity and verification status, channel, consent, language, accessibility, and jurisdiction; issue, product, account, entitlement, interaction history, and case ownership; current knowledge articles, policies, scripts, offers, and effective dates; personal data, authentication, recording, retention, and disclosure rules; resolution options, escalation criteria, commitments, case notes, and quality review.",
+        "Do not infer customer identity, consent, entitlement, account state, policy applicability, resolution, sentiment, or promised outcome."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, and other sensitive data.",
+        "Require explicit confirmation before accessing accounts, changing records, issuing credits, making outbound contact, recording calls, or promising resolution.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Contact Center / Call Center Agent measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/contact-center-call-center-agent",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/contact-center-call-center-agent/v1/evaluation-results/"
+      }
     }
   ]
 }
