@@ -77924,6 +77924,136 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/android-studio/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "azure-data-factory",
+      "title": "Azure Data Factory",
+      "description": "Source-aware tool bundle for Azure Data Factory pipeline, data movement, integration, monitoring, and deployment review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/azure-data-factory",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/azure-data-factory",
+      "download_url": "https://openknowledgebank.com/downloads/azure-data-factory.zip",
+      "tags": [
+        "azure-data-factory",
+        "azure",
+        "tool"
+      ],
+      "aliases": [
+        "Azure Data Factory"
+      ],
+      "problems_solved": [
+        "Prepare a Azure Data Factory change brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "Azure Data Factory"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "Azure Data Factory pipeline, data movement, integration, monitoring, and deployment review review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Azure Data Factory change brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Azure Data Factory source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "business-intelligence-bi-developer"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://azure.microsoft.com/en-us/products/data-factory/",
+        "https://learn.microsoft.com/en-us/azure/data-factory/concepts-linked-services",
+        "https://learn.microsoft.com/en-us/azure/data-factory/monitor-data-factory"
+      ],
+      "limitations": [
+        "Use the listed authoritative sources for general role or tool behavior; local configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for tenant, subscription, resource group, factory, region, environment, and API version; pipeline, activity, dataset, linked service, integration runtime, trigger, parameter, expression, dependency, source and sink contracts; identity, RBAC, networking, credentials, Key Vault, data classification, Git and deployment state, tests, run history, monitoring, alerts, costs, rollback, and approvals.",
+        "Do not infer connection validity, trigger behavior, pipeline outcome, data completeness, monitoring state, cost, production configuration, or root cause."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that publish a factory change, create linked services, expose credentials, start or stop triggers, run pipelines, move or overwrite data, or deploy across environments.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 11,
+        "okb_score": 36,
+        "absolute_lift": 25,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 11/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Azure Data Factory measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 11,
+        "okb_score": 36,
+        "absolute_lift": 25,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/azure-data-factory",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/azure-data-factory/v1/evaluation-results/"
+      }
     }
   ]
 }
