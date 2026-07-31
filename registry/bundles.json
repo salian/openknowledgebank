@@ -80634,6 +80634,134 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/github-projects/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "gitlab",
+      "title": "GitLab",
+      "description": "Source-aware tool bundle for project, repository, merge request, CI/CD, environment, issue, milestone, permission, security, and audit review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/gitlab",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/gitlab",
+      "download_url": "https://openknowledgebank.com/downloads/gitlab.zip",
+      "tags": [
+        "gitlab",
+        "tool",
+        "source-aware"
+      ],
+      "aliases": [
+        "GitLab"
+      ],
+      "problems_solved": [
+        "Prepare a gitlab review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "GitLab"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "GitLab application matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "GitLab review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "GitLab source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://docs.gitlab.com/",
+        "https://docs.gitlab.com/api/rest/",
+        "https://docs.gitlab.com/user/project/repository/branches/protection_rules/"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general GitLab guidance; local facts, configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for GitLab offering and version, namespace and project, repository and branches, protected-branch rules, merge request and approvals, CI configuration and runners, variables, environments, issues and milestones, permissions, audit events, tests, and rollback.",
+        "Do not infer branch or merge-request state, pipeline result, deployment status, issue state, permission, vulnerability status, or release outcome."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that push or merge code, approve merge requests, run pipelines, deploy environments, change protected branches, runners, variables, permissions, issues, milestones, or secrets.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 36,
+        "absolute_lift": 22,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "GitLab measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 36,
+        "absolute_lift": 22,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/gitlab",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/gitlab/v1/evaluation-results/"
+      }
     }
   ]
 }
