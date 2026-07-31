@@ -71813,6 +71813,140 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/sourcer-talent-sourcer/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "technical-writer",
+      "title": "Technical Writer",
+      "description": "Source-aware role bundle for technical documentation, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/technical-writer",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/technical-writer",
+      "download_url": "https://openknowledgebank.com/downloads/technical-writer.zip",
+      "tags": [
+        "technical-writer",
+        "technical",
+        "role"
+      ],
+      "aliases": [
+        "Technical Writer"
+      ],
+      "problems_solved": [
+        "Prepare a technical documentation brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technical communication",
+        "Software"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "technical documentation review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "technical documentation brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Technical Writer source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "api-documentation",
+        "confluence",
+        "fda-qmsr-13485",
+        "wcag"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "27-3042.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2642.4"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/27-3042.00",
+        "https://www.section508.gov/develop/technical-guides/"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general technical documentation context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for audience, tasks, product, versions, platforms, and documentation objective; authoritative requirements, code, APIs, UI, configurations, and subject-matter owners; tested procedures, prerequisites, permissions, examples, expected results, and failure states; terminology, style, localization, accessibility, security, legal, and licensing constraints; review, version control, publication, maintenance, analytics, and feedback.",
+        "Do not infer product behavior, command result, API contract, procedure safety, version applicability, content accuracy, or publication approval."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, and other sensitive data.",
+        "Require explicit confirmation before running consequential commands, publishing documentation, exposing secrets, making compliance claims, or changing product behavior.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Technical Writer measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/technical-writer",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/technical-writer/v1/evaluation-results/"
+      }
     }
   ]
 }
