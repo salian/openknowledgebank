@@ -73824,6 +73824,140 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, actionability, and named authoritative source use.",
         "private_artifacts": "research/bundle-runs/game-developer/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "investor-relations-manager",
+      "title": "Investor Relations Manager",
+      "description": "Source-aware role bundle for investor communications, disclosure coordination, and market-feedback analysis, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/investor-relations-manager",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/investor-relations-manager",
+      "download_url": "https://openknowledgebank.com/downloads/investor-relations-manager.zip",
+      "tags": [
+        "investor-relations-manager",
+        "investor",
+        "role"
+      ],
+      "aliases": [
+        "Investor Relations Manager"
+      ],
+      "problems_solved": [
+        "Prepare a investor communications review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Finance",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "investor communications, disclosure coordination, and market-feedback analysis review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "investor communications review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Investor Relations Manager source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "ifrs",
+        "sec-disclosure",
+        "sox",
+        "us-gaap"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "11-2032.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2412.5.4"
+        ]
+      },
+      "source_urls": [
+        "https://esco.ec.europa.eu/en/classification/occupation",
+        "https://www.sec.gov/rules-regulations/2000/08/selective-disclosure-insider-trading"
+      ],
+      "limitations": [
+        "Use the cited authoritative sources for general role, standards, or regulatory context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for issuer, reporting period, public filings, current disclosures, source dates, and approved financial data; materiality and material-nonpublic-information assessment; Regulation FD policy; earnings materials, consensus provenance, claims, approvals, and release timing.",
+        "Do not infer materiality, MNPI status, financial result, guidance, consensus, or market reaction."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, and other sensitive data.",
+        "Require explicit confirmation before actions that selectively disclose information, publish a filing or release, issue guidance, or contact investors or analysts.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 36,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 2,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 10,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Investor Relations Manager measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 36,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/investor-relations-manager",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, actionability, and named authoritative source use.",
+        "private_artifacts": "research/bundle-runs/investor-relations-manager/v1/evaluation-results/"
+      }
     }
   ]
 }
