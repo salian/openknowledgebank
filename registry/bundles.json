@@ -77147,6 +77147,137 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/openai-chatgpt/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "jetbrains-ides",
+      "title": "JetBrains IDEs",
+      "description": "Source-aware tool bundle for JetBrains IDE project trust, build, plugin, run configuration, and team settings review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/jetbrains-ides",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/jetbrains-ides",
+      "download_url": "https://openknowledgebank.com/downloads/jetbrains-ides.zip",
+      "tags": [
+        "jetbrains-ides",
+        "jetbrains",
+        "tool"
+      ],
+      "aliases": [
+        "JetBrains IDEs"
+      ],
+      "problems_solved": [
+        "Prepare a JetBrains IDE configuration brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "JetBrains IDEs"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "JetBrains IDE project trust, build, plugin, run configuration, and team settings review review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "JetBrains IDE configuration brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "JetBrains IDEs source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "applications-programmer",
+        "software-developer-software-engineer"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.jetbrains.com/ides/",
+        "https://www.jetbrains.com/help/idea/project-security.html",
+        "https://www.jetbrains.com/help/idea/managing-plugins.html"
+      ],
+      "limitations": [
+        "Use the listed authoritative sources for general role or tool behavior; local configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for JetBrains product, edition, version, license, project source and trust status; language, SDK, build tool, dependencies, indexes, plugins, versions, project and user settings; run and debug configurations, arguments, environment variables, secrets, VCS state, inspections, tests, build outputs, remote development, team settings, and approvals.",
+        "Do not infer project safety, dependency resolution, plugin trust, build or test result, runtime behavior, configuration parity, or code correctness."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that trust a project, resolve dependencies, execute code or scripts, install or update plugins, expose environment variables, change shared settings, or commit and push code.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 11,
+        "okb_score": 34,
+        "absolute_lift": 23,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 11/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "JetBrains IDEs measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 11,
+        "okb_score": 34,
+        "absolute_lift": 23,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/jetbrains-ides",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/jetbrains-ides/v1/evaluation-results/"
+      }
     }
   ]
 }
