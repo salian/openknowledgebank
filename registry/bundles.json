@@ -52011,6 +52011,145 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/software-developer-software-engineer/v1/evaluation-results/"
       }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "software-developers-and-analysts-not-elsewhere-classified",
+      "title": "Software Developers and Analysts Not Elsewhere Classified",
+      "description": "Source-aware role bundle for atypical software development and analysis work that does not fit a narrower taxonomy, with explicit scope classification and review boundaries.",
+      "category": "roles",
+      "path": "bundles/roles/software-developers-and-analysts-not-elsewhere-classified",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/software-developers-and-analysts-not-elsewhere-classified",
+      "download_url": "https://openknowledgebank.com/downloads/software-developers-and-analysts-not-elsewhere-classified.zip",
+      "tags": [
+        "software-analysis",
+        "software-development",
+        "taxonomy",
+        "role"
+      ],
+      "aliases": [
+        "Software Developers and Analysts NEC",
+        "Software Specialists NEC"
+      ],
+      "problems_solved": [
+        "Handle residual software roles without pretending the title defines the work.",
+        "Classify scope before implementation.",
+        "Route high-risk or specialist work explicitly."
+      ],
+      "industries": [
+        "Software",
+        "Information technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "scope-and-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Software role classification and implementation brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Software Developers and Analysts Not Elsewhere Classified source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "agile",
+        "confluence",
+        "docker",
+        "jira",
+        "scrum"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "15-1299.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2519"
+        ]
+      },
+      "source_urls": [
+        "https://esco.ec.europa.eu/en/classification/occupation?uri=http://data.europa.eu/esco/isco/C2519"
+      ],
+      "limitations": [
+        "This residual classification does not define a specific software discipline or grant expertise.",
+        "Task-specific work requires current scope, system, code, data, test, and owner evidence.",
+        "Do not infer responsibilities, technology, behavior, or production state."
+      ],
+      "safety_notes": [
+        "Protect secrets, credentials, personal data, and proprietary source.",
+        "Require confirmation before changes, migrations, releases, or production actions.",
+        "Route security, privacy, regulated, safety-critical, and domain-specialist work appropriately."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 32,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 2,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 6,
+            "okb_score": 10,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 32/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Software Developers and Analysts Not Elsewhere Classified measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 32,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/software-developers-and-analysts-not-elsewhere-classified",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/software-developers-and-analysts-not-elsewhere-classified/v1/evaluation-results/"
+      }
     }
   ]
 }
