@@ -66706,6 +66706,137 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/influencer-marketing-manager/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "lawyer-attorney",
+      "title": "Lawyer / Attorney",
+      "description": "Source-aware role bundle for licensed legal research, analysis, and drafting support, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/lawyer-attorney",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/lawyer-attorney",
+      "download_url": "https://openknowledgebank.com/downloads/lawyer-attorney.zip",
+      "tags": [
+        "lawyer-attorney",
+        "licensed",
+        "role"
+      ],
+      "aliases": [
+        "Lawyer / Attorney"
+      ],
+      "problems_solved": [
+        "Prepare a legal work-product brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Legal services",
+        "Compliance"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "licensed legal research, analysis, and drafting support review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "legal work-product brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Lawyer / Attorney source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "gdpr"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "23-1011.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "http://data.europa.eu/esco/occupation/2e18d3d8-d29a-4e19-9b91-8b7 e0cf1c3a4"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/23-1011.00",
+        "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general licensed legal research, analysis, and drafting support context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for client, matter, engagement scope, licensed supervisor, jurisdiction, and deadlines; complete facts, record, evidence, and adverse facts; current governing authority and citation status; privilege, confidentiality, conflicts, and protective handling; procedural posture, options, risks, and draft-review status.",
+        "Do not infer client relationship, jurisdiction, legal authority, privilege, conflict status, deadline, legal conclusion, or filing readiness."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, and other sensitive data.",
+        "Require explicit confirmation before giving final legal advice, filing or signing documents, contacting parties or tribunals, waiving rights, or representing a client.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 36,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Lawyer / Attorney measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 36,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/lawyer-attorney",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/lawyer-attorney/v1/evaluation-results/"
+      }
     }
   ]
 }
