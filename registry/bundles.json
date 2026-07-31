@@ -83310,6 +83310,133 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/challenger-sale/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "5s-workplace-organization",
+      "title": "5S Workplace Organization",
+      "description": "Source-aware framework bundle for sort, straighten, shine, standardize, sustain, workplace flow, visual control, safety, ownership, and improvement review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/5s-workplace-organization",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/5s-workplace-organization",
+      "download_url": "https://openknowledgebank.com/downloads/5s-workplace-organization.zip",
+      "tags": [
+        "5s-workplace-organization",
+        "framework",
+        "source-aware"
+      ],
+      "aliases": [
+        "5S Workplace Organization"
+      ],
+      "problems_solved": [
+        "Prepare a 5s workplace organization review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "5S Workplace Organization",
+        "source-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "5S Workplace Organization review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "5S Workplace Organization source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "lean-manufacturing",
+        "toyota-production-system"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.lean.org/lexicon-terms/five-s/"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general 5S Workplace Organization guidance; local facts, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for work area and process scope, people and shifts, item inventory and use evidence, red-tag criteria and disposition authority, point-of-use needs, cleaning and inspection records, visual standards, standard work, safety and ergonomic review, baseline observations, audit method, owners, approvals, and sustainment evidence.",
+        "Do not infer item necessity, safe location, defect cause, standard suitability, audit status, employee agreement, safety, or improvement result."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that discard, move, label, or restrict items; change layout, storage, cleaning, inspection, visual controls, standard work, access, or safety procedures; stop operations.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-08-01T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 35,
+        "absolute_lift": 20,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "5S Workplace Organization measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 35,
+        "absolute_lift": 20,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/5s-workplace-organization",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/5s-workplace-organization/v1/evaluation-results/"
+      }
     }
   ]
 }
