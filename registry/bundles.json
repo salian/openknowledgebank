@@ -84323,6 +84323,132 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/runbooks-playbooks/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "sales-pipeline-report",
+      "title": "Sales Pipeline and Forecast Report",
+      "description": "Source-aware deliverable bundle for opportunity scope, stage, forecast category, amount, currency, close date, probability, owner, change, risk, coverage, and forecast review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "deliverables",
+      "path": "bundles/deliverables/sales-pipeline-report",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/sales-pipeline-report",
+      "download_url": "https://openknowledgebank.com/downloads/sales-pipeline-report.zip",
+      "tags": [
+        "sales-pipeline-report",
+        "deliverable",
+        "source-aware"
+      ],
+      "aliases": [
+        "Sales Pipeline and Forecast Report"
+      ],
+      "problems_solved": [
+        "Prepare a sales pipeline and forecast report review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Sales Pipeline and Forecast Report review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Sales Pipeline and Forecast Report source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "sales-operations-analyst"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://help.salesforce.com/s/articleView?id=sales.pipeline_inspection_drive_revenue_using_parent.htm&type=5",
+        "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/forecasts.pdf"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general Sales Pipeline and Forecast Report guidance; local facts, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for CRM and report version, included teams and opportunity population, stage and forecast-category definitions, exit criteria, amount and currency rules, probability source, close-date policy, snapshot and comparison dates, exclusions, duplicates, ownership, product and region segmentation, source query, changes and risk evidence, quota and coverage formula, approvals, and limitations.",
+        "Do not infer opportunity state, amount, probability, close date, forecast category, owner, risk, coverage, commit, or revenue outcome."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that change opportunity, stage, amount, probability, close date, category, owner, forecast, or quota data; contact customers; publish forecasts; or make revenue commitments.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-08-01T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 35,
+        "absolute_lift": 21,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-quality-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Sales Pipeline and Forecast Report measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 35,
+        "absolute_lift": 21,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/deliverables/sales-pipeline-report",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/sales-pipeline-report/v1/evaluation-results/"
+      }
     }
   ]
 }
