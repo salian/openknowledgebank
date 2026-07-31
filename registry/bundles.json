@@ -76892,6 +76892,133 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/linkedin-campaign-manager/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "canvas-instructure",
+      "title": "Canvas",
+      "description": "Source-aware tool bundle for Canvas LMS course, content, assessment, integration, permission, and data review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/canvas-instructure",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/canvas-instructure",
+      "download_url": "https://openknowledgebank.com/downloads/canvas-instructure.zip",
+      "tags": [
+        "canvas-instructure",
+        "canvas",
+        "tool"
+      ],
+      "aliases": [
+        "Canvas"
+      ],
+      "problems_solved": [
+        "Prepare a Canvas LMS change brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "Canvas"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "Canvas LMS course, content, assessment, integration, permission, and data review review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Canvas LMS change brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Canvas source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.instructure.com/canvas",
+        "https://canvas.instructure.com/doc/api/index.html"
+      ],
+      "limitations": [
+        "Use the listed authoritative sources for general role or tool behavior; local configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for Canvas instance, environment, release, account, subaccount, course, term, section, and object IDs; user, role, enrollment, permissions, OAuth scopes, developer key, LTI or SIS integration; content, module, assignment, rubric, quiz, dates, gradebook, files, accessibility, privacy, audit, backup, test, and approval evidence.",
+        "Do not infer course state, permission, enrollment, grade, due date, content visibility, integration behavior, accessibility, or student outcome."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that publish or change course content, enroll users, alter grades or dates, send messages, import SIS data, install an integration, or access student records.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 12,
+        "okb_score": 36,
+        "absolute_lift": 24,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 2,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 12/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Canvas measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 12,
+        "okb_score": 36,
+        "absolute_lift": 24,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/canvas-instructure",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/canvas-instructure/v1/evaluation-results/"
+      }
     }
   ]
 }
