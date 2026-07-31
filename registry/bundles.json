@@ -78182,6 +78182,133 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/hugging-face/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "jira-service-management",
+      "title": "Jira Service Management",
+      "description": "Source-aware tool bundle for Jira Service Management request, workflow, SLA, queue, automation, and permission review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/jira-service-management",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/jira-service-management",
+      "download_url": "https://openknowledgebank.com/downloads/jira-service-management.zip",
+      "tags": [
+        "jira-service-management",
+        "jira",
+        "tool"
+      ],
+      "aliases": [
+        "Jira Service Management"
+      ],
+      "problems_solved": [
+        "Prepare a Jira Service Management change brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "Jira Service Management"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "Jira Service Management request, workflow, SLA, queue, automation, and permission review review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Jira Service Management change brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Jira Service Management source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.atlassian.com/software/jira/service-management",
+        "https://support.atlassian.com/jira-service-management-cloud/docs/what-users-and-roles-are-there-in-jira-service-management/"
+      ],
+      "limitations": [
+        "Use the listed authoritative sources for general role or tool behavior; local configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for site, product plan, project or space, environment, issue and request types, fields, forms, workflow, statuses, queues, SLA goals, calendars, roles, permissions, customers, organizations, knowledge base, automation, integrations, notifications, audit logs, sample issues, privacy, tests, and approvals.",
+        "Do not infer request state, permission, SLA result, queue membership, automation behavior, customer visibility, incident state, or service performance."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that edit requests, send comments or notifications, add customers, change workflows, permissions, SLAs, queues, or automations, expose attachments, or transition incidents.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 10,
+        "okb_score": 35,
+        "absolute_lift": 25,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-state-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 10/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Jira Service Management measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 10,
+        "okb_score": 35,
+        "absolute_lift": 25,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/jira-service-management",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/jira-service-management/v1/evaluation-results/"
+      }
     }
   ]
 }
