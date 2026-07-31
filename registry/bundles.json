@@ -77535,6 +77535,135 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/tiktok-ads-manager/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "airtable",
+      "title": "Airtable",
+      "description": "Source-aware tool bundle for Airtable schema, records, views, automation, integration, and permission review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/airtable",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/airtable",
+      "download_url": "https://openknowledgebank.com/downloads/airtable.zip",
+      "tags": [
+        "airtable",
+        "airtable",
+        "tool"
+      ],
+      "aliases": [
+        "Airtable"
+      ],
+      "problems_solved": [
+        "Prepare a Airtable base change brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "Airtable"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "Airtable schema, records, views, automation, integration, and permission review review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Airtable base change brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Airtable source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "design-operations-designops-manager"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://airtable.com/developers/web/api/introduction",
+        "https://support.airtable.com/getting-started-with-airtables-web-api"
+      ],
+      "limitations": [
+        "Use the listed authoritative sources for general role or tool behavior; local configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for workspace, base, table, field, view, interface, form, and record IDs; schema, field types, formulas, linked records, filters, sorting, permissions, collaborators, personal or OAuth token scopes, API pagination and limits, automations, integrations, webhooks, source-of-record rules, snapshots, tests, and approvals.",
+        "Do not infer schema, record count, formula result, permission, automation state, synchronization, API completeness, or source-of-record status."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that create or modify records or schema, share a base, invite users, enable automations, create webhooks, expose tokens, or overwrite synchronized data.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 10,
+        "okb_score": 36,
+        "absolute_lift": 26,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-state-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 10/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Airtable measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 10,
+        "okb_score": 36,
+        "absolute_lift": 26,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/airtable",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/airtable/v1/evaluation-results/"
+      }
     }
   ]
 }
