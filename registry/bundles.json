@@ -81525,6 +81525,133 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/design-thinking/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "addie-model",
+      "title": "ADDIE Model",
+      "description": "Source-aware framework bundle for analysis, design, development, implementation, evaluation, learner need, objective, assessment, accessibility, and training review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/addie-model",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/addie-model",
+      "download_url": "https://openknowledgebank.com/downloads/addie-model.zip",
+      "tags": [
+        "addie-model",
+        "framework",
+        "source-aware"
+      ],
+      "aliases": [
+        "ADDIE Model"
+      ],
+      "problems_solved": [
+        "Prepare a addie model application brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "ADDIE Model application matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "ADDIE Model application brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "ADDIE Model source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "sales-enablement-manager"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/ADDIE_model",
+        "https://www.td.org/talent-development-glossary-terms/what-is-instructional-design"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general ADDIE Model guidance; local facts, configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for source interpretation, business and learner needs, audience and context, task analysis, measurable objectives, instructional and assessment strategy, content sources and rights, prototype and review evidence, delivery environment, accessibility, pilot data, evaluation design, owners, and approvals.",
+        "Do not infer learner need, objective alignment, content accuracy, accessibility, assessment validity, transfer, training effect, compliance, or approval."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that publish or deploy training, enroll or contact learners, collect learner data, change assessments, issue credentials, spend budget, or claim compliance, competence, or causal impact.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 13,
+        "okb_score": 33,
+        "absolute_lift": 20,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 13/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "ADDIE Model measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 13,
+        "okb_score": 33,
+        "absolute_lift": 20,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/addie-model",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/addie-model/v1/evaluation-results/"
+      }
     }
   ]
 }
