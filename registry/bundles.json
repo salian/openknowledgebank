@@ -52150,6 +52150,144 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/software-developers-and-analysts-not-elsewhere-classified/v1/evaluation-results/"
       }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "systems-infrastructure-engineer-software",
+      "title": "Systems / Infrastructure Engineer (Software)",
+      "description": "Source-aware role bundle for infrastructure architecture, capacity and reliability review, secure system changes, incident-informed planning, and production-ready implementation briefs.",
+      "category": "roles",
+      "path": "bundles/roles/systems-infrastructure-engineer-software",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/systems-infrastructure-engineer-software",
+      "download_url": "https://openknowledgebank.com/downloads/systems-infrastructure-engineer-software.zip",
+      "tags": [
+        "infrastructure-engineering",
+        "systems-engineering",
+        "reliability",
+        "role"
+      ],
+      "aliases": [
+        "Infrastructure Engineer",
+        "Systems Engineer"
+      ],
+      "problems_solved": [
+        "Plan infrastructure changes without fabricated environment facts.",
+        "Connect incidents and SLOs to reviewable improvements.",
+        "Prepare rollback-aware production decisions."
+      ],
+      "industries": [
+        "Information technology",
+        "Software"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "infrastructure-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Infrastructure change and reliability brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Systems / Infrastructure Engineer (Software) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "docker",
+        "fda-qmsr-13485",
+        "gdpr",
+        "soc-2"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "15-1299.08"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2511"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/15-1299.08"
+      ],
+      "limitations": [
+        "Environment-specific work requires current architecture, configuration, policy, telemetry, incident, and cost evidence.",
+        "This bundle does not certify security or availability.",
+        "Do not infer topology, capacity, cost, incident cause, or production state."
+      ],
+      "safety_notes": [
+        "Protect secrets, credentials, network details, and sensitive telemetry.",
+        "Require confirmation before access, infrastructure, network, data, or production changes.",
+        "Route security, continuity, privacy, and compliance decisions to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 13,
+        "okb_score": 34,
+        "absolute_lift": 21,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 13/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Systems / Infrastructure Engineer (Software) measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 13,
+        "okb_score": 34,
+        "absolute_lift": 21,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/systems-infrastructure-engineer-software",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/systems-infrastructure-engineer-software/v1/evaluation-results/"
+      }
     }
   ]
 }
