@@ -80117,6 +80117,135 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/dropbox/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "eclipse",
+      "title": "Eclipse IDE",
+      "description": "Source-aware tool bundle for workspace, project, build path, launch configuration, plugin, secure storage, build, test, and diagnostic review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/eclipse",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/eclipse",
+      "download_url": "https://openknowledgebank.com/downloads/eclipse.zip",
+      "tags": [
+        "eclipse",
+        "tool",
+        "source-aware"
+      ],
+      "aliases": [
+        "Eclipse IDE"
+      ],
+      "problems_solved": [
+        "Prepare a eclipse ide review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "Eclipse IDE"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "Eclipse IDE application matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Eclipse IDE review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Eclipse IDE source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "jetbrains-ides"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://help.eclipse.org/latest/",
+        "https://eclipseide.org/"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general Eclipse IDE guidance; local facts, configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for Eclipse package and version, Java and toolchain versions, workspace and project metadata, build system and dependencies, target platform, launch configuration, installed plugins, secure-storage use, compiler settings, logs, tests, approvals, and rollback.",
+        "Do not infer workspace state, resolved dependency, build result, launch behavior, plugin compatibility, secure-storage content, or deployment readiness."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that edit project or workspace metadata, install or update plugins, change build paths or launch settings, run code or tests, access secure storage, expose credentials, or publish artifacts.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 33,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Eclipse IDE measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 33,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/eclipse",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/eclipse/v1/evaluation-results/"
+      }
     }
   ]
 }
