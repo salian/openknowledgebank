@@ -64838,6 +64838,133 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/job-description/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "onboarding-plan",
+      "title": "Onboarding Plan",
+      "description": "Source-aware deliverable bundle for employee, customer, or partner onboarding with explicit audience, outcomes, milestones, access, learning, support, measurement, privacy, and handoff.",
+      "category": "deliverables",
+      "path": "bundles/deliverables/onboarding-plan",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/onboarding-plan",
+      "download_url": "https://openknowledgebank.com/downloads/onboarding-plan.zip",
+      "tags": [
+        "onboarding-plan",
+        "adoption",
+        "enablement",
+        "deliverable"
+      ],
+      "aliases": [
+        "Onboarding Plan"
+      ],
+      "problems_solved": [
+        "Prepare a onboarding plan without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Human resources",
+        "Customer success",
+        "Business services"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "structured onboarding and adoption review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "onboarding plan"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Onboarding Plan source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.gainsight.com/blog/customer-onboarding-template/"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general structured onboarding and adoption context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for onboarding type, audience, owner, start, scope, and desired outcomes, prerequisites, contracts, policies, profile, and consent, milestones, tasks, sequence, dependencies, and acceptance criteria, accounts, access, equipment, data, security, and privacy requirements, learning, communications, support, escalation, accessibility, and localization, and progress measures, feedback, risks, completion, handoff, and approvals.",
+        "Do not infer participant need, prerequisite, access status, milestone completion, adoption, and handoff readiness."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, and other sensitive data.",
+        "Require explicit confirmation before creating access, sharing sensitive data, sending communications, changing contracts or employment status, or marking onboarding complete without accountable confirmation.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-quality-review",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Onboarding Plan measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/deliverables/onboarding-plan",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/onboarding-plan/v1/evaluation-results/"
+      }
     }
   ]
 }
