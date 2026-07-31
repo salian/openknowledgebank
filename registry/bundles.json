@@ -82290,6 +82290,133 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/consultative-selling/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "root-cause-analysis-5-whys",
+      "title": "Root Cause Analysis and Five Whys",
+      "description": "Source-aware framework bundle for problem statement, causal chain, evidence, contributing causes, verification, corrective action, and learning review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/root-cause-analysis-5-whys",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/root-cause-analysis-5-whys",
+      "download_url": "https://openknowledgebank.com/downloads/root-cause-analysis-5-whys.zip",
+      "tags": [
+        "root-cause-analysis-5-whys",
+        "framework",
+        "source-aware"
+      ],
+      "aliases": [
+        "Root Cause Analysis and Five Whys"
+      ],
+      "problems_solved": [
+        "Prepare a root cause analysis and five whys review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "Root Cause Analysis and Five Whys",
+        "source-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Root Cause Analysis and Five Whys review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Root Cause Analysis and Five Whys source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "toyota-production-system"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://asq.org/quality-resources/root-cause-analysis",
+        "https://asq.org/quality-resources/five-whys"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general Root Cause Analysis and Five Whys guidance; local facts, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for event and impact definition, timeline, affected scope, logs and observations, process and system changes, causal hypotheses, each why-answer and supporting evidence, alternative causes, human factors, experiments or recurrence tests, corrective and preventive actions, owners, dates, approvals, and follow-up results.",
+        "Do not infer root cause, causal link, fault, recurrence risk, corrective-action effectiveness, closure, or accountability."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that assign blame or root cause, change production processes or controls, stop operations, close incidents or corrective actions, communicate findings, or make safety, legal, or disciplinary determinations.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-08-01T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 33,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Root Cause Analysis and Five Whys measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 33,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/root-cause-analysis-5-whys",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/root-cause-analysis-5-whys/v1/evaluation-results/"
+      }
     }
   ]
 }
