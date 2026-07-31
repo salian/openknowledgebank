@@ -78954,6 +78954,133 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/xcode/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "automation-anywhere",
+      "title": "Automation Anywhere",
+      "description": "Source-aware tool bundle for Control Room, bot, dependency, credential, schedule, workload, audit, and deployment review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/automation-anywhere",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/automation-anywhere",
+      "download_url": "https://openknowledgebank.com/downloads/automation-anywhere.zip",
+      "tags": [
+        "automation-anywhere",
+        "tool",
+        "source-aware"
+      ],
+      "aliases": [
+        "Automation Anywhere"
+      ],
+      "problems_solved": [
+        "Prepare a automation anywhere review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "Automation Anywhere"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "Automation Anywhere application matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Automation Anywhere review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Automation Anywhere source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://docs.automationanywhere.com/",
+        "https://www.automationanywhere.com/"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general Automation Anywhere guidance; local facts, configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for product and deployment version, Control Room tenant, bot package and dependencies, credential vault references, device pools, schedules, queues, permissions, input and output data, audit logs, tests, approvals, and rollback.",
+        "Do not infer bot behavior, credential access, schedule state, queue result, production readiness, execution result, or business outcome."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that create, edit, deploy, schedule, or run bots; change queues or permissions; access credentials; process production data; or alter live systems.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 36,
+        "absolute_lift": 21,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Automation Anywhere measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 36,
+        "absolute_lift": 21,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/automation-anywhere",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/automation-anywhere/v1/evaluation-results/"
+      }
     }
   ]
 }
