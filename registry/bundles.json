@@ -83818,6 +83818,132 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/cobit/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "solution-selling",
+      "title": "Solution Selling",
+      "description": "Source-aware framework bundle for buyer problem, pain, impact, vision, capability fit, value, decision process, mutual plan, ethics, and opportunity review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/solution-selling",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/solution-selling",
+      "download_url": "https://openknowledgebank.com/downloads/solution-selling.zip",
+      "tags": [
+        "solution-selling",
+        "framework",
+        "source-aware"
+      ],
+      "aliases": [
+        "Solution Selling"
+      ],
+      "problems_solved": [
+        "Prepare a solution selling review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "Solution Selling",
+        "source-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Solution Selling review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Solution Selling source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "sales-engineer-solutions-engineer-pre-sales"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.amazon.com/Solution-Selling-Creating-Difficult-Markets/dp/0786303158"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general Solution Selling guidance; local facts, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for licensed method source or local methodology, account and stakeholders, buyer-provided problem and impact evidence, current approach, desired outcomes, capability and limitation evidence, alternatives, value assumptions, decision criteria and process, mutual actions, pricing authority, CRM state, owner, and approvals.",
+        "Do not infer buyer pain, impact, vision, value, solution fit, authority, intent, opportunity stage, forecast, or commitment."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that contact or record a buyer, store sensitive information, change CRM or forecast state, recommend or commit a solution, price, discount, term, timeline, or make unsupported claims.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-08-01T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 35,
+        "absolute_lift": 20,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Solution Selling measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 35,
+        "absolute_lift": 20,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/solution-selling",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/solution-selling/v1/evaluation-results/"
+      }
     }
   ]
 }
