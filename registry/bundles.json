@@ -65092,6 +65092,134 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/bill-of-lading/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "business-continuity-plan",
+      "title": "Business Continuity and Disaster Recovery Plan",
+      "description": "Source-aware deliverable bundle for continuity and disaster-recovery planning with evidenced critical activities, impacts, dependencies, recovery objectives, strategies, roles, communications, tests, and maintenance.",
+      "category": "deliverables",
+      "path": "bundles/deliverables/business-continuity-plan",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/business-continuity-plan",
+      "download_url": "https://openknowledgebank.com/downloads/business-continuity-plan.zip",
+      "tags": [
+        "business-continuity",
+        "disaster-recovery",
+        "resilience",
+        "deliverable"
+      ],
+      "aliases": [
+        "Business Continuity and Disaster Recovery Plan"
+      ],
+      "problems_solved": [
+        "Prepare a business continuity and disaster recovery plan without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Business services",
+        "Information technology",
+        "Government"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "organizational continuity and technology recovery review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "business continuity and disaster recovery plan"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Business Continuity and Disaster Recovery Plan source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.ready.gov/business/emergency-plans",
+        "https://www.ready.gov/sites/default/files/2020-03/business-continuity-plan.pdf"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general organizational continuity and technology recovery context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for organization, sites, services, processes, systems, people, and scenario scope, business impact analysis, criticality, dependencies, and maximum tolerable disruption, recovery time, recovery point, service level, and data assumptions, continuity, workaround, alternate-site, supplier, backup, restoration, and return strategies, activation, command, roles, succession, contact, communication, safety, and regulatory requirements, and exercise, test evidence, gaps, remediation, maintenance, distribution, access, and approval.",
+        "Do not infer critical activity, dependency, recovery objective, backup recoverability, role assignment, and plan effectiveness."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, and other sensitive data.",
+        "Require explicit confirmation before activating plans, declaring emergencies, contacting authorities or stakeholders, changing production recovery controls, or claiming readiness without tested and approved evidence.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 36,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-quality-review",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Business Continuity and Disaster Recovery Plan measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 36,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/deliverables/business-continuity-plan",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/business-continuity-plan/v1/evaluation-results/"
+      }
     }
   ]
 }
