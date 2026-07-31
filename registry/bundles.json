@@ -75816,6 +75816,145 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/customer-support-cx-analyst/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "chief-information-officer-cio",
+      "title": "Chief Information Officer (CIO)",
+      "description": "Source-aware role bundle for enterprise technology strategy, architecture, governance, investment, resilience, and board support, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/chief-information-officer-cio",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/chief-information-officer-cio",
+      "download_url": "https://openknowledgebank.com/downloads/chief-information-officer-cio.zip",
+      "tags": [
+        "chief-information-officer-cio",
+        "chief",
+        "role"
+      ],
+      "aliases": [
+        "Chief Information Officer (CIO)"
+      ],
+      "problems_solved": [
+        "Prepare a technology strategy and governance brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Enterprise management",
+        "Technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "enterprise technology strategy, architecture, governance, investment, resilience, and board support review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "technology strategy and governance brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Chief Information Officer (CIO) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "agile",
+        "fda-qmsr-13485",
+        "gdpr",
+        "hipaa",
+        "itil",
+        "jira",
+        "sap-s4hana",
+        "soc-2",
+        "sox",
+        "tableau"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "11-3021.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "1330"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/custom/11-1011.00"
+      ],
+      "limitations": [
+        "Use the listed authoritative sources for general role or tool behavior; local configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for business strategy, decision rights, risk appetite, and accountable owners; application, data, infrastructure, identity, security, vendor, and architecture inventories; portfolio costs, contracts, service levels, technical debt, controls, audit findings, incidents, continuity, regulation, roadmap, benefits, dependencies, and approvals.",
+        "Do not infer current architecture, security posture, compliance, resilience, cost, ROI, vendor performance, or transformation outcome."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that approve strategy or architecture, commit budget, select a vendor, change controls, access sensitive systems, or make board or public claims.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 10,
+        "okb_score": 34,
+        "absolute_lift": 24,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 10/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Chief Information Officer (CIO) measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 10,
+        "okb_score": 34,
+        "absolute_lift": 24,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/chief-information-officer-cio",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/chief-information-officer-cio/v1/evaluation-results/"
+      }
     }
   ]
 }
