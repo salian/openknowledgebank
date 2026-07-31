@@ -53948,6 +53948,146 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/account-manager-client-relationship-manager/v1/evaluation-results/"
       }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "business-intelligence-analyst",
+      "title": "Business Intelligence Analyst",
+      "description": "Source-aware role bundle for business-question framing, metric definition, data reconciliation, trend analysis, dashboard review, and decision-ready BI briefs.",
+      "category": "roles",
+      "path": "bundles/roles/business-intelligence-analyst",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/business-intelligence-analyst",
+      "download_url": "https://openknowledgebank.com/downloads/business-intelligence-analyst.zip",
+      "tags": [
+        "business-intelligence",
+        "analytics",
+        "decision-support",
+        "role"
+      ],
+      "aliases": [
+        "Business Intelligence Analyst",
+        "BI Analyst"
+      ],
+      "problems_solved": [
+        "Prepare business intelligence analysis and reconciliation brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce review-ready decisions with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Data and analytics"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "metric-lineage matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Business intelligence analysis and reconciliation brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Business Intelligence Analyst source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "agile",
+        "gdpr",
+        "google-bigquery",
+        "hipaa",
+        "microsoft-power-bi",
+        "soc-2",
+        "tableau"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "15-2051.01"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2511.1 (ICT business analyst / data analyst family)"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/15-2051.01"
+      ],
+      "limitations": [
+        "Use as occupational context; schemas, metrics, grain, lineage, refresh, permissions, report state, and values require inspected local evidence.",
+        "Task-specific work requires current evidence for business question and decision, metric and dimension definitions, source schemas and grain, keys, lineage, and refresh state, filters and access rules, query or export evidence, validation and owner approvals.",
+        "Do not infer tables, fields, joins, metric values, dashboard state, data freshness, access, causal claims."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, and other sensitive data.",
+        "Require explicit confirmation before data access, production queries, dashboard changes, sensitive data, or consequential business reliance.",
+        "Route legal, privacy, security, compliance, financial, employment, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 35,
+        "absolute_lift": 21,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Business Intelligence Analyst measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 35,
+        "absolute_lift": 21,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/business-intelligence-analyst",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/business-intelligence-analyst/v1/evaluation-results/"
+      }
     }
   ]
 }
