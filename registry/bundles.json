@@ -57346,6 +57346,142 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/google-workspace-docs/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "snowflake",
+      "title": "Snowflake",
+      "description": "Source-aware tool bundle for Snowflake data, SQL, warehouse, access, performance, cost, governance, and review-ready analysis or change briefs.",
+      "category": "tools",
+      "path": "bundles/tools/snowflake",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/snowflake",
+      "download_url": "https://openknowledgebank.com/downloads/snowflake.zip",
+      "tags": [
+        "snowflake",
+        "data-platform",
+        "analytics",
+        "tool"
+      ],
+      "aliases": [
+        "Snowflake"
+      ],
+      "problems_solved": [
+        "Prepare a snowflake analysis and change brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce review-ready decisions with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Data and analytics",
+        "Software",
+        "Financial services"
+      ],
+      "tools": [
+        "Snowflake"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "cloud-data-platform-analysis-and-administration evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Snowflake analysis and change brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Snowflake source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "ai-data-platform-engineer",
+        "business-intelligence-analyst",
+        "business-intelligence-bi-developer",
+        "data-architect",
+        "data-engineer",
+        "data-product-manager"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://docs.snowflake.com/"
+      ],
+      "limitations": [
+        "Use official Snowflake sources for general context; local cloud data platform analysis and administration, configuration, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for account, region, edition, and version context, database, schema, object, and ownership metadata, warehouse and resource-monitor configuration, roles, grants, policies, and data classification, SQL text, parameters, query profile, and history, freshness, lineage, quality, and source-of-record checks, and cost, change, and approval evidence.",
+        "Do not infer objects, columns, data, roles, grants, warehouse state, query results, cost."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, and other sensitive data.",
+        "Require explicit confirmation before running state-changing SQL, changing objects, warehouses, roles, grants, policies, integrations, shares, or production data.",
+        "Route legal, privacy, security, compliance, financial, employment, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 10,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Snowflake measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/snowflake",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/snowflake/v1/evaluation-results/"
+      }
     }
   ]
 }
