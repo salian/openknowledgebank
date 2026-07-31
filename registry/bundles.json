@@ -75276,6 +75276,137 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, actionability, and named authoritative source use.",
         "private_artifacts": "research/bundle-runs/operations-research-analyst/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "biostatistician",
+      "title": "Biostatistician",
+      "description": "Source-aware role bundle for biostatistical study design, analysis, reporting, and regulatory review, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/biostatistician",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/biostatistician",
+      "download_url": "https://openknowledgebank.com/downloads/biostatistician.zip",
+      "tags": [
+        "biostatistician",
+        "biostatistician",
+        "role"
+      ],
+      "aliases": [
+        "Biostatistician"
+      ],
+      "problems_solved": [
+        "Prepare a biostatistical analysis brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Data and analytics",
+        "Research"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "biostatistical study design, analysis, reporting, and regulatory review review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "biostatistical analysis brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Biostatistician source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "hipaa"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "15-2041.01"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2120.1"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/15-2041.01",
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/e9-statistical-principles-clinical-trials"
+      ],
+      "limitations": [
+        "Use the cited authoritative sources for general role, standards, or regulatory context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for protocol and statistical analysis plan versions; population, endpoints, estimands, randomization, blinding, data provenance, lock status, and quality; methods, multiplicity, missing data, code, software version, outputs, QC, safety, privacy, and regulatory review.",
+        "Do not infer efficacy, safety, statistical significance, clinical relevance, causality, data-lock status, or regulatory conclusion."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, and other sensitive data.",
+        "Require explicit confirmation before actions that unblind a study, change an analysis plan, access protected health information, or submit or publish a clinical claim.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 2,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Biostatistician measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/biostatistician",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, actionability, and named authoritative source use.",
+        "private_artifacts": "research/bundle-runs/biostatistician/v1/evaluation-results/"
+      }
     }
   ]
 }
