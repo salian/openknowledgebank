@@ -79212,6 +79212,136 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/aws-glue/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "azure-devops",
+      "title": "Azure DevOps",
+      "description": "Source-aware tool bundle for Repos, Pipelines, Boards, Artifacts, Test Plans, service connection, permission, and release review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/azure-devops",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/azure-devops",
+      "download_url": "https://openknowledgebank.com/downloads/azure-devops.zip",
+      "tags": [
+        "azure-devops",
+        "tool",
+        "source-aware"
+      ],
+      "aliases": [
+        "Azure DevOps"
+      ],
+      "problems_solved": [
+        "Prepare a azure devops review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "Azure DevOps"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "Azure DevOps application matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Azure DevOps review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Azure DevOps source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "devops",
+        "jira"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops",
+        "https://learn.microsoft.com/en-us/rest/api/azure/devops/"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general Azure DevOps guidance; local facts, configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for organization, project, service and API version, repository and branch policy, pipeline YAML and variables, agent pools, environments, service connections, work-item process, artifact feeds, tests, permissions, audit logs, approvals, and rollback.",
+        "Do not infer repository state, pipeline result, work-item state, artifact provenance, permission, deployment readiness, or release outcome."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that push or merge code, run or approve pipelines, deploy releases, edit work items, change feeds, policies, permissions, agents, environments, service connections, variables, or secrets.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 36,
+        "absolute_lift": 22,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Azure DevOps measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 36,
+        "absolute_lift": 22,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/azure-devops",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/azure-devops/v1/evaluation-results/"
+      }
     }
   ]
 }
