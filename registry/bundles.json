@@ -84070,6 +84070,133 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/success-plan-methodology/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "quotation-pricing-estimate",
+      "title": "Quotation and Pricing Estimate",
+      "description": "Source-aware deliverable bundle for scope, line item, quantity, unit price, currency, tax, discount, assumption, exclusion, validity, term, approval, and customer-ready quotation review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "deliverables",
+      "path": "bundles/deliverables/quotation-pricing-estimate",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/quotation-pricing-estimate",
+      "download_url": "https://openknowledgebank.com/downloads/quotation-pricing-estimate.zip",
+      "tags": [
+        "quotation-pricing-estimate",
+        "deliverable",
+        "source-aware"
+      ],
+      "aliases": [
+        "Quotation and Pricing Estimate"
+      ],
+      "problems_solved": [
+        "Prepare a quotation and pricing estimate review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Quotation and Pricing Estimate review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Quotation and Pricing Estimate source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "purchasing-agent-buyer",
+        "sales-representative-of-services"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.ftc.gov/business-guidance/advertising-marketing/truth-advertising",
+        "https://www.investopedia.com/terms/q/quote.asp"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general Quotation and Pricing Estimate guidance; local facts, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for seller and buyer legal identities, request and scope, product or service specification, quantities and units, approved price list and currency, cost basis where relevant, discount authority, tax and fee treatment, delivery and payment terms, assumptions and exclusions, validity period, dependencies, legal text, version, owner, and approvals.",
+        "Do not infer scope, quantity, price, discount, tax, fee, availability, delivery date, margin, contractual effect, or approval."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that issue or send a quotation, commit price, discount, tax, fee, scope, availability, delivery, payment, or legal terms; change pricing records; expose confidential costs; or accept an order.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-08-01T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 34,
+        "absolute_lift": 20,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-quality-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Quotation and Pricing Estimate measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 34,
+        "absolute_lift": 20,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/deliverables/quotation-pricing-estimate",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/quotation-pricing-estimate/v1/evaluation-results/"
+      }
     }
   ]
 }
