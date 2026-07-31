@@ -82036,6 +82036,133 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/test-driven-development/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "iso-iec-9001",
+      "title": "ISO 9001 Quality Management Systems",
+      "description": "Source-aware framework bundle for quality-management-system scope, context, leadership, planning, support, operation, performance evaluation, improvement, and certification-readiness review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/iso-iec-9001",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/iso-iec-9001",
+      "download_url": "https://openknowledgebank.com/downloads/iso-iec-9001.zip",
+      "tags": [
+        "iso-iec-9001",
+        "framework",
+        "source-aware"
+      ],
+      "aliases": [
+        "ISO 9001 Quality Management Systems"
+      ],
+      "problems_solved": [
+        "Prepare a iso 9001 quality management systems review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "ISO 9001 Quality Management Systems",
+        "source-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "ISO 9001 Quality Management Systems review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "ISO 9001 Quality Management Systems source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "compliance-officer"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.iso.org/standard/62085.html",
+        "https://www.iso.org/iso-9001-quality-management.html"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general ISO 9001 Quality Management Systems guidance; local facts, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for applicable ISO 9001 edition and amendment, licensed standard text, QMS scope and exclusions, interested parties, process map and criteria, risks and objectives, controlled documented information, competence, operational evidence, monitoring and audit records, nonconformities, management review, certification body, owners, and approvals.",
+        "Do not infer applicable requirement, conformity, exclusion validity, control effectiveness, audit result, certification status, or legal compliance."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that approve or alter the QMS, controlled documents, objectives, controls, audit findings, corrective actions, management-review conclusions, or claims of ISO conformity or certification.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-08-01T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 36,
+        "absolute_lift": 21,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "ISO 9001 Quality Management Systems measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 36,
+        "absolute_lift": 21,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/iso-iec-9001",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/iso-iec-9001/v1/evaluation-results/"
+      }
     }
   ]
 }
