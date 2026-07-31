@@ -72215,6 +72215,140 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, actionability, and named authoritative source use.",
         "private_artifacts": "research/bundle-runs/accessibility-specialist/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "budget-analyst",
+      "title": "Budget Analyst",
+      "description": "Source-aware role bundle for budget formulation, variance analysis, and funding recommendation, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/budget-analyst",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/budget-analyst",
+      "download_url": "https://openknowledgebank.com/downloads/budget-analyst.zip",
+      "tags": [
+        "budget-analyst",
+        "budget",
+        "role"
+      ],
+      "aliases": [
+        "Budget Analyst"
+      ],
+      "problems_solved": [
+        "Prepare a budget analysis brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Finance",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "budget formulation, variance analysis, and funding recommendation review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "budget analysis brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Budget Analyst source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "activity-based-costing",
+        "sap-s4hana",
+        "tableau",
+        "us-gaap",
+        "zero-based-budgeting"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "13-2031.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2411"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/13-2031.00"
+      ],
+      "limitations": [
+        "Use the cited authoritative sources for general role, standards, or regulatory context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for entity, program, period, appropriation, and funding authority; actuals, commitments, allocations, and source-system extracts; forecast assumptions and scenarios; variance definitions and calculations; request documentation and approvals.",
+        "Do not infer available funds, forecast outcome, variance cause, allowability, or spending authority."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, and other sensitive data.",
+        "Require explicit confirmation before actions that change a budget, commit funds, approve a request, or make a public financial claim.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 2,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Budget Analyst measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/budget-analyst",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, actionability, and named authoritative source use.",
+        "private_artifacts": "research/bundle-runs/budget-analyst/v1/evaluation-results/"
+      }
     }
   ]
 }
