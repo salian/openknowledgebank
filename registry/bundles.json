@@ -78309,6 +78309,136 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/jira-service-management/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "microsoft-project",
+      "title": "Microsoft Project",
+      "description": "Source-aware tool bundle for Microsoft Project schedule, dependency, resource, baseline, and variance review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/microsoft-project",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/microsoft-project",
+      "download_url": "https://openknowledgebank.com/downloads/microsoft-project.zip",
+      "tags": [
+        "microsoft-project",
+        "microsoft",
+        "tool"
+      ],
+      "aliases": [
+        "Microsoft Project"
+      ],
+      "problems_solved": [
+        "Prepare a Microsoft Project schedule brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "Microsoft Project"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "Microsoft Project schedule, dependency, resource, baseline, and variance review review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Microsoft Project schedule brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Microsoft Project source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "regulatory-affairs-manager"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.microsoft.com/en-us/microsoft-365/project/project-management-software",
+        "https://support.microsoft.com/en-us/project/set-and-save-a-baseline",
+        "https://support.microsoft.com/en-us/project/how-project-schedules-tasks-behind-the-scenes"
+      ],
+      "limitations": [
+        "Use the listed authoritative sources for general role or tool behavior; local configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for Project product, edition, version, file, owner, status date, calendar, work breakdown, tasks, milestones, durations, dependencies, constraints, deadlines, resources, rates, assignments, availability, costs, baseline identity and date, actuals, progress method, critical-path settings, external links, reports, and approvals.",
+        "Do not infer finish date, critical path, resource availability, variance, cost, progress, baseline meaning, or schedule feasibility."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that overwrite the schedule, set or clear a baseline, change assignments or calendars, publish the plan, notify resources, or commit dates or costs.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 12,
+        "okb_score": 34,
+        "absolute_lift": 22,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 2,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 12/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Microsoft Project measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 12,
+        "okb_score": 34,
+        "absolute_lift": 22,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/microsoft-project",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/microsoft-project/v1/evaluation-results/"
+      }
     }
   ]
 }
