@@ -1,0 +1,14 @@
+---
+type: Bundle Log
+title: Accessibility Specialist log
+---
+# Bundle Log
+
+## 2026-07-31
+
+- Drafted fresh from reviewed queue candidate `accessibility-specialist`.
+- Added authoritative role and domain sources, evidence requirements, unsupported-conclusion boundaries, and consequential-action controls.
+- Applied strengthened empty- and limited-evidence integrity contracts before evaluation.
+- Completed measured evaluation: baseline 18/36; OKB 36/36; lift 18.
+- Enforced named authoritative URLs in every assisted Source Note.
+- Promoted private run v1 as public version 0.1.0 with beta status.
