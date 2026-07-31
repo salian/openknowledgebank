@@ -76366,6 +76366,139 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/customer-service-support-manager/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "ansible",
+      "title": "Ansible",
+      "description": "Source-aware tool bundle for Ansible inventory, playbook, role, configuration, validation, and controlled execution, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/ansible",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/ansible",
+      "download_url": "https://openknowledgebank.com/downloads/ansible.zip",
+      "tags": [
+        "ansible",
+        "ansible",
+        "tool"
+      ],
+      "aliases": [
+        "Ansible"
+      ],
+      "problems_solved": [
+        "Prepare a Ansible change plan without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "Ansible"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "Ansible inventory, playbook, role, configuration, validation, and controlled execution review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Ansible change plan"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Ansible source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "cloud-engineer",
+        "devops-engineer",
+        "site-reliability-engineer-sre",
+        "systems-infrastructure-engineer-software"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.redhat.com/en/technologies/management/ansible",
+        "https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_checkmode.html",
+        "https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_vault.html"
+      ],
+      "limitations": [
+        "Use the listed authoritative sources for general role or tool behavior; local configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for Ansible core and collection versions; control node, inventory source, groups, hosts, variables, precedence, and target scope; playbooks, roles, modules, templates, handlers, tags, limits, and configuration; desired and observed state, check and diff output, idempotence tests, credentials, vault and secret handling, logs, rollback, and approval.",
+        "Do not infer inventory contents, target state, reachability, module support, check-mode fidelity, idempotence, execution result, or rollback success."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that decrypt secrets, connect to hosts, run a playbook or ad hoc command, change infrastructure, install collections, or alter inventory.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 10,
+        "okb_score": 36,
+        "absolute_lift": 26,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-state-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 10/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Ansible measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 10,
+        "okb_score": 36,
+        "absolute_lift": 26,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/ansible",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/ansible/v1/evaluation-results/"
+      }
     }
   ]
 }
