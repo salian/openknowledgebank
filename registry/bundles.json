@@ -60371,6 +60371,133 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/meddic-meddpicc/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "six-sigma-dmaic",
+      "title": "Six Sigma DMAIC",
+      "description": "Source-aware framework bundle for DMAIC process improvement with explicit problem, measurement-system, baseline, root-cause, pilot, control, and safety evidence.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/six-sigma-dmaic",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/six-sigma-dmaic",
+      "download_url": "https://openknowledgebank.com/downloads/six-sigma-dmaic.zip",
+      "tags": [
+        "six-sigma",
+        "dmaic",
+        "process-improvement",
+        "framework"
+      ],
+      "aliases": [
+        "Six Sigma DMAIC"
+      ],
+      "problems_solved": [
+        "Prepare a dmaic project and evidence brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce review-ready decisions with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Manufacturing",
+        "Healthcare",
+        "Operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "structured process improvement application matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "DMAIC project and evidence brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Six Sigma DMAIC source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://asq.org/quality-resources/dmaic"
+      ],
+      "limitations": [
+        "Use the cited official or primary sources for general structured process improvement context; local facts, configuration, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for problem, scope, customer requirements, and critical-to-quality measures, process map, baseline, and operational definitions, measurement-system and data-collection evidence, analysis and root-cause evidence, improvement options, pilot design, and results, and control plan, owner, cadence, and response limits.",
+        "Do not infer baseline performance, measurement reliability, root cause, pilot effect, process stability, and control ownership."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, and other sensitive data.",
+        "Require explicit confirmation before changing production work, equipment, staffing, quality controls, or safety procedures, or declaring an improvement without monitored evidence.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 36,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 10,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 21/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Six Sigma DMAIC measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 36,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/six-sigma-dmaic",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/six-sigma-dmaic/v1/evaluation-results/"
+      }
     }
   ]
 }
