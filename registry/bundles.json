@@ -75955,6 +75955,146 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/chief-information-officer-cio/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "chief-product-officer-cpo",
+      "title": "Chief Product Officer (CPO)",
+      "description": "Source-aware role bundle for product vision, portfolio strategy, operating model, prioritization, and executive review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/chief-product-officer-cpo",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/chief-product-officer-cpo",
+      "download_url": "https://openknowledgebank.com/downloads/chief-product-officer-cpo.zip",
+      "tags": [
+        "chief-product-officer-cpo",
+        "chief",
+        "role"
+      ],
+      "aliases": [
+        "Chief Product Officer (CPO)"
+      ],
+      "problems_solved": [
+        "Prepare a product portfolio decision brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Digital products",
+        "Technology"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "product vision, portfolio strategy, operating model, prioritization, and executive review review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "product portfolio decision brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Chief Product Officer (CPO) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "amplitude",
+        "confluence",
+        "figma",
+        "jira",
+        "jobs-to-be-done",
+        "mixpanel",
+        "okrs",
+        "product-requirements-document",
+        "product-roadmap",
+        "rice-prioritization",
+        "scrum"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "11-1011.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "1120"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/11-1011.00"
+      ],
+      "limitations": [
+        "Use the listed authoritative sources for general role or tool behavior; local configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for company strategy, users, markets, research, product evidence, and decision criteria; product portfolio, lifecycle, metrics, experiments, economics, competitive evidence, capacity, dependencies, roadmap, risks, accessibility, privacy, security, legal review, and approvals.",
+        "Do not infer customer need, product-market fit, metric result, priority, forecast, competitive position, roadmap feasibility, or business impact."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that approve strategy or roadmap, commit capacity or budget, launch or retire a product, change customer commitments, or make investor or market claims.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 11,
+        "okb_score": 35,
+        "absolute_lift": 24,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 2,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 11/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Chief Product Officer (CPO) measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 11,
+        "okb_score": 35,
+        "absolute_lift": 24,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/chief-product-officer-cpo",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/chief-product-officer-cpo/v1/evaluation-results/"
+      }
     }
   ]
 }
