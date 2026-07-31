@@ -62414,6 +62414,135 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/continuous-delivery/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "issb-sustainability-disclosure-standards",
+      "title": "IFRS Sustainability Disclosure Standards",
+      "description": "Source-aware framework bundle for researching and applying IFRS S1 and IFRS S2 with explicit jurisdiction, reporting period, materiality, data, controls, amendments, and assurance boundaries.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/issb-sustainability-disclosure-standards",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/issb-sustainability-disclosure-standards",
+      "download_url": "https://openknowledgebank.com/downloads/issb-sustainability-disclosure-standards.zip",
+      "tags": [
+        "issb",
+        "ifrs-s1",
+        "ifrs-s2",
+        "sustainability",
+        "framework"
+      ],
+      "aliases": [
+        "IFRS Sustainability Disclosure Standards"
+      ],
+      "problems_solved": [
+        "Prepare a issb disclosure research brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Sustainability",
+        "Accounting",
+        "Public companies"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "sustainability-related financial disclosure review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "ISSB disclosure research brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "IFRS Sustainability Disclosure Standards source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/ifrs-s1-general-requirements/",
+        "https://www.ifrs.org/supporting-implementation/supporting-materials-for-ifrs-sustainability-disclosure-standards/"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general sustainability-related financial disclosure context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for reporting entity, jurisdiction, period, and adoption basis, applicable IFRS S1, IFRS S2, amendments, reliefs, and effective dates, sustainability-related risks and opportunities, governance, strategy, risk-management, metrics, and targets evidence, financial effects, data definitions, controls, estimates, and boundaries, and review, assurance, and publication approvals.",
+        "Do not infer applicability, effective requirement, material information, reporting boundary, metric accuracy, and assurance status."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, and other sensitive data.",
+        "Require explicit confirmation before asserting compliance, publishing disclosures, making assurance or regulatory claims, or changing reported data without qualified review.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 22,
+        "okb_score": 36,
+        "absolute_lift": 14,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 10,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 22/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "IFRS Sustainability Disclosure Standards measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 22,
+        "okb_score": 36,
+        "absolute_lift": 14,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/issb-sustainability-disclosure-standards",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/issb-sustainability-disclosure-standards/v1/evaluation-results/"
+      }
     }
   ]
 }
