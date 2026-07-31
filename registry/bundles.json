@@ -81780,6 +81780,134 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/just-in-time/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "spin-selling",
+      "title": "SPIN Selling",
+      "description": "Source-aware framework bundle for situation, problem, implication, need-payoff, buyer evidence, questioning, value, ethics, and sales progression review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/spin-selling",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/spin-selling",
+      "download_url": "https://openknowledgebank.com/downloads/spin-selling.zip",
+      "tags": [
+        "spin-selling",
+        "framework",
+        "source-aware"
+      ],
+      "aliases": [
+        "SPIN Selling"
+      ],
+      "problems_solved": [
+        "Prepare a spin selling application brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "SPIN Selling application matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "SPIN Selling application brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "SPIN Selling source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "account-executive-closer",
+        "sales-manager"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.huthwaiteinternational.com/spin-methodology",
+        "https://www.huthwaiteinternational.com/blog/spin-acronym"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general SPIN Selling guidance; local facts, configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for source version and local sales policy, account and contact context, buyer-provided situation, problems and consequences, need-payoff language, question plan, call notes or recording with consent, opportunity criteria, product evidence, pricing authority, owner, and approvals.",
+        "Do not infer buyer situation, problem, implication, need, value, intent, opportunity stage, consent, forecast, or commitment."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that contact or record a prospect, store sensitive buyer data, change CRM or forecast state, advance or disqualify an opportunity, commit pricing or terms, or make unsupported product or outcome claims.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 34,
+        "absolute_lift": 20,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "SPIN Selling measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 34,
+        "absolute_lift": 20,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/spin-selling",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/spin-selling/v1/evaluation-results/"
+      }
     }
   ]
 }
