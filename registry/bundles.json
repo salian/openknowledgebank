@@ -70617,6 +70617,138 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/web-developer/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "bookkeeper-accounting-clerk",
+      "title": "Bookkeeper / Accounting Clerk",
+      "description": "Source-aware role bundle for bookkeeping and accounting operations, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/bookkeeper-accounting-clerk",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/bookkeeper-accounting-clerk",
+      "download_url": "https://openknowledgebank.com/downloads/bookkeeper-accounting-clerk.zip",
+      "tags": [
+        "bookkeeper-accounting-clerk",
+        "bookkeeping",
+        "role"
+      ],
+      "aliases": [
+        "Bookkeeper / Accounting Clerk"
+      ],
+      "problems_solved": [
+        "Prepare a bookkeeping review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Accounting",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "bookkeeping and accounting operations review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "bookkeeping review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Bookkeeper / Accounting Clerk source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "quickbooks-online",
+        "us-gaap",
+        "xero"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "43-3031.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "4311"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/43-3031.00"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general bookkeeping and accounting operations context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for entity, books, period, accounting basis, chart of accounts, and authority; invoices, receipts, bank records, purchase orders, payroll feeds, and source provenance; transaction dates, amounts, currencies, taxes, coding, and approvals; ledgers, subledgers, reconciliations, aging, close status, and exceptions; access, segregation of duties, retention, review, and correction history.",
+        "Do not infer transaction validity, account coding, balance, reconciliation status, tax treatment, close completeness, or approval."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, and other sensitive data.",
+        "Require explicit confirmation before posting or reversing entries, paying vendors, changing master data, closing periods, or certifying financial records.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 2,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 10,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Bookkeeper / Accounting Clerk measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/bookkeeper-accounting-clerk",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/bookkeeper-accounting-clerk/v1/evaluation-results/"
+      }
     }
   ]
 }
