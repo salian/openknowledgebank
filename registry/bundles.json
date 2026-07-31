@@ -65220,6 +65220,142 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/business-continuity-plan/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "analytics-engineer",
+      "title": "Analytics Engineer",
+      "description": "Source-aware role bundle for analytics engineering across warehouse modeling, transformation, testing, documentation, lineage, governance, deployment, and stakeholder-facing data products.",
+      "category": "roles",
+      "path": "bundles/roles/analytics-engineer",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/analytics-engineer",
+      "download_url": "https://openknowledgebank.com/downloads/analytics-engineer.zip",
+      "tags": [
+        "analytics-engineer",
+        "data-modeling",
+        "dbt",
+        "role"
+      ],
+      "aliases": [
+        "Analytics Engineer"
+      ],
+      "problems_solved": [
+        "Prepare a analytics engineering delivery brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Data and analytics",
+        "Software",
+        "Financial services"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "analytics engineering and governed data transformation review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "analytics engineering delivery brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Analytics Engineer source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "dbt",
+        "google-bigquery",
+        "snowflake"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "15-1243.01"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2521.3"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/15-1243.01",
+        "https://www.getdbt.com/what-is-analytics-engineering/"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general analytics engineering and governed data transformation context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for business question, stakeholder, decision, and acceptance criteria, warehouse, platform, environment, repository, and tool versions, source data contracts, freshness, quality, ownership, and sensitivity, models, grain, keys, joins, transformations, tests, and lineage, metric and semantic definitions, dimensions, filters, and reconciliation, and review, CI, deployment, access, documentation, monitoring, and incident evidence.",
+        "Do not infer source-data meaning, model grain, join behavior, metric definition, test result, and production state."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, and other sensitive data.",
+        "Require explicit confirmation before querying or exposing sensitive data, changing production models or metrics, deploying transformations, changing access, or certifying data products without review.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 2,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 10,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Analytics Engineer measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/analytics-engineer",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/analytics-engineer/v1/evaluation-results/"
+      }
     }
   ]
 }
