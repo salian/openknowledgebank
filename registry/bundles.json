@@ -83437,6 +83437,133 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/5s-workplace-organization/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "nine-box-grid",
+      "title": "Nine-Box Talent Grid",
+      "description": "Source-aware framework bundle for performance and potential definitions, evidence, calibration, bias, privacy, development, succession, appeal, and reassessment review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/nine-box-grid",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/nine-box-grid",
+      "download_url": "https://openknowledgebank.com/downloads/nine-box-grid.zip",
+      "tags": [
+        "nine-box-grid",
+        "framework",
+        "source-aware"
+      ],
+      "aliases": [
+        "Nine-Box Talent Grid"
+      ],
+      "problems_solved": [
+        "Prepare a nine-box talent grid review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "Nine-Box Talent Grid",
+        "source-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Nine-Box Talent Grid review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Nine-Box Talent Grid source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "hr-business-partner-hrbp"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.shrm.org/mena/topics-tools/tools/toolkits/organizational-leadership-development",
+        "https://www.gallup.com/workplace/647864/avoid-getting-boxed-conventional-succession-planning-methods.aspx"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general Nine-Box Talent Grid guidance; local facts, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for purpose and population, role and level comparability, performance period and criteria, potential definition and validated indicators, evidence sources and data quality, manager ratings, calibration participants and rationale, bias and adverse-impact checks, employee notice and access, privacy and retention, development options, appeal and reassessment process, owners, and approvals.",
+        "Do not infer employee performance, potential, readiness, aspiration, placement, fairness, succession suitability, or employment outcome."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that place or label employees, change ratings or talent records, disclose sensitive assessments, make promotion, compensation, succession, development, performance, or termination decisions, or deny appeal.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-08-01T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 34,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Nine-Box Talent Grid measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 34,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/nine-box-grid",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/nine-box-grid/v1/evaluation-results/"
+      }
     }
   ]
 }
