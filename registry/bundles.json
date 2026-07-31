@@ -84950,6 +84950,134 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/data-model-schema-design/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "deployment-scripts-cicd",
+      "title": "Deployment Scripts and CI/CD Pipelines",
+      "description": "Source-aware deliverable bundle for source, build, test, artifact, environment, promotion, secret, permission, approval, deployment, verification, rollback, and audit pipeline review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "deliverables",
+      "path": "bundles/deliverables/deployment-scripts-cicd",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/deployment-scripts-cicd",
+      "download_url": "https://openknowledgebank.com/downloads/deployment-scripts-cicd.zip",
+      "tags": [
+        "deployment-scripts-cicd",
+        "deliverable",
+        "source-aware"
+      ],
+      "aliases": [
+        "Deployment Scripts and CI/CD Pipelines"
+      ],
+      "problems_solved": [
+        "Prepare a deployment scripts and ci/cd pipelines review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Deployment Scripts and CI/CD Pipelines review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Deployment Scripts and CI/CD Pipelines source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "mlops-engineer",
+        "azure-devops"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://docs.github.com/en/actions/deployment/about-deployments/deploying-with-github-actions",
+        "https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions",
+        "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general Deployment Scripts and CI/CD Pipelines guidance; local facts, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for repository and revision, platform and runner version, pipeline source, environments and promotion policy, build inputs and dependency locks, tests and quality gates, artifact identity and provenance, deployment target and credentials, least-privilege permissions, secret references, approvals and protected environments, concurrency and retry behavior, health checks, rollback trigger and procedure, logs, cost, owner, and change approval.",
+        "Do not infer build or test result, artifact provenance, secret safety, permission, environment state, deployment result, health, rollback safety, or production readiness."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that edit or run pipelines or scripts, access secrets, build or publish artifacts, deploy or roll back environments, change permissions, approvals, runners, or infrastructure, or incur spend.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-08-01T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 13,
+        "okb_score": 35,
+        "absolute_lift": 22,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-quality-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 13/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Deployment Scripts and CI/CD Pipelines measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 13,
+        "okb_score": 35,
+        "absolute_lift": 22,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/deliverables/deployment-scripts-cicd",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/deployment-scripts-cicd/v1/evaluation-results/"
+      }
     }
   ]
 }
