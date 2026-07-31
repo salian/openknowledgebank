@@ -13647,8 +13647,8 @@
     },
     {
       "id": "concentration-limits-regulation-xx",
-      "title": "Concentration Limits \u2014 Regulation XX",
-      "description": "Source-aware compliance bundle for Concentration Limits \u2014 Regulation XX applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Concentration Limits — Regulation XX",
+      "description": "Source-aware compliance bundle for Concentration Limits — Regulation XX applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/concentration-limits-regulation-xx",
       "version": "0.1.0",
@@ -13667,14 +13667,14 @@
         "compliance"
       ],
       "aliases": [
-        "Concentration Limits \u2014 Regulation XX",
+        "Concentration Limits — Regulation XX",
         "US Banking & Financial Institutions",
         "United States"
       ],
       "problems_solved": [
-        "Route Concentration Limits \u2014 Regulation XX work to the right source category and evidence set.",
+        "Route Concentration Limits — Regulation XX work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Concentration Limits \u2014 Regulation XX source-aware brief suitable for qualified review."
+        "Produce a Concentration Limits — Regulation XX source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Banks, depository institutions, and bank holding companies"
@@ -13686,12 +13686,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Concentration Limits \u2014 Regulation XX source-aware brief"
+        "Concentration Limits — Regulation XX source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Concentration Limits \u2014 Regulation XX source-awareness check"
+        "Concentration Limits — Regulation XX source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "draft",
@@ -13761,7 +13761,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Concentration Limits \u2014 Regulation XX measured evaluation",
+        "title": "Concentration Limits — Regulation XX measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -14445,8 +14445,8 @@
     },
     {
       "id": "coppa",
-      "title": "COPPA (Children's Online Privacy Protection) \u2014 Overview",
-      "description": "Source-aware compliance bundle for COPPA (Children's Online Privacy Protection) \u2014 Overview applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "COPPA (Children's Online Privacy Protection) — Overview",
+      "description": "Source-aware compliance bundle for COPPA (Children's Online Privacy Protection) — Overview applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/coppa",
       "version": "0.1.0",
@@ -14465,14 +14465,14 @@
         "compliance"
       ],
       "aliases": [
-        "COPPA (Children's Online Privacy Protection) \u2014 Overview",
+        "COPPA (Children's Online Privacy Protection) — Overview",
         "Umbrella round 3",
         "United States"
       ],
       "problems_solved": [
-        "Route COPPA (Children's Online Privacy Protection) \u2014 Overview work to the right source category and evidence set.",
+        "Route COPPA (Children's Online Privacy Protection) — Overview work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a COPPA (Children's Online Privacy Protection) \u2014 Overview source-aware brief suitable for qualified review."
+        "Produce a COPPA (Children's Online Privacy Protection) — Overview source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Operators of online services directed to or knowingly collecting data from children under 13"
@@ -14484,12 +14484,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "COPPA (Children's Online Privacy Protection) \u2014 Overview source-aware brief"
+        "COPPA (Children's Online Privacy Protection) — Overview source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "COPPA (Children's Online Privacy Protection) \u2014 Overview source-awareness check"
+        "COPPA (Children's Online Privacy Protection) — Overview source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "draft",
@@ -14559,7 +14559,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "COPPA (Children's Online Privacy Protection) \u2014 Overview measured evaluation",
+        "title": "COPPA (Children's Online Privacy Protection) — Overview measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -16611,8 +16611,8 @@
     },
     {
       "id": "data-protection-trustmark",
-      "title": "Data Protection Trustmark (DPTM) Certification \u2014 SS 714:2025",
-      "description": "Source-aware compliance bundle for Data Protection Trustmark (DPTM) Certification \u2014 SS 714:2025 applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Data Protection Trustmark (DPTM) Certification — SS 714:2025",
+      "description": "Source-aware compliance bundle for Data Protection Trustmark (DPTM) Certification — SS 714:2025 applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/data-protection-trustmark",
       "version": "0.1.0",
@@ -16632,14 +16632,14 @@
         "pdpa"
       ],
       "aliases": [
-        "Data Protection Trustmark (DPTM) Certification \u2014 SS 714:2025",
+        "Data Protection Trustmark (DPTM) Certification — SS 714:2025",
         "Singapore PDPA",
         "Singapore"
       ],
       "problems_solved": [
-        "Route Data Protection Trustmark (DPTM) Certification \u2014 SS 714:2025 work to the right source category and evidence set.",
+        "Route Data Protection Trustmark (DPTM) Certification — SS 714:2025 work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Data Protection Trustmark (DPTM) Certification \u2014 SS 714:2025 source-aware brief suitable for qualified review."
+        "Produce a Data Protection Trustmark (DPTM) Certification — SS 714:2025 source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Organisations collecting and processing personal data"
@@ -16651,12 +16651,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Data Protection Trustmark (DPTM) Certification \u2014 SS 714:2025 source-aware brief"
+        "Data Protection Trustmark (DPTM) Certification — SS 714:2025 source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Data Protection Trustmark (DPTM) Certification \u2014 SS 714:2025 source-awareness check"
+        "Data Protection Trustmark (DPTM) Certification — SS 714:2025 source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "draft",
@@ -16726,7 +16726,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Data Protection Trustmark (DPTM) Certification \u2014 SS 714:2025 measured evaluation",
+        "title": "Data Protection Trustmark (DPTM) Certification — SS 714:2025 measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -17006,8 +17006,8 @@
     },
     {
       "id": "deficit-reduction-act-fca-policies",
-      "title": "Deficit Reduction Act \u00a76032 False Claims Act Policies",
-      "description": "Source-aware compliance bundle for Deficit Reduction Act \u00a76032 False Claims Act Policies applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Deficit Reduction Act §6032 False Claims Act Policies",
+      "description": "Source-aware compliance bundle for Deficit Reduction Act §6032 False Claims Act Policies applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/deficit-reduction-act-fca-policies",
       "version": "0.1.0",
@@ -17027,14 +17027,14 @@
         "fraud"
       ],
       "aliases": [
-        "Deficit Reduction Act \u00a76032 False Claims Act Policies",
+        "Deficit Reduction Act §6032 False Claims Act Policies",
         "US Healthcare Fraud & Billing",
         "United States"
       ],
       "problems_solved": [
-        "Route Deficit Reduction Act \u00a76032 False Claims Act Policies work to the right source category and evidence set.",
+        "Route Deficit Reduction Act §6032 False Claims Act Policies work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Deficit Reduction Act \u00a76032 False Claims Act Policies source-aware brief suitable for qualified review."
+        "Produce a Deficit Reduction Act §6032 False Claims Act Policies source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Healthcare providers and suppliers billing Medicare, Medicaid, and other federal health programs"
@@ -17046,12 +17046,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Deficit Reduction Act \u00a76032 False Claims Act Policies source-aware brief"
+        "Deficit Reduction Act §6032 False Claims Act Policies source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Deficit Reduction Act \u00a76032 False Claims Act Policies source-awareness check"
+        "Deficit Reduction Act §6032 False Claims Act Policies source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "draft",
@@ -17121,7 +17121,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Deficit Reduction Act \u00a76032 False Claims Act Policies measured evaluation",
+        "title": "Deficit Reduction Act §6032 False Claims Act Policies measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -19525,8 +19525,8 @@
     },
     {
       "id": "eeoc",
-      "title": "EEOC (Equal Employment Opportunity Commission) \u2014 Overview",
-      "description": "Source-aware compliance bundle for EEOC (Equal Employment Opportunity Commission) \u2014 Overview applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "EEOC (Equal Employment Opportunity Commission) — Overview",
+      "description": "Source-aware compliance bundle for EEOC (Equal Employment Opportunity Commission) — Overview applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/eeoc",
       "version": "0.1.0",
@@ -19545,14 +19545,14 @@
         "compliance"
       ],
       "aliases": [
-        "EEOC (Equal Employment Opportunity Commission) \u2014 Overview",
+        "EEOC (Equal Employment Opportunity Commission) — Overview",
         "Umbrella round 3",
         "United States"
       ],
       "problems_solved": [
-        "Route EEOC (Equal Employment Opportunity Commission) \u2014 Overview work to the right source category and evidence set.",
+        "Route EEOC (Equal Employment Opportunity Commission) — Overview work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a EEOC (Equal Employment Opportunity Commission) \u2014 Overview source-aware brief suitable for qualified review."
+        "Produce a EEOC (Equal Employment Opportunity Commission) — Overview source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Employers (Title VII/ADA/ADEA covered)"
@@ -19564,12 +19564,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "EEOC (Equal Employment Opportunity Commission) \u2014 Overview source-aware brief"
+        "EEOC (Equal Employment Opportunity Commission) — Overview source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "EEOC (Equal Employment Opportunity Commission) \u2014 Overview source-awareness check"
+        "EEOC (Equal Employment Opportunity Commission) — Overview source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -19639,7 +19639,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "EEOC (Equal Employment Opportunity Commission) \u2014 Overview measured evaluation",
+        "title": "EEOC (Equal Employment Opportunity Commission) — Overview measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -20050,8 +20050,8 @@
     },
     {
       "id": "electronic-fund-transfer-regulation-e",
-      "title": "Electronic Fund Transfer Act Disclosures \u2014 Regulation E",
-      "description": "Source-aware compliance bundle for Electronic Fund Transfer Act Disclosures \u2014 Regulation E applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Electronic Fund Transfer Act Disclosures — Regulation E",
+      "description": "Source-aware compliance bundle for Electronic Fund Transfer Act Disclosures — Regulation E applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/electronic-fund-transfer-regulation-e",
       "version": "0.1.0",
@@ -20071,14 +20071,14 @@
         "institutions"
       ],
       "aliases": [
-        "Electronic Fund Transfer Act Disclosures \u2014 Regulation E",
+        "Electronic Fund Transfer Act Disclosures — Regulation E",
         "US Banking & Financial Institutions",
         "United States"
       ],
       "problems_solved": [
-        "Route Electronic Fund Transfer Act Disclosures \u2014 Regulation E work to the right source category and evidence set.",
+        "Route Electronic Fund Transfer Act Disclosures — Regulation E work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Electronic Fund Transfer Act Disclosures \u2014 Regulation E source-aware brief suitable for qualified review."
+        "Produce a Electronic Fund Transfer Act Disclosures — Regulation E source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Banks, depository institutions, and bank holding companies"
@@ -20090,12 +20090,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Electronic Fund Transfer Act Disclosures \u2014 Regulation E source-aware brief"
+        "Electronic Fund Transfer Act Disclosures — Regulation E source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Electronic Fund Transfer Act Disclosures \u2014 Regulation E source-awareness check"
+        "Electronic Fund Transfer Act Disclosures — Regulation E source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -20165,7 +20165,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Electronic Fund Transfer Act Disclosures \u2014 Regulation E measured evaluation",
+        "title": "Electronic Fund Transfer Act Disclosures — Regulation E measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -20446,8 +20446,8 @@
     },
     {
       "id": "enhanced-prudential-standards-regulation-yy",
-      "title": "Enhanced Prudential Standards \u2014 Regulation YY",
-      "description": "Source-aware compliance bundle for Enhanced Prudential Standards \u2014 Regulation YY applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Enhanced Prudential Standards — Regulation YY",
+      "description": "Source-aware compliance bundle for Enhanced Prudential Standards — Regulation YY applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/enhanced-prudential-standards-regulation-yy",
       "version": "0.1.0",
@@ -20467,14 +20467,14 @@
         "compliance"
       ],
       "aliases": [
-        "Enhanced Prudential Standards \u2014 Regulation YY",
+        "Enhanced Prudential Standards — Regulation YY",
         "US Banking & Financial Institutions",
         "United States"
       ],
       "problems_solved": [
-        "Route Enhanced Prudential Standards \u2014 Regulation YY work to the right source category and evidence set.",
+        "Route Enhanced Prudential Standards — Regulation YY work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Enhanced Prudential Standards \u2014 Regulation YY source-aware brief suitable for qualified review."
+        "Produce a Enhanced Prudential Standards — Regulation YY source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Banks, depository institutions, and bank holding companies"
@@ -20486,12 +20486,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Enhanced Prudential Standards \u2014 Regulation YY source-aware brief"
+        "Enhanced Prudential Standards — Regulation YY source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Enhanced Prudential Standards \u2014 Regulation YY source-awareness check"
+        "Enhanced Prudential Standards — Regulation YY source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -20561,7 +20561,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Enhanced Prudential Standards \u2014 Regulation YY measured evaluation",
+        "title": "Enhanced Prudential Standards — Regulation YY measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -22162,8 +22162,8 @@
     },
     {
       "id": "equal-credit-opportunity-regulation-b",
-      "title": "Equal Credit Opportunity Act Compliance \u2014 Regulation B",
-      "description": "Source-aware compliance bundle for Equal Credit Opportunity Act Compliance \u2014 Regulation B applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Equal Credit Opportunity Act Compliance — Regulation B",
+      "description": "Source-aware compliance bundle for Equal Credit Opportunity Act Compliance — Regulation B applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/equal-credit-opportunity-regulation-b",
       "version": "0.1.0",
@@ -22183,14 +22183,14 @@
         "institutions"
       ],
       "aliases": [
-        "Equal Credit Opportunity Act Compliance \u2014 Regulation B",
+        "Equal Credit Opportunity Act Compliance — Regulation B",
         "US Banking & Financial Institutions",
         "United States"
       ],
       "problems_solved": [
-        "Route Equal Credit Opportunity Act Compliance \u2014 Regulation B work to the right source category and evidence set.",
+        "Route Equal Credit Opportunity Act Compliance — Regulation B work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Equal Credit Opportunity Act Compliance \u2014 Regulation B source-aware brief suitable for qualified review."
+        "Produce a Equal Credit Opportunity Act Compliance — Regulation B source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Banks, depository institutions, and bank holding companies"
@@ -22202,12 +22202,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Equal Credit Opportunity Act Compliance \u2014 Regulation B source-aware brief"
+        "Equal Credit Opportunity Act Compliance — Regulation B source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Equal Credit Opportunity Act Compliance \u2014 Regulation B source-awareness check"
+        "Equal Credit Opportunity Act Compliance — Regulation B source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -22277,7 +22277,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Equal Credit Opportunity Act Compliance \u2014 Regulation B measured evaluation",
+        "title": "Equal Credit Opportunity Act Compliance — Regulation B measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -22822,8 +22822,8 @@
     },
     {
       "id": "fair-credit-reporting-regulation-v",
-      "title": "Fair Credit Reporting Act Compliance \u2014 Regulation V",
-      "description": "Source-aware compliance bundle for Fair Credit Reporting Act Compliance \u2014 Regulation V applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Fair Credit Reporting Act Compliance — Regulation V",
+      "description": "Source-aware compliance bundle for Fair Credit Reporting Act Compliance — Regulation V applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/fair-credit-reporting-regulation-v",
       "version": "0.1.0",
@@ -22843,14 +22843,14 @@
         "institutions"
       ],
       "aliases": [
-        "Fair Credit Reporting Act Compliance \u2014 Regulation V",
+        "Fair Credit Reporting Act Compliance — Regulation V",
         "US Banking & Financial Institutions",
         "United States"
       ],
       "problems_solved": [
-        "Route Fair Credit Reporting Act Compliance \u2014 Regulation V work to the right source category and evidence set.",
+        "Route Fair Credit Reporting Act Compliance — Regulation V work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Fair Credit Reporting Act Compliance \u2014 Regulation V source-aware brief suitable for qualified review."
+        "Produce a Fair Credit Reporting Act Compliance — Regulation V source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Banks, depository institutions, and bank holding companies"
@@ -22862,12 +22862,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Fair Credit Reporting Act Compliance \u2014 Regulation V source-aware brief"
+        "Fair Credit Reporting Act Compliance — Regulation V source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Fair Credit Reporting Act Compliance \u2014 Regulation V source-awareness check"
+        "Fair Credit Reporting Act Compliance — Regulation V source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -22937,7 +22937,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Fair Credit Reporting Act Compliance \u2014 Regulation V measured evaluation",
+        "title": "Fair Credit Reporting Act Compliance — Regulation V measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -22954,8 +22954,8 @@
     },
     {
       "id": "fair-debt-collection-regulation-f",
-      "title": "Fair Debt Collection Practices \u2014 Regulation F",
-      "description": "Source-aware compliance bundle for Fair Debt Collection Practices \u2014 Regulation F applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Fair Debt Collection Practices — Regulation F",
+      "description": "Source-aware compliance bundle for Fair Debt Collection Practices — Regulation F applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/fair-debt-collection-regulation-f",
       "version": "0.1.0",
@@ -22975,14 +22975,14 @@
         "compliance"
       ],
       "aliases": [
-        "Fair Debt Collection Practices \u2014 Regulation F",
+        "Fair Debt Collection Practices — Regulation F",
         "US Banking & Financial Institutions",
         "United States"
       ],
       "problems_solved": [
-        "Route Fair Debt Collection Practices \u2014 Regulation F work to the right source category and evidence set.",
+        "Route Fair Debt Collection Practices — Regulation F work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Fair Debt Collection Practices \u2014 Regulation F source-aware brief suitable for qualified review."
+        "Produce a Fair Debt Collection Practices — Regulation F source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Banks, depository institutions, and bank holding companies"
@@ -22994,12 +22994,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Fair Debt Collection Practices \u2014 Regulation F source-aware brief"
+        "Fair Debt Collection Practices — Regulation F source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Fair Debt Collection Practices \u2014 Regulation F source-awareness check"
+        "Fair Debt Collection Practices — Regulation F source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -23069,7 +23069,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Fair Debt Collection Practices \u2014 Regulation F measured evaluation",
+        "title": "Fair Debt Collection Practices — Regulation F measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -23743,8 +23743,8 @@
     },
     {
       "id": "fcra-consumer-reporting-obligations",
-      "title": "Fair Credit Reporting Act \u2014 Furnisher, Marketer, and Data-Handling Rules",
-      "description": "Source-aware compliance bundle for Fair Credit Reporting Act \u2014 Furnisher, Marketer, and Data-Handling Rules applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Fair Credit Reporting Act — Furnisher, Marketer, and Data-Handling Rules",
+      "description": "Source-aware compliance bundle for Fair Credit Reporting Act — Furnisher, Marketer, and Data-Handling Rules applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/fcra-consumer-reporting-obligations",
       "version": "0.1.0",
@@ -23764,14 +23764,14 @@
         "rules"
       ],
       "aliases": [
-        "Fair Credit Reporting Act \u2014 Furnisher, Marketer, and Data-Handling Rules",
+        "Fair Credit Reporting Act — Furnisher, Marketer, and Data-Handling Rules",
         "US Consumer & Marketing Privacy",
         "United States"
       ],
       "problems_solved": [
-        "Route Fair Credit Reporting Act \u2014 Furnisher, Marketer, and Data-Handling Rules work to the right source category and evidence set.",
+        "Route Fair Credit Reporting Act — Furnisher, Marketer, and Data-Handling Rules work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Fair Credit Reporting Act \u2014 Furnisher, Marketer, and Data-Handling Rules source-aware brief suitable for qualified review."
+        "Produce a Fair Credit Reporting Act — Furnisher, Marketer, and Data-Handling Rules source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Businesses marketing to or collecting personal information from US consumers"
@@ -23783,12 +23783,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Fair Credit Reporting Act \u2014 Furnisher, Marketer, and Data-Handling Rules source-aware brief"
+        "Fair Credit Reporting Act — Furnisher, Marketer, and Data-Handling Rules source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Fair Credit Reporting Act \u2014 Furnisher, Marketer, and Data-Handling Rules source-awareness check"
+        "Fair Credit Reporting Act — Furnisher, Marketer, and Data-Handling Rules source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -23858,7 +23858,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Fair Credit Reporting Act \u2014 Furnisher, Marketer, and Data-Handling Rules measured evaluation",
+        "title": "Fair Credit Reporting Act — Furnisher, Marketer, and Data-Handling Rules measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -24535,8 +24535,8 @@
     },
     {
       "id": "fda-dietary-supplement-cgmp-ndi",
-      "title": "Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act \u00a7 413)",
-      "description": "Source-aware compliance bundle for Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act \u00a7 413) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act § 413)",
+      "description": "Source-aware compliance bundle for Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act § 413) applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/fda-dietary-supplement-cgmp-ndi",
       "version": "0.1.0",
@@ -24556,14 +24556,14 @@
         "part"
       ],
       "aliases": [
-        "Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act \u00a7 413)",
+        "Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act § 413)",
         "US Food",
         "United States"
       ],
       "problems_solved": [
-        "Route Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act \u00a7 413) work to the right source category and evidence set.",
+        "Route Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act § 413) work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act \u00a7 413) source-aware brief suitable for qualified review."
+        "Produce a Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act § 413) source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Food manufacturing and processing"
@@ -24575,12 +24575,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act \u00a7 413) source-aware brief"
+        "Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act § 413) source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act \u00a7 413) source-awareness check"
+        "Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act § 413) source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -24650,7 +24650,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act \u00a7 413) measured evaluation",
+        "title": "Dietary Supplement CGMP and New Dietary Ingredient Notification (21 CFR Part 111; FD&C Act § 413) measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -25325,8 +25325,8 @@
     },
     {
       "id": "fda-infant-formula",
-      "title": "Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act \u00a7 412)",
-      "description": "Source-aware compliance bundle for Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act \u00a7 412) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act § 412)",
+      "description": "Source-aware compliance bundle for Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act § 412) applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/fda-infant-formula",
       "version": "0.1.0",
@@ -25346,14 +25346,14 @@
         "part"
       ],
       "aliases": [
-        "Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act \u00a7 412)",
+        "Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act § 412)",
         "US Food",
         "United States"
       ],
       "problems_solved": [
-        "Route Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act \u00a7 412) work to the right source category and evidence set.",
+        "Route Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act § 412) work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act \u00a7 412) source-aware brief suitable for qualified review."
+        "Produce a Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act § 412) source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Food manufacturing and processing"
@@ -25365,12 +25365,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act \u00a7 412) source-aware brief"
+        "Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act § 412) source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act \u00a7 412) source-awareness check"
+        "Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act § 412) source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -25440,7 +25440,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act \u00a7 412) measured evaluation",
+        "title": "Infant Formula Registration, Notification, and Quality Controls (21 CFR Part 106; FD&C Act § 412) measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -26379,8 +26379,8 @@
     },
     {
       "id": "fda-reportable-food-registry",
-      "title": "Reportable Food Registry Mandatory Reporting (FD&C Act \u00a7 417)",
-      "description": "Source-aware compliance bundle for Reportable Food Registry Mandatory Reporting (FD&C Act \u00a7 417) applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Reportable Food Registry Mandatory Reporting (FD&C Act § 417)",
+      "description": "Source-aware compliance bundle for Reportable Food Registry Mandatory Reporting (FD&C Act § 417) applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/fda-reportable-food-registry",
       "version": "0.1.0",
@@ -26400,14 +26400,14 @@
         "compliance"
       ],
       "aliases": [
-        "Reportable Food Registry Mandatory Reporting (FD&C Act \u00a7 417)",
+        "Reportable Food Registry Mandatory Reporting (FD&C Act § 417)",
         "US Food",
         "United States"
       ],
       "problems_solved": [
-        "Route Reportable Food Registry Mandatory Reporting (FD&C Act \u00a7 417) work to the right source category and evidence set.",
+        "Route Reportable Food Registry Mandatory Reporting (FD&C Act § 417) work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Reportable Food Registry Mandatory Reporting (FD&C Act \u00a7 417) source-aware brief suitable for qualified review."
+        "Produce a Reportable Food Registry Mandatory Reporting (FD&C Act § 417) source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Food manufacturing and processing"
@@ -26419,12 +26419,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Reportable Food Registry Mandatory Reporting (FD&C Act \u00a7 417) source-aware brief"
+        "Reportable Food Registry Mandatory Reporting (FD&C Act § 417) source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Reportable Food Registry Mandatory Reporting (FD&C Act \u00a7 417) source-awareness check"
+        "Reportable Food Registry Mandatory Reporting (FD&C Act § 417) source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -26494,7 +26494,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Reportable Food Registry Mandatory Reporting (FD&C Act \u00a7 417) measured evaluation",
+        "title": "Reportable Food Registry Mandatory Reporting (FD&C Act § 417) measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -27170,8 +27170,8 @@
     },
     {
       "id": "fed-assessment-regulation-tt",
-      "title": "Supervision and Regulation Assessments \u2014 Regulation TT",
-      "description": "Source-aware compliance bundle for Supervision and Regulation Assessments \u2014 Regulation TT applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Supervision and Regulation Assessments — Regulation TT",
+      "description": "Source-aware compliance bundle for Supervision and Regulation Assessments — Regulation TT applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/fed-assessment-regulation-tt",
       "version": "0.1.0",
@@ -27191,14 +27191,14 @@
         "compliance"
       ],
       "aliases": [
-        "Supervision and Regulation Assessments \u2014 Regulation TT",
+        "Supervision and Regulation Assessments — Regulation TT",
         "US Banking & Financial Institutions",
         "United States"
       ],
       "problems_solved": [
-        "Route Supervision and Regulation Assessments \u2014 Regulation TT work to the right source category and evidence set.",
+        "Route Supervision and Regulation Assessments — Regulation TT work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Supervision and Regulation Assessments \u2014 Regulation TT source-aware brief suitable for qualified review."
+        "Produce a Supervision and Regulation Assessments — Regulation TT source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Banks, depository institutions, and bank holding companies"
@@ -27210,12 +27210,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Supervision and Regulation Assessments \u2014 Regulation TT source-aware brief"
+        "Supervision and Regulation Assessments — Regulation TT source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Supervision and Regulation Assessments \u2014 Regulation TT source-awareness check"
+        "Supervision and Regulation Assessments — Regulation TT source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -27285,7 +27285,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Supervision and Regulation Assessments \u2014 Regulation TT measured evaluation",
+        "title": "Supervision and Regulation Assessments — Regulation TT measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -41385,8 +41385,8 @@
     },
     {
       "id": "form-13f-institutional-holdings",
-      "title": "Form 13F \u2014 Institutional Investment Manager Holdings Report",
-      "description": "Source-aware compliance bundle for Form 13F \u2014 Institutional Investment Manager Holdings Report applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Form 13F — Institutional Investment Manager Holdings Report",
+      "description": "Source-aware compliance bundle for Form 13F — Institutional Investment Manager Holdings Report applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/form-13f-institutional-holdings",
       "version": "0.1.0",
@@ -41405,14 +41405,14 @@
         "compliance"
       ],
       "aliases": [
-        "Form 13F \u2014 Institutional Investment Manager Holdings Report",
+        "Form 13F — Institutional Investment Manager Holdings Report",
         "Broker-dealers and registered investment advisers",
         "United States"
       ],
       "problems_solved": [
-        "Route Form 13F \u2014 Institutional Investment Manager Holdings Report work to the right source category and evidence set.",
+        "Route Form 13F — Institutional Investment Manager Holdings Report work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Form 13F \u2014 Institutional Investment Manager Holdings Report source-aware brief suitable for qualified review."
+        "Produce a Form 13F — Institutional Investment Manager Holdings Report source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Broker-dealers and registered investment advisers"
@@ -41424,12 +41424,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Form 13F \u2014 Institutional Investment Manager Holdings Report source-aware brief"
+        "Form 13F — Institutional Investment Manager Holdings Report source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Form 13F \u2014 Institutional Investment Manager Holdings Report source-awareness check"
+        "Form 13F — Institutional Investment Manager Holdings Report source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -41499,7 +41499,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Form 13F \u2014 Institutional Investment Manager Holdings Report measured evaluation",
+        "title": "Form 13F — Institutional Investment Manager Holdings Report measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -41516,8 +41516,8 @@
     },
     {
       "id": "form-adv-investment-adviser-registration",
-      "title": "Form ADV \u2014 Investment Adviser Registration & Amendments",
-      "description": "Source-aware compliance bundle for Form ADV \u2014 Investment Adviser Registration & Amendments applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Form ADV — Investment Adviser Registration & Amendments",
+      "description": "Source-aware compliance bundle for Form ADV — Investment Adviser Registration & Amendments applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/form-adv-investment-adviser-registration",
       "version": "0.1.0",
@@ -41535,14 +41535,14 @@
         "compliance"
       ],
       "aliases": [
-        "Form ADV \u2014 Investment Adviser Registration & Amendments",
+        "Form ADV — Investment Adviser Registration & Amendments",
         "Broker-dealers and registered investment advisers",
         "United States"
       ],
       "problems_solved": [
-        "Route Form ADV \u2014 Investment Adviser Registration & Amendments work to the right source category and evidence set.",
+        "Route Form ADV — Investment Adviser Registration & Amendments work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Form ADV \u2014 Investment Adviser Registration & Amendments source-aware brief suitable for qualified review."
+        "Produce a Form ADV — Investment Adviser Registration & Amendments source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Broker-dealers and registered investment advisers"
@@ -41554,12 +41554,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Form ADV \u2014 Investment Adviser Registration & Amendments source-aware brief"
+        "Form ADV — Investment Adviser Registration & Amendments source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Form ADV \u2014 Investment Adviser Registration & Amendments source-awareness check"
+        "Form ADV — Investment Adviser Registration & Amendments source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -41629,7 +41629,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Form ADV \u2014 Investment Adviser Registration & Amendments measured evaluation",
+        "title": "Form ADV — Investment Adviser Registration & Amendments measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -41646,8 +41646,8 @@
     },
     {
       "id": "form-bd-broker-dealer-registration",
-      "title": "Form BD \u2014 Uniform Application for Broker-Dealer Registration",
-      "description": "Source-aware compliance bundle for Form BD \u2014 Uniform Application for Broker-Dealer Registration applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Form BD — Uniform Application for Broker-Dealer Registration",
+      "description": "Source-aware compliance bundle for Form BD — Uniform Application for Broker-Dealer Registration applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/form-bd-broker-dealer-registration",
       "version": "0.1.0",
@@ -41664,16 +41664,16 @@
         "compliance"
       ],
       "aliases": [
-        "Form BD \u2014 Uniform Application for Broker-Dealer Registration",
+        "Form BD — Uniform Application for Broker-Dealer Registration",
         "Broker-dealers and registered investment advisers",
         "United States",
         "U.S. Securities and Exchange Commission (SEC)",
         "Financial Industry Regulatory Authority (FINRA)"
       ],
       "problems_solved": [
-        "Route Form BD \u2014 Uniform Application for Broker-Dealer Registration work to the right source category and evidence set.",
+        "Route Form BD — Uniform Application for Broker-Dealer Registration work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Form BD \u2014 Uniform Application for Broker-Dealer Registration source-aware brief suitable for qualified review."
+        "Produce a Form BD — Uniform Application for Broker-Dealer Registration source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Broker-dealers and registered investment advisers"
@@ -41685,12 +41685,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Form BD \u2014 Uniform Application for Broker-Dealer Registration source-aware brief"
+        "Form BD — Uniform Application for Broker-Dealer Registration source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Form BD \u2014 Uniform Application for Broker-Dealer Registration source-awareness check"
+        "Form BD — Uniform Application for Broker-Dealer Registration source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -41760,7 +41760,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Form BD \u2014 Uniform Application for Broker-Dealer Registration measured evaluation",
+        "title": "Form BD — Uniform Application for Broker-Dealer Registration measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -41777,8 +41777,8 @@
     },
     {
       "id": "form-bdw-broker-dealer-withdrawal",
-      "title": "Form BDW \u2014 Uniform Request for Broker-Dealer Withdrawal",
-      "description": "Source-aware compliance bundle for Form BDW \u2014 Uniform Request for Broker-Dealer Withdrawal applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Form BDW — Uniform Request for Broker-Dealer Withdrawal",
+      "description": "Source-aware compliance bundle for Form BDW — Uniform Request for Broker-Dealer Withdrawal applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/form-bdw-broker-dealer-withdrawal",
       "version": "0.1.0",
@@ -41795,16 +41795,16 @@
         "compliance"
       ],
       "aliases": [
-        "Form BDW \u2014 Uniform Request for Broker-Dealer Withdrawal",
+        "Form BDW — Uniform Request for Broker-Dealer Withdrawal",
         "Broker-dealers and registered investment advisers",
         "United States",
         "U.S. Securities and Exchange Commission (SEC)",
         "Financial Industry Regulatory Authority (FINRA)"
       ],
       "problems_solved": [
-        "Route Form BDW \u2014 Uniform Request for Broker-Dealer Withdrawal work to the right source category and evidence set.",
+        "Route Form BDW — Uniform Request for Broker-Dealer Withdrawal work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Form BDW \u2014 Uniform Request for Broker-Dealer Withdrawal source-aware brief suitable for qualified review."
+        "Produce a Form BDW — Uniform Request for Broker-Dealer Withdrawal source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Broker-dealers and registered investment advisers"
@@ -41816,12 +41816,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Form BDW \u2014 Uniform Request for Broker-Dealer Withdrawal source-aware brief"
+        "Form BDW — Uniform Request for Broker-Dealer Withdrawal source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Form BDW \u2014 Uniform Request for Broker-Dealer Withdrawal source-awareness check"
+        "Form BDW — Uniform Request for Broker-Dealer Withdrawal source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -41891,7 +41891,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Form BDW \u2014 Uniform Request for Broker-Dealer Withdrawal measured evaluation",
+        "title": "Form BDW — Uniform Request for Broker-Dealer Withdrawal measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -41908,8 +41908,8 @@
     },
     {
       "id": "form-crs-relationship-summary",
-      "title": "Form CRS \u2014 Client/Customer Relationship Summary",
-      "description": "Source-aware compliance bundle for Form CRS \u2014 Client/Customer Relationship Summary applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Form CRS — Client/Customer Relationship Summary",
+      "description": "Source-aware compliance bundle for Form CRS — Client/Customer Relationship Summary applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/form-crs-relationship-summary",
       "version": "0.1.0",
@@ -41925,16 +41925,16 @@
         "compliance"
       ],
       "aliases": [
-        "Form CRS \u2014 Client/Customer Relationship Summary",
+        "Form CRS — Client/Customer Relationship Summary",
         "Broker-dealers and registered investment advisers",
         "United States",
         "U.S. Securities and Exchange Commission (SEC)",
         "Financial Industry Regulatory Authority (FINRA)"
       ],
       "problems_solved": [
-        "Route Form CRS \u2014 Client/Customer Relationship Summary work to the right source category and evidence set.",
+        "Route Form CRS — Client/Customer Relationship Summary work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Form CRS \u2014 Client/Customer Relationship Summary source-aware brief suitable for qualified review."
+        "Produce a Form CRS — Client/Customer Relationship Summary source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Broker-dealers and registered investment advisers"
@@ -41946,12 +41946,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Form CRS \u2014 Client/Customer Relationship Summary source-aware brief"
+        "Form CRS — Client/Customer Relationship Summary source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Form CRS \u2014 Client/Customer Relationship Summary source-awareness check"
+        "Form CRS — Client/Customer Relationship Summary source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -42021,7 +42021,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Form CRS \u2014 Client/Customer Relationship Summary measured evaluation",
+        "title": "Form CRS — Client/Customer Relationship Summary measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -42038,8 +42038,8 @@
     },
     {
       "id": "form-pf-private-fund-reporting",
-      "title": "Form PF \u2014 Reporting by Private Fund Advisers",
-      "description": "Source-aware compliance bundle for Form PF \u2014 Reporting by Private Fund Advisers applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Form PF — Reporting by Private Fund Advisers",
+      "description": "Source-aware compliance bundle for Form PF — Reporting by Private Fund Advisers applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/form-pf-private-fund-reporting",
       "version": "0.1.0",
@@ -42056,15 +42056,15 @@
         "compliance"
       ],
       "aliases": [
-        "Form PF \u2014 Reporting by Private Fund Advisers",
+        "Form PF — Reporting by Private Fund Advisers",
         "Broker-dealers and registered investment advisers",
         "United States",
         "U.S. Securities and Exchange Commission (SEC)"
       ],
       "problems_solved": [
-        "Route Form PF \u2014 Reporting by Private Fund Advisers work to the right source category and evidence set.",
+        "Route Form PF — Reporting by Private Fund Advisers work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Form PF \u2014 Reporting by Private Fund Advisers source-aware brief suitable for qualified review."
+        "Produce a Form PF — Reporting by Private Fund Advisers source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Broker-dealers and registered investment advisers"
@@ -42076,12 +42076,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Form PF \u2014 Reporting by Private Fund Advisers source-aware brief"
+        "Form PF — Reporting by Private Fund Advisers source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Form PF \u2014 Reporting by Private Fund Advisers source-awareness check"
+        "Form PF — Reporting by Private Fund Advisers source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -42151,7 +42151,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Form PF \u2014 Reporting by Private Fund Advisers measured evaluation",
+        "title": "Form PF — Reporting by Private Fund Advisers measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -45784,8 +45784,8 @@
     },
     {
       "id": "ftc-act-section-5-udap",
-      "title": "Federal Trade Commission Act, Section 5 \u2014 Unfair or Deceptive Acts or Practices",
-      "description": "Source-aware compliance bundle for Federal Trade Commission Act, Section 5 \u2014 Unfair or Deceptive Acts or Practices applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Federal Trade Commission Act, Section 5 — Unfair or Deceptive Acts or Practices",
+      "description": "Source-aware compliance bundle for Federal Trade Commission Act, Section 5 — Unfair or Deceptive Acts or Practices applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/ftc-act-section-5-udap",
       "version": "0.1.0",
@@ -45802,15 +45802,15 @@
         "compliance"
       ],
       "aliases": [
-        "Federal Trade Commission Act, Section 5 \u2014 Unfair or Deceptive Acts or Practices",
+        "Federal Trade Commission Act, Section 5 — Unfair or Deceptive Acts or Practices",
         "SaaS/technology vendors and public-facing digital services",
         "United States",
         "Federal Trade Commission (FTC)"
       ],
       "problems_solved": [
-        "Route Federal Trade Commission Act, Section 5 \u2014 Unfair or Deceptive Acts or Practices work to the right source category and evidence set.",
+        "Route Federal Trade Commission Act, Section 5 — Unfair or Deceptive Acts or Practices work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Federal Trade Commission Act, Section 5 \u2014 Unfair or Deceptive Acts or Practices source-aware brief suitable for qualified review."
+        "Produce a Federal Trade Commission Act, Section 5 — Unfair or Deceptive Acts or Practices source-aware brief suitable for qualified review."
       ],
       "industries": [
         "SaaS/technology vendors and public-facing digital services"
@@ -45822,12 +45822,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Federal Trade Commission Act, Section 5 \u2014 Unfair or Deceptive Acts or Practices source-aware brief"
+        "Federal Trade Commission Act, Section 5 — Unfair or Deceptive Acts or Practices source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Federal Trade Commission Act, Section 5 \u2014 Unfair or Deceptive Acts or Practices source-awareness check"
+        "Federal Trade Commission Act, Section 5 — Unfair or Deceptive Acts or Practices source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -45902,7 +45902,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Federal Trade Commission Act, Section 5 \u2014 Unfair or Deceptive Acts or Practices measured evaluation",
+        "title": "Federal Trade Commission Act, Section 5 — Unfair or Deceptive Acts or Practices measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -45919,8 +45919,8 @@
     },
     {
       "id": "ftc-act-section-5-unfair-deceptive-practices",
-      "title": "Section 5 of the FTC Act \u2014 Prohibition on Unfair or Deceptive Acts or Practices",
-      "description": "Source-aware compliance bundle for Section 5 of the FTC Act \u2014 Prohibition on Unfair or Deceptive Acts or Practices applicability, evidence collection, source inspection, and review-ready decision support.",
+      "title": "Section 5 of the FTC Act — Prohibition on Unfair or Deceptive Acts or Practices",
+      "description": "Source-aware compliance bundle for Section 5 of the FTC Act — Prohibition on Unfair or Deceptive Acts or Practices applicability, evidence collection, source inspection, and review-ready decision support.",
       "category": "compliance",
       "path": "bundles/compliance/ftc-act-section-5-unfair-deceptive-practices",
       "version": "0.1.0",
@@ -45939,15 +45939,15 @@
         "compliance"
       ],
       "aliases": [
-        "Section 5 of the FTC Act \u2014 Prohibition on Unfair or Deceptive Acts or Practices",
+        "Section 5 of the FTC Act — Prohibition on Unfair or Deceptive Acts or Practices",
         "Businesses marketing to or collecting personal information from US consumers",
         "United States",
         "Federal Trade Commission (FTC)"
       ],
       "problems_solved": [
-        "Route Section 5 of the FTC Act \u2014 Prohibition on Unfair or Deceptive Acts or Practices work to the right source category and evidence set.",
+        "Route Section 5 of the FTC Act — Prohibition on Unfair or Deceptive Acts or Practices work to the right source category and evidence set.",
         "Separate verified source facts, user-provided facts, assumptions, and missing evidence.",
-        "Produce a Section 5 of the FTC Act \u2014 Prohibition on Unfair or Deceptive Acts or Practices source-aware brief suitable for qualified review."
+        "Produce a Section 5 of the FTC Act — Prohibition on Unfair or Deceptive Acts or Practices source-aware brief suitable for qualified review."
       ],
       "industries": [
         "Businesses marketing to or collecting personal information from US consumers"
@@ -45959,12 +45959,12 @@
         "qualified-review gate"
       ],
       "deliverables": [
-        "Section 5 of the FTC Act \u2014 Prohibition on Unfair or Deceptive Acts or Practices source-aware brief"
+        "Section 5 of the FTC Act — Prohibition on Unfair or Deceptive Acts or Practices source-aware brief"
       ],
       "commands": [],
       "skills": [],
       "evaluations": [
-        "Section 5 of the FTC Act \u2014 Prohibition on Unfair or Deceptive Acts or Practices source-awareness check"
+        "Section 5 of the FTC Act — Prohibition on Unfair or Deceptive Acts or Practices source-awareness check"
       ],
       "trust_tier": "trusted",
       "status": "beta",
@@ -46034,7 +46034,7 @@
       },
       "evaluation_detail": {
         "status": "measured",
-        "title": "Section 5 of the FTC Act \u2014 Prohibition on Unfair or Deceptive Acts or Practices measured evaluation",
+        "title": "Section 5 of the FTC Act — Prohibition on Unfair or Deceptive Acts or Practices measured evaluation",
         "last_evaluated": "2026-07-29",
         "method": "baseline-vs-okb-rubric",
         "model": "openai/gpt-4o-mini",
@@ -55606,6 +55606,142 @@
         "bundle_context_source": "bundles/roles/platform-engineer",
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/platform-engineer/v1/evaluation-results/"
+      }
+    },
+    {
+      "id": "product-marketing-manager",
+      "title": "Product Marketing Manager",
+      "description": "Source-aware role bundle for product positioning, messaging, launches, market and competitive evidence, sales enablement, and decision-ready go-to-market briefs.",
+      "category": "roles",
+      "path": "bundles/roles/product-marketing-manager",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/product-marketing-manager",
+      "download_url": "https://openknowledgebank.com/downloads/product-marketing-manager.zip",
+      "tags": [
+        "product-marketing",
+        "go-to-market",
+        "positioning",
+        "role"
+      ],
+      "aliases": [
+        "Product Marketing Manager"
+      ],
+      "problems_solved": [
+        "Prepare a product marketing decision brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce review-ready decisions with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Software",
+        "Consumer and business products"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "product-marketing-strategy-and-launch-decisions evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Product marketing decision brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Product Marketing Manager source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "can-spam",
+        "figma",
+        "gdpr",
+        "hubspot-sales-hub",
+        "salesforce-service-cloud"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "11-2021.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "1221"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/details/11-2021.00"
+      ],
+      "limitations": [
+        "Use official Product Marketing Manager sources for general context; local product marketing strategy and launch decisions, configuration, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for product and roadmap evidence, customer and market research, positioning and messaging drafts, competitive evidence, launch scope and channel plans, sales enablement feedback, and performance definitions and results.",
+        "Do not infer customer needs, market size, competitor claims, product capabilities, roadmap commitments, launch dates, channel performance, win-loss causes."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, and other sensitive data.",
+        "Require explicit confirmation before external claims, launch commitments, pricing, roadmap disclosure, customer communications, or campaign spend.",
+        "Route legal, privacy, security, compliance, financial, employment, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 6,
+        "okb_score": 36,
+        "absolute_lift": 30,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-prioritization-review",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-source-reconciliation",
+            "baseline_score": 2,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 6/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Product Marketing Manager measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 6,
+        "okb_score": 36,
+        "absolute_lift": 30,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/product-marketing-manager",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/product-marketing-manager/v1/evaluation-results/"
       }
     }
   ]
