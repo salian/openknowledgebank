@@ -77405,6 +77405,136 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/moodle/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "tiktok-ads-manager",
+      "title": "TikTok Ads Manager",
+      "description": "Source-aware tool bundle for TikTok Ads Manager campaign, creative, audience, measurement, and spend review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/tiktok-ads-manager",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/tiktok-ads-manager",
+      "download_url": "https://openknowledgebank.com/downloads/tiktok-ads-manager.zip",
+      "tags": [
+        "tiktok-ads-manager",
+        "tiktok",
+        "tool"
+      ],
+      "aliases": [
+        "TikTok Ads Manager"
+      ],
+      "problems_solved": [
+        "Prepare a TikTok campaign change brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "TikTok Ads Manager"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "TikTok Ads Manager campaign, creative, audience, measurement, and spend review review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "TikTok campaign change brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "TikTok Ads Manager source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "paid-social-social-media-advertising-specialist"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://ads.tiktok.com/business/en/solutions/ads-manager",
+        "https://ads.tiktok.com/help/article/advertising-on-tiktok-ads-manager?lang=en",
+        "https://ads.tiktok.com/help/article/tiktok-pixel?lang=en-GB"
+      ],
+      "limitations": [
+        "Use the listed authoritative sources for general role or tool behavior; local configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for business and ad account, user role, permissions, market, policy, and interface version; objective, campaign, ad group, ad, creative, audience, exclusions, placement, schedule, budget, bid, billing, Pixel or Events API, events, consent, deduplication, attribution, reporting definitions, tests, and approvals.",
+        "Do not infer delivery, event receipt, audience eligibility, conversion count, attribution, performance, spend, policy compliance, or forecast."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that create or launch ads, change budget or bid, upload audiences or events, install tracking code, publish creative, or incur spend.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 9,
+        "okb_score": 34,
+        "absolute_lift": 25,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-state-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 9/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "TikTok Ads Manager measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 9,
+        "okb_score": 34,
+        "absolute_lift": 25,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/tiktok-ads-manager",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/tiktok-ads-manager/v1/evaluation-results/"
+      }
     }
   ]
 }
