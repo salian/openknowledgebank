@@ -77278,6 +77278,133 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/jetbrains-ides/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "moodle",
+      "title": "Moodle",
+      "description": "Source-aware tool bundle for Moodle course, role, plugin, integration, assessment, and data administration review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/moodle",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/moodle",
+      "download_url": "https://openknowledgebank.com/downloads/moodle.zip",
+      "tags": [
+        "moodle",
+        "moodle",
+        "tool"
+      ],
+      "aliases": [
+        "Moodle"
+      ],
+      "problems_solved": [
+        "Prepare a Moodle change brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "Moodle"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "Moodle course, role, plugin, integration, assessment, and data administration review review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Moodle change brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Moodle source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://moodledev.io/docs/5.1/apis",
+        "https://docs.moodle.org/dev/Web_services"
+      ],
+      "limitations": [
+        "Use the listed authoritative sources for general role or tool behavior; local configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for site and Moodle version, environment, course, category, cohort, user, role, and capability; plugins, themes, dependencies, activities, resources, questions, grades, dates, enrollment, completion, web-service functions and tokens, privacy, retention, backup, restore, logs, tests, and approvals.",
+        "Do not infer capability, enrollment, grade, completion, plugin compatibility, course visibility, integration behavior, or learner outcome."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that enroll or message users, change grades or course content, enable web services, issue tokens, install plugins, run upgrades, restore backups, or expose learner data.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 10,
+        "okb_score": 36,
+        "absolute_lift": 26,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-state-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 10/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Moodle measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 10,
+        "okb_score": 36,
+        "absolute_lift": 26,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/moodle",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/moodle/v1/evaluation-results/"
+      }
     }
   ]
 }
