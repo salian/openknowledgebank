@@ -78696,6 +78696,133 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/paychex-flex/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "rippling",
+      "title": "Rippling",
+      "description": "Source-aware tool bundle for workforce records, payroll, identity, device, spend, integration, and workflow review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/rippling",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/rippling",
+      "download_url": "https://openknowledgebank.com/downloads/rippling.zip",
+      "tags": [
+        "rippling",
+        "tool",
+        "source-aware"
+      ],
+      "aliases": [
+        "Rippling"
+      ],
+      "problems_solved": [
+        "Prepare a rippling review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "Rippling"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "Rippling application matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Rippling review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Rippling source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://developer.rippling.com/",
+        "https://www.rippling.com/"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general Rippling guidance; local facts, configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for company and worker identifiers, enabled products, environment, API or workflow version, authorization scope, field mappings, payroll and identity sources of record, audit history, tests, approvals, and rollback.",
+        "Do not infer worker status, pay result, identity or device state, workflow execution, authorization, compliance, or source-of-record status."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that create or change worker, payroll, identity, device, spend, integration, or workflow data; run automations; expose credentials; send employee data; or make tax or employment determinations.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 35,
+        "absolute_lift": 21,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Rippling measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 35,
+        "absolute_lift": 21,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/rippling",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/rippling/v1/evaluation-results/"
+      }
     }
   ]
 }
