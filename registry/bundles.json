@@ -80889,6 +80889,133 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/google-meet/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "prince2",
+      "title": "PRINCE2",
+      "description": "Source-aware framework bundle for principle, practice, process, role, management product, stage, tolerance, business case, and project governance review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/prince2",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/prince2",
+      "download_url": "https://openknowledgebank.com/downloads/prince2.zip",
+      "tags": [
+        "prince2",
+        "framework",
+        "source-aware"
+      ],
+      "aliases": [
+        "PRINCE2"
+      ],
+      "problems_solved": [
+        "Prepare a prince2 application brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "PRINCE2 application matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "PRINCE2 application brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "PRINCE2 source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "microsoft-project"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.peoplecert.org/browse-certifications/project-programme-and-portfolio-management/PRINCE2-2",
+        "https://bestpractice.axelos.com/effective-project-management/"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general PRINCE2 guidance; local facts, configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for PRINCE2 edition and licensed source, project mandate and business case, organization and role appointments, product descriptions, plans and stages, tolerances, risks, issues, quality controls, progress evidence, tailoring decisions, approvals, and lessons.",
+        "Do not infer applicable edition, role appointment, product completeness, stage status, tolerance exception, business-case viability, conformity, or approval."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that authorize initiation, project or stage work; approve exception or change; commit budget or resources; assign governance roles; or claim PRINCE2 conformity or certification.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 34,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "PRINCE2 measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 34,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/prince2",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/prince2/v1/evaluation-results/"
+      }
     }
   ]
 }
