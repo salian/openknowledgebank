@@ -61008,6 +61008,134 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/kirkpatrick-four-levels-of-evaluation/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "balanced-scorecard",
+      "title": "Balanced Scorecard",
+      "description": "Source-aware framework bundle for translating strategy into balanced objectives, causal hypotheses, measures, targets, initiatives, ownership, and reviewable decisions.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/balanced-scorecard",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/balanced-scorecard",
+      "download_url": "https://openknowledgebank.com/downloads/balanced-scorecard.zip",
+      "tags": [
+        "balanced-scorecard",
+        "strategy",
+        "performance-management",
+        "framework"
+      ],
+      "aliases": [
+        "Balanced Scorecard"
+      ],
+      "problems_solved": [
+        "Prepare a balanced scorecard design and review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce review-ready decisions with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Business services",
+        "Government",
+        "Healthcare"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "strategy execution and performance measurement application matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "balanced scorecard design and review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Balanced Scorecard source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.hbs.edu/ris/Publication%20Files/10-074_0bf3c151-f82b-4592-b885-cdde7f5d97a6.pdf",
+        "https://www.library.hbs.edu/working-knowledge/the-strategy-focused-organization"
+      ],
+      "limitations": [
+        "Use the cited official or primary sources for general strategy execution and performance measurement context; local facts, configuration, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for strategy, scope, and framework interpretation, objectives and perspective assignment, causal hypotheses and dependencies, measure definitions, formulas, sources, baselines, and targets, initiatives, owners, resources, and timing, and review cadence, decisions, and observed results.",
+        "Do not infer strategic objective, causal relationship, metric definition, baseline, target feasibility, and initiative effect."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, and other sensitive data.",
+        "Require explicit confirmation before committing targets or resources, publishing performance claims, changing strategy, or making personnel decisions without accountable review.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Balanced Scorecard measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/balanced-scorecard",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/balanced-scorecard/v1/evaluation-results/"
+      }
     }
   ]
 }
