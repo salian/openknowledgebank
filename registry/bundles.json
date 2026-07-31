@@ -64200,6 +64200,134 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/wireframes/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "api-documentation",
+      "title": "API Documentation and Integration Guide",
+      "description": "Source-aware deliverable bundle for API references and integration guides covering versioned contracts, authentication, operations, schemas, errors, examples, limits, security, and change history.",
+      "category": "deliverables",
+      "path": "bundles/deliverables/api-documentation",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/api-documentation",
+      "download_url": "https://openknowledgebank.com/downloads/api-documentation.zip",
+      "tags": [
+        "api-documentation",
+        "openapi",
+        "integration-guide",
+        "deliverable"
+      ],
+      "aliases": [
+        "API Documentation and Integration Guide"
+      ],
+      "problems_solved": [
+        "Prepare a api documentation and integration guide without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Software",
+        "Information technology",
+        "Developer tools"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "API contract and integration documentation review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "API documentation and integration guide"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "API Documentation and Integration Guide source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://spec.openapis.org/oas/",
+        "https://www.writethedocs.org/guide/docs-for-developers/api-docs/"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general API contract and integration documentation context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for API owner, audience, use cases, environment, and version, authoritative specification, code, routes, operations, and lifecycle, authentication, authorization, scopes, credentials, and security requirements, parameters, headers, schemas, examples, validation, and content types, responses, errors, retries, idempotency, pagination, limits, and webhooks, and SDKs, testing, support, deprecation, changelog, and publication approval.",
+        "Do not infer endpoint behavior, schema, authentication, error response, rate limit, and version support."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, and other sensitive data.",
+        "Require explicit confirmation before publishing secrets or undocumented endpoints, changing API contracts, promising compatibility, or releasing documentation without technical and security review.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 36,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-quality-review",
+            "baseline_score": 10,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "API Documentation and Integration Guide measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 36,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/deliverables/api-documentation",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/api-documentation/v1/evaluation-results/"
+      }
     }
   ]
 }
