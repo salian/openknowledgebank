@@ -82799,6 +82799,134 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/gitops/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "medallion-architecture",
+      "title": "Medallion Architecture",
+      "description": "Source-aware framework bundle for bronze, silver, and gold layer purpose, grain, schema, quality, lineage, batch or streaming, access, and consumption review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/medallion-architecture",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/medallion-architecture",
+      "download_url": "https://openknowledgebank.com/downloads/medallion-architecture.zip",
+      "tags": [
+        "medallion-architecture",
+        "framework",
+        "source-aware"
+      ],
+      "aliases": [
+        "Medallion Architecture"
+      ],
+      "problems_solved": [
+        "Prepare a medallion architecture review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "Medallion Architecture",
+        "source-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Medallion Architecture review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Medallion Architecture source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "data-engineer",
+        "data-warehousing-specialist"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://docs.databricks.com/aws/en/lakehouse/medallion",
+        "https://www.databricks.com/glossary/medallion-architecture"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general Medallion Architecture guidance; local facts, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for platform and runtime version, business use case, source contracts and ingestion mode, layer definitions and ownership, table names and grain, schema and evolution policy, quality rules and quarantine behavior, transformations, keys and deduplication, lineage, refresh and latency, access controls, cost, tests, consumers, approvals, and rollback.",
+        "Do not infer layer assignment, table or schema state, data quality, lineage, freshness, duplication, access, cost, or analytical readiness."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that create or alter tables, schemas, pipelines, quality rules, access controls, retention, or schedules; run workloads; read, write, or delete data; or publish datasets.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-08-01T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 13,
+        "okb_score": 35,
+        "absolute_lift": 22,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 13/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Medallion Architecture measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 13,
+        "okb_score": 35,
+        "absolute_lift": 22,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/medallion-architecture",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/medallion-architecture/v1/evaluation-results/"
+      }
     }
   ]
 }
