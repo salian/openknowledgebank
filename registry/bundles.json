@@ -61136,6 +61136,133 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/balanced-scorecard/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "net-promoter-score",
+      "title": "Net Promoter Score",
+      "description": "Source-aware framework bundle for designing, calculating, interpreting, and acting on Net Promoter Score with explicit instrument, sample, scoring, segment, and uncertainty evidence.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/net-promoter-score",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/net-promoter-score",
+      "download_url": "https://openknowledgebank.com/downloads/net-promoter-score.zip",
+      "tags": [
+        "net-promoter-score",
+        "customer-experience",
+        "survey",
+        "framework"
+      ],
+      "aliases": [
+        "Net Promoter Score"
+      ],
+      "problems_solved": [
+        "Prepare a nps measurement and interpretation brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce review-ready decisions with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Customer experience",
+        "Retail",
+        "Business services"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "customer loyalty measurement and follow-up application matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "NPS measurement and interpretation brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Net Promoter Score source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.bain.com/insights/topics/net-promoter-system/"
+      ],
+      "limitations": [
+        "Use the cited official or primary sources for general customer loyalty measurement and follow-up context; local facts, configuration, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for survey wording, scale, channel, and timing, population, sample, response rate, and nonresponse evidence, scoring definition and method version, data cleaning, exclusions, weighting, and privacy controls, segment, benchmark, period, and uncertainty, and qualitative feedback and closed-loop follow-up evidence.",
+        "Do not infer respondent representativeness, score calculation, segment comparability, benchmark validity, driver, and customer identity."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, and other sensitive data.",
+        "Require explicit confirmation before contacting customers, exposing personal data, publishing scores or benchmarks, changing incentives, or claiming growth or causality without supporting analysis.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 36,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Net Promoter Score measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 36,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/net-promoter-score",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/net-promoter-score/v1/evaluation-results/"
+      }
     }
   ]
 }
