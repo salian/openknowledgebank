@@ -75145,6 +75145,137 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, actionability, and named authoritative source use.",
         "private_artifacts": "research/bundle-runs/game-3d-artist/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "operations-research-analyst",
+      "title": "Operations Research Analyst",
+      "description": "Source-aware role bundle for optimization, simulation, decision analysis, and operational implementation review, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/operations-research-analyst",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/operations-research-analyst",
+      "download_url": "https://openknowledgebank.com/downloads/operations-research-analyst.zip",
+      "tags": [
+        "operations-research-analyst",
+        "operations",
+        "role"
+      ],
+      "aliases": [
+        "Operations Research Analyst"
+      ],
+      "problems_solved": [
+        "Prepare a operations research decision brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Data and analytics",
+        "Research"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "optimization, simulation, decision analysis, and operational implementation review review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "operations research decision brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Operations Research Analyst source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "six-sigma-dmaic",
+        "tableau"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "15-2031.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2120"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/15-2031.00"
+      ],
+      "limitations": [
+        "Use the cited authoritative sources for general role, standards, or regulatory context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for decision, objective, constraints, stakeholders, and success criteria; data provenance and definitions; model formulation and assumptions; solver and version; validation, sensitivity, scenarios, uncertainty, operational feasibility, governance, and approvals.",
+        "Do not infer optimality, feasibility, causal effect, forecast, operational result, or implementation readiness."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, and other sensitive data.",
+        "Require explicit confirmation before actions that change a production allocation, schedule, policy, or control, or authorize spend.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 36,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 11,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Operations Research Analyst measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 36,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/operations-research-analyst",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, actionability, and named authoritative source use.",
+        "private_artifacts": "research/bundle-runs/operations-research-analyst/v1/evaluation-results/"
+      }
     }
   ]
 }
