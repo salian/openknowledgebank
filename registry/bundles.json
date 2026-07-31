@@ -61263,6 +61263,134 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/net-promoter-score/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "devops",
+      "title": "DevOps",
+      "description": "Source-aware framework bundle for improving software delivery and operations through value-stream, delivery, reliability, security, telemetry, and controlled-change evidence.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/devops",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/devops",
+      "download_url": "https://openknowledgebank.com/downloads/devops.zip",
+      "tags": [
+        "devops",
+        "software-delivery",
+        "reliability",
+        "framework"
+      ],
+      "aliases": [
+        "DevOps"
+      ],
+      "problems_solved": [
+        "Prepare a devops delivery and reliability brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce review-ready decisions with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Software",
+        "Information technology",
+        "Financial services"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "software delivery and operational performance application matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "DevOps delivery and reliability brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "DevOps source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://dora.dev/",
+        "https://itrevolution.com/product/the-devops-handbook-second-edition/"
+      ],
+      "limitations": [
+        "Use the cited official or primary sources for general software delivery and operational performance context; local facts, configuration, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for product and value-stream scope, repositories, pipelines, environments, and deployment process, change, release, and rollback evidence, reliability, incident, recovery, and service telemetry, security, access, secrets, and supply-chain controls, and metric definitions, source systems, periods, and current DORA guidance.",
+        "Do not infer deployment state, pipeline result, metric definition, incident cause, reliability impact, and change authorization."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, and other sensitive data.",
+        "Require explicit confirmation before deploying or rolling back production, changing pipelines or infrastructure, handling credentials, changing access, or declaring performance improvements without comparable evidence.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 36,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 2,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 10,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "DevOps measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 36,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/devops",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/devops/v1/evaluation-results/"
+      }
     }
   ]
 }
