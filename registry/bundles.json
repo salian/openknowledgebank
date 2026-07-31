@@ -76761,6 +76761,137 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/apache-airflow/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "linkedin-campaign-manager",
+      "title": "LinkedIn Ads (Campaign Manager)",
+      "description": "Source-aware tool bundle for LinkedIn Campaign Manager planning, measurement, permissions, and controlled activation, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/linkedin-campaign-manager",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/linkedin-campaign-manager",
+      "download_url": "https://openknowledgebank.com/downloads/linkedin-campaign-manager.zip",
+      "tags": [
+        "linkedin-campaign-manager",
+        "linkedin",
+        "tool"
+      ],
+      "aliases": [
+        "LinkedIn Ads (Campaign Manager)"
+      ],
+      "problems_solved": [
+        "Prepare a LinkedIn campaign change brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "LinkedIn Ads (Campaign Manager)"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "LinkedIn Campaign Manager planning, measurement, permissions, and controlled activation review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "LinkedIn campaign change brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "LinkedIn Ads (Campaign Manager) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "demand-generation-manager",
+        "paid-social-social-media-advertising-specialist"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/linkedin/marketing/overview?view=li-lms-2026-03",
+        "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-06",
+        "https://learn.microsoft.com/en-us/linkedin/marketing/conversions/getting-access-conversions?view=li-lms-2026-04"
+      ],
+      "limitations": [
+        "Use the listed authoritative sources for general role or tool behavior; local configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for ad account, authenticated member, role, API or UI version, and permissions; objective, campaign group, campaign, creative, audience, exclusions, geography, schedule, budget, bid, billing, conversion rules, Insight Tag or Conversions API setup, identifiers, consent, deduplication, attribution, reporting definitions, tests, and approvals.",
+        "Do not infer delivery, audience size, conversion count, attribution, performance, spend, policy compliance, or forecast."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that create or launch a campaign, change budget or bid, upload audiences or conversion events, install tracking, publish creative, or generate and use access tokens.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 11,
+        "okb_score": 33,
+        "absolute_lift": 22,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 2,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-state-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 11/36 to 33/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "LinkedIn Ads (Campaign Manager) measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 11,
+        "okb_score": 33,
+        "absolute_lift": 22,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/linkedin-campaign-manager",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/linkedin-campaign-manager/v1/evaluation-results/"
+      }
     }
   ]
 }
