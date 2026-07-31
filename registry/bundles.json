@@ -57753,6 +57753,135 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/linkedin-sales-navigator/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "adobe-acrobat-document-cloud",
+      "title": "Adobe Acrobat / Adobe Document Cloud",
+      "description": "Source-aware tool bundle for Adobe Acrobat and Document Cloud PDF creation, review, forms, signatures, OCR, accessibility, redaction, and controlled delivery.",
+      "category": "tools",
+      "path": "bundles/tools/adobe-acrobat-document-cloud",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/adobe-acrobat-document-cloud",
+      "download_url": "https://openknowledgebank.com/downloads/adobe-acrobat-document-cloud.zip",
+      "tags": [
+        "adobe-acrobat",
+        "pdf",
+        "document-workflows",
+        "tool"
+      ],
+      "aliases": [
+        "Adobe Acrobat / Adobe Document Cloud"
+      ],
+      "problems_solved": [
+        "Prepare a acrobat document workflow brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce review-ready decisions with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Business services",
+        "Legal services",
+        "Public sector"
+      ],
+      "tools": [
+        "Adobe Acrobat / Adobe Document Cloud"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "pdf-document-workflows evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Acrobat document workflow brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Adobe Acrobat / Adobe Document Cloud source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://helpx.adobe.com/acrobat/user-guide.html"
+      ],
+      "limitations": [
+        "Use official Adobe Acrobat / Adobe Document Cloud sources for general context; local PDF document workflows, configuration, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for source document and authoritative version, PDF structure, metadata, forms, and attachments, signature and certificate requirements, OCR, accessibility, and reading-order evidence, redaction and sensitive-data requirements, permissions, sharing, and review state, and export, retention, and delivery specifications.",
+        "Do not infer document version, form fields, signatures, OCR quality, accessibility, redactions, permissions, delivery state."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, and other sensitive data.",
+        "Require explicit confirmation before signing, sending, sharing, redacting, certifying, changing permissions, overwriting originals, or publishing documents.",
+        "Route legal, privacy, security, compliance, financial, employment, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 36,
+        "absolute_lift": 20,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "metric-or-report-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Adobe Acrobat / Adobe Document Cloud measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 36,
+        "absolute_lift": 20,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/adobe-acrobat-document-cloud",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/adobe-acrobat-document-cloud/v1/evaluation-results/"
+      }
     }
   ]
 }
