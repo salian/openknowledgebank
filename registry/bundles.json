@@ -71151,6 +71151,140 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/database-administrator-dba/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "financial-analyst-fp-a",
+      "title": "Financial Analyst (FP&A)",
+      "description": "Source-aware role bundle for financial planning and analysis, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/financial-analyst-fp-a",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/financial-analyst-fp-a",
+      "download_url": "https://openknowledgebank.com/downloads/financial-analyst-fp-a.zip",
+      "tags": [
+        "financial-analyst-fp-a",
+        "financial",
+        "role"
+      ],
+      "aliases": [
+        "Financial Analyst (FP&A)"
+      ],
+      "problems_solved": [
+        "Prepare a FP&A decision brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Finance",
+        "Business planning"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "financial planning and analysis review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "FP&A decision brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Financial Analyst (FP&A) source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "microsoft-power-bi",
+        "sap-s4hana",
+        "sox",
+        "tableau",
+        "us-gaap"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "13-2051.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2413.1"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/13-2051.00"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general financial planning and analysis context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for entity, business units, reporting period, decision, and accounting basis; actuals, ledger extracts, reconciliations, close status, and source dates; budget, forecast, drivers, assumptions, scenarios, and model versions; KPI and variance definitions, allocations, currencies, tax, and intercompany treatment; risks, sensitivities, approvals, narrative, and disclosure context.",
+        "Do not infer actual result, forecast, variance cause, driver relationship, liquidity, accounting treatment, or management approval."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, and other sensitive data.",
+        "Require explicit confirmation before changing budgets or forecasts, posting entries, approving spend, distributing sensitive results, or making public financial claims.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 18/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Financial Analyst (FP&A) measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 18,
+        "okb_score": 36,
+        "absolute_lift": 18,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/financial-analyst-fp-a",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/financial-analyst-fp-a/v1/evaluation-results/"
+      }
     }
   ]
 }
