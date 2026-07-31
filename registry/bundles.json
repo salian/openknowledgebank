@@ -79471,6 +79471,137 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/azure-devops-boards/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "azure-ai-foundry",
+      "title": "Azure AI Foundry",
+      "description": "Source-aware tool bundle for project, model catalog, deployment, prompt, agent, evaluation, content filter, quota, identity, network, and monitoring review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "tools",
+      "path": "bundles/tools/azure-ai-foundry",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/azure-ai-foundry",
+      "download_url": "https://openknowledgebank.com/downloads/azure-ai-foundry.zip",
+      "tags": [
+        "azure-ai-foundry",
+        "tool",
+        "source-aware"
+      ],
+      "aliases": [
+        "Azure AI Foundry"
+      ],
+      "problems_solved": [
+        "Prepare a azure ai foundry review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [
+        "Azure AI Foundry"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "Azure AI Foundry application matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Azure AI Foundry review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Azure AI Foundry source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "ai-ml-product-manager",
+        "openai-chatgpt"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-azure-ai-foundry",
+        "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/evaluation-evaluators/general-purpose-evaluators",
+        "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/content-filter"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general Azure AI Foundry guidance; local facts, configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for Azure tenant, subscription, region, Foundry project, model and version, deployment type, quota, endpoint and authentication method, prompts, tools and data connections, evaluation dataset and metrics, content filters, networking, logging, costs, approvals, and rollback.",
+        "Do not infer model availability, output quality, safety, quota, cost, data handling, deployment state, evaluation result, or production readiness."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that deploy or invoke models or agents, enable tools, change content filters, quotas, identities, networks, endpoints, or data connections; send sensitive data; expose credentials; or incur spend.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 35,
+        "absolute_lift": 20,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 15/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Azure AI Foundry measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 15,
+        "okb_score": 35,
+        "absolute_lift": 20,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/azure-ai-foundry",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/azure-ai-foundry/v1/evaluation-results/"
+      }
     }
   ]
 }
