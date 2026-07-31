@@ -83690,6 +83690,134 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/aarrr-pirate-metrics/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "cobit",
+      "title": "COBIT",
+      "description": "Source-aware framework bundle for enterprise information-and-technology governance, goals cascade, design factors, governance and management objectives, components, performance, and assurance review, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/cobit",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/cobit",
+      "download_url": "https://openknowledgebank.com/downloads/cobit.zip",
+      "tags": [
+        "cobit",
+        "framework",
+        "source-aware"
+      ],
+      "aliases": [
+        "COBIT"
+      ],
+      "problems_solved": [
+        "Prepare a cobit review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "COBIT",
+        "source-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "COBIT review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "COBIT source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "chief-information-officer-cio",
+        "internal-auditor"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.isaca.org/resources/cobit",
+        "https://www.isaca.org/store2/product/CB19FGM"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general COBIT guidance; local facts, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for applicable COBIT edition and licensed publications, enterprise strategy and stakeholder needs, governance scope and design factors, enterprise and alignment goals, selected objectives and practices, current processes and evidence, roles and decision rights, risk and control mappings, metrics and capability method, assurance evidence, tailoring rationale, owners, and approvals.",
+        "Do not infer applicable objective, governance design, capability level, control effectiveness, assurance result, conformity, or legal compliance."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that approve governance design, assign accountability, change objectives, controls, policies, risk acceptance, metrics, assurance conclusions, or claims of COBIT alignment or maturity.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-08-01T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 35,
+        "absolute_lift": 21,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "COBIT measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 35,
+        "absolute_lift": 21,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/cobit",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/cobit/v1/evaluation-results/"
+      }
     }
   ]
 }
