@@ -70212,6 +70212,140 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/software-quality-assurance-analyst-tester/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "tax-accountant-tax-specialist",
+      "title": "Tax Accountant / Tax Specialist",
+      "description": "Source-aware role bundle for licensed or supervised tax analysis and preparation, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/tax-accountant-tax-specialist",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/tax-accountant-tax-specialist",
+      "download_url": "https://openknowledgebank.com/downloads/tax-accountant-tax-specialist.zip",
+      "tags": [
+        "tax-accountant-tax-specialist",
+        "licensed",
+        "role"
+      ],
+      "aliases": [
+        "Tax Accountant / Tax Specialist"
+      ],
+      "problems_solved": [
+        "Prepare a tax work-product brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Tax",
+        "Accounting"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "licensed or supervised tax analysis and preparation review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "tax work-product brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Tax Accountant / Tax Specialist source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "fbar-cmir-form-8300",
+        "quickbooks-online",
+        "sox",
+        "us-gaap"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "13-2011.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2411.1"
+        ]
+      },
+      "source_urls": [
+        "http://data.europa.eu/esco/isco/C2411",
+        "https://www.irs.gov/tax-professionals/office-of-professional-responsibility-and-circular-230"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general licensed or supervised tax analysis and preparation context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for taxpayer, engagement scope, preparer credentials, jurisdiction, tax type, period, and deadlines; complete facts, source documents, elections, prior filings, notices, and authorizations; current statutes, regulations, forms, instructions, rulings, and effective dates; calculations, positions, assumptions, contrary authority, disclosures, and workpapers; privacy, conflicts, review, signature, filing, payment, and representation status.",
+        "Do not infer taxpayer fact, eligibility, tax treatment, liability, deadline, authority status, filing readiness, or professional approval."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, and other sensitive data.",
+        "Require explicit confirmation before giving final tax advice, signing or filing returns, contacting authorities, making elections, paying liabilities, or representing a taxpayer.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 36,
+        "absolute_lift": 16,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 7,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 20/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Tax Accountant / Tax Specialist measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 20,
+        "okb_score": 36,
+        "absolute_lift": 16,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/tax-accountant-tax-specialist",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/tax-accountant-tax-specialist/v1/evaluation-results/"
+      }
     }
   ]
 }
