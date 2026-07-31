@@ -75679,6 +75679,143 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/ai-ml-product-manager/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "customer-support-cx-analyst",
+      "title": "Customer Support / CX Analyst",
+      "description": "Source-aware role bundle for customer-support and experience measurement, reconciliation, and recommendation, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/customer-support-cx-analyst",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/customer-support-cx-analyst",
+      "download_url": "https://openknowledgebank.com/downloads/customer-support-cx-analyst.zip",
+      "tags": [
+        "customer-support-cx-analyst",
+        "customer",
+        "role"
+      ],
+      "aliases": [
+        "Customer Support / CX Analyst"
+      ],
+      "problems_solved": [
+        "Prepare a customer experience analysis brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Customer service",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "customer-support and experience measurement, reconciliation, and recommendation review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "customer experience analysis brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Customer Support / CX Analyst source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "gdpr",
+        "intercom",
+        "microsoft-365",
+        "net-promoter-score",
+        "salesforce-service-cloud",
+        "soc-2",
+        "tableau",
+        "zendesk"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "13-1161.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2421.4"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/13-1161.00"
+      ],
+      "limitations": [
+        "Use the listed authoritative sources for general role or tool behavior; local configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for business question, channels, products, population, period, and source systems; ticket, contact, survey, customer, and resolution definitions; extracts, filters, identity, deduplication, sampling, response rates, and missingness; CSAT, effort, NPS, SLA, contact, text-analysis methods, uncertainty, privacy, and validation evidence.",
+        "Do not infer metric value, trend, representativeness, sentiment, root cause, customer impact, or improvement effect."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that access or export customer data, contact customers, change routing or policy, publish metrics, or claim causality.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 12,
+        "okb_score": 35,
+        "absolute_lift": 23,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 12/36 to 35/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Customer Support / CX Analyst measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 12,
+        "okb_score": 35,
+        "absolute_lift": 23,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/customer-support-cx-analyst",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/customer-support-cx-analyst/v1/evaluation-results/"
+      }
     }
   ]
 }
