@@ -62286,6 +62286,134 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/business-model-canvas/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "continuous-delivery",
+      "title": "Continuous Delivery",
+      "description": "Source-aware framework bundle for continuous delivery using small batches, built-in quality, automation, deployment evidence, reliability controls, and reversible change.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/continuous-delivery",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/continuous-delivery",
+      "download_url": "https://openknowledgebank.com/downloads/continuous-delivery.zip",
+      "tags": [
+        "continuous-delivery",
+        "software-delivery",
+        "release-engineering",
+        "framework"
+      ],
+      "aliases": [
+        "Continuous Delivery"
+      ],
+      "problems_solved": [
+        "Prepare a continuous-delivery readiness brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Software",
+        "Information technology",
+        "Financial services"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "software delivery and release readiness review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "continuous-delivery readiness brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Continuous Delivery source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://continuousdelivery.com/principles/",
+        "https://continuousdelivery.com/"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general software delivery and release readiness context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for product and service scope, repository, branch, build, test, and artifact evidence, deployment pipeline and environment configuration, release, feature-control, rollback, and recovery procedures, security, access, secrets, and approvals, and delivery, reliability, quality, and learning metrics with definitions.",
+        "Do not infer build reproducibility, test adequacy, artifact provenance, deployment readiness, rollback viability, and production impact."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, and other sensitive data.",
+        "Require explicit confirmation before merging, releasing, deploying, changing pipelines or infrastructure, handling credentials, or bypassing quality and approval controls.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 36,
+        "absolute_lift": 15,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 21/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Continuous Delivery measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 21,
+        "okb_score": 36,
+        "absolute_lift": 15,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/continuous-delivery",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/continuous-delivery/v1/evaluation-results/"
+      }
     }
   ]
 }
