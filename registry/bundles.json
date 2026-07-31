@@ -76095,6 +76095,140 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/chief-product-officer-cpo/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "contract-manager-contract-administrator",
+      "title": "Contract Manager / Contract Administrator",
+      "description": "Source-aware role bundle for contract review, negotiation support, obligation tracking, and controlled administration, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/contract-manager-contract-administrator",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/contract-manager-contract-administrator",
+      "download_url": "https://openknowledgebank.com/downloads/contract-manager-contract-administrator.zip",
+      "tags": [
+        "contract-manager-contract-administrator",
+        "contract",
+        "role"
+      ],
+      "aliases": [
+        "Contract Manager / Contract Administrator"
+      ],
+      "problems_solved": [
+        "Prepare a contract administration brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Legal operations",
+        "Business services"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "contract review, negotiation support, obligation tracking, and controlled administration review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "contract administration brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Contract Manager / Contract Administrator source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "adobe-acrobat-document-cloud",
+        "e-verify-program",
+        "gdpr",
+        "saas-contract-lawyer-msa-sla-dpa-drafting",
+        "sox"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "11-3061.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "http://data.europa.eu/esco/occupation/contract-manager"
+        ]
+      },
+      "source_urls": [
+        "https://esco.ec.europa.eu/en/classification/occupation_main"
+      ],
+      "limitations": [
+        "Use the listed authoritative sources for general role or tool behavior; local configuration, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for parties, entities, jurisdiction, authority, matter, and commercial objective; draft and executed documents, amendments, exhibits, versions, signatures, and order of precedence; clauses, deviations, obligations, milestones, notices, renewals, pricing, data, security, insurance, performance, disputes, approvals, and counsel review.",
+        "Do not infer execution status, enforceability, legal interpretation, obligation satisfaction, breach, deadline, liability, or authorized position."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that provide legal advice, accept language, redline or send a document, issue notice, disclose confidential material, sign, renew, terminate, or commit spend.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 12,
+        "okb_score": 34,
+        "absolute_lift": 22,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 2,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 12/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Contract Manager / Contract Administrator measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 12,
+        "okb_score": 34,
+        "absolute_lift": 22,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/contract-manager-contract-administrator",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/contract-manager-contract-administrator/v1/evaluation-results/"
+      }
     }
   ]
 }
