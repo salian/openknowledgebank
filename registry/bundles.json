@@ -62158,6 +62158,134 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/gri-standards/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "business-model-canvas",
+      "title": "Business Model Canvas",
+      "description": "Source-aware framework bundle for mapping and testing a business model across customer, value, delivery, capability, partner, revenue, and cost assumptions.",
+      "category": "frameworks",
+      "path": "bundles/frameworks/business-model-canvas",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/frameworks/business-model-canvas",
+      "download_url": "https://openknowledgebank.com/downloads/business-model-canvas.zip",
+      "tags": [
+        "business-model-canvas",
+        "strategy",
+        "innovation",
+        "framework"
+      ],
+      "aliases": [
+        "Business Model Canvas"
+      ],
+      "problems_solved": [
+        "Prepare a business model canvas evidence brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Product management",
+        "Entrepreneurship",
+        "Business services"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "business-model design and validation review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Business Model Canvas evidence brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Business Model Canvas source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.strategyzer.com/library/what-is-a-business-model",
+        "https://www.strategyzer.com/library/how-to-design-a-crystal-clear-business-model-canvas"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general business-model design and validation context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for business or initiative scope, customer segments and observed needs, value propositions and supporting evidence, channels and customer relationships, key activities, resources, and partners, and revenue streams, cost structure, assumptions, experiments, and owners.",
+        "Do not infer customer need, value proposition fit, channel performance, partner commitment, revenue viability, and cost viability."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, and other sensitive data.",
+        "Require explicit confirmation before committing strategy, pricing, partnerships, resources, investment, or public business claims without accountable review.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 36,
+        "absolute_lift": 20,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "framework-application-review",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 16/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Business Model Canvas measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 16,
+        "okb_score": 36,
+        "absolute_lift": 20,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/frameworks/business-model-canvas",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/business-model-canvas/v1/evaluation-results/"
+      }
     }
   ]
 }
