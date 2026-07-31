@@ -63563,6 +63563,134 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/monitoring-dashboard/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "architecture-design-doc",
+      "title": "System Architecture Design Document",
+      "description": "Source-aware deliverable bundle for architecture documentation covering stakeholders, requirements, context, views, interfaces, data, quality attributes, decisions, risks, and verification.",
+      "category": "deliverables",
+      "path": "bundles/deliverables/architecture-design-doc",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/architecture-design-doc",
+      "download_url": "https://openknowledgebank.com/downloads/architecture-design-doc.zip",
+      "tags": [
+        "architecture-design",
+        "system-design",
+        "technical-documentation",
+        "deliverable"
+      ],
+      "aliases": [
+        "System Architecture Design Document"
+      ],
+      "problems_solved": [
+        "Prepare a architecture design document without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Software",
+        "Information technology",
+        "Financial services"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "system and solution architecture documentation review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "architecture design document"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "System Architecture Design Document source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html",
+        "https://www.opengroup.org/togaf/benefits"
+      ],
+      "limitations": [
+        "Use the cited official, originator, standards, or professional sources for general system and solution architecture documentation context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for system purpose, scope, stakeholders, and concerns, functional and quality requirements, current and target context, components, dependencies, and trust boundaries, interfaces, contracts, data flows, storage, and lifecycle, capacity, availability, security, privacy, operability, cost, and constraints, and alternatives, decisions, consequences, risks, validation, ownership, and approval.",
+        "Do not infer requirement, component behavior, interface contract, capacity, security posture, and architecture approval."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, and other sensitive data.",
+        "Require explicit confirmation before committing architecture, interfaces, vendors, infrastructure, security controls, spend, or implementation without accountable technical and business review.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-quality-review",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "System Architecture Design Document measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/deliverables/architecture-design-doc",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/architecture-design-doc/v1/evaluation-results/"
+      }
     }
   ]
 }
