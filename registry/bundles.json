@@ -59857,6 +59857,136 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/wordpress/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "xero",
+      "title": "Xero",
+      "description": "Source-aware tool bundle for Xero organizations, ledgers, invoices, bills, payments, bank reconciliation, reports, tax settings, integrations, and controlled accounting actions.",
+      "category": "tools",
+      "path": "bundles/tools/xero",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/xero",
+      "download_url": "https://openknowledgebank.com/downloads/xero.zip",
+      "tags": [
+        "xero",
+        "accounting",
+        "reconciliation",
+        "tool"
+      ],
+      "aliases": [
+        "Xero"
+      ],
+      "problems_solved": [
+        "Prepare a xero accounting and reconciliation brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce review-ready decisions with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Accounting",
+        "Small business",
+        "Financial services"
+      ],
+      "tools": [
+        "Xero"
+      ],
+      "frameworks": [
+        "source-evidence matrix",
+        "cloud accounting records and reporting evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Xero accounting and reconciliation brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Xero source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://developer.xero.com/documentation/api/accounting/overview",
+        "https://developer.xero.com/documentation/guides/oauth2/scopes/"
+      ],
+      "limitations": [
+        "Use the cited official or primary sources for general cloud accounting records and reporting context; local facts, configuration, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for organization, tenant, region, and accounting period, chart of accounts and tax rates, contacts, invoices, bills, payments, bank transactions, and journals, report definition, filters, and as-of date, lock dates and approval workflow, and API connection and granted scopes.",
+        "Do not infer ledger accuracy, payment status, bank match, tax treatment, report completeness, and scope authorization."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, and other sensitive data.",
+        "Require explicit confirmation before posting or updating transactions, recording payments, reconciling bank items, changing tax or lock dates, changing scopes, or exporting financial data.",
+        "Route legal, privacy, security, compliance, financial, employment, safety, and other qualified judgments to accountable reviewers."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 1,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "configuration-risk-review",
+            "baseline_score": 10,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 6,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "updated": "2026-07-31",
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Xero measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/tools/xero",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
+        "private_artifacts": "research/bundle-runs/xero/v1/evaluation-results/"
+      }
     }
   ]
 }
