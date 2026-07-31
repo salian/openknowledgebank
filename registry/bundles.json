@@ -84699,6 +84699,131 @@
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/code-review-feedback/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "compliance-policy-manual",
+      "title": "Compliance Policy and Procedures Manual",
+      "description": "Source-aware deliverable bundle for applicability, legal inventory, risk assessment, policy, procedure, control, role, escalation, record, training, testing, review, and approval documentation, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "category": "deliverables",
+      "path": "bundles/deliverables/compliance-policy-manual",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/compliance-policy-manual",
+      "download_url": "https://openknowledgebank.com/downloads/compliance-policy-manual.zip",
+      "tags": [
+        "compliance-policy-manual",
+        "deliverable",
+        "source-aware"
+      ],
+      "aliases": [
+        "Compliance Policy and Procedures Manual"
+      ],
+      "problems_solved": [
+        "Prepare a compliance policy and procedures manual review brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready decision with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Technology",
+        "Business operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "Compliance Policy and Procedures Manual review brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Compliance Policy and Procedures Manual source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "compliance-officer"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.sec.gov/files/rules/final/ia-2204.htm"
+      ],
+      "limitations": [
+        "Use the listed authoritative or identified source surfaces for general Compliance Policy and Procedures Manual guidance; local facts, records, values, states, permissions, and results require inspected evidence.",
+        "Task-specific work requires current evidence for entity, activity, product, jurisdiction and effective dates, authoritative legal and regulatory sources, applicability analysis by qualified counsel or compliance owner, risk assessment and conflicts, existing controls and evidence, roles and segregation, procedures and systems, escalation and reporting, books and records, privacy and retention, training, testing and monitoring, exceptions, version history, board or management approval, and review schedule.",
+        "Do not infer legal applicability, required control, policy sufficiency, compliance, violation, privilege, regulator expectation, approval, or implementation effectiveness."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, student, and other sensitive data.",
+        "Require explicit confirmation before actions that adopt, publish, or change policy or procedures, assign legal accountability, accept risk, disclose privileged or personal data, make legal conclusions, report violations, discipline personnel, or claim compliance.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-08-01T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 34,
+        "absolute_lift": 20,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 4,
+            "okb_score": 11,
+            "max_score": 12
+          },
+          {
+            "task": "deliverable-quality-review",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-state-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 11,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 14/36 to 34/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Compliance Policy and Procedures Manual measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 14,
+        "okb_score": 34,
+        "absolute_lift": 20,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/deliverables/compliance-policy-manual",
+        "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
+        "private_artifacts": "research/bundle-runs/compliance-policy-manual/v1/evaluation-results/"
+      }
     }
   ]
 }
