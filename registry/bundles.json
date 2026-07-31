@@ -73958,6 +73958,139 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, actionability, and named authoritative source use.",
         "private_artifacts": "research/bundle-runs/investor-relations-manager/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "legal-secretary-legal-administrative-assistant",
+      "title": "Legal Secretary / Legal Administrative Assistant",
+      "description": "Source-aware role bundle for legal document, deadline, filing, and matter-administration support, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/legal-secretary-legal-administrative-assistant",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/legal-secretary-legal-administrative-assistant",
+      "download_url": "https://openknowledgebank.com/downloads/legal-secretary-legal-administrative-assistant.zip",
+      "tags": [
+        "legal-secretary-legal-administrative-assistant",
+        "legal",
+        "role"
+      ],
+      "aliases": [
+        "Legal Secretary / Legal Administrative Assistant"
+      ],
+      "problems_solved": [
+        "Prepare a legal matter administration brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Legal and compliance",
+        "Regulated operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "legal document, deadline, filing, and matter-administration support review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "legal matter administration brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Legal Secretary / Legal Administrative Assistant source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "adobe-acrobat-document-cloud",
+        "clio",
+        "imanage",
+        "netdocuments"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "43-6012.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "3342"
+        ]
+      },
+      "source_urls": [
+        "https://www.onetonline.org/link/summary/43-6012.00"
+      ],
+      "limitations": [
+        "Use the cited authoritative sources for general role, standards, or regulatory context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for client, matter, jurisdiction, engagement, and authorized lawyer; docket and deadline sources; source documents and versions; current court or agency rules and forms; privilege, confidentiality, service, signature, filing, and approval records.",
+        "Do not infer deadline, filing status, legal conclusion, authority, privilege status, or acceptance by a court or agency."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, and other sensitive data.",
+        "Require explicit confirmation before actions that give legal advice, sign or file, contact a party or court, waive a right, or disclose privileged material.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 36,
+        "absolute_lift": 17,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 2,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 8,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 19/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Legal Secretary / Legal Administrative Assistant measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 19,
+        "okb_score": 36,
+        "absolute_lift": 17,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/legal-secretary-legal-administrative-assistant",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, actionability, and named authoritative source use.",
+        "private_artifacts": "research/bundle-runs/legal-secretary-legal-administrative-assistant/v1/evaluation-results/"
+      }
     }
   ]
 }
