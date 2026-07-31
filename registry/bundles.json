@@ -74355,6 +74355,138 @@
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, actionability, and named authoritative source use.",
         "private_artifacts": "research/bundle-runs/design-systems-designer/v1/evaluation-results/"
       }
+    },
+    {
+      "id": "embedded-systems-firmware-engineer",
+      "title": "Embedded Systems / Firmware Engineer",
+      "description": "Source-aware role bundle for embedded firmware design, verification, safety, and release planning, evidence reconciliation, reviewable recommendations, and controlled consequential actions.",
+      "category": "roles",
+      "path": "bundles/roles/embedded-systems-firmware-engineer",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/embedded-systems-firmware-engineer",
+      "download_url": "https://openknowledgebank.com/downloads/embedded-systems-firmware-engineer.zip",
+      "tags": [
+        "embedded-systems-firmware-engineer",
+        "embedded",
+        "role"
+      ],
+      "aliases": [
+        "Embedded Systems / Firmware Engineer"
+      ],
+      "problems_solved": [
+        "Prepare a firmware engineering brief without fabricating local facts.",
+        "Separate verified, provided, assumed, and missing evidence.",
+        "Produce a review-ready recommendation with explicit verification and approval boundaries."
+      ],
+      "industries": [
+        "Software engineering",
+        "Digital products"
+      ],
+      "tools": [],
+      "frameworks": [
+        "source-evidence matrix",
+        "embedded firmware design, verification, safety, and release planning review matrix",
+        "qualified-review gate"
+      ],
+      "deliverables": [
+        "firmware engineering brief"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "Embedded Systems / Firmware Engineer source-awareness check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "can-spam-act",
+        "fda-qmsr-13485",
+        "test-driven-development"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [
+          "15-1252.00"
+        ],
+        "soc": [],
+        "isco_08": [],
+        "esco": [
+          "2512"
+        ]
+      },
+      "source_urls": [
+        "https://esco.ec.europa.eu/en/classification/occupation_main"
+      ],
+      "limitations": [
+        "Use the cited authoritative sources for general role, standards, or regulatory context; local facts, records, values, states, and permissions require inspected evidence.",
+        "Task-specific work requires current evidence for hardware, MCU, board revision, datasheets, requirements, and safety classification; toolchain, RTOS, BSP, bootloader, and dependency versions; registers, protocols, timing, memory, power, code, build, signing, test-bench, HIL, logs, update, rollback, and security evidence.",
+        "Do not infer hardware behavior, timing, power, safety, test outcome, device state, or release readiness."
+      ],
+      "safety_notes": [
+        "Minimize personal, customer, employee, financial, credential, security, privileged, health, and other sensitive data.",
+        "Require explicit confirmation before actions that flash hardware, change safety controls, handle signing keys, or release firmware.",
+        "Route legal, privacy, security, compliance, financial, employment, clinical, safety, and other qualified judgments to an evidenced accountable reviewer."
+      ],
+      "timestamp": "2026-07-31T00:00:00Z",
+      "evaluation_summary": {
+        "status": "measured",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "tasks_count": 3,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "task_scores": [
+          {
+            "task": "empty-evidence-integrity",
+            "baseline_score": 3,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "role-task-review",
+            "baseline_score": 9,
+            "okb_score": 12,
+            "max_score": 12
+          },
+          {
+            "task": "source-or-metric-reconciliation",
+            "baseline_score": 5,
+            "okb_score": 12,
+            "max_score": 12
+          }
+        ],
+        "comparison_scores": [],
+        "display_summary": "Improved measured rubric score from 17/36 to 36/36 across 3 benchmark tasks.",
+        "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
+      },
+      "evaluation_detail": {
+        "status": "measured",
+        "title": "Embedded Systems / Firmware Engineer measured evaluation",
+        "last_evaluated": "2026-07-31",
+        "method": "baseline-vs-okb-rubric",
+        "model": "openai/gpt-4o-mini",
+        "temperature": 0.2,
+        "max_score": 36,
+        "baseline_score": 17,
+        "okb_score": 36,
+        "absolute_lift": 19,
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/roles/embedded-systems-firmware-engineer",
+        "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, actionability, and named authoritative source use.",
+        "private_artifacts": "research/bundle-runs/embedded-systems-firmware-engineer/v1/evaluation-results/"
+      }
     }
   ]
 }
