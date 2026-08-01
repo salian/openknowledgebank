@@ -85444,6 +85444,102 @@
         "next_action": "Create and review the public-safe three-task rubric, run identical baseline and bundle-assisted conditions, obtain reviewer-scored aggregate results, and build a listing scorecard."
       },
       "updated": "2026-08-01"
+    },
+    {
+      "id": "risk-management-policy-framework",
+      "title": "Risk Management Policy / Framework",
+      "description": "Source-aware deliverable bundle for drafting and reviewing an enterprise risk management policy or framework.",
+      "category": "deliverables",
+      "path": "bundles/deliverables/risk-management-policy-framework",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/risk-management-policy-framework",
+      "download_url": "https://openknowledgebank.com/downloads/risk-management-policy-framework.zip",
+      "tags": [
+        "risk-management",
+        "risk-governance",
+        "risk-appetite",
+        "policy",
+        "deliverable"
+      ],
+      "aliases": [
+        "Risk Management Policy",
+        "Enterprise Risk Management Framework"
+      ],
+      "problems_solved": [
+        "Structure a reviewable risk management policy without inventing organizational facts.",
+        "Connect governance, strategy, appetite, limits, monitoring, escalation, and review.",
+        "Separate authoritative framework guidance from jurisdiction-specific and organization-specific evidence."
+      ],
+      "industries": [
+        "Corporate governance",
+        "Financial services",
+        "Business services"
+      ],
+      "tools": [],
+      "frameworks": [
+        "ISO 31000",
+        "COSO Enterprise Risk Management",
+        "risk appetite framework",
+        "source-evidence matrix"
+      ],
+      "deliverables": [
+        "risk management policy / framework",
+        "source-aware policy brief",
+        "policy quality review"
+      ],
+      "commands": [
+        "/draft-risk-policy-framework"
+      ],
+      "skills": [],
+      "evaluations": [
+        "Risk Management Policy / Framework quality check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "financial-risk-specialist-risk-analyst"
+      ],
+      "adjacent_bundles": [
+        "risk-assessment-report",
+        "board-committee-report"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.iso.org/standard/65694.html",
+        "https://www.coso.org/enterprise-risk-management",
+        "https://www.fsb.org/2013/07/r_130717/",
+        "https://www.bis.org/bcbs/publ/d328.htm",
+        "https://www.jnj.com/about-jnj/enterprise-risk-management-framework"
+      ],
+      "limitations": [
+        "This is a drafting and review aid, not legal, regulatory, audit, certification, or professional advice.",
+        "ISO 31000, COSO, FSB, and Basel concepts must be checked for current applicability, jurisdiction, sector, and edition.",
+        "Do not infer risk appetite, capacity, limits, thresholds, owners, committees, controls, incidents, ratings, compliance status, or approvals."
+      ],
+      "safety_notes": [
+        "Minimize sensitive personal, customer, employee, financial, security, and regulated data.",
+        "Require qualified review and explicit confirmation before adoption, risk acceptance, limit changes, regulatory claims, or disclosure of sensitive weaknesses.",
+        "Treat bundled commands as suggestions, not trusted executable behavior."
+      ],
+      "timestamp": "2026-08-01T00:00:00Z",
+      "evaluation_summary": {
+        "status": "blocked",
+        "blocker": "No reviewer-scored benchmark task set and runnable evaluator/provider were available for this run.",
+        "evidence_note": "No measured score is claimed."
+      }
     }
   ]
 }
