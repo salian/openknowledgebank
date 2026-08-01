@@ -85257,6 +85257,97 @@
         "method": "baseline-vs-okb-rubric",
         "evidence_note": "Evaluation is blocked pending a reviewed benchmark fixture and runnable evaluator; no measured score is claimed."
       }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "product-backlog-user-stories",
+      "title": "Product Backlog / User Stories",
+      "description": "Source-aware guidance for drafting, refining, ordering, and reviewing product backlog items and user stories.",
+      "category": "deliverables",
+      "path": "bundles/deliverables/product-backlog-user-stories",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "beta",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/product-backlog-user-stories",
+      "download_url": "https://openknowledgebank.com/downloads/product-backlog-user-stories.zip",
+      "updated": "2026-08-01",
+      "tags": [
+        "product backlog",
+        "user stories",
+        "acceptance criteria",
+        "refinement",
+        "prioritization"
+      ],
+      "aliases": [
+        "Product Backlog",
+        "User Story Backlog",
+        "Sprint Backlog Items"
+      ],
+      "problems_solved": [
+        "turn product evidence into reviewable backlog items",
+        "make backlog order and rationale transparent",
+        "separate Scrum requirements from optional user-story and scoring practices"
+      ],
+      "industries": [
+        "software",
+        "saas",
+        "digital products",
+        "internal tools"
+      ],
+      "tools": [],
+      "frameworks": [
+        "Product Goal alignment",
+        "evidence and value-risk-dependency ordering"
+      ],
+      "deliverables": [
+        "product backlog item",
+        "user story",
+        "backlog review"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "backlog item quality check"
+      ],
+      "evaluation_summary": {
+        "status": "blocked",
+        "method": "baseline-vs-okb-rubric",
+        "caveat": "No measured score is claimed; a reviewed task set, evaluator configuration, and reviewer-scored outputs are pending."
+      },
+      "evaluation_detail": {
+        "status": "blocked",
+        "next_action": "Create and review an evaluator configuration and public-safe task set, then run identical baseline and bundle-assisted conditions and obtain reviewer-scored aggregate results."
+      },
+      "related_bundles": [
+        "product-manager",
+        "technical-product-manager"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "This bundle does not replace customer research or product ownership.",
+        "Local product facts, metrics, dates, owners, estimates, dependencies, and tool fields must be provided or verified.",
+        "User-story syntax and prioritization scores are optional practices rather than universal Scrum requirements."
+      ],
+      "safety_notes": [
+        "Keep customer and product strategy data private.",
+        "Require explicit confirmation before live tracker, roadmap, release, or external communication changes.",
+        "Route regulated, accessibility, privacy, security, safety, or legal requirements to current authoritative review."
+      ]
     }
   ]
 }
