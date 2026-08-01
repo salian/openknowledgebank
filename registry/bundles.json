@@ -31964,6 +31964,101 @@
     {
       "schema_version": "0.1.0",
       "bundle_format": "okf-compatible",
+      "id": "okr-goals-framework",
+      "title": "OKR / Goal-Setting Framework",
+      "description": "Source-aware deliverable bundle for defining and reviewing organizational or team objectives and key results without inventing local strategy, metrics, ownership, cadence, or policy.",
+      "category": "deliverables",
+      "path": "bundles/deliverables/okr-goals-framework",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "license": "CC-BY-4.0",
+      "trust_tier": "trusted",
+      "status": "beta",
+      "version": "0.1.0",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/okr-goals-framework",
+      "download_url": "https://openknowledgebank.com/downloads/okr-goals-framework.zip",
+      "updated": "2026-08-01",
+      "tags": [
+        "okrs",
+        "goal-setting",
+        "objectives-and-key-results",
+        "planning",
+        "deliverable"
+      ],
+      "aliases": [
+        "OKR framework",
+        "goal-setting framework"
+      ],
+      "problems_solved": [
+        "Produce a review-ready goals framework from supplied strategy and metric evidence.",
+        "Separate objectives, key results, initiatives, assumptions, and missing evidence.",
+        "Review targets, owners, cadence, scoring, and commitments without treating examples as local policy."
+      ],
+      "industries": [
+        "cross-industry",
+        "technology",
+        "digital-products",
+        "operations"
+      ],
+      "tools": [],
+      "frameworks": [
+        "Objectives and Key Results",
+        "evidence separation",
+        "outcome-versus-activity review"
+      ],
+      "deliverables": [
+        "OKR / goal-setting framework brief",
+        "objective and key-result review register"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "OKR / goal-setting framework quality check"
+      ],
+      "evaluation_summary": {
+        "status": "blocked",
+        "evidence_note": "No measured score is claimed; evaluation is blocked until reviewer-scored aggregate results are available."
+      },
+      "related_bundles": [
+        "okrs",
+        "chief-product-officer-cpo"
+      ],
+      "adjacent_bundles": [
+        "product-roadmap",
+        "agile"
+      ],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "limitations": [
+        "Not a substitute for organizational strategy, metric definitions, goal policy, HR policy, compensation policy, or performance management.",
+        "Requires evidence before finalizing targets, owners, dates, cadence, scoring, commitment type, or tool configuration.",
+        "Does not provide tool-specific OKR fields or claim access to private goals, metrics, systems, or approvals."
+      ],
+      "safety_notes": [
+        "Require accountable confirmation before publishing commitments, changing live goal systems, making employee-facing claims, or linking goals to compensation or performance decisions.",
+        "Route employment, compensation, legal, privacy, security, and financial judgments to qualified reviewers."
+      ],
+      "evaluation_detail": {
+        "status": "blocked",
+        "method": "baseline-vs-okb-rubric",
+        "tasks_total": 3,
+        "bundle_context_source": "bundles/deliverables/okr-goals-framework",
+        "scoring_summary": "Generations completed, but reviewer-scored aggregate results are not available; no score is claimed.",
+        "blocker": "Reviewer-scored aggregate results required."
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
       "id": "okrs",
       "title": "Objectives and Key Results (OKRs)",
       "description": "Framework hub for drafting, reviewing, and operating OKRs without inventing local strategy, metrics, cadence, tool fields, or HR policy.",
