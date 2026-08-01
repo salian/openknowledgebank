@@ -85348,6 +85348,102 @@
         "Require explicit confirmation before live tracker, roadmap, release, or external communication changes.",
         "Route regulated, accessibility, privacy, security, safety, or legal requirements to current authoritative review."
       ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "bundle_format": "okf-compatible",
+      "id": "product-strategy-vision-doc",
+      "title": "Product Strategy & Vision Document",
+      "description": "Source-aware guidance for drafting and reviewing a product strategy and vision document that connects desired customer change, strategic choices, objectives, evidence, and decision boundaries.",
+      "category": "deliverables",
+      "path": "bundles/deliverables/product-strategy-vision-doc",
+      "version": "0.1.0",
+      "repo": "https://github.com/salian/openknowledgebank",
+      "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/deliverables/product-strategy-vision-doc",
+      "download_url": "https://openknowledgebank.com/downloads/product-strategy-vision-doc.zip",
+      "tags": [
+        "product strategy",
+        "product vision",
+        "strategic planning",
+        "product management",
+        "deliverable"
+      ],
+      "aliases": [
+        "Product Strategy Document",
+        "Product Vision and Strategy Document"
+      ],
+      "problems_solved": [
+        "draft a product strategy and vision document without inventing local evidence",
+        "connect product direction to objectives and measurable outcomes",
+        "make assumptions, tradeoffs, verification, and approval boundaries explicit"
+      ],
+      "industries": [
+        "software",
+        "saas",
+        "digital products",
+        "business services"
+      ],
+      "tools": [],
+      "frameworks": [
+        "vision-strategy-objectives distinction",
+        "evidence and decision matrix"
+      ],
+      "deliverables": [
+        "product strategy and vision document",
+        "strategy review",
+        "vision statement"
+      ],
+      "commands": [],
+      "skills": [],
+      "evaluations": [
+        "product strategy and vision source-aware quality check"
+      ],
+      "trust_tier": "trusted",
+      "status": "beta",
+      "license": "CC-BY-4.0",
+      "related_bundles": [
+        "chief-product-officer-cpo"
+      ],
+      "adjacent_bundles": [],
+      "contributors": [
+        "OpenKnowledgeBank"
+      ],
+      "maintainers": [
+        "OpenKnowledgeBank"
+      ],
+      "standard_mappings": {
+        "onet_soc": [],
+        "soc": [],
+        "isco_08": [],
+        "esco": []
+      },
+      "source_urls": [
+        "https://www.productboard.com/glossary/product-strategy/",
+        "https://www.productboard.com/wp-content/uploads/2021/07/Product-Strategy-Playbook.pdf",
+        "https://www.productboard.com/blog/write-product-vision/",
+        "https://www.atlassian.com/agile/product-management",
+        "https://www.atlassian.com/software/confluence/templates/product-vision-board"
+      ],
+      "limitations": [
+        "This bundle provides general drafting guidance, not a company-specific strategy or market analysis.",
+        "Local product facts, customer evidence, competitor claims, metrics, targets, owners, dates, resource commitments, and roadmap decisions require supplied or inspected evidence.",
+        "Organizations use different terms and document formats; confirm local terminology and governance before adopting the structure."
+      ],
+      "safety_notes": [
+        "Keep customer, employee, financial, competitive, security, and unpublished strategy information private.",
+        "Require accountable confirmation before committing funding, staffing, roadmap changes, customer promises, or public claims.",
+        "Route legal, privacy, security, regulatory, financial, employment, and other qualified judgments to current accountable reviewers."
+      ],
+      "evaluation_summary": {
+        "status": "blocked",
+        "method": "baseline-vs-okb-rubric",
+        "caveat": "No measured score is claimed; reviewer-scored task set, evaluator configuration, and approved scoring outputs are unavailable for this run."
+      },
+      "evaluation_detail": {
+        "status": "blocked",
+        "next_action": "Create and review the public-safe three-task rubric, run identical baseline and bundle-assisted conditions, obtain reviewer-scored aggregate results, and build a listing scorecard."
+      },
+      "updated": "2026-08-01"
     }
   ]
 }
