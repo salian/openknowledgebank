@@ -10,13 +10,13 @@ OpenKnowledgeBank gives agents role knowledge, workflows, safety rules, delivera
 
 Use it when you want an agent to do specialized work with better structure, clearer source discipline, and more reusable operating guidance than a one-off prompt.
 
-**Status:** early public preview. The first measured benchmark bundle is GA4 Analytics Specialist.
+**Status:** early public preview. The current catalog and each bundle's publication and evaluation status are maintained in [registry/bundles.json](registry/bundles.json).
 
 **Star this repo to follow the open library of reusable agent knowledge bundles.**
 
 ## Measured Proof
 
-The first measured benchmark bundle is [GA4 Analytics Specialist](bundles/roles/ga4-analytics-specialist). In a three-task GA4 evaluation, the same lower-cost model improved from a baseline score of `17/48` to an OpenKnowledgeBank-assisted score of `42/48`.
+[GA4 Analytics Specialist](bundles/roles/ga4-analytics-specialist) is the first published benchmark example. In a three-task GA4 evaluation, the same lower-cost model improved from a baseline score of `17/48` to an OpenKnowledgeBank-assisted score of `42/48`.
 
 ![GA4 Analytics Specialist scorecard](docs/assets/ga4-scorecard.svg)
 
@@ -49,10 +49,9 @@ Useful starting files:
 
 ## Available Bundles
 
-| Bundle | Use it for | Status | Evidence |
-| --- | --- | --- | --- |
-| [GA4 Analytics Specialist](bundles/roles/ga4-analytics-specialist) | GA4 analysis, ecommerce diagnosis, BigQuery export planning, UI/export reconciliation | Candidate / measured | `17/48` baseline to `42/48` bundle-assisted |
-| [Performance Marketer](bundles/roles/performance-marketer) | Campaign diagnosis, paid acquisition context, marketing workflows | Seed skeleton | Planned after the GA4 benchmark |
+The catalog is maintained in [registry/bundles.json](registry/bundles.json), which is the source of truth for current bundle IDs, categories, publication status, trust tier, references, and evaluation summaries. It includes role, industry, capability, tool, framework, compliance, jurisdiction, deliverable, and dataset bundles.
+
+Use the [website](https://openknowledgebank.com) to browse the catalog or inspect any bundle directly under [`bundles/`](bundles/).
 
 ## What Is Inside A Bundle?
 
@@ -67,6 +66,18 @@ Bundles are plain markdown directories with YAML frontmatter. Depending on the b
 - examples, references, and evaluations
 
 Bundles can represent roles, industries, capabilities, tools, frameworks, compliance regimes, jurisdictions, deliverables, and datasets.
+
+## Public Repository Boundary
+
+This is a public repository. Everything committed here should be safe to inspect, reuse, and redistribute under the applicable license.
+
+Publishable bundles, public registry data, schemas, validators, examples, and contributor documentation belong here. Do not commit secrets, credentials, private notes, personal or customer data, confidential examples, unpublished strategy, private workspace paths, or source material that cannot be publicly redistributed.
+
+Run the public validator before opening a pull request:
+
+```bash
+python tools/validate-bundle/validate.py --root .
+```
 
 ## Who This Is For
 
