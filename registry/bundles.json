@@ -58508,6 +58508,27 @@
         "bundle_context_source": "bundles/tools/slack",
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/slack/v1/evaluation-results/"
+      },
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the Slack tool guide, evidence-triage workflow, communication and governance brief, limitations, safety notes, source, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Slack bundle to review workspace, channel, message, membership, app, workflow, permission, retention, export, and communication evidence before drafting a governance brief.",
+        "audiences": ["Slack administrators, operations and collaboration teams, communication owners, security and compliance reviewers, and app integration maintainers"],
+        "when_to_use": [
+          "A workspace, channel, thread, membership, role, or permission question needs current identifiers and administrator evidence reconciled.",
+          "An app, workflow, integration, token-scope, retention, legal-hold, export, or audit decision needs policy and local state separated.",
+          "A sensitive or consequential Slack communication needs message provenance, source-of-record context, notification impact, and approval boundaries reviewed."
+        ],
+        "required_inputs": [
+          "Workspace and organization identifiers, channel and thread scope, relevant message content and timestamps, author and edit state, membership, roles, permissions, and source-of-record rules.",
+          "App and integration configuration, scopes without exposed tokens, workflows, retention and legal-hold policy, export availability, administrator policy, audit evidence, communication plan, and approvals."
+        ],
+        "agent_use_example": "Load the Slack bundle and provide the workspace and channel scope, relevant message or thread evidence, membership and permission context, app scopes, workflow configuration, retention and export policy, audit source of record, proposed communication, and approval owner. Ask the agent to separate observed state from missing evidence and draft a Slack communication and governance brief without sending or changing anything.",
+        "not_for": ["Guessing workspace state, channel membership, message content, permissions, app scopes, retention, export availability, or approval; sending or editing messages, inviting users, or changing channels, permissions, retention, apps, workflows, tokens, or exports without explicit confirmation."]
       }
     },
     {
@@ -83489,6 +83510,28 @@
         "bundle_context_source": "bundles/frameworks/medallion-architecture",
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/medallion-architecture/v1/evaluation-results/"
+      },
+      "updated": "2026-08-02",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the Medallion Architecture guide, triage workflow, review brief, limitations, safety notes, sources, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Medallion Architecture bundle to review bronze, silver, and gold layer purpose, grain, schema, quality, lineage, latency, access, cost, and consumption evidence before recommending a lakehouse design.",
+        "audiences": ["Data architects, data and analytics engineers, platform teams, governance owners, and reviewers designing or assessing layered lakehouse systems"],
+        "when_to_use": [
+          "A source or table needs a defensible bronze, silver, or gold role based on business use, grain, transformation, quality, and consumer needs.",
+          "Schema evolution, deduplication, quarantine, lineage, refresh, latency, or access concerns need evidence reconciled across layers.",
+          "A proposed batch or streaming architecture needs platform constraints, ownership, tests, costs, rollback, and approval gates made explicit."
+        ],
+        "required_inputs": [
+          "Platform and runtime version, business use case, source contracts, ingestion mode, existing layer definitions and owners, table names and grain, schemas, and evolution policy.",
+          "Quality and quarantine rules, transformations, keys and deduplication logic, lineage, refresh and latency targets, access controls, cost evidence, tests, consumers, proposed changes, rollback, and approvals."
+        ],
+        "agent_use_example": "Load the Medallion Architecture bundle and provide the platform version, use case, source contracts, ingestion mode, current tables and declared grain, schemas and evolution rules, transformation and deduplication logic, quality and quarantine evidence, lineage, refresh targets, access controls, costs, tests, consumers, and rollback constraints. Ask the agent to draft a layer-by-layer review brief with assumptions and decision gates.",
+        "not_for": ["Inventing layer assignment, table or schema state, data quality, lineage, freshness, duplication, access, cost, or analytical readiness; creating or altering tables, schemas, pipelines, quality rules, controls, schedules, workloads, data, or published datasets without approval."]
       }
     },
     {
@@ -84252,6 +84295,28 @@
         "bundle_context_source": "bundles/frameworks/aarrr-pirate-metrics",
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/aarrr-pirate-metrics/v1/evaluation-results/"
+      },
+      "updated": "2026-08-02",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the AARRR framework guide, triage workflow, review brief, limitations, safety notes, identified source, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the AARRR Pirate Metrics bundle to define and reconcile acquisition, activation, retention, referral, and revenue evidence before interpreting a funnel, cohort, experiment, or growth result.",
+        "audiences": ["Growth and product teams, analysts, founders, marketers, experiment owners, and data practitioners defining or reviewing AARRR metrics"],
+        "when_to_use": [
+          "A product needs explicit acquisition, activation, retention, referral, and revenue stage definitions tied to its users and business model.",
+          "A funnel or cohort result needs event instrumentation, identity, deduplication, attribution, windows, filters, refunds, and source queries reconciled.",
+          "A growth experiment or campaign needs a baseline, evaluation plan, privacy constraints, uncertainty, and a boundary between association and causal lift."
+        ],
+        "required_inputs": [
+          "The local AARRR variant, product and user scope, event taxonomy and instrumentation, identity and deduplication rules, acquisition sources and attribution method, activation definition, and cohort retention window.",
+          "Referral and revenue definitions including refunds, filters and exclusions, source queries, baselines, experiment design and results, privacy requirements, owners, decision threshold, and approvals."
+        ],
+        "agent_use_example": "Load the AARRR Pirate Metrics bundle and provide the product and user scope, current stage definitions, event taxonomy, instrumentation checks, identity and deduplication rules, attribution method, cohort window, referral and revenue logic, refunds, filters, source queries, baseline, and experiment evidence. Ask the agent to map evidence to each stage and draft a growth review brief without claiming causal impact beyond the design.",
+        "not_for": ["Guessing stage definitions, event accuracy, identity, cohort retention, attribution, referral, revenue, causal growth, or product outcomes; changing tracking or metrics, launching experiments or campaigns, contacting users, exporting personal data, spending budget, or publishing causal claims without approval."]
       }
     },
     {
@@ -85512,6 +85577,28 @@
         "bundle_context_source": "bundles/deliverables/data-model-schema-design",
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/data-model-schema-design/v1/evaluation-results/"
+      },
+      "updated": "2026-08-02",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the data-model deliverable guide, triage workflow, review brief, limitations, safety notes, source, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Data Model and Schema Design bundle to turn business questions, source contracts, grain, entities, facts, dimensions, keys, relationships, constraints, history, lineage, privacy, and migration evidence into a reviewable design brief.",
+        "audiences": ["Data architects, analytics and data engineers, database designers, application teams, governance owners, and reviewers preparing schema decisions"],
+        "when_to_use": [
+          "A new analytical or operational model needs its business process, declared grain, entities, identifiers, facts, dimensions, and aggregation rules defined.",
+          "Relationships, cardinality, keys, nulls, constraints, history, naming, types, lineage, privacy, retention, or access decisions need source evidence reconciled.",
+          "A schema migration needs compatibility, performance, quality tests, ownership, rollback, and downstream impact reviewed before implementation."
+        ],
+        "required_inputs": [
+          "Business questions and process scope, source systems and contracts, representative profiles and quality evidence, entity and identifier definitions, declared grain, fact and aggregation rules, dimension and history requirements, relationships, and cardinality.",
+          "Null and constraint policy, naming and data types, privacy classification and retention, access and lineage, target platform, performance constraints, migration and compatibility requirements, tests, owners, rollback, and approvals."
+        ],
+        "agent_use_example": "Load the Data Model and Schema Design bundle and provide the business questions, process scope, source contracts and sample profiles, entity and identifier definitions, proposed grain, facts and aggregation rules, dimensions and history behavior, relationships and cardinality, constraints, privacy classification, target platform, migration compatibility, tests, and rollback. Ask the agent to draft a schema review brief with unresolved evidence clearly marked.",
+        "not_for": ["Inventing source schema, entity identity, grain, cardinality, key uniqueness, metric additivity, history behavior, data quality, privacy classification, or migration safety; creating or altering database objects, access, retention, migrations, or data without explicit approval."]
       }
     },
     {
@@ -85640,6 +85727,28 @@
         "bundle_context_source": "bundles/deliverables/deployment-scripts-cicd",
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required response and evidence headings, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/deployment-scripts-cicd/v1/evaluation-results/"
+      },
+      "updated": "2026-08-02",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the CI/CD deliverable guide, triage workflow, pipeline review brief, limitations, safety notes, sources, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Deployment Scripts and CI/CD Pipelines bundle to review source, builds, tests, artifacts, environments, permissions, secrets, promotion, verification, rollback, and audit evidence before production change.",
+        "audiences": ["DevOps and platform engineers, release managers, application teams, security reviewers, and maintainers designing or reviewing deployment automation"],
+        "when_to_use": [
+          "A deployment script or pipeline change needs its repository revision, runner, dependencies, tests, quality gates, permissions, and environment scope reviewed.",
+          "Artifact provenance, secret references, protected environments, promotion approvals, concurrency, retries, or deployment targets need evidence reconciled.",
+          "A production release needs health checks, observability, rollback triggers and procedures, owners, costs, stop conditions, and an audit trail defined."
+        ],
+        "required_inputs": [
+          "Repository and revision, CI/CD platform and runner version, pipeline source, environments and promotion policy, build inputs and dependency locks, tests and quality gates, artifact identity and provenance.",
+          "Deployment targets, least-privilege permissions, credential and secret references without exposed values, approvals and protected environments, concurrency and retries, health checks, logs, cost constraints, rollback trigger and procedure, owner, and change approval."
+        ],
+        "agent_use_example": "Load the Deployment Scripts and CI/CD Pipelines bundle and provide the repository revision, workflow files, runner and environment details, dependency locks, test and quality-gate results, artifact provenance, target and permission model, secret references, promotion approvals, concurrency behavior, health checks, deployment logs, rollback trigger, and recovery procedure. Ask the agent to draft a pipeline review brief without running or editing the deployment.",
+        "not_for": ["Assuming build or test results, artifact provenance, secret safety, permissions, environment state, deployment outcome, health, rollback safety, or production readiness; editing or running pipelines, accessing secrets, publishing artifacts, deploying or rolling back, changing infrastructure or approvals, or incurring spend without confirmation."]
       }
     },
     {
