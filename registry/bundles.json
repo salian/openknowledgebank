@@ -35657,13 +35657,38 @@
       "title": "SEO Specialist / Consultant",
       "category": "roles",
       "description": "Role knowledge for source-scoped SEO audits, search performance diagnosis, content optimization briefs, and technical SEO recommendations.",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the SEO role, audit and optimization workflows, deliverables, limitations, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the SEO Specialist bundle to plan source-scoped audits, diagnose search-performance changes, and improve intent-to-page fit without inventing crawl findings, tool access, rankings, or guaranteed outcomes.",
+        "audiences": [
+          "SEO specialists, consultants, content teams, developers, marketers, and site owners investigating organic-search performance"
+        ],
+        "when_to_use": [
+          "A site needs an SEO audit organized across crawlability, indexing, page relevance, internal links, structured data, and measurement evidence.",
+          "Organic clicks, impressions, rankings, or conversions changed and source scope, dates, queries, pages, devices, and releases must be reconciled.",
+          "An existing page needs a content brief that maps audience intent to titles, headings, sections, internal links, claims, and conversion goals."
+        ],
+        "required_inputs": [
+          "Site scope, business and conversion goals, representative URLs, target audiences, known releases, and access or implementation constraints.",
+          "Available Search Console, analytics, crawl, keyword, SERP, rank-tracking, CMS, robots, sitemap, canonical, redirect, and structured-data evidence."
+        ],
+        "agent_use_example": "Load the SEO Specialist bundle and provide the site scope, priority templates, Search Console export, crawl evidence, analytics context, recent releases, and known conversion goals. Ask the agent to separate verified findings from hypotheses, organize issues by crawl-index-rank stage, and draft a prioritized SEO audit brief with owners, checks, and a measurement plan.",
+        "not_for": [
+          "Promising rankings, traffic, indexing, rich results, or revenue; fabricating tool findings; or recommending link buying, cloaking, doorway pages, keyword stuffing, deceptive automation, or unreviewed live-site changes."
+        ]
+      },
       "path": "bundles/roles/seo-specialist-consultant",
       "repo": "https://github.com/salian/openknowledgebank",
       "license": "CC-BY-4.0",
       "trust_tier": "trusted",
       "status": "beta",
       "version": "0.1.0",
-      "updated": "2026-07-09",
+      "updated": "2026-08-02",
       "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/seo-specialist-consultant",
       "download_url": "https://openknowledgebank.com/downloads/seo-specialist-consultant.zip",
       "tags": [
@@ -49815,6 +49840,31 @@
       "id": "web-analytics-marketing-data-specialist",
       "title": "Web Analytics / Marketing Data Specialist",
       "description": "Source-aware role bundle for measurement planning, implementation review, web-data reconciliation, KPI analysis, and decision-ready analytics briefs.",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the web-analytics role, source-aware triage workflow, measurement brief, limitations, source mapping, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Web Analytics and Marketing Data Specialist bundle to design measurement plans, review instrumentation, reconcile conflicting metrics, and prepare decision-ready analysis that makes data gaps and consent constraints visible.",
+        "audiences": [
+          "Web analysts, marketing analysts, measurement leads, product teams, and implementation partners responsible for digital analytics"
+        ],
+        "when_to_use": [
+          "A product, campaign, or journey needs a measurement plan before events, properties, destinations, and reporting are implemented.",
+          "Analytics reports disagree and event definitions, identities, filters, dates, consent state, exports, and source-of-record values need reconciliation.",
+          "Stakeholders need a KPI or performance brief that distinguishes observed data from instrumentation gaps and unsupported attribution claims."
+        ],
+        "required_inputs": [
+          "Business decision, measurement plan, KPI and event definitions, property and container configuration, identity rules, date range, filters, and consent state.",
+          "Relevant reports or exports, implementation evidence, release history, comparison sources, known data-quality issues, and accountable owners."
+        ],
+        "agent_use_example": "Load the Web Analytics and Marketing Data Specialist bundle and provide the business question, measurement plan, event schema, consent and identity rules, report exports, filters, implementation changes, and comparison data. Ask the agent to reconcile definitions, label evidence gaps, and produce a web-analytics measurement and reconciliation brief with bounded next checks.",
+        "not_for": [
+          "Inventing account access, events, metrics, traffic, conversions, attribution, consent, or configuration state, establishing legal compliance, or changing tags, destinations, consent settings, or production analytics without confirmation."
+        ]
+      },
       "category": "roles",
       "path": "bundles/roles/web-analytics-marketing-data-specialist",
       "version": "0.1.0",
@@ -49929,7 +49979,7 @@
         "display_summary": "Improved measured rubric score from 11/36 to 34/36 across 3 benchmark tasks.",
         "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "updated": "2026-07-29",
+      "updated": "2026-08-02",
       "evaluation_detail": {
         "status": "measured",
         "title": "Web Analytics / Marketing Data Specialist measured evaluation",
@@ -50367,6 +50417,31 @@
       "id": "demand-generation-manager",
       "title": "Demand Generation Manager",
       "description": "Source-aware role bundle for demand strategy, campaign planning, funnel-evidence review, nurture design, and budget-owner-ready recommendations.",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the demand-generation role, source-aware triage workflow, campaign brief, limitations, source mapping, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Demand Generation Manager bundle to plan campaigns, review funnel evidence, design nurture paths, and prepare budget-owner recommendations without presenting hypotheses, attribution, pipeline, or causal lift as measured fact.",
+        "audiences": [
+          "Demand generation leaders and campaign, lifecycle, marketing operations, sales, analytics, and revenue teams"
+        ],
+        "when_to_use": [
+          "A demand program needs audience, offer, channel, budget, consent, suppression, and success criteria organized before launch.",
+          "Campaign or funnel performance must be reviewed while separating measured results from attribution assumptions and data-quality gaps.",
+          "A nurture or launch recommendation needs a concise evidence brief and explicit approval gates for spending, sending, and audience use."
+        ],
+        "required_inputs": [
+          "Business goal, audience and account criteria, approved offer and claims, channel plan, budget constraints, owners, and launch timeline.",
+          "Funnel-stage definitions, consent and suppression rules, campaign and pipeline evidence, attribution method, data-quality notes, and approval boundaries."
+        ],
+        "agent_use_example": "Load the Demand Generation Manager bundle and provide the campaign goal, target-account criteria, approved offer, channels, budget, consent and suppression requirements, funnel definitions, historic performance, and attribution rules. Ask the agent to distinguish evidence from hypotheses and draft a demand-generation campaign and evidence brief for budget-owner review.",
+        "not_for": [
+          "Inferring pipeline, conversion, reach, ROI, attribution, or causal lift, or launching campaigns, spending budget, sending communications, syncing audiences, or changing automation without approval and applicable privacy controls."
+        ]
+      },
       "category": "roles",
       "path": "bundles/roles/demand-generation-manager",
       "version": "0.1.0",
@@ -50482,7 +50557,7 @@
         "display_summary": "Improved measured rubric score from 8/36 to 33/36 across 3 benchmark tasks.",
         "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "updated": "2026-07-29",
+      "updated": "2026-08-02",
       "evaluation_detail": {
         "status": "measured",
         "title": "Demand Generation Manager measured evaluation",
@@ -54125,6 +54200,31 @@
       "id": "business-intelligence-analyst",
       "title": "Business Intelligence Analyst",
       "description": "Source-aware role bundle for business-question framing, metric definition, data reconciliation, trend analysis, dashboard review, and decision-ready BI briefs.",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the BI role, source-aware triage workflow, reconciliation brief, limitations, source mapping, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Business Intelligence Analyst bundle to frame a decision, define metrics, reconcile source schemas and dashboards, review trends, and produce a BI brief without inventing data lineage, freshness, access, values, or causality.",
+        "audiences": [
+          "Business intelligence analysts, analytics teams, dashboard owners, data engineers, and decision-makers reviewing operational metrics"
+        ],
+        "when_to_use": [
+          "A business question needs precise metric, dimension, grain, filter, date, and decision definitions before analysis begins.",
+          "Two dashboards, queries, or exports disagree and schema, key, lineage, refresh, access, and calculation evidence must be reconciled.",
+          "A trend or KPI review needs a decision-ready brief that separates verified observations from assumptions and causal hypotheses."
+        ],
+        "required_inputs": [
+          "Business question and decision, metric and dimension definitions, source schemas and grain, entity keys, lineage, refresh state, filters, and access rules.",
+          "Queries, dashboard or export evidence, comparison periods, validation sources, known transformations, data-quality issues, and owner approvals."
+        ],
+        "agent_use_example": "Load the Business Intelligence Analyst bundle and provide the decision question, competing dashboard exports, metric definitions, source schemas, grain and keys, filters, refresh timestamps, lineage notes, and validation owner. Ask the agent to reconcile the discrepancies, identify missing evidence, and produce a BI analysis and reconciliation brief without asserting unsupported causes.",
+        "not_for": [
+          "Inventing tables, fields, joins, metric values, dashboard state, data freshness, permissions, or causal conclusions, or running production queries and changing dashboards without confirmation."
+        ]
+      },
       "category": "roles",
       "path": "bundles/roles/business-intelligence-analyst",
       "version": "0.1.0",
@@ -54241,7 +54341,7 @@
         "display_summary": "Improved measured rubric score from 14/36 to 35/36 across 3 benchmark tasks.",
         "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "updated": "2026-07-31",
+      "updated": "2026-08-02",
       "evaluation_detail": {
         "status": "measured",
         "title": "Business Intelligence Analyst measured evaluation",
@@ -75761,6 +75861,32 @@
       "id": "ai-ml-product-manager",
       "title": "AI / ML Product Manager",
       "description": "Source-aware role bundle for AI and ML product discovery, requirements, evaluation, risk, and rollout planning, evidence reconciliation, reviewable decisions, and controlled consequential actions.",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the AI/ML product role, source-aware triage workflow, decision brief, risk sources, limitations, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the AI and ML Product Manager bundle to structure product discovery, requirements, evaluation, risk, and rollout decisions around documented users, data, model versions, thresholds, failure modes, oversight, and approvals.",
+        "audiences": [
+          "AI and ML product managers and cross-functional research, engineering, data, design, safety, security, privacy, legal, and operations teams"
+        ],
+        "when_to_use": [
+          "An AI product opportunity needs a defined user problem, decision, success criteria, product requirements, and evidence plan before model selection.",
+          "A model or provider evaluation needs dataset provenance, rights, metrics, thresholds, subgroup results, failure modes, cost, latency, and human oversight reviewed together.",
+          "A feature needs rollout, monitoring, incident, safeguard, accessibility, privacy, security, safety, and approval evidence before a launch decision."
+        ],
+        "required_inputs": [
+          "Users, use case, decision, success criteria, product requirements, model and provider versions, data provenance, rights, consent, and processing context.",
+          "Evaluation datasets and results, thresholds, subgroup findings, failure modes, oversight and safeguard design, cost, latency, rollout, monitoring, incident, and approval evidence."
+        ],
+        "agent_use_example": "Load the AI and ML Product Manager bundle and provide the user problem, product requirements, candidate model versions, data provenance and rights, evaluation dataset, metrics and thresholds, subgroup results, failure modes, oversight plan, cost and latency constraints, and rollout approvals. Ask the agent to produce an AI product decision brief that labels every evidence gap and prohibited unapproved action.",
+        "not_for": [
+          "Inferring user value, model capability, accuracy, fairness, safety, compliance, cost, launch readiness, or business impact, or selecting and deploying models, changing safeguards, processing sensitive data, or making performance claims without accountable review."
+        ]
+      },
+      "updated": "2026-08-02",
       "category": "roles",
       "path": "bundles/roles/ai-ml-product-manager",
       "version": "0.1.0",
