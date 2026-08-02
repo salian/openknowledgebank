@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "updated": "2026-08-01",
+  "updated": "2026-08-02",
   "bundles": [
     {
       "schema_version": "0.1.0",
@@ -28130,13 +28130,38 @@
       "title": "GA4 Analytics Specialist",
       "category": "roles",
       "description": "Role knowledge for using GA4 and BigQuery export data to answer analytics questions, diagnose conversion changes, and produce decision-ready analysis.",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the GA4 role, workflows, commands, deliverables, limitations, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the GA4 Analytics Specialist bundle to investigate conversion and ecommerce changes, plan BigQuery export analysis, and reconcile GA4 interface metrics with query results without treating unverified access or hypotheses as facts.",
+        "audiences": [
+          "Digital analysts, analytics leads, and product or marketing teams working with GA4 measurement"
+        ],
+        "when_to_use": [
+          "Purchases, revenue, conversions, or conversion rate changed and the cause needs a structured diagnosis.",
+          "GA4 interface values and BigQuery export results disagree and definitions, settings, or query logic must be reconciled.",
+          "A business question needs a reviewable GA4 or BigQuery analysis plan before data is queried."
+        ],
+        "required_inputs": [
+          "Metric definition, analysis date range, comparison period, relevant segments, and the decision the analysis must support.",
+          "Available GA4 reports, BigQuery schema or SQL, GTM and release history, consent context, and backend source-of-record evidence."
+        ],
+        "agent_use_example": "Load the GA4 Analytics Specialist bundle, then provide the purchase conversion decline, date and comparison ranges, affected segments, event definitions, release history, and any backend order check. Ask the agent to separate measurement issues from behavior hypotheses, rank the next checks, and draft a source-aware conversion-drop diagnosis.",
+        "not_for": [
+          "Declaring a root cause from a percentage change alone, inventing property access or schema details, or making live GA4, GTM, BigQuery, audience, or conversion changes without review."
+        ]
+      },
       "path": "bundles/roles/ga4-analytics-specialist",
       "repo": "https://github.com/salian/openknowledgebank",
       "license": "CC-BY-4.0",
       "trust_tier": "trusted",
       "status": "beta",
       "version": "0.1.0",
-      "updated": "2026-06-21",
+      "updated": "2026-08-02",
       "tags": [
         "analytics",
         "ga4",
@@ -28396,13 +28421,38 @@
       "title": "Google BigQuery",
       "category": "tools",
       "description": "Tool knowledge for source-aware BigQuery query planning, cost checks, performance review, and analytics warehouse work.",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the BigQuery tool, query-planning and cost-control workflows, deliverable, limitations, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Google BigQuery bundle to turn an analytics question into a source-aware query plan with explicit table grain, filters, joins, metric logic, validation, and cost checks before anyone runs SQL against a live project.",
+        "audiences": [
+          "Data analysts, analytics engineers, BI teams, and product or marketing analysts planning work in BigQuery"
+        ],
+        "when_to_use": [
+          "A business question needs a BigQuery analysis plan but the available schemas, permissions, or source tables are not yet fully verified.",
+          "A proposed query needs dry-run, scan-cost, partitioning, clustering, projection, and validation checks before execution.",
+          "BigQuery results must be reconciled with a trusted report or operational source of record."
+        ],
+        "required_inputs": [
+          "The decision to support, project and dataset context, candidate tables, schema evidence, grain, time range, timezone, filters, and join keys.",
+          "Existing SQL or job evidence, permission constraints, billing or capacity context, and the independent source used to validate results."
+        ],
+        "agent_use_example": "Load the Google BigQuery bundle and provide the business question, relevant table schemas, expected grain, date range, timezone, join keys, metric definition, and billing constraints. Ask the agent for a query plan that identifies missing schema evidence, narrows projected columns, requires a dry run, and defines checks against the source of record.",
+        "not_for": [
+          "Inventing project, dataset, table, field, permission, pricing, quota, or query-result details, or running expensive, exporting, writing, or permission-changing operations without confirmation."
+        ]
+      },
       "path": "bundles/tools/google-bigquery",
       "repo": "https://github.com/salian/openknowledgebank",
       "license": "CC-BY-4.0",
       "trust_tier": "trusted",
       "status": "beta",
       "version": "0.1.0",
-      "updated": "2026-07-08",
+      "updated": "2026-08-02",
       "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/tools/google-bigquery",
       "download_url": "https://openknowledgebank.com/downloads/google-bigquery.zip",
       "tags": [
@@ -53081,6 +53131,31 @@
       "id": "growth-product-manager",
       "title": "Growth Product Manager",
       "description": "Source-aware role bundle for product-growth opportunity analysis, experiment prioritization, instrumentation review, rollout planning, and decision-ready product briefs.",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the product-growth role, triage workflow, decision brief, limitations, source mapping, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Growth Product Manager bundle to assess product-growth opportunities, prioritize experiments, review instrumentation and guardrails, and prepare a rollout brief that keeps user evidence, assumptions, and missing verification separate.",
+        "audiences": [
+          "Growth product managers and cross-functional product, design, engineering, data, and lifecycle teams"
+        ],
+        "when_to_use": [
+          "A growth opportunity or experiment needs to be prioritized against a stated product outcome and available user evidence.",
+          "An experiment proposal needs baseline, segment, event-schema, guardrail, technical-constraint, rollout, and rollback review.",
+          "Stakeholders need a review-ready experiment and rollout brief rather than an unsupported roadmap recommendation."
+        ],
+        "required_inputs": [
+          "Product outcome and strategy, user research, baseline and segment definitions, event and identity schema, and current experiment state.",
+          "Experiment design and guardrails, technical constraints, ownership, rollout and rollback controls, and known approval boundaries."
+        ],
+        "agent_use_example": "Load the Growth Product Manager bundle and provide the target outcome, user research, current funnel baseline, segment definitions, event schema, candidate experiment, engineering constraints, and rollout guardrails. Ask the agent to label verified and missing evidence, assess the proposal, and produce a product-growth experiment and rollout brief for accountable review.",
+        "not_for": [
+          "Inferring user needs, event names, baseline performance, experiment outcomes, technical feasibility, feature state, or roadmap commitments without local evidence and accountable approval."
+        ]
+      },
       "category": "roles",
       "path": "bundles/roles/growth-product-manager",
       "version": "0.1.0",
@@ -53197,7 +53272,7 @@
         "display_summary": "Improved measured rubric score from 6/36 to 35/36 across 3 benchmark tasks.",
         "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "updated": "2026-07-31",
+      "updated": "2026-08-02",
       "evaluation_detail": {
         "status": "measured",
         "title": "Growth Product Manager measured evaluation",
@@ -55707,6 +55782,31 @@
       "id": "product-marketing-manager",
       "title": "Product Marketing Manager",
       "description": "Source-aware role bundle for product positioning, messaging, launches, market and competitive evidence, sales enablement, and decision-ready go-to-market briefs.",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the product-marketing role, triage workflow, decision brief, limitations, source mapping, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Product Marketing Manager bundle to structure positioning, messaging, launch, competitive, and sales-enablement decisions around inspected product and market evidence instead of unsupported customer or competitor claims.",
+        "audiences": [
+          "Product marketing managers and product, sales, customer success, research, brand, and demand-generation partners"
+        ],
+        "when_to_use": [
+          "A launch or go-to-market decision needs a concise brief grounded in product, roadmap, customer, market, and channel evidence.",
+          "Positioning or messaging drafts need to be checked against customer research, product capabilities, and documented competitive evidence.",
+          "Sales-enablement feedback and performance definitions must be reconciled before recommending a campaign or launch action."
+        ],
+        "required_inputs": [
+          "Product and roadmap evidence, customer and market research, current positioning and messaging drafts, and documented competitive evidence.",
+          "Launch scope, channel plan, sales-enablement feedback, performance definitions and results, owners, dates, and approval boundaries."
+        ],
+        "agent_use_example": "Load the Product Marketing Manager bundle and provide the product capability record, target-customer research, positioning draft, competitor evidence, launch scope, channel plan, sales feedback, and success definitions. Ask the agent to separate verified claims from gaps and produce a product-marketing decision brief with verification and approval boundaries.",
+        "not_for": [
+          "Inventing customer needs, market size, competitor statements, product capabilities, roadmap promises, launch dates, channel performance, or win-loss causes, or publishing external claims without approval."
+        ]
+      },
       "category": "roles",
       "path": "bundles/roles/product-marketing-manager",
       "version": "0.1.0",
@@ -55821,7 +55921,7 @@
         "display_summary": "Improved measured rubric score from 6/36 to 36/36 across 3 benchmark tasks.",
         "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "updated": "2026-07-31",
+      "updated": "2026-08-02",
       "evaluation_detail": {
         "status": "measured",
         "title": "Product Marketing Manager measured evaluation",
@@ -58651,6 +58751,31 @@
       "id": "google-search-console",
       "title": "Google Search Console",
       "description": "Source-aware tool bundle for Google Search Console properties, performance, indexing, URL inspection, sitemaps, reports, and review-ready search briefs.",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the Search Console tool, source-aware triage workflow, diagnosis brief, limitations, official source, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Google Search Console bundle to investigate search performance, indexing, canonical, URL inspection, and sitemap questions while keeping property scope, report filters, dates, source evidence, and missing verification explicit.",
+        "audiences": [
+          "SEO practitioners, site owners, publishers, ecommerce teams, developers, and analysts reviewing organic-search evidence"
+        ],
+        "when_to_use": [
+          "Search clicks or impressions changed and the property, report, date range, search type, country, device, query, and page filters must be checked.",
+          "An indexing issue needs URL inspection, canonical, robots, sitemap, deployment, and enhancement evidence reconciled in one brief.",
+          "Search Console findings must be compared with analytics, server, rank-tracking, or another source of record before action."
+        ],
+        "required_inputs": [
+          "Property type and verified scope, report export or screenshots, date range, search type, filters, metric definitions, and freshness context.",
+          "URL inspection or live-test evidence, declared and selected canonicals, robots and sitemap state, relevant deployments, and comparison-source data."
+        ],
+        "agent_use_example": "Load the Google Search Console bundle and provide the verified property scope, performance export, filters and dates, sitemap status, representative URL inspections, canonical and robots evidence, and deployment history. Ask the agent to separate verified facts from assumptions and produce a Search Console diagnosis brief with the smallest next verification steps.",
+        "not_for": [
+          "Inferring property access, ranking causes, indexing state, canonical selection, crawl behavior, or sitemap processing without current evidence, or submitting removals and validation requests without confirmation."
+        ]
+      },
       "category": "tools",
       "path": "bundles/tools/google-search-console",
       "version": "0.1.0",
@@ -58760,7 +58885,7 @@
         "display_summary": "Improved measured rubric score from 17/36 to 36/36 across 3 benchmark tasks.",
         "evidence_note": "Public listing scorecard excludes raw prompts and private run artifacts."
       },
-      "updated": "2026-07-31",
+      "updated": "2026-08-02",
       "evaluation_detail": {
         "status": "measured",
         "title": "Google Search Console measured evaluation",
