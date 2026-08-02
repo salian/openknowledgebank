@@ -76951,6 +76951,28 @@
         "bundle_context_source": "bundles/tools/ansible",
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/ansible/v1/evaluation-results/"
+      },
+      "updated": "2026-08-02",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the Ansible tool guide, evidence-triage workflow, change plan, limitations, safety notes, sources, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Ansible bundle to review inventory, variables, playbooks, roles, modules, templates, validation evidence, and rollback before proposing a controlled infrastructure change plan.",
+        "audiences": ["Infrastructure engineers, DevOps and SRE teams, system administrators, automation maintainers, and reviewers planning Ansible changes"],
+        "when_to_use": [
+          "An Ansible playbook or role change needs target scope, inventory, variable precedence, module support, and desired state reconciled.",
+          "Check-mode, diff, idempotence, reachability, or prior execution evidence must be interpreted without treating simulation as proof of production behavior.",
+          "An infrastructure automation change needs validation steps, limits, alternatives, rollback, stop conditions, and an accountable approval gate."
+        ],
+        "required_inputs": [
+          "Ansible core and collection versions, control-node context, inventory source, groups, hosts, variables and precedence, target limits, configuration, playbooks, roles, modules, templates, handlers, and tags.",
+          "Desired and observed state, check and diff output, idempotence tests, credential and vault-handling constraints, relevant logs, rollback evidence, access scope, and approvals."
+        ],
+        "agent_use_example": "Load the Ansible bundle and provide the core and collection versions, inventory and target limits, relevant variables and precedence, playbook or role diff, desired and observed state, check-mode and idempotence results, credential constraints, logs, and rollback plan. Ask the agent to identify evidence gaps and draft an Ansible change plan with validation, stop conditions, and commands that must not run without approval.",
+        "not_for": ["Assuming inventory contents, host reachability, target state, module support, check-mode fidelity, idempotence, execution results, or rollback success; decrypting secrets, connecting to hosts, running automation, installing collections, or changing infrastructure without explicit confirmation."]
       }
     },
     {
@@ -77213,6 +77235,28 @@
         "bundle_context_source": "bundles/tools/apache-airflow",
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/apache-airflow/v1/evaluation-results/"
+      },
+      "updated": "2026-08-02",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the Airflow tool guide, evidence-triage workflow, workflow change brief, limitations, safety notes, sources, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Apache Airflow bundle to reconcile DAG code, scheduling semantics, dependencies, credentials, tests, run history, and operational constraints into a review-ready workflow change brief.",
+        "audiences": ["Data engineers, analytics engineers, platform teams, DAG owners, and operational reviewers planning or investigating Apache Airflow workflows"],
+        "when_to_use": [
+          "A DAG schedule, timezone, data interval, catchup, retry, pool, concurrency, callback, or dependency change needs impact reviewed before deployment.",
+          "A parse, task, data-completeness, backfill, or incident question requires DAG code, logs, run history, environment, and source definitions reconciled.",
+          "A production workflow change needs tests, data-contract checks, alternatives, rollback, stop conditions, ownership, and approval boundaries."
+        ],
+        "required_inputs": [
+          "Airflow and provider versions, deployment and executor context, scheduler and worker environment, DAG code, owners, tasks, dependencies, schedule, timezone, data interval, catchup, retries, pools, concurrency, callbacks, and assets.",
+          "Connection and variable metadata without exposed secrets, secrets-backend and permission context, tests, run history, logs, data contracts, proposed change, backfill scope, rollback evidence, and approvals."
+        ],
+        "agent_use_example": "Load the Apache Airflow bundle and provide the Airflow and provider versions, executor and environment, DAG code and ownership, schedule and timezone, task dependencies, retry and pool settings, connection metadata, test results, run history, logs, data contracts, proposed backfill scope, and rollback plan. Ask the agent to reconcile schedule semantics and draft a workflow change brief without triggering or deploying the DAG.",
+        "not_for": ["Inventing DAG parse state, schedule behavior, credential validity, task outcome, data completeness, backfill impact, production state, or incident cause; deploying code, exposing connections, triggering or unpausing DAGs, backfilling, clearing tasks, altering pools, or moving production data without approval."]
       }
     },
     {
@@ -78116,6 +78160,28 @@
         "bundle_context_source": "bundles/tools/airtable",
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/airtable/v1/evaluation-results/"
+      },
+      "updated": "2026-08-02",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the Airtable tool guide, evidence-triage workflow, base change brief, limitations, safety notes, sources, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Airtable bundle to review base schema, records, linked fields, formulas, views, permissions, automations, integrations, and API behavior before drafting a controlled base change brief.",
+        "audiences": ["Airtable builders, operations teams, system owners, integration developers, data stewards, and reviewers planning base or automation changes"],
+        "when_to_use": [
+          "A table, field, formula, linked-record, view, interface, or form change needs schema dependencies and source-of-record rules reviewed.",
+          "An API, pagination, webhook, integration, synchronization, or automation question needs current IDs, token scopes, limits, state, and test evidence reconciled.",
+          "A base change could affect records, collaborators, permissions, synchronized data, or downstream workflows and needs a snapshot, rollback, and approval plan."
+        ],
+        "required_inputs": [
+          "Workspace, base, table, field, view, interface, form, and relevant record IDs; current schema, field types, formulas, linked records, filters, sorting, permissions, collaborators, and source-of-record rules.",
+          "Token authorization method and scopes without exposed credentials, API pagination and limit context, automations, integrations, webhooks, sync behavior, snapshots, tests, proposed change, rollback, and approvals."
+        ],
+        "agent_use_example": "Load the Airtable bundle and provide the base and table scope, schema export, field types and formulas, linked-record relationships, relevant views and filters, permission model, token scopes, automation and integration definitions, API pagination behavior, source-of-record rules, snapshot, tests, and proposed rollback. Ask the agent to map dependencies and draft an Airtable base change brief without modifying records or schema.",
+        "not_for": ["Guessing schema, record counts, formula results, permissions, automation state, synchronization, API completeness, or source-of-record status; creating or changing records or schema, sharing bases, inviting users, enabling automations, creating webhooks, exposing tokens, or overwriting synchronized data without confirmation."]
       }
     },
     {
@@ -80313,6 +80379,28 @@
         "bundle_context_source": "bundles/tools/anthropic-claude",
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/anthropic-claude/v1/evaluation-results/"
+      },
+      "updated": "2026-08-02",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the Claude and Anthropic API tool guide, triage workflow, review brief, limitations, safety notes, sources, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Claude and Anthropic API bundle to review model and API choices, prompts, tool schemas, caching, token behavior, data controls, evaluations, and production safeguards without inventing capability or cost claims.",
+        "audiences": ["AI application developers, product and platform teams, evaluators, security and privacy reviewers, and technical leads assessing Claude integrations"],
+        "when_to_use": [
+          "A Claude Messages API integration needs the current model, SDK, prompts, tool-use permissions, rate limits, and production context reviewed.",
+          "Prompt caching, token usage, output quality, safety, privacy, retention, or cost questions need current documentation and observed evidence separated.",
+          "A model or agent workflow needs evaluation criteria, logs, failure modes, spending controls, rollback, and approval gates before deployment."
+        ],
+        "required_inputs": [
+          "Account and workspace context, current model ID and date, API and SDK versions, system and user prompts, tool schemas, permission model, and intended workflow.",
+          "Data classification and retention controls, measured token and cache evidence, rate and spend limits, evaluation cases and results, relevant logs, safety constraints, approvals, and rollback plan."
+        ],
+        "agent_use_example": "Load the Claude and Anthropic API bundle and provide the current model ID, API and SDK versions, system prompt, representative user prompts, tool schemas and permissions, data classification, retention settings, rate and spend limits, token and cache measurements, evaluation results, logs, and rollback plan. Ask the agent to draft a review brief that separates documented behavior from observed results and blocks side effects pending approval.",
+        "not_for": ["Assuming model availability, accuracy, tool results, token use, cache behavior, safety, privacy, cost, or production readiness; sending sensitive data, exposing keys, invoking side-effecting tools, executing suggested actions, changing controls, deploying integrations, or incurring spend without explicit approval."]
       }
     },
     {
@@ -80957,6 +81045,28 @@
         "bundle_context_source": "bundles/tools/github-copilot",
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required visible sections, empty-evidence integrity, provenance, named sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/github-copilot/v1/evaluation-results/"
+      },
+      "updated": "2026-08-02",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the GitHub Copilot tool guide, triage workflow, review brief, limitations, safety notes, sources, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the GitHub Copilot bundle to review coding context, suggestions, chat or agent behavior, repository policy, diffs, tests, privacy, and deployment readiness without treating generated code as verified.",
+        "audiences": ["Software developers, engineering leads, repository maintainers, security reviewers, and administrators evaluating GitHub Copilot-assisted changes"],
+        "when_to_use": [
+          "A Copilot suggestion, chat response, code review, or coding-agent change needs repository context, diff, commands, tests, and human review reconciled.",
+          "An organization needs to assess plan, IDE or GitHub surface, extension version, enterprise policy, model or agent mode, data controls, and private-code handling.",
+          "A Copilot-assisted change needs correctness, security, licensing, regression, rollback, and approval checks before commit, pull request, or deployment."
+        ],
+        "required_inputs": [
+          "Copilot plan and product surface, IDE and extension version, repository and branch, selected context, organization and enterprise policies, model or agent mode, and data-control settings.",
+          "The original request, generated suggestion or agent output, complete diff, commands proposed or run, test results, code-review and security evidence, licensing concerns, approvals, and rollback plan."
+        ],
+        "agent_use_example": "Load the GitHub Copilot bundle and provide the Copilot surface and version, repository and branch, selected context, applicable policies, generated suggestion or agent diff, proposed commands, test output, code-review evidence, data controls, and rollback plan. Ask the agent to identify unsupported assumptions and draft a Copilot review brief covering correctness, security, licensing, regressions, and actions awaiting confirmation.",
+        "not_for": ["Assuming which context Copilot used, suggestion correctness, security, license suitability, command results, policy effects, agent state, or production readiness; applying edits, running commands, delegating work, committing, opening pull requests, changing policies, sending private code, exposing credentials, or deploying without confirmation."]
       }
     },
     {
