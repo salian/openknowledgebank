@@ -11004,6 +11004,27 @@
         "bundle_context_source": "bundles/roles/chief-information-security-officer-ciso",
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/chief-information-security-officer-ciso/v1/evaluation-results/"
+      },
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the CISO role, source-aware triage, security governance brief, source categories, limitations, safety notes, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Chief Information Security Officer bundle to structure security strategy, risk governance, board reporting, incident readiness, control prioritization, and compliance-facing evidence into a professional-review brief.",
+        "audiences": ["Security leaders, governance and risk teams, technology executives, control owners, auditors, and advisers preparing security decisions"],
+        "when_to_use": [
+          "A security priority or board update must connect business context, assets, threats, controls, incidents, ownership, and budget evidence.",
+          "A control, incident-readiness, or compliance-facing decision needs official source categories separated from local system and policy facts.",
+          "A security governance recommendation needs explicit assumptions, missing evidence, qualified-review requirements, and approval boundaries."
+        ],
+        "required_inputs": [
+          "The intended decision, business context, risk register, asset and data scope, threat model, control evidence, incidents, obligations, ownership, budget, and executive approval boundaries.",
+          "Current applicable official or authoritative sources plus authorized local policies, system records, reports, logs, contracts, audit evidence, and known evidence gaps."
+        ],
+        "agent_use_example": "Load the Chief Information Security Officer bundle and provide the decision request, business and asset scope, risk register, threat model, current control and incident evidence, applicable obligations, budget constraints, owners, and executive approval boundary. Ask the agent to build an evidence matrix and draft a security governance decision brief that marks provisional conclusions, missing sources, qualified review, and prohibited live actions.",
+        "not_for": ["Declaring security or compliance status, certifying controls, replacing legal, audit, privacy, engineering, or security review, or taking live operational, disclosure, deployment, contract, or incident actions without current evidence and explicit authorization."]
       }
     },
     {
@@ -53917,6 +53938,27 @@
         "bundle_context_source": "bundles/roles/supply-chain-analyst",
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/supply-chain-analyst/v1/evaluation-results/"
+      },
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the supply-chain role, evidence-triage workflow, scenario and exception brief, limitations, safety notes, source, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Supply Chain Analyst bundle to compare demand, inventory, supplier, capacity, transport, cost, and service evidence in a decision-ready scenario and exception brief without fabricating operational state.",
+        "audiences": ["Supply-chain and logistics analysts, planners, procurement teams, operations leaders, and service owners evaluating exceptions or scenarios"],
+        "when_to_use": [
+          "Demand and supply signals need to be reconciled at a defined item, location, and time grain before prioritizing an exception.",
+          "Inventory, lead-time, supplier, transport, capacity, cost, or service evidence conflicts across systems or periods.",
+          "A proposed response needs baseline, scenario assumptions, sensitivities, tradeoffs, stop conditions, and an approval-ready handoff."
+        ],
+        "required_inputs": [
+          "Decision scope; item, location, and period grain; demand and order definitions; inventory and capacity state; and source-system extracts with dates and owners.",
+          "Lead-time and supplier evidence, transport and service constraints, cost and currency definitions, applicable policies, scenario assumptions, and approval limits."
+        ],
+        "agent_use_example": "Load the Supply Chain Analyst bundle and provide the decision scope, item-location-period data, demand and order definitions, inventory and capacity snapshots, supplier lead-time evidence, transport constraints, service targets, costs, currencies, and policy limits. Ask the agent to reconcile conflicts, expose missing evidence, compare bounded scenarios, and draft a supply-chain exception brief without executing orders or commitments.",
+        "not_for": ["Guessing demand, inventory, lead times, supplier status, capacity, costs, service levels, or order state; placing orders or changing suppliers, production, inventory, transport, regulated-goods handling, or financial commitments without explicit approval."]
       }
     },
     {
@@ -56847,6 +56889,27 @@
         "bundle_context_source": "bundles/tools/kubernetes",
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/kubernetes/v1/evaluation-results/"
+      },
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the Kubernetes tool guide, evidence-triage workflow, operations and change brief, limitations, safety notes, official source, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Kubernetes bundle to review workload, service, ingress, storage, configuration, RBAC, rollout, reliability, and incident evidence before drafting a controlled cluster operations or change brief.",
+        "audiences": ["Platform engineers, Kubernetes operators, DevOps and SRE teams, application owners, and reviewers planning cluster changes or investigations"],
+        "when_to_use": [
+          "A workload, service, ingress, storage, configuration, or access issue needs cluster evidence reconciled before a diagnosis is stated.",
+          "A rollout or incident review needs manifests, applied objects, status, events, logs, metrics, history, ownership, and version context compared.",
+          "A Kubernetes change needs a reviewable recommendation with alternatives, validation checks, backups, rollback steps, stop conditions, and approval gates."
+        ],
+        "required_inputs": [
+          "Cluster version and context, namespaces and owners, desired manifests, applied objects, workloads, services, ingress, storage, configuration, RBAC, and service-account evidence.",
+          "Relevant status, events, logs, metrics, rollout history, image details, policies, backups, proposed change, validation and rollback plan, access scope, and approvals."
+        ],
+        "agent_use_example": "Load the Kubernetes bundle and provide the cluster version and context, namespace, manifests and applied-object output, workload and service status, events, relevant logs and metrics, rollout history, RBAC evidence, policy constraints, backup state, and proposed rollback. Ask the agent to separate known state from hypotheses and draft a Kubernetes operations and change brief with verification commands and approval boundaries, without applying anything.",
+        "not_for": ["Inventing cluster state, resources, images, secrets, permissions, health, or capacity; applying or deleting resources or changing images, configuration, secrets, access, scaling, networking, storage, or production traffic without explicit confirmation."]
       }
     },
     {
@@ -67836,6 +67899,28 @@
         "bundle_context_source": "bundles/roles/site-reliability-engineer-sre",
         "scoring_summary": "Baseline and bundle-assisted outputs were generated with the same model and temperature, then reviewed with the OKB batch rubric for source discipline, evidence separation, verification logic, safety boundaries, task fit, and actionability.",
         "private_artifacts": "research/bundle-runs/site-reliability-engineer-sre/v1/evaluation-results/"
+      },
+      "updated": "2026-08-02",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the SRE role, evidence-triage workflow, service reliability brief, limitations, safety notes, sources, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Site Reliability Engineer bundle to turn service evidence into a reviewable reliability brief covering indicators, objectives, error budgets, incidents, capacity, and change risk without pretending the production state is known.",
+        "audiences": ["SREs, platform and DevOps teams, engineering leads, and service owners preparing reliability decisions or operational reviews"],
+        "when_to_use": [
+          "A team needs to define or review SLIs, SLO windows, targets, and an error-budget policy against actual service and user-journey evidence.",
+          "Incidents, alerts, capacity concerns, or recent changes need to be reconciled before recommending reliability work.",
+          "A proposed deployment or operational change needs alternatives, stop conditions, rollback evidence, and an accountable approval boundary."
+        ],
+        "required_inputs": [
+          "Service scope, owners, users, critical journeys, architecture, dependencies, failure modes, and recent change history.",
+          "SLI definitions and data sources, SLO targets and windows, error-budget policy, monitoring, alerts, incidents, runbooks, postmortems, capacity, deployment, access, and rollback evidence."
+        ],
+        "agent_use_example": "Load the Site Reliability Engineer bundle and provide the service map, SLI queries, SLO and error-budget definitions, recent incident and change records, alert evidence, capacity data, and rollback plan. Ask the agent to label evidence status, reconcile conflicting periods or definitions, and draft a service reliability brief with alternatives, stop conditions, verification steps, and actions requiring approval.",
+        "not_for": ["Asserting service health, SLO attainment, error-budget consumption, incident cause, or capacity without inspected evidence; deploying releases, changing production or alerts, using credentials, or issuing incident communications without explicit approval."]
       }
     },
     {
@@ -76161,6 +76246,28 @@
         "bundle_context_source": "bundles/roles/customer-support-cx-analyst",
         "scoring_summary": "Matched outputs were reviewed for task fit, source discipline, evidence separation, verification logic, safety, actionability, required sections, named authoritative sources, and domain-specific action boundaries.",
         "private_artifacts": "research/bundle-runs/customer-support-cx-analyst/v1/evaluation-results/"
+      },
+      "updated": "2026-08-02",
+      "indexing": {
+        "disposition": "index-ready",
+        "reviewed_by": "OpenKnowledgeBank editorial",
+        "reviewed_at": "2026-08-02",
+        "notes": "Landing content reviewed against the CX analyst role, evidence-triage workflow, customer experience brief, limitations, safety notes, source, and measured evaluation."
+      },
+      "landing_page": {
+        "summary": "Use the Customer Support / CX Analyst bundle to reconcile ticket, contact, survey, and service evidence into a reviewable customer-experience brief without inventing sentiment, representativeness, root cause, or improvement effects.",
+        "audiences": ["Customer-support leaders, CX analysts, operations teams, service owners, and researchers evaluating customer experience across channels"],
+        "when_to_use": [
+          "CSAT, effort, NPS, SLA, contact, or resolution results need definitions, populations, periods, and source systems reconciled before interpretation.",
+          "Ticket and survey evidence must be checked for filters, identity, deduplication, sampling, response rates, missingness, and uncertainty.",
+          "A support trend or text-analysis finding needs a bounded recommendation and a clear distinction between observed evidence and a root-cause hypothesis."
+        ],
+        "required_inputs": [
+          "Business question, products, channels, population, period, source systems, and definitions for tickets, contacts, customers, surveys, and resolutions.",
+          "Authorized extracts and filters plus identity, deduplication, sampling, response-rate, missingness, metric, text-analysis, privacy, and validation evidence."
+        ],
+        "agent_use_example": "Load the Customer Support / CX Analyst bundle and provide the business question, channel and product scope, ticket and survey extracts, metric definitions, filters, population and period, response rates, deduplication rules, and privacy constraints. Ask the agent to separate verified and provided facts from assumptions, test representativeness and definition conflicts, and draft a customer experience analysis brief with caveats and review gates.",
+        "not_for": ["Inferring sentiment, customer impact, causality, or improvement effects from sparse data; exporting customer records, contacting customers, changing routing or policy, or publishing metrics without authorization and accountable review."]
       }
     },
     {
