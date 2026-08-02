@@ -250,7 +250,133 @@
     },
     "not_professional_advice": {
       "type": "boolean"
+    },
+    "indexing": {
+      "type": "object",
+      "required": ["disposition"],
+      "properties": {
+        "disposition": {
+          "type": "string",
+          "enum": ["index-ready", "needs-enrichment", "excluded"]
+        },
+        "reviewed_by": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewed_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "landing_page": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "type": "string",
+          "minLength": 120
+        },
+        "audiences": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "when_to_use": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required_inputs": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "agent_use_example": {
+          "type": "string",
+          "minLength": 120
+        },
+        "not_for": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "additionalProperties": false
     }
   },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "indexing": {
+            "properties": {
+              "disposition": {
+                "const": "index-ready"
+              }
+            },
+            "required": ["disposition"]
+          }
+        },
+        "required": ["indexing"]
+      },
+      "then": {
+        "required": ["landing_page"],
+        "properties": {
+          "indexing": {
+            "required": ["disposition", "reviewed_by", "reviewed_at"]
+          },
+          "landing_page": {
+            "required": [
+              "summary",
+              "audiences",
+              "when_to_use",
+              "required_inputs",
+              "agent_use_example",
+              "not_for"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "indexing": {
+            "properties": {
+              "disposition": {
+                "const": "excluded"
+              }
+            },
+            "required": ["disposition"]
+          }
+        },
+        "required": ["indexing"]
+      },
+      "then": {
+        "properties": {
+          "indexing": {
+            "required": ["disposition", "notes"]
+          }
+        }
+      }
+    }
+  ],
   "additionalProperties": true
 }
