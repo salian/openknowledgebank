@@ -597,11 +597,12 @@ def main() -> int:
         if len(landing.get("summary", "")) < 120:
             failures.append(f"{bundle_id}: summary shorter than 120 characters")
             continue
+        previous_reviewed_at = bundle.get("indexing", {}).get("reviewed_at")
         bundle["landing_page"] = landing
         bundle["indexing"] = {
             "disposition": "index-ready",
             "reviewed_by": "OpenKnowledgeBank source-derived review",
-            "reviewed_at": date.today().isoformat(),
+            "reviewed_at": previous_reviewed_at or date.today().isoformat(),
             "notes": "Landing content derived from the bundle's registry metadata and published Markdown files; quantitative private evaluation claims remain unpublished.",
             "content_standard": "bundle-page-v1",
         }

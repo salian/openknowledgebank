@@ -1,0 +1,10 @@
+---
+type: Evaluation Index
+title: Security Policy & Standards Evaluations
+okb_bundle_id: security-policy-standards
+timestamp: "2026-08-01T00:00:00Z"
+---
+
+# Evaluations
+
+- [policy-quality-check.md](policy-quality-check.md)
