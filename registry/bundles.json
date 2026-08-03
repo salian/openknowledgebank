@@ -35685,7 +35685,11 @@
         "notes": "Landing content reviewed against the SEO role, audit and optimization workflows, deliverables, limitations, and measured evaluation."
       },
       "landing_page": {
-        "summary": "Use the SEO Specialist bundle to plan source-scoped audits, diagnose search-performance changes, and improve intent-to-page fit without inventing crawl findings, tool access, rankings, or guaranteed outcomes.",
+        "definition": "A free, open-source set of 25 Markdown files that gives an AI assistant a practical method for SEO audits, search-performance diagnosis, content optimization, and technical triage.",
+        "summary": "Use its workflows, checklists, templates, and worked example to turn search and site evidence into prioritized SEO findings, clearly separated hypotheses, and implementation-ready next steps.",
+        "meta_description": "Free SEO specialist bundle with audit workflows, content briefs, technical triage, source references, and a worked example for AI-assisted analysis.",
+        "social_summary": "SEO audit workflows, checklists, and examples for evidence-led technical and content analysis.",
+        "download_note": "25 Markdown files · no signup · CC BY 4.0",
         "audiences": [
           "SEO specialists, consultants, content teams, developers, marketers, and site owners investigating organic-search performance"
         ],
@@ -35701,6 +35705,66 @@
         "agent_use_example": "Load the SEO Specialist bundle and provide the site scope, priority templates, Search Console export, crawl evidence, analytics context, recent releases, and known conversion goals. Ask the agent to separate verified findings from hypotheses, organize issues by crawl-index-rank stage, and draft a prioritized SEO audit brief with owners, checks, and a measurement plan.",
         "not_for": [
           "Promising rankings, traffic, indexing, rich results, or revenue; fabricating tool findings; or recommending link buying, cloaking, doorway pages, keyword stuffing, deceptive automation, or unreviewed live-site changes."
+        ],
+        "featured_contents": [
+          {
+            "type": "Workflow",
+            "title": "SEO audit workflow",
+            "description": "A step-by-step audit method covering scope, evidence, crawlability, indexability, relevance, authority signals, prioritization, and verification.",
+            "url": "https://github.com/salian/openknowledgebank/blob/main/bundles/roles/seo-specialist-consultant/workflows/seo-audit.md"
+          },
+          {
+            "type": "Framework",
+            "title": "Crawl-index-rank triage",
+            "description": "A diagnostic sequence that prevents ranking advice from skipping over measurement, crawling, or indexing failures.",
+            "url": "https://github.com/salian/openknowledgebank/blob/main/bundles/roles/seo-specialist-consultant/frameworks/crawl-index-rank-triage.md"
+          },
+          {
+            "type": "Template",
+            "title": "SEO audit brief",
+            "description": "A reusable output structure for evidence, findings, priorities, owners, validation checks, and follow-up measurement.",
+            "url": "https://github.com/salian/openknowledgebank/blob/main/bundles/roles/seo-specialist-consultant/deliverables/seo-audit-brief.md"
+          },
+          {
+            "type": "Quality rubric",
+            "title": "SEO quality check",
+            "description": "A public 20-point rubric for source discipline, evidence separation, SEO reasoning, safe changes, and actionability.",
+            "url": "https://github.com/salian/openknowledgebank/blob/main/bundles/roles/seo-specialist-consultant/evaluations/seo-quality-check.md"
+          }
+        ],
+        "before_after": {
+          "task": "A founder says organic traffic fell last month and asks for an SEO audit, but provides no Search Console, analytics, crawl, URL, CMS, or date-range evidence.",
+          "baseline": "The site likely has technical SEO issues. Improve titles, add keywords, get backlinks, submit a sitemap, and update old content.",
+          "assisted": "I can draft an audit plan now, but I cannot identify the cause yet. First collect the affected dates and pages, Search Console and analytics exports, crawl evidence, recent releases, and platform details; then check measurement, demand, crawl and index eligibility, relevance, internal links, and technical changes.",
+          "why_it_matters": "The bundle-assisted response avoids an unsupported diagnosis, requests the evidence needed to investigate, and separates safe planning from changes to a live site.",
+          "source_url": "https://github.com/salian/openknowledgebank/tree/main/bundles/roles/seo-specialist-consultant/examples/before-after/technical-seo-triage"
+        },
+        "source_notes": [
+          {
+            "label": "O*NET Search Marketing Strategists",
+            "url": "https://www.onetonline.org/link/summary/13-1161.01",
+            "used_for": "Role scope and occupational tasks."
+          },
+          {
+            "label": "Google SEO Starter Guide",
+            "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+            "used_for": "Core optimization and site-quality guidance."
+          },
+          {
+            "label": "Google Search Essentials",
+            "url": "https://developers.google.com/search/docs/essentials",
+            "used_for": "Technical eligibility and search participation requirements."
+          },
+          {
+            "label": "Google spam policies",
+            "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+            "used_for": "Unsafe and manipulative practices to exclude."
+          },
+          {
+            "label": "Google structured data documentation",
+            "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+            "used_for": "Structured-data checks and implementation boundaries."
+          }
         ]
       },
       "path": "bundles/roles/seo-specialist-consultant",
