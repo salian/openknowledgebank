@@ -21,7 +21,7 @@ trust_tier: trusted
 status: beta
 license: CC-BY-4.0
 related_bundles: [customer-client-onboarding-coordinator, technical-account-manager-tam, customer-success-operations-manager-cs-ops]
-adjacent_bundles: [onboarding-plan, risk-register, project-status-report]
+adjacent_bundles: [onboarding-plan, risk-assessment-report, architecture-design-doc]
 contributors: [OpenKnowledgeBank]
 maintainers: [OpenKnowledgeBank]
 standard_mappings: {onet_soc: [13-1082.00], soc: [13-1082], isco_08: [2421], esco: []}
