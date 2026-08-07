@@ -20,8 +20,8 @@ okb_bundle_version: 0.1.0
 trust_tier: trusted
 status: beta
 license: CC-BY-4.0
-related_bundles: [digital-marketing-manager, ux-designer, seo-specialist-consultant]
-adjacent_bundles: [customer-journey-mapping, web-analytics-marketing-data-specialist, ab-testing-statistical-methodology]
+related_bundles: [digital-marketing-manager, ux-designer, search-engine-optimization-seo-specialist]
+adjacent_bundles: [customer-journey-mapping, web-analytics-report, a-b-testing]
 contributors: [OpenKnowledgeBank]
 maintainers: [OpenKnowledgeBank]
 standard_mappings: {onet_soc: [13-1161.01], soc: [13-1161], isco_08: [2431], esco: []}
