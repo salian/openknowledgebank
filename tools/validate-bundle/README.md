@@ -20,6 +20,8 @@ Current checks include:
 - every concept has a `type`
 - internal markdown links resolve
 - related and adjacent bundle references point to known bundle IDs or emit warnings
+- contributor profiles, optional scoped bundle credits, and controlled credit roles are valid
+- regulated/YMYL review states cannot imply technical or professional review without a matching credit and, for domain review, a relevant verified credential
 - public bundle and registry files do not include obvious secrets, API key assignments, private keys, or local workspace paths
 
 Warnings do not block CI, but should be addressed before a bundle is promoted from `draft` to `stable`.

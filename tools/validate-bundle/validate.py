@@ -27,6 +27,29 @@ CATEGORIES = {
 
 TRUST_TIERS = {"trusted", "community", "unverified", "rejected"}
 STATUSES = {"draft", "beta", "stable", "deprecated"}
+CREDIT_ROLES = {
+    "creator",
+    "contributor",
+    "maintainer",
+    "editorial_reviewer",
+    "technical_reviewer",
+    "domain_reviewer",
+}
+CONTENT_RISK_CLASSIFICATIONS = {"regulated", "ymyl"}
+CONTENT_RISK_DOMAINS = {
+    "accounting",
+    "employment",
+    "financial",
+    "insurance",
+    "legal",
+    "medical",
+    "privacy",
+    "regulatory",
+    "safety",
+    "security",
+    "tax",
+}
+PROFESSIONAL_REVIEW_STATUSES = {"not_reviewed", "technical_only", "domain_reviewed"}
 
 REQUIRED_REGISTRY_FIELDS = {
     "id",
@@ -123,6 +146,8 @@ class Validator:
     def validate(self) -> int:
         registry_path = self.root / "registry" / "bundles.json"
         registry = self.read_json(registry_path)
+        contributors_path = self.root / "registry" / "contributors.json"
+        contributors = self.validate_contributors(contributors_path)
         bundles = registry.get("bundles", [])
 
         if not isinstance(bundles, list):
@@ -135,14 +160,84 @@ class Validator:
                 self.error(registry_path, f"bundle entry {index} must be an object")
                 continue
             bundle_id = str(bundle.get("id", f"entry-{index}"))
-            self.validate_registry_entry(registry_path, bundle, ids)
+            self.validate_registry_entry(registry_path, bundle, ids, contributors)
             self.validate_bundle_files(bundle)
 
         self.validate_relationships(registry_path, bundles, ids)
         self.scan_public_content()
         return self.report()
 
-    def validate_registry_entry(self, registry_path: Path, bundle: dict[str, Any], ids: set[str]) -> None:
+    def validate_contributors(self, registry_path: Path) -> dict[str, dict[str, Any]]:
+        registry = self.read_json(registry_path)
+        contributors = registry.get("contributors", [])
+        contributor_profiles: dict[str, dict[str, Any]] = {}
+
+        if not isinstance(contributors, list):
+            self.error(registry_path, "`contributors` must be an array")
+            return contributor_profiles
+
+        for index, contributor in enumerate(contributors):
+            if not isinstance(contributor, dict):
+                self.error(registry_path, f"contributor entry {index} must be an object")
+                continue
+
+            contributor_id = str(contributor.get("id", ""))
+            if not contributor_id or not SLUG_RE.match(contributor_id):
+                self.error(registry_path, f"contributor entry {index}: `id` must be a kebab-case slug")
+                continue
+            if contributor_id in contributor_profiles:
+                self.error(registry_path, f"{contributor_id}: duplicate contributor id")
+            contributor_profiles[contributor_id] = contributor
+
+            for field in ["name", "handle", "bio"]:
+                if not isinstance(contributor.get(field), str) or not contributor[field].strip():
+                    self.error(registry_path, f"{contributor_id}: `{field}` must be a non-empty string")
+
+            if not self.is_string_list(contributor.get("expertise", [])):
+                self.error(registry_path, f"{contributor_id}: `expertise` must be an array of strings")
+
+            links = contributor.get("links", {})
+            if not isinstance(links, dict):
+                self.error(registry_path, f"{contributor_id}: `links` must be an object")
+                continue
+            for label, value in links.items():
+                if label not in {"github", "linkedin", "website"}:
+                    self.error(registry_path, f"{contributor_id}: unsupported profile link `{label}`")
+                    continue
+                parsed = urlparse(str(value))
+                if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+                    self.error(registry_path, f"{contributor_id}: profile link `{label}` must be an absolute http(s) URL")
+
+            credentials = contributor.get("professional_credentials", [])
+            if not isinstance(credentials, list):
+                self.error(registry_path, f"{contributor_id}: `professional_credentials` must be an array")
+                continue
+            for credential_index, credential in enumerate(credentials):
+                if not isinstance(credential, dict):
+                    self.error(registry_path, f"{contributor_id}: credential entry {credential_index} must be an object")
+                    continue
+                for field in ["name", "issuer"]:
+                    if not isinstance(credential.get(field), str) or not credential[field].strip():
+                        self.error(registry_path, f"{contributor_id}: credential entry {credential_index} needs `{field}`")
+                verification_url = urlparse(str(credential.get("verification_url", "")))
+                if verification_url.scheme not in {"http", "https"} or not verification_url.netloc:
+                    self.error(registry_path, f"{contributor_id}: credential entry {credential_index} needs an absolute `verification_url`")
+                credential_domains = credential.get("domains", [])
+                if not self.is_string_list(credential_domains) or not credential_domains:
+                    self.error(registry_path, f"{contributor_id}: credential entry {credential_index} needs at least one domain")
+                else:
+                    for domain in sorted(set(credential_domains) - CONTENT_RISK_DOMAINS):
+                        self.error(registry_path, f"{contributor_id}: credential entry {credential_index} has unsupported domain `{domain}`")
+
+        return contributor_profiles
+
+    def validate_registry_entry(
+        self,
+        registry_path: Path,
+        bundle: dict[str, Any],
+        ids: set[str],
+        contributors: dict[str, dict[str, Any]],
+    ) -> None:
         bundle_id = str(bundle.get("id", ""))
         if not bundle_id:
             self.error(registry_path, "bundle entry is missing id")
@@ -192,6 +287,114 @@ class Validator:
             value = bundle.get(field, [])
             if value is not None and not self.is_string_list(value):
                 self.error(registry_path, f"{bundle_id}: `{field}` must be an array of strings")
+
+        self.validate_credits(registry_path, bundle, set(contributors))
+        self.validate_content_risk(registry_path, bundle, contributors)
+
+    def validate_credits(
+        self,
+        registry_path: Path,
+        bundle: dict[str, Any],
+        contributor_ids: set[str],
+    ) -> None:
+        bundle_id = str(bundle.get("id", ""))
+        credits = bundle.get("credits", [])
+        if not isinstance(credits, list):
+            self.error(registry_path, f"{bundle_id}: `credits` must be an array")
+            return
+
+        seen_profiles: set[str] = set()
+        for index, credit in enumerate(credits):
+            if not isinstance(credit, dict):
+                self.error(registry_path, f"{bundle_id}: credit entry {index} must be an object")
+                continue
+
+            profile_id = str(credit.get("profile_id", ""))
+            if profile_id not in contributor_ids:
+                self.error(registry_path, f"{bundle_id}: credit references unknown contributor `{profile_id}`")
+            if profile_id in seen_profiles:
+                self.error(registry_path, f"{bundle_id}: contributor `{profile_id}` has duplicate credit entries")
+            seen_profiles.add(profile_id)
+
+            roles = credit.get("roles", [])
+            if not self.is_string_list(roles) or not roles:
+                self.error(registry_path, f"{bundle_id}: credit `{profile_id}` needs at least one role")
+            else:
+                unsupported = sorted(set(roles) - CREDIT_ROLES)
+                for role in unsupported:
+                    self.error(registry_path, f"{bundle_id}: unsupported credit role `{role}`")
+
+            if not isinstance(credit.get("scope"), str) or not credit["scope"].strip():
+                self.error(registry_path, f"{bundle_id}: credit `{profile_id}` needs a specific `scope`")
+            reviewed_at = str(credit.get("reviewed_at", ""))
+            if re.fullmatch(r"\d{4}-\d{2}-\d{2}", reviewed_at) is None:
+                self.error(registry_path, f"{bundle_id}: credit `{profile_id}` needs `reviewed_at` as YYYY-MM-DD")
+
+    def validate_content_risk(
+        self,
+        registry_path: Path,
+        bundle: dict[str, Any],
+        contributors: dict[str, dict[str, Any]],
+    ) -> None:
+        bundle_id = str(bundle.get("id", ""))
+        content_risk = bundle.get("content_risk")
+        if content_risk is None:
+            return
+        if not isinstance(content_risk, dict):
+            self.error(registry_path, f"{bundle_id}: `content_risk` must be an object")
+            return
+
+        classification = content_risk.get("classification")
+        if classification not in CONTENT_RISK_CLASSIFICATIONS:
+            self.error(registry_path, f"{bundle_id}: unsupported content-risk classification `{classification}`")
+
+        domains = content_risk.get("domains", [])
+        if not self.is_string_list(domains) or not domains:
+            self.error(registry_path, f"{bundle_id}: `content_risk.domains` needs at least one domain")
+        else:
+            for domain in sorted(set(domains) - CONTENT_RISK_DOMAINS):
+                self.error(registry_path, f"{bundle_id}: unsupported content-risk domain `{domain}`")
+
+        review = content_risk.get("professional_review")
+        if not isinstance(review, dict):
+            self.error(registry_path, f"{bundle_id}: `professional_review` must be an object")
+            return
+
+        status = review.get("status")
+        if status not in PROFESSIONAL_REVIEW_STATUSES:
+            self.error(registry_path, f"{bundle_id}: unsupported professional-review status `{status}`")
+        if not isinstance(review.get("required_qualification"), str) or not review["required_qualification"].strip():
+            self.error(registry_path, f"{bundle_id}: professional review needs `required_qualification`")
+
+        roles = {
+            role
+            for credit in bundle.get("credits", [])
+            if isinstance(credit, dict)
+            for role in credit.get("roles", [])
+            if isinstance(role, str)
+        }
+        if status == "technical_only" and "technical_reviewer" not in roles:
+            self.error(registry_path, f"{bundle_id}: `technical_only` needs a technical-reviewer credit")
+        if status == "domain_reviewed" and "domain_reviewer" not in roles:
+            self.error(registry_path, f"{bundle_id}: `domain_reviewed` needs a domain-reviewer credit")
+        if status == "domain_reviewed":
+            risk_domains = set(domains) if self.is_string_list(domains) else set()
+            reviewer_ids = {
+                str(credit.get("profile_id", ""))
+                for credit in bundle.get("credits", [])
+                if isinstance(credit, dict) and "domain_reviewer" in credit.get("roles", [])
+            }
+            has_verified_credential = any(
+                risk_domains.intersection(credential.get("domains", []))
+                for reviewer_id in reviewer_ids
+                for credential in contributors.get(reviewer_id, {}).get("professional_credentials", [])
+                if isinstance(credential, dict)
+            )
+            if not has_verified_credential:
+                self.error(
+                    registry_path,
+                    f"{bundle_id}: `domain_reviewed` needs a matching verified professional credential",
+                )
 
     def validate_bundle_files(self, bundle: dict[str, Any]) -> None:
         bundle_id = str(bundle.get("id", ""))

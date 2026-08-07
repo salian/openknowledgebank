@@ -1,0 +1,21 @@
+{
+  "version": "0.1.0",
+  "updated": "2026-08-07",
+  "contributors": [
+    {
+      "id": "pranab",
+      "name": "Pranab Salian",
+      "handle": "pranab",
+      "bio": "Maintains OpenKnowledgeBank and works on AI agent knowledge systems and open-source product development.",
+      "expertise": [
+        "AI agent systems",
+        "knowledge systems",
+        "open-source product development"
+      ],
+      "links": {
+        "github": "https://github.com/salian",
+        "website": "https://openknowledgebank.com"
+      }
+    }
+  ]
+}

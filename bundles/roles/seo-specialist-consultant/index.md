@@ -28,6 +28,11 @@ related_bundles: [performance-marketer]
 adjacent_bundles: []
 contributors: [OpenKnowledgeBank]
 maintainers: [OpenKnowledgeBank]
+credits:
+  - profile_id: pranab
+    roles: [maintainer, technical_reviewer]
+    scope: Project maintenance and product-level review of bundle structure, agent-use design, and source traceability.
+    reviewed_at: "2026-08-07"
 standard_mappings:
   onet_soc: ["13-1161.01"]
   soc: []

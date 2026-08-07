@@ -28,5 +28,8 @@ jobs:
       - name: Parse external repository JSON
         run: python -m json.tool registry/external-repos.json >/dev/null
 
+      - name: Parse contributor JSON
+        run: python -m json.tool registry/contributors.json >/dev/null
+
       - name: Parse suggestions JSON
         run: python -m json.tool registry/suggestions.json >/dev/null

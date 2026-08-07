@@ -50,6 +50,12 @@ contributors:
   - OpenKnowledgeBank
 maintainers:
   - OpenKnowledgeBank
+content_risk:
+  classification: ymyl
+  domains: [financial, accounting, legal]
+  professional_review:
+    status: not_reviewed
+    required_qualification: A qualified accounting or audit professional appropriate to the reporting context and jurisdiction.
 standard_mappings:
   onet_soc: []
   soc: []

@@ -55,6 +55,12 @@ contributors:
   - OpenKnowledgeBank
 maintainers:
   - OpenKnowledgeBank
+content_risk:
+  classification: ymyl
+  domains: [legal, privacy]
+  professional_review:
+    status: not_reviewed
+    required_qualification: A qualified data-protection or legal professional appropriate to the question and jurisdiction.
 standard_mappings:
   onet_soc: []
   soc: []
