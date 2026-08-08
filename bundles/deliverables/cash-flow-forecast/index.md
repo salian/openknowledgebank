@@ -49,6 +49,12 @@ contributors:
 - OpenKnowledgeBank
 maintainers:
 - OpenKnowledgeBank
+content_risk:
+  classification: ymyl
+  domains: [financial, accounting]
+  professional_review:
+    status: not_reviewed
+    required_qualification: A qualified finance, accounting, treasury, or insolvency professional appropriate to the entity and decision context.
 standard_mappings:
   onet_soc: []
   soc: []

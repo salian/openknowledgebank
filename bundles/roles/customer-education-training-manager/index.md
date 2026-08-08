@@ -28,11 +28,11 @@ standard_mappings: {onet_soc: [11-3131.00], soc: [11-3131], isco_08: [1212], esc
 limitations:
 - Role-support only; local mandate, evidence, ownership, access, decision rights, and professional conclusions require verification.
 - Cited sources do not establish organization-specific facts, compliance, outcomes, or authority.
-- This bundle does not authorize enroll learners, access customer data, publish content, issue credentials, change product guidance, send communications, alter LMS records, or claim learning or business impact.
+- This bundle does not grant authority to enroll learners, access customer data, publish content, issue credentials, change product guidance, send communications, alter LMS records, or claim learning or business impact.
 safety_notes:
 - Protect sensitive personal, customer, employee, commercial, security, research, financial, operational, and unreleased information.
 - For every material claim, record source, date, version, scope, status, owner, uncertainty, and missing evidence.
-- Require explicit confirmation before enroll learners, access customer data, publish content, issue credentials, change product guidance, send communications, alter LMS records, or claim learning or business impact.
+- Require explicit confirmation before you enroll learners, access customer data, publish content, issue credentials, change product guidance, send communications, alter LMS records, or claim learning or business impact.
 timestamp: '2026-08-07T00:00:00Z'
 evaluation_summary: {status: blocked, method: baseline-vs-okb-rubric, blocker: No approved public-safe tasks, matched evaluator configuration, or qualified reviewer-scored aggregate results were available., evidence_note: No measured score is claimed.}
 evaluation_detail: {status: blocked, next_action: Approve empty-evidence, conflicting-evidence, and authority-boundary tasks; run matched evaluation with qualified reviewers; build an aggregate scorecard.}

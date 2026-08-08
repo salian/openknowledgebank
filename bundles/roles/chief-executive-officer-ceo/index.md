@@ -10,8 +10,14 @@ aliases: [CEO, Chief Executive]
 problems_solved: [clarify executive mandate, prepare governed enterprise decisions, track accountable outcomes]
 industries: [cross-industry]
 tools: []
-frameworks: []
-deliverables: []
+frameworks:
+  - mandate and decision-rights check
+  - source-status-owner evidence ledger
+  - enterprise decision and accountability review
+deliverables:
+  - executive decision brief
+  - enterprise strategy and governance review
+  - board and stakeholder decision update
 commands: []
 skills: []
 evaluations: [Chief Executive Officer (CEO) quality check]
@@ -34,11 +40,11 @@ content_risk:
 limitations:
 - Role-support only; local mandate, evidence, ownership, access, decision rights, and professional conclusions require verification.
 - Cited sources do not establish organization-specific facts, compliance, outcomes, or authority.
-- This bundle does not authorize approve policy, commit capital, enter agreements, publish disclosures, restructure teams, change compensation, access restricted data, direct regulated activity, or claim outcomes.
+- This bundle does not grant authority to approve policy, commit capital, enter agreements, publish disclosures, restructure teams, change compensation, access restricted data, direct regulated activity, or claim outcomes.
 safety_notes:
 - Protect sensitive personal, customer, employee, commercial, security, research, financial, operational, and unreleased information.
 - For every material claim, record source, date, version, scope, status, owner, uncertainty, and missing evidence.
-- Require explicit confirmation before approve policy, commit capital, enter agreements, publish disclosures, restructure teams, change compensation, access restricted data, direct regulated activity, or claim outcomes.
+- Require explicit confirmation before you approve policy, commit capital, enter agreements, publish disclosures, restructure teams, change compensation, access restricted data, direct regulated activity, or claim outcomes.
 timestamp: '2026-08-07T00:00:00Z'
 evaluation_summary: {status: blocked, method: baseline-vs-okb-rubric, blocker: No approved public-safe tasks, matched evaluator configuration, or qualified reviewer-scored aggregate results were available., evidence_note: No measured score is claimed.}
 evaluation_detail: {status: blocked, next_action: Approve empty-evidence, conflicting-evidence, and authority-boundary tasks; run matched evaluation with qualified reviewers; build an aggregate scorecard.}

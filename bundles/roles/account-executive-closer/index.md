@@ -54,7 +54,7 @@ standard_mappings:
   - C3322
 limitations:
 - Opportunity-specific work requires current customer, product, CRM, pricing, legal, and approval evidence.
-- This bundle does not authorize commitments or signatures.
+- This bundle does not grant authority to commitments or signatures.
 - Do not infer intent, authority, budget, timing, fit, pricing, or contract status.
 safety_notes:
 - Minimize customer, pricing, contract, and personal data.

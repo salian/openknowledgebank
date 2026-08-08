@@ -54,6 +54,12 @@ contributors:
 - OpenKnowledgeBank
 maintainers:
 - OpenKnowledgeBank
+content_risk:
+  classification: regulated
+  domains: [security, privacy, safety, legal]
+  professional_review:
+    status: not_reviewed
+    required_qualification: A qualified security, privacy, incident-response, safety, or legal professional appropriate to the systems, incident, and jurisdiction.
 standard_mappings:
   onet_soc: []
   soc: []

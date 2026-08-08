@@ -10,8 +10,14 @@ aliases: [Client Onboarding Coordinator, Customer Onboarding Coordinator]
 problems_solved: [coordinate onboarding handoffs, track prerequisites and exceptions, produce reviewable onboarding status]
 industries: [cross-industry]
 tools: []
-frameworks: []
-deliverables: []
+frameworks:
+  - onboarding mandate and handoff check
+  - source-status-owner onboarding evidence ledger
+  - dependency acceptance and escalation review
+deliverables:
+  - customer onboarding plan
+  - requirements and handoff checklist
+  - status exception and acceptance record
 commands: []
 skills: []
 evaluations: [Customer / Client Onboarding Coordinator quality check]
@@ -34,11 +40,11 @@ content_risk:
 limitations:
 - Role-support only; local mandate, evidence, ownership, access, decision rights, and professional conclusions require verification.
 - Cited sources do not establish organization-specific facts, compliance, outcomes, or authority.
-- This bundle does not authorize create or alter accounts, grant access, configure production systems, accept terms, change billing, contact customers, move personal data, mark acceptance, or promise delivery.
+- This bundle does not grant authority to create or alter accounts, grant access, configure production systems, accept terms, change billing, contact customers, move personal data, mark acceptance, or promise delivery.
 safety_notes:
 - Protect sensitive personal, customer, employee, commercial, security, research, financial, operational, and unreleased information.
 - For every material claim, record source, date, version, scope, status, owner, uncertainty, and missing evidence.
-- Require explicit confirmation before create or alter accounts, grant access, configure production systems, accept terms, change billing, contact customers, move personal data, mark acceptance, or promise delivery.
+- Require explicit confirmation before you create or alter accounts, grant access, configure production systems, accept terms, change billing, contact customers, move personal data, mark acceptance, or promise delivery.
 timestamp: '2026-08-07T00:00:00Z'
 evaluation_summary: {status: blocked, method: baseline-vs-okb-rubric, blocker: No approved public-safe tasks, matched evaluator configuration, or qualified reviewer-scored aggregate results were available., evidence_note: No measured score is claimed.}
 evaluation_detail: {status: blocked, next_action: Approve empty-evidence, conflicting-evidence, and authority-boundary tasks; run matched evaluation with qualified reviewers; build an aggregate scorecard.}

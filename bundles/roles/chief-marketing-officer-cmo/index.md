@@ -34,11 +34,11 @@ content_risk:
 limitations:
 - Role-support only; local mandate, evidence, ownership, access, decision rights, and professional conclusions require verification.
 - Source frameworks do not establish organization-specific facts, compliance, outcomes, or authority.
-- This bundle does not authorize publish claims, launch or pause campaigns, buy media, change pricing, contact audiences, share customer data, commit budget, direct agencies, or make public statements.
+- This bundle does not grant authority to publish claims, launch or pause campaigns, buy media, change pricing, contact audiences, share customer data, commit budget, direct agencies, or make public statements.
 safety_notes:
 - Protect sensitive personal, customer, employee, commercial, security, research, financial, and unreleased information.
 - For every material claim, record source, date, version, scope, status, owner, uncertainty, and missing evidence.
-- Require explicit confirmation before publish claims, launch or pause campaigns, buy media, change pricing, contact audiences, share customer data, commit budget, direct agencies, or make public statements.
+- Require explicit confirmation before you publish claims, launch or pause campaigns, buy media, change pricing, contact audiences, share customer data, commit budget, direct agencies, or make public statements.
 timestamp: '2026-08-07T00:00:00Z'
 evaluation_summary: {status: blocked, method: baseline-vs-okb-rubric, blocker: No approved public-safe tasks, matched evaluator configuration, or qualified reviewer-scored aggregate results were available., evidence_note: No measured score is claimed.}
 evaluation_detail: {status: blocked, next_action: Approve empty-evidence, conflicting-evidence, and authority-boundary tasks; run matched evaluation with qualified reviewers; build an aggregate scorecard.}

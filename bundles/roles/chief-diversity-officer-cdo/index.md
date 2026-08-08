@@ -10,8 +10,14 @@ aliases: [CDO, Chief Diversity Executive]
 problems_solved: [govern inclusion evidence, review workforce disparities carefully, prepare accountable inclusion decisions]
 industries: [cross-industry]
 tools: []
-frameworks: []
-deliverables: []
+frameworks:
+  - workforce mandate and decision-rights check
+  - source-status-owner workforce evidence ledger
+  - workforce measure definition and fairness review
+deliverables:
+  - workforce equity analysis brief
+  - initiative governance and review plan
+  - leadership measurement and risk update
 commands: []
 skills: []
 evaluations: [Chief Diversity Officer (CDO) quality check]
@@ -34,11 +40,11 @@ content_risk:
 limitations:
 - Role-support only; local mandate, evidence, ownership, access, decision rights, and professional conclusions require verification.
 - Cited sources do not establish organization-specific facts, compliance, outcomes, or authority.
-- This bundle does not authorize infer protected characteristics, identify individuals, make employment decisions, set quotas, change pay or promotion, disclose workforce data, file reports, investigate complaints, or claim discrimination or causality.
+- This bundle does not grant authority to infer protected characteristics, identify individuals, make employment decisions, set quotas, change pay or promotion, disclose workforce data, file reports, investigate complaints, or claim discrimination or causality.
 safety_notes:
 - Protect sensitive personal, customer, employee, commercial, security, research, financial, operational, and unreleased information.
 - For every material claim, record source, date, version, scope, status, owner, uncertainty, and missing evidence.
-- Require explicit confirmation before infer protected characteristics, identify individuals, make employment decisions, set quotas, change pay or promotion, disclose workforce data, file reports, investigate complaints, or claim discrimination or causality.
+- Require explicit confirmation before you infer protected characteristics, identify individuals, make employment decisions, set quotas, change pay or promotion, disclose workforce data, file reports, investigate complaints, or claim discrimination or causality.
 timestamp: '2026-08-07T00:00:00Z'
 evaluation_summary: {status: blocked, method: baseline-vs-okb-rubric, blocker: No approved public-safe tasks, matched evaluator configuration, or qualified reviewer-scored aggregate results were available., evidence_note: No measured score is claimed.}
 evaluation_detail: {status: blocked, next_action: Approve empty-evidence, conflicting-evidence, and authority-boundary tasks; run matched evaluation with qualified reviewers; build an aggregate scorecard.}

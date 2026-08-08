@@ -50,6 +50,26 @@ CONTENT_RISK_DOMAINS = {
     "tax",
 }
 PROFESSIONAL_REVIEW_STATUSES = {"not_reviewed", "technical_only", "domain_reviewed"}
+REQUIRED_LANDING_STRING_FIELDS = {
+    "definition",
+    "summary",
+    "meta_description",
+    "social_summary",
+    "download_note",
+    "agent_use_example",
+}
+REQUIRED_LANDING_LIST_FIELDS = {"audiences", "when_to_use", "required_inputs", "not_for"}
+GENERIC_SOURCE_LABELS = {
+    "resource",
+    "resources",
+    "source",
+    "sources",
+    "reference",
+    "references",
+    "documentation",
+    "website",
+    "primary source url",
+}
 
 REQUIRED_REGISTRY_FIELDS = {
     "id",
@@ -290,6 +310,87 @@ class Validator:
 
         self.validate_credits(registry_path, bundle, set(contributors))
         self.validate_content_risk(registry_path, bundle, contributors)
+        self.validate_public_listing_contract(registry_path, bundle)
+
+    def validate_public_listing_contract(self, registry_path: Path, bundle: dict[str, Any]) -> None:
+        bundle_id = str(bundle.get("id", ""))
+        is_public = bundle.get("status") not in {"draft", "deprecated"} and bundle.get(
+            "trust_tier"
+        ) not in {"unverified", "rejected"}
+        if not is_public:
+            return
+
+        deliverables = bundle.get("deliverables", [])
+        if not self.is_string_list(deliverables) or not deliverables:
+            self.error(registry_path, f"{bundle_id}: public bundle needs at least one expected deliverable")
+        if not any(bundle.get(field) for field in ["tools", "frameworks", "commands", "skills"]):
+            self.error(
+                registry_path,
+                f"{bundle_id}: public bundle needs at least one tool, framework, command, or skill",
+            )
+
+        for field in ["limitations", "safety_notes"]:
+            for item in bundle.get(field, []):
+                if isinstance(item, str) and "This bundle does not authorize " in item:
+                    self.error(
+                        registry_path,
+                        f"{bundle_id}: `{field}` uses the ungrammatical authority-boundary phrase "
+                        "`This bundle does not authorize …`; use `does not grant authority to …`",
+                    )
+
+        landing = bundle.get("landing_page")
+        if not isinstance(landing, dict):
+            self.error(registry_path, f"{bundle_id}: public bundle needs `landing_page` metadata")
+            return
+
+        for field in sorted(REQUIRED_LANDING_STRING_FIELDS):
+            if not isinstance(landing.get(field), str) or not landing[field].strip():
+                self.error(registry_path, f"{bundle_id}: landing page needs non-empty `{field}`")
+        for field in sorted(REQUIRED_LANDING_LIST_FIELDS):
+            if not self.is_string_list(landing.get(field, [])) or not landing[field]:
+                self.error(registry_path, f"{bundle_id}: landing page needs non-empty `{field}`")
+
+        summary = str(landing.get("summary", ""))
+        if summary and len(summary) < 120:
+            self.error(registry_path, f"{bundle_id}: landing summary must be at least 120 characters")
+        meta_description = str(landing.get("meta_description", ""))
+        if meta_description and not 80 <= len(meta_description) <= 160:
+            self.error(registry_path, f"{bundle_id}: meta description must be 80-160 characters")
+
+        features = landing.get("featured_contents", [])
+        if not isinstance(features, list) or len(features) < 2:
+            self.error(registry_path, f"{bundle_id}: landing page needs at least two featured files")
+        else:
+            for index, feature in enumerate(features):
+                if not isinstance(feature, dict):
+                    self.error(registry_path, f"{bundle_id}: featured content {index} must be an object")
+                    continue
+                for field in ["title", "description", "url"]:
+                    if not isinstance(feature.get(field), str) or not feature[field].strip():
+                        self.error(registry_path, f"{bundle_id}: featured content {index} needs `{field}`")
+
+        for index, source in enumerate(landing.get("source_notes", [])):
+            if not isinstance(source, dict):
+                self.error(registry_path, f"{bundle_id}: source note {index} must be an object")
+                continue
+            label = str(source.get("label", "")).strip()
+            if label.lower() in GENERIC_SOURCE_LABELS:
+                self.error(
+                    registry_path,
+                    f"{bundle_id}: source note {index} needs a descriptive label, not `{label}`",
+                )
+
+        indexing = bundle.get("indexing")
+        if not isinstance(indexing, dict):
+            self.error(registry_path, f"{bundle_id}: public bundle needs `indexing` metadata")
+            return
+        if indexing.get("disposition") != "index-ready":
+            self.error(registry_path, f"{bundle_id}: public bundle indexing disposition must be `index-ready`")
+        for field in ["reviewed_by", "reviewed_at", "notes"]:
+            if not isinstance(indexing.get(field), str) or not indexing[field].strip():
+                self.error(registry_path, f"{bundle_id}: indexing metadata needs `{field}`")
+        if indexing.get("content_standard") != "bundle-page-v1":
+            self.error(registry_path, f"{bundle_id}: indexing metadata must use `bundle-page-v1`")
 
     def validate_credits(
         self,

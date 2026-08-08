@@ -54,6 +54,12 @@ contributors:
 - OpenKnowledgeBank
 maintainers:
 - OpenKnowledgeBank
+content_risk:
+  classification: ymyl
+  domains: [employment, legal, privacy]
+  professional_review:
+    status: not_reviewed
+    required_qualification: A qualified employment, labor, privacy, or human-resources professional appropriate to the workforce and jurisdiction.
 standard_mappings:
   onet_soc: []
   soc: []

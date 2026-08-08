@@ -10,8 +10,14 @@ aliases: [Legaltech Specialist, Regulatory Technology Specialist, Regtech Specia
 problems_solved: [translate governed legal workflows, assess legal technology evidence, control privileged and regulated data]
 industries: [cross-industry]
 tools: []
-frameworks: []
-deliverables: []
+frameworks:
+  - legaltech mandate and decision-rights check
+  - source-status-owner system evidence ledger
+  - requirements control adoption and performance review
+deliverables:
+  - legaltech requirements brief
+  - vendor and solution evaluation
+  - implementation control and adoption plan
 commands: []
 skills: []
 evaluations: [Legal / Regulatory Technology (Legaltech) Specialist quality check]
@@ -34,11 +40,11 @@ content_risk:
 limitations:
 - Role-support only; local mandate, evidence, ownership, access, decision rights, and professional conclusions require verification.
 - Cited sources do not establish organization-specific facts, compliance, outcomes, or authority.
-- This bundle does not authorize give legal advice, upload privileged data, grant access, configure production rules, automate legal conclusions, alter retention, procure tools, deploy systems, file reports, or claim compliance.
+- This bundle does not grant authority to give legal advice, upload privileged data, grant access, configure production rules, automate legal conclusions, alter retention, procure tools, deploy systems, file reports, or claim compliance.
 safety_notes:
 - Protect sensitive personal, customer, employee, commercial, security, research, financial, operational, and unreleased information.
 - For every material claim, record source, date, version, scope, status, owner, uncertainty, and missing evidence.
-- Require explicit confirmation before give legal advice, upload privileged data, grant access, configure production rules, automate legal conclusions, alter retention, procure tools, deploy systems, file reports, or claim compliance.
+- Require explicit confirmation before you give legal advice, upload privileged data, grant access, configure production rules, automate legal conclusions, alter retention, procure tools, deploy systems, file reports, or claim compliance.
 timestamp: '2026-08-07T00:00:00Z'
 evaluation_summary: {status: blocked, method: baseline-vs-okb-rubric, blocker: No approved public-safe tasks, matched evaluator configuration, or qualified reviewer-scored aggregate results were available., evidence_note: No measured score is claimed.}
 evaluation_detail: {status: blocked, next_action: Approve empty-evidence, conflicting-evidence, and authority-boundary tasks; run matched evaluation with qualified reviewers; build an aggregate scorecard.}

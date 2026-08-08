@@ -154,6 +154,8 @@ def join_clauses(values: list[str]) -> str:
 
 def join_items(values: list[str]) -> str:
     values = [clean_sentence(value) for value in values if clean_sentence(value)]
+    if not values:
+        return ""
     if len(values) == 1:
         return values[0]
     if len(values) == 2:
@@ -321,7 +323,17 @@ def before_after(bundle_dir: Path) -> dict[str, str] | None:
 
 def source_label(url: str, files: list[Path]) -> str:
     escaped = re.escape(url)
-    generic_labels = {"resource", "source", "reference", "documentation", "website", "primary source url"}
+    generic_labels = {
+        "resource",
+        "resources",
+        "source",
+        "sources",
+        "reference",
+        "references",
+        "documentation",
+        "website",
+        "primary source url",
+    }
 
     def is_meaningful(label: str) -> bool:
         return not label.startswith("http") \
@@ -545,12 +557,26 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--write", action="store_true", help="Rewrite the registry in place.")
     parser.add_argument("--registry", default=str(REGISTRY_PATH), help="Registry JSON to read and optionally rewrite.")
+    parser.add_argument(
+        "--include-id",
+        action="append",
+        default=[],
+        help="Enrich only this bundle id. Repeat for a cohort; omit to process every public bundle.",
+    )
     parser.add_argument("--exclude-id", action="append", default=[], help="Leave this bundle unchanged.")
     args = parser.parse_args()
 
     registry_path = Path(args.registry).resolve()
     registry = json.loads(registry_path.read_text(encoding="utf-8"))
+    included = set(args.include_id)
     excluded = set(args.exclude_id)
+    registry_ids = {str(bundle.get("id", "")) for bundle in registry.get("bundles", [])}
+    unknown_included = sorted(included - registry_ids)
+    if unknown_included:
+        print(json.dumps({"error": "unknown include ids", "ids": unknown_included}, indent=2))
+        return 1
+    if included:
+        excluded |= registry_ids - included
     enriched = 0
     skipped_existing = 0
     augmented_existing = 0
@@ -618,6 +644,7 @@ def main() -> int:
     duplicate_groups = [owners for owners in summary_owners.values() if len(owners) > 1]
     duplicate_summaries = sum(len(owners) - 1 for owners in duplicate_groups)
     report = {
+        "requested_ids": sorted(included),
         "enriched": enriched,
         "augmented_existing": augmented_existing,
         "preserved_existing": skipped_existing,
@@ -632,6 +659,8 @@ def main() -> int:
     if failures or duplicate_summaries:
         return 1
     if args.write:
+        if enriched or augmented_existing or adjacencies_added:
+            registry["updated"] = date.today().isoformat()
         registry_path.write_text(
             json.dumps(registry, indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",

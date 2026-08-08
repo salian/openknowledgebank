@@ -47,6 +47,12 @@ contributors:
 - OpenKnowledgeBank
 maintainers:
 - OpenKnowledgeBank
+content_risk:
+  classification: ymyl
+  domains: [financial, tax, legal]
+  professional_review:
+    status: not_reviewed
+    required_qualification: A qualified tax, accounting, or legal professional appropriate to the return, taxpayer, filing position, and jurisdiction.
 standard_mappings:
   onet_soc: []
   soc: []
