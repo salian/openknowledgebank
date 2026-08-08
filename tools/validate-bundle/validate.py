@@ -13,6 +13,12 @@ from typing import Any
 from urllib.parse import unquote, urlparse
 
 
+TOOLS_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(TOOLS_ROOT))
+
+from content_risk import infer_content_risk  # noqa: E402
+
+
 CATEGORIES = {
     "roles",
     "industries",
@@ -440,6 +446,17 @@ class Validator:
         bundle_id = str(bundle.get("id", ""))
         content_risk = bundle.get("content_risk")
         if content_risk is None:
+            inferred = infer_content_risk(bundle)
+            is_public = bundle.get("status") not in {"draft", "deprecated"} and bundle.get(
+                "trust_tier"
+            ) not in {"unverified", "rejected"}
+            if inferred is not None and is_public:
+                domains = ", ".join(inferred["domains"])
+                self.error(
+                    registry_path,
+                    f"{bundle_id}: public bundle has detected regulated/YMYL signals "
+                    f"({domains}) but no `content_risk` metadata",
+                )
             return
         if not isinstance(content_risk, dict):
             self.error(registry_path, f"{bundle_id}: `content_risk` must be an object")
