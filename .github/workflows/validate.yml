@@ -22,6 +22,9 @@ jobs:
       - name: Validate bundle registry and public content
         run: python tools/validate-bundle/validate.py --root .
 
+      - name: Test automatic content-risk inference
+        run: python tools/test_content_risk.py
+
       - name: Parse registry JSON
         run: python -m json.tool registry/bundles.json >/dev/null
 

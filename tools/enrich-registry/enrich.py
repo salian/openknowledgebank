@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 from collections import Counter
 from datetime import date
 from pathlib import Path
@@ -13,6 +14,11 @@ from urllib.parse import unquote, urlparse
 
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "tools"))
+
+from content_risk import infer_content_risk  # noqa: E402
+
+
 REGISTRY_PATH = ROOT / "registry" / "bundles.json"
 REPOSITORY_BLOB = "https://github.com/salian/openknowledgebank/blob/main/"
 REPOSITORY_TREE = "https://github.com/salian/openknowledgebank/tree/main/"
@@ -580,6 +586,7 @@ def main() -> int:
     enriched = 0
     skipped_existing = 0
     augmented_existing = 0
+    content_risks_added = 0
     skipped_excluded = 0
     failures: list[str] = []
 
@@ -588,6 +595,10 @@ def main() -> int:
         if bundle_id in excluded or not is_public(bundle):
             skipped_excluded += 1
             continue
+        inferred_risk = infer_content_risk(bundle)
+        if inferred_risk is not None and not isinstance(bundle.get("content_risk"), dict):
+            bundle["content_risk"] = inferred_risk
+            content_risks_added += 1
         bundle_dir = ROOT / str(bundle.get("path", ""))
         if not bundle_dir.is_dir():
             failures.append(f"{bundle_id}: bundle directory missing")
@@ -647,6 +658,7 @@ def main() -> int:
         "requested_ids": sorted(included),
         "enriched": enriched,
         "augmented_existing": augmented_existing,
+        "content_risks_added": content_risks_added,
         "preserved_existing": skipped_existing,
         "excluded_or_unpublished": skipped_excluded,
         "adjacency_sets_added": adjacencies_added,
@@ -659,7 +671,7 @@ def main() -> int:
     if failures or duplicate_summaries:
         return 1
     if args.write:
-        if enriched or augmented_existing or adjacencies_added:
+        if enriched or augmented_existing or content_risks_added or adjacencies_added:
             registry["updated"] = date.today().isoformat()
         registry_path.write_text(
             json.dumps(registry, indent=2, ensure_ascii=False) + "\n",
