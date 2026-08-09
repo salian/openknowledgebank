@@ -402,10 +402,22 @@ def source_notes(bundle: dict, files: list[Path], category: str) -> list[dict[st
         if len(selected) == 5:
             break
     title = clean_sentence(bundle.get("title", "this bundle"))
-    used_for = CATEGORY_SOURCE_USE.get(category, "Public reference named by the bundle.")
-    used_for = f"{used_for.rstrip('.')} for {title} scope and source checks."
+
+    def used_for(url: str) -> str:
+        host = (urlparse(url).hostname or "").removeprefix("www.").lower()
+        if category == "roles" and host not in {"onetonline.org", "bls.gov"}:
+            return (
+                f"Practice or subject-matter reference for {title} methods, "
+                "constraints, and source checks."
+            )
+        category_use = CATEGORY_SOURCE_USE.get(
+            category,
+            "Public reference named by the bundle.",
+        )
+        return f"{category_use.rstrip('.')} for {title} scope and source checks."
+
     return [
-        {"label": source_label(url, files), "url": url, "used_for": used_for}
+        {"label": source_label(url, files), "url": url, "used_for": used_for(url)}
         for url in selected
     ]
 
