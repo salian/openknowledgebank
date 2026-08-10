@@ -1,0 +1,12 @@
+---
+type: Bundle Log
+title: SEC Executive Compensation Disclosure log
+---
+# SEC Executive Compensation Disclosure Log
+
+## 0.1.0 - 2026-08-10
+
+- Created fresh from reviewed queue candidate `sec-executive-compensation-disclosure` and current official sources.
+- Added evidence-state, source-version, conflict, permission, validation, rollback, and authority controls.
+- Recorded evaluation as blocked without a measured claim.
+

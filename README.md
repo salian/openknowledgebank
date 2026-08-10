@@ -14,37 +14,36 @@ Use it when you want an agent to do specialized work with better structure, clea
 
 **Star this repo to follow the open library of reusable agent knowledge bundles.**
 
-## Measured Proof
+## See What A Bundle Changes
 
-[GA4 Analytics Specialist](bundles/roles/ga4-analytics-specialist) is the first published benchmark example. In a three-task GA4 evaluation, the same lower-cost model improved from a baseline score of `17/48` to an OpenKnowledgeBank-assisted score of `42/48`.
+The [SEO Specialist / Consultant bundle](bundles/roles/seo-specialist-consultant) shows how reusable knowledge changes an agent's approach to a familiar problem.
 
-![GA4 Analytics Specialist scorecard](docs/assets/ga4-scorecard.svg)
+**Task:** A founder says organic traffic fell and asks for an SEO audit, but provides no Search Console, analytics, crawl, URL, CMS, or date-range evidence.
 
-| Model class | Baseline | With OpenKnowledgeBank | Max score |
-| --- | ---: | ---: | ---: |
-| Lower-cost LLM | 17 | 42 | 48 |
-| General-purpose LLM | 25 | 46 | 48 |
-| Reasoning LLM | 31 | 47 | 48 |
+**Without the bundle:** The agent jumps to a generic diagnosis and recommends titles, keywords, backlinks, sitemap submission, and content updates without knowing what caused the decline.
 
-The benchmark covers conversion-drop diagnosis, GA4 UI vs BigQuery reconciliation, and GA4 BigQuery query planning. It is an early public proof point, not a universal claim about every model or task.
+**With the bundle:** The agent explains that it cannot identify the cause yet, requests the evidence needed to investigate, and organizes the review around measurement, demand, crawling, indexing, relevance, internal links, and recent technical changes.
+
+The assisted response is more useful because it separates what is known from what still needs verification and turns a vague request into an actionable investigation. You can inspect the [task, both responses, and evaluation](bundles/roles/seo-specialist-consultant/examples/before-after/technical-seo-triage) in the repository.
 
 ## Try It In 60 Seconds
 
 Copy a bundle into your project or point your agent at it directly:
 
 ```text
-Use the OpenKnowledgeBank bundle at bundles/roles/ga4-analytics-specialist
-as operating guidance for this GA4 analysis task. Follow its workflows,
-safety boundaries, deliverable formats, commands, and evaluation criteria.
-Do not claim access to GA4, BigQuery, GTM, ads, or backend orders unless
-the user provides data or explicitly authorizes tool access.
+Use the OpenKnowledgeBank bundle at bundles/roles/seo-specialist-consultant
+to investigate an organic-traffic decline. Follow its audit workflow,
+evidence checks, safety boundaries, and SEO audit brief format. Separate
+verified facts from hypotheses and missing inputs. Do not diagnose the cause
+or recommend changes to the live site until the necessary evidence is available.
 ```
 
 Useful starting files:
 
 - [registry/bundles.json](registry/bundles.json): machine-readable bundle catalog.
 - [AGENT_USAGE.md](AGENT_USAGE.md): guidance for agents consuming bundles.
-- [bundles/roles/ga4-analytics-specialist/index.md](bundles/roles/ga4-analytics-specialist/index.md): entry point for the measured GA4 bundle.
+- [bundles/roles/seo-specialist-consultant/index.md](bundles/roles/seo-specialist-consultant/index.md): entry point for the SEO Specialist / Consultant bundle.
+- [SEO technical-triage example](bundles/roles/seo-specialist-consultant/examples/before-after/technical-seo-triage): inspect the task, baseline response, bundle-assisted response, and evaluation.
 - [docs/BUNDLE_SCHEMA.md](docs/BUNDLE_SCHEMA.md): current working bundle schema.
 
 ## Available Bundles
@@ -52,6 +51,12 @@ Useful starting files:
 The catalog is maintained in [registry/bundles.json](registry/bundles.json), which is the source of truth for current bundle IDs, categories, publication status, trust tier, references, and evaluation summaries. It includes role, industry, capability, tool, framework, compliance, jurisdiction, deliverable, and dataset bundles.
 
 Use the [website](https://openknowledgebank.com) to browse the catalog or inspect any bundle directly under [`bundles/`](bundles/).
+
+### Write Descriptions For People
+
+Registry descriptions appear on compact website cards, in search results, and in machine-readable discovery data. Put the subject, task, or outcome first so a reader can understand the bundle before the text is truncated.
+
+Do not begin descriptions with internal quality labels or category names such as “source-aware guidance,” “evidence-first,” “evidence-grounded,” “role bundle,” or “framework bundle.” The registry already stores category, trust, source, and evaluation metadata separately. Describe what the bundle helps an agent understand, produce, investigate, or review.
 
 ## What Is Inside A Bundle?
 
