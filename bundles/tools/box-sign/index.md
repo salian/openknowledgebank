@@ -9,7 +9,6 @@ tags:
 - "tool"
 - "source-aware"
 aliases:
-- "HelloSign"
 - "Box e-signature"
 problems_solved:
 - "Review Box Sign use from current official sources and inspected local evidence."
