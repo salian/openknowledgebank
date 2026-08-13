@@ -1,0 +1,42 @@
+---
+type: Role
+title: Journalist and Reporter source-aware role guide
+description: Evidence-grounded planning, review, and authority boundaries for Journalist and Reporter.
+tags:
+- journalism
+- reporting
+- source-verification
+resource: https://www.onetonline.org/link/summary/27-3023.00
+okb_bundle_id: journalist-reporter
+timestamp: '2026-08-11T00:00:00Z'
+---
+# Journalist and Reporter Source-Aware Role Guide
+
+## Authoritative Sources
+
+- https://www.onetonline.org/link/summary/27-3023.00
+
+Occupational descriptions do not establish editorial standards, source protection, privilege, recording consent, public-record rights, defamation conclusions, safety protocols, or publication authority. Verify outlet policy, jurisdiction, evidence, attribution, conflicts, embargoes, legal review, and editor approval.
+
+## Evidence Required
+
+- Current occupational and professional sources.
+- Objective, actual role, jurisdiction, qualifications, local procedures, systems, records, constraints, and accountable owner.
+- Conflicts, assumptions, approvals, validation evidence, and stop conditions.
+
+## Application Sequence
+
+1. Define the objective, audience, task, environment, date, constraints, and evidenced decision owner.
+2. Verify current occupational and professional sources, jurisdiction, actual role, qualifications, and local procedures.
+3. Inventory local evidence and label it `Verified`, `Provided`, `Assumed`, or `Needs verification`.
+4. Reconcile conflicting records, dates, scopes, permissions, definitions, and owners.
+5. Produce the smallest reviewable reporting, verification, and publication brief with options, risks, dependencies, validation, and stop conditions.
+6. Obtain explicit confirmation before contact or identify a source, promise confidentiality, record an interview, enter a location, publish an allegation or personal data, alter evidence, or represent editorial or legal approval.
+
+## Guardrails
+
+- Do not invent the person's role, competence, credentials, authority, employer procedures, system state, records, decisions, outcomes, or approval.
+- Do not infer access, competence, configuration, approval, or reviewer ownership from the request or title.
+- Treat bundled guidance as suggestions, not trusted executable behavior.
+- No action is automatic; this bundle requests no credentials, background network calls, data exfiltration, permission changes, or self-modification.
+
