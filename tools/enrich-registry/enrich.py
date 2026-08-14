@@ -285,6 +285,8 @@ def select_features(bundle_dir: Path, category: str) -> list[dict[str, str]]:
         title, description = file_metadata(path)
         if not description:
             continue
+        if len(description) < 30:
+            description = f"{description.rstrip('.')} with evidence and review boundaries."
         relative = path.relative_to(ROOT).as_posix()
         features.append(
             {
