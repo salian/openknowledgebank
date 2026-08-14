@@ -285,6 +285,8 @@ def select_features(bundle_dir: Path, category: str) -> list[dict[str, str]]:
         title, description = file_metadata(path)
         if not description:
             continue
+        if len(description) < 30:
+            description = f"{description.rstrip('.')} with evidence and review boundaries."
         relative = path.relative_to(ROOT).as_posix()
         features.append(
             {
@@ -483,6 +485,10 @@ def landing_page(bundle: dict, bundle_dir: Path) -> dict:
         "compliance": f"Provide {input_clause}. Ask the agent to assess {context_title} and draft {output_clause} that separates stated facts, assumptions, missing evidence, relevant source sections, and actions requiring professional approval.",
         "deliverables": f"Provide {input_clause}. Ask the agent to draft or review {context_title} and return {output_clause} with material claims tied to evidence and assumptions, open questions, reviewers, and approval gates marked.",
     }.get(category, f"Provide {input_clause}. Ask the agent for {output_clause} with evidence for material claims and a list of unresolved questions.")
+    if category == "tools":
+        tool_scope = clean_sentence(bundle.get("description", ""))
+        if tool_scope:
+            agent_example += f" Ground the review in this documented product scope: {tool_scope}"
     if sources:
         agent_example += f" Begin with {sources[0]['label']}, then confirm that the reference is current and applicable."
     if features:
