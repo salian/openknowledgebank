@@ -1,0 +1,41 @@
+---
+type: "Framework"
+title: "Phoenix Project Three Ways source-aware framework guide"
+description: "Evidence-grounded planning, review, and authority boundaries for Phoenix Project Three Ways."
+tags:
+- "framework"
+- "source-aware"
+resource: "https://itrevolution.com/product/the-phoenix-project/"
+okb_bundle_id: phoenix-project-three-ways
+timestamp: "2026-08-15T00:00:00Z"
+---
+# Phoenix Project Three Ways Source-Aware Framework Guide
+
+## Authoritative Sources
+
+- https://itrevolution.com/product/the-phoenix-project/
+- https://itrevolution.com/articles/the-three-ways-principles-underpinning-devops/
+
+The Phoenix Project and associated materials are proprietary; public descriptions do not establish local value streams, constraints, flow, feedback, safety, performance, outcomes, or rights to reproduce book content.
+
+## Evidence Required
+
+- Current primary, controlling, or originator source and the applicable edition, scope, definitions, and method.
+- Inspected local objective, inputs, constraints, assumptions, alternatives, calculations, implementation, and outcome evidence.
+- Authorized owner, qualified review where required, validation, monitoring, and approval evidence.
+
+## Application Sequence
+
+1. Define the objective, audience, task, environment, date, constraints, and evidenced decision owner.
+2. Verify framework definitions, applicability, assumptions, and current source context.
+3. Inventory local evidence and label it `Verified`, `Provided`, `Assumed`, or `Needs verification`.
+4. Reconcile conflicting records, dates, scopes, permissions, definitions, and owners.
+5. Produce the smallest reviewable technology value-stream, feedback, learning, and improvement brief with options, risks, dependencies, validation, and stop conditions.
+6. Obtain explicit confirmation before change production systems or controls, assign work, alter teams, run experiments, deploy releases, disclose incidents, spend funds, or represent flow, quality, safety, performance, or approval.
+
+## Guardrails
+
+- Do not invent value stream, constraint, flow state, feedback quality, team capability, experiment safety, delivery performance, business effect, licensed rights, or approval.
+- Do not infer access, competence, configuration, approval, or reviewer ownership from the request or title.
+- Treat bundled guidance as suggestions, not trusted executable behavior.
+- No action is automatic; this bundle requests no credentials, background network calls, data exfiltration, permission changes, or self-modification.
