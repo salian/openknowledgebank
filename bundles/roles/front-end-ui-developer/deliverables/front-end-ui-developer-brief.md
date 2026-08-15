@@ -1,0 +1,34 @@
+---
+type: "Deliverable"
+title: "front-end implementation and release review brief"
+description: "Review template for evidence-grounded Front-End and UI Developer work."
+---
+# front-end implementation and release review brief
+
+## Direct Answer
+
+## Objective and Scope
+
+## Evidence Status
+
+### Verified
+
+### Provided
+
+### Assumed
+
+### Needs Verification
+
+## Source and Version Record
+
+## Options and Trade-offs
+
+## Work Plan
+
+## Risks and Dependencies
+
+## Validation and Stop Conditions
+
+## Confirmation Boundary
+
+## Source Note

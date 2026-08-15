@@ -1,0 +1,42 @@
+---
+type: "Deliverable"
+title: "Materiality Assessment source-aware deliverable guide"
+description: "Evidence-grounded planning, review, and authority boundaries for Materiality Assessment."
+tags:
+- "deliverable"
+- "sustainability"
+- "materiality"
+resource: "https://www.globalreporting.org/publications/documents/english/gri-3-material-topics-2021/"
+okb_bundle_id: materiality-assessment
+timestamp: "2026-08-15T00:00:00Z"
+---
+# Materiality Assessment Source-Aware Deliverable Guide
+
+## Authoritative Sources
+
+- https://www.globalreporting.org/publications/documents/english/gri-3-material-topics-2021/
+- https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/ifrs-s1-general-requirements/
+
+GRI 3 addresses significant impacts on the economy, environment and people, while IFRS S1 addresses sustainability-related financial information; neither establishes applicability, local impacts, financial effects, stakeholder views, material topics, compliance, or approval.
+
+## Evidence Required
+
+- Current authoritative or originator sources with edition, date, scope, and definitions.
+- Inspected local inputs, records, assumptions, constraints, alternatives, calculations, and outcomes.
+- Named owners, validation evidence, qualified review where required, approval, and distribution authority.
+
+## Application Sequence
+
+1. Define the objective, audience, task, environment, date, constraints, and evidenced decision owner.
+2. Verify current standards, originator guidance, required sections, evidence expectations, audience needs, and local approval procedures.
+3. Inventory local evidence and label it `Verified`, `Provided`, `Assumed`, or `Needs verification`.
+4. Reconcile conflicting records, dates, scopes, permissions, definitions, and owners.
+5. Produce the smallest reviewable materiality assessment and decision record with options, risks, dependencies, validation, and stop conditions.
+6. Obtain explicit confirmation before taking any action to select standards or topics without authority, contact stakeholders, collect sensitive data, assign unsupported scores, make sustainability claims, publish disclosures, claim compliance or conformance, or approve topics.
+
+## Guardrails
+
+- Do not invent standard applicability, boundary, stakeholder view, impact, severity, likelihood, risk, opportunity, financial effect, score, threshold, material topic, compliance, or approval.
+- Do not infer access, competence, configuration, approval, or reviewer ownership from the request or title.
+- Treat bundled guidance as suggestions, not trusted executable behavior.
+- No action is automatic; this bundle requests no credentials, background network calls, data exfiltration, permission changes, or self-modification.
